@@ -10,6 +10,7 @@ import { readFile, writeFile, readdir } from "node:fs/promises";
 import { existsSync, watch } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { fontFaceUrlCss } from "../src/fonts.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -49,7 +50,10 @@ async function ensureArt(cardId, setId, number) {
   return dest;
 }
 
-const MIME = { ".png": "image/png", ".css": "text/css", ".svg": "image/svg+xml" };
+const MIME = {
+  ".png": "image/png", ".css": "text/css", ".svg": "image/svg+xml",
+  ".ttf": "font/ttf", ".otf": "font/otf", ".woff": "font/woff", ".woff2": "font/woff2",
+};
 async function serveFile(res, file) {
   if (!existsSync(file)) { res.writeHead(404).end("not found"); return; }
   const body = await readFile(file);
@@ -79,7 +83,7 @@ const DEV_CSS = `
   .ci.on { background:#2e7d46; color:#fff; }
   .ci .num { color:#888; min-width:30px; }
   .ci .cid { margin-left:auto; color:#777; font-size:10px; }
-  .stage { margin-left:288px; min-height:100vh; box-sizing:border-box;
+  .viewport { margin-left:288px; min-height:100vh; box-sizing:border-box;
     display:flex; align-items:center; justify-content:center; padding:24px; }`;
 
 function sidebar(cardId) {
@@ -123,6 +127,11 @@ const server = http.createServer(async (req, res) => {
       return;
     }
     if (p === "/card.css") return serveFile(res, path.join(ROOT, "src", "card.css"));
+    if (p.startsWith("/fonts/")) {
+      const rel = decodeURIComponent(p.slice("/fonts/".length));
+      if (rel.includes("..")) { res.writeHead(403).end("forbidden"); return; }
+      return serveFile(res, path.join(ROOT, "assets", "fonts", rel));
+    }
     if (p.startsWith("/sets/")) return serveFile(res, path.join(ROOT, "assets", "sets", path.basename(p)));
     if (p.startsWith("/art/")) {
       const id = path.basename(p, ".png");
@@ -148,7 +157,8 @@ const server = http.createServer(async (req, res) => {
     const ctx = { energy, artUrl: `/art/${cardId}.png`, setSymbolUrl: `/sets/${setId}.png` };
     const html = mod.buildDocument(card, set, ctx, {
       cssHref: "/card.css",
-      bodyPrepend: `<style>${DEV_CSS}</style><div class="dev">${sidebar(cardId)}<main class="stage">`,
+      headExtra: `<style>${fontFaceUrlCss("/fonts")}</style>`,
+      bodyPrepend: `<style>${DEV_CSS}</style><div class="dev">${sidebar(cardId)}<main class="viewport">`,
       bodyAppend: `</main></div><script>${DEV_JS}</script>`,
     });
     res.writeHead(200, { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" });

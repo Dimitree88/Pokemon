@@ -116,7 +116,7 @@ export function buildCardMarkup(card, set, ctx) {
       <span class="right">
         <span>${esc(set?.name || card.set)}</span>
         <img class="setico" src="${ctx.setSymbolUrl}" />
-        <span>${numStr} · ${esc(card.rarity || "")}</span>
+        <span class="cnum">${numStr} · ${esc(card.rarity || "")}</span>
       </span>
     </div>
   </div>`;
@@ -127,8 +127,7 @@ export function buildDocument(card, set, ctx, opts = {}) {
     ? `<link rel="stylesheet" href="${opts.cssHref}">`
     : `<style>${opts.cssInline || ""}</style>`;
   return `<!doctype html><html><head><meta charset="utf-8">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+${opts.headExtra || ""}
 ${style}
 </head><body>
 ${opts.bodyPrepend || ""}

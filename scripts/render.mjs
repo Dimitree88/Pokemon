@@ -7,6 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
 import { buildDocument, CARD_W, CARD_H } from "../src/card-template.mjs";
+import { fontFaceDataCss } from "../src/fonts.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -61,7 +62,10 @@ async function main() {
   };
 
   const cssInline = await readFile(path.join(ROOT, "src", "card.css"), "utf8");
-  const html = buildDocument(card, set, ctx, { cssInline });
+  const html = buildDocument(card, set, ctx, {
+    cssInline,
+    headExtra: `<style>${fontFaceDataCss()}</style>`,
+  });
 
   await mkdir(path.join(ROOT, "out"), { recursive: true });
   const outFile = path.join(ROOT, "out", `${cardId}.png`);

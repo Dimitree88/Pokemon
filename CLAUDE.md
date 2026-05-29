@@ -215,5 +215,78 @@ Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
 simboli energia stilizzati; font *Cabin* (sostituto) da Google Fonts. Mancano
 **Gym** e **Neo**.
 
+### Tipografia (font WOTC) — riferimento
+
+Fonti pokemonaaah.net:
+- Articolo *"Know Your Pokémon TCG Fonts"* — quali font, dove, per cosa:
+  https://www.pokemonaaah.net/news/2026/04/know-your-pokemon-tcg-fonts/
+- Pagina **download + uso dei font custom** (inclusi i font-simboli Essentiarum):
+  https://www.pokemonaaah.net/art/fonts/
+I font qui sotto riguardano le carte **occidentali** (EN) dell'era in scope
+(Base→Neo). I font giapponesi (Shin Go, Midashi Go, ITC Serif Gothic, Revue per i
+livelli JP, Gothic MB101, ecc.) **non** ci riguardano.
+
+Le carte vintage usano essenzialmente **due** famiglie: **Gill Sans** e **Futura**.
+
+| Elemento carta | Font |
+|---|---|
+| Nome carta, nomi Pokémon Power, nomi attacchi | **Gill Sans Condensed Bold** |
+| Riga info (specie/lunghezza/peso), "Evolves from", flavor Pokédex **(Base→Gym)** | **Gill Sans Bold Italic** |
+| Flavor Pokédex **(solo era Neo)** | **Gill Sans Condensed Bold** |
+| Testo attacchi, testo poteri, valori di danno, e "tutto il resto" | **Gill Sans Regular** |
+| **HP** | **Futura Heavy** |
+| Illustratore, numero carta | **Futura Heavy Italic** (l'articolo cita anche Gill Sans Condensed Bold per questi: lieve ambiguità) |
+
+Note:
+- **NON è "Humanist 521"** (errore storico diffuso): è **Gill Sans**. Indizi:
+  virgolette e forma della "é".
+- Il **livello (Lv.)** sulle carte occidentali ricade in Gill Sans Regular (il
+  font *Revue* per i livelli è solo sulle carte **giapponesi**).
+- **Simboli energia (font dedicato!)**: i tipi erano resi con i font
+  **`PokemonEnergies-Regular`** (era Base→Gym) e **`Poke2Energies-Regular`**
+  (era Neo, aggiunge Darkness e Metal). Mai rilasciati ufficialmente, ma esiste la
+  ricreazione **"Essentiarum TCG"** (scaricabile da pokemonaaah). → alternativa
+  ai nostri SVG fatti a mano per i simboli `{X}`.
+- **Unown** (Neo Discovery): nomi e poteri in un font dedicato; ricreazione
+  **"Unown TCG"** (pokemonaaah).
+- Gill Sans / Futura sono **commerciali**. pokemonaaah offre una *"Complete
+  Pokémon TCG Font Collection"* che raccoglie i pacchetti utili.
+- Attualmente nel renderer usiamo *Cabin* (Google Fonts) come **sostituto**.
+
+#### Stato font locali (`assets/fonts/`)
+È presente l'intera *"Complete Pokémon TCG Font Collection"* di pokemonaaah,
+organizzata in sottocartelle per famiglia. **Tutti i font testuali del vintage
+sono presenti:**
+
+| Uso (vintage) | File |
+|---|---|
+| Nomi, poteri, attacchi (e flavor Neo) | `Gill Sans/Gill Sans Condensed Bold.ttf` |
+| Info bar, "Evolves from", flavor (Base→Gym) | `Gill Sans/Gill Sans Bold Italic.ttf` |
+| Testo attacchi/poteri, danni, resto | `Gill Sans/Gill Sans.ttf` |
+| HP | `Futura/Futura Heavy.ttf` |
+| Illustratore, numero carta | `Futura/Futura Heavy Italic.ttf` |
+| Unown (Neo Discovery) | `UnownTCG.ttf` (+ otf/woff/woff2) |
+
+Altre famiglie presenti ma **non** necessarie al vintage: Gill Sans Nova
+(post-2007), Tekton (prototipi), Bauhaus (parola "TRAINER"), Optima/Sanvito/
+Frutiger (ere moderne), Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue
+(carte giapponesi), Pokémon TCG Pocket Fonts.
+
+#### Simboli via font: EssentiarumTCG
+Per ora i simboli `{X}` li generiamo come **SVG fatti a mano**. In alternativa
+esiste il font-simboli **EssentiarumTCG** (da pokemonaaah, link sopra; licenza
+Creative Commons **non commerciale**, ~31kb, v0.96), che contiene icone
+tipo/energia, **rarità** e tipi-carta (GX/EX/V…) — utile per energie e rarità
+(i simboli **set** li scarichiamo già da pokemontcg.io). **Uso per il vintage:**
+- Icone tipo/energia: due stili — **"Old" (Base→Platinum) = lettere MAIUSCOLE**,
+  "New" (HGSS in poi) = minuscole. Per noi → **Old (maiuscole)**.
+- Energia in cerchio (come sulle carte): anteporre il **"BG Circle"** (la `o`
+  minuscola), poi la lettera del tipo. Colorazione: la `o` (cerchio) del colore
+  voluto, la lettera del tipo in nero (si sovrappongono).
+- Rarità: stile **"Old" (Base Set→SwSh)** per il nostro periodo.
+
+(Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,
+che è la versione **Pocket**, non EssentiarumTCG.)
+
 ## Note
 - Lingua del progetto: italiano (codice/documenti); dati carte attualmente EN.
