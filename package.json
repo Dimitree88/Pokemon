@@ -3,21 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Gestione e rendering delle carte Pokémon vintage (era WOTC)",
+  "description": "App Next.js per la gestione e il rendering delle carte Pokémon vintage (era WOTC)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "dump": "node scripts/dump.mjs",
-    "assets": "node scripts/make-assets.mjs",
-    "render": "node scripts/render.mjs"
+    "assets": "node scripts/make-assets.mjs"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "playwright": "^1.48.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3"

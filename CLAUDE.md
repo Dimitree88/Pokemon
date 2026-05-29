@@ -4,7 +4,7 @@ Progetto per la gestione delle carte Pokémon vintage.
 
 ## Stato
 App **Next.js** (App Router) + **TypeScript** + **Tailwind**, deploy su **Vercel**.
-La carta è un componente React (`lib/card-render.tsx`) stilizzato da `src/card.css`
+La carta è un componente React (`lib/card-render.tsx`) stilizzato da `app/card.css`
 (invariato). In roadmap: editor di set, deck builder, gioco con le carte, effetti grafici.
 
 ## TODO aperti
@@ -227,18 +227,18 @@ su **Vercel** (auto-rilevamento Next: nessun `vercel.json`). `npm run dev` / `bu
 
 Struttura app:
 - **`app/layout.tsx`** — shell: importa `globals.css` (Tailwind + `@font-face`) e
-  `src/card.css`; monta `<Sidebar>` (resta montato tra le navigazioni → niente reload
-  del menu) + `<main>`.
+  `app/card.css`; monta `<Sidebar>` (resta montato tra le navigazioni → niente reload
+  del menu) + `<main>` (sfondo scuro via Tailwind).
 - **`app/page.tsx`** — redirect alla primissima carta. **`app/card/[id]/page.tsx`** —
   pagina carta (server component) che rende `<Card>`; 404 se l'id non esiste.
 - **`components/Sidebar.tsx`** (`"use client"`) — menu: set collassabili, ricerca
   (nome/numero/tipo), slider zoom (50–200%, step 25), espandi/collassa tutti. Naviga
   con `<Link href="/card/<id>">` (client-side, layout persistente).
-- **`lib/card-render.tsx`** — il componente **`<Card>`** (porting React di card-template).
-  Classi CSS identiche a `src/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache),
-  **`lib/symbols.ts`** (SVG energia/rarità via fs), **`lib/card-utils.ts`** (puro:
-  `TYPE_KEYWORDS`, `rarityTier` — usabile anche client), **`lib/types.ts`**.
-- **`src/card.css`** — **unica fonte** di stile della carta (layout Base). Colori per-tipo
+- **`lib/card-render.tsx`** — il componente **`<Card>`** (server). Classi CSS definite in
+  `app/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache), **`lib/symbols.ts`**
+  (SVG energia/rarità via fs), **`lib/card-utils.ts`** (puro: `TYPE_KEYWORDS`, `rarityTier`
+  — usabile anche client), **`lib/types.ts`** (tipi del modello).
+- **`app/card.css`** — **unica fonte** di stile della carta (layout Base). Colori per-tipo
   via variabili CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
 - **`next.config.mjs`** — `outputFileTracingIncludes` per includere `data/`, `assets/energy/`,
   `assets/rarity/` nel bundle serverless (letti via fs a runtime).
@@ -253,12 +253,6 @@ si imposta **un solo fattore** `--card-scale` (default 1): lo slider zoom lo imp
 `<html>` e `.card-box` lo eredita, scalando geometricamente (`transform: scale`) **tutto**
 in modo proporzionale. **Nessuna misura interna deve mai dipendere dalla dimensione di
 output** (così anche un px aggiunto in futuro resta proporzionale).
-
-### Legacy (non più usati dall'app)
-`scripts/serve.mjs` + `src/preview.mjs` (vecchio dev server, sostituito da `next dev`) e
-`scripts/render.mjs` + `src/card-template.mjs` + `src/fonts.mjs` (export PNG via Playwright,
-**rimandato**). `scripts/make-assets.mjs` (`npm run assets`) resta utile per (ri)generare
-i simboli energia/rarità in `assets/` e scaricare i simboli set.
 
 Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
 simboli energia resi col font **EssentiarumTCG**. Mancano **Gym** e **Neo**.
@@ -299,40 +293,37 @@ Note:
   **"Unown TCG"** (pokemonaaah).
 - Gill Sans / Futura sono **commerciali**. pokemonaaah offre una *"Complete
   Pokémon TCG Font Collection"* che raccoglie i pacchetti utili.
-- Attualmente nel renderer usiamo *Cabin* (Google Fonts) come **sostituto**.
 
-#### Stato font locali — due cartelle
-I font sono divisi in due cartelle per separare ciò che serve in produzione dal resto:
+#### Font locali — due cartelle
+- **`public/fonts/`** — SOLO i font usati, con **nomi web-safe** (niente spazi/parentesi).
+  Serviti staticamente e dichiarati come `@font-face` in `app/globals.css`; `app/card.css`
+  li referenzia per famiglia:
 
-- **`assets/fonts/`** — SOLO i font effettivamente usati dal renderer, con **nomi
-  web-safe** (niente spazi/parentesi, che rompono il routing dei file statici su
-  Vercel). **Questi vengono deployati.** Mappatura famiglia → file in `src/fonts.mjs`:
-
-  | Uso (vintage) | File (`assets/fonts/`) |
-  |---|---|
-  | Nomi, poteri, attacchi (e flavor Neo) | `GillSansCondensedBold.ttf` |
-  | Info bar, "Evolves from", flavor (Base→Gym) | `GillSansBoldItalic.ttf` |
-  | Testo attacchi/poteri, danni, resto | `GillSans.ttf` |
-  | HP | `FuturaHeavy.ttf` |
-  | Illustratore, numero carta | `FuturaHeavyItalic.ttf` |
-  | Simboli energia/rarità | `EssentiarumTCG.ttf` |
+  | Uso (vintage) | Famiglia (`@font-face`) | File (`public/fonts/`) |
+  |---|---|---|
+  | Nomi, poteri, attacchi (e flavor Neo) | `GillSansCB` | `GillSansCondensedBold.ttf` |
+  | Info bar, "Evolves from", flavor (Base→Gym) | `GillSansBI` | `GillSansBoldItalic.ttf` |
+  | Testo attacchi/poteri, danni, resto | `GillSans` | `GillSans.ttf` |
+  | HP | `Futura` | `FuturaHeavy.ttf` |
+  | Illustratore, numero carta | `FuturaI` | `FuturaHeavyItalic.ttf` |
+  | Simboli energia/rarità | `EssentiarumTCG` | `EssentiarumTCG.ttf` |
 
 - **`assets/fonts-all/`** — l'intera *"Complete Pokémon TCG Font Collection"* di
-  pokemonaaah (organizzata in sottocartelle per famiglia, nomi originali con spazi/
-  parentesi). **Esclusa dal deploy** via `.vercelignore` (è solo archivio/riferimento).
-  Qui stanno anche `UnownTCG.ttf` (per il TODO Unown) e le famiglie non usate dal
-  vintage: Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
+  pokemonaaah (sottocartelle per famiglia, nomi originali con spazi/parentesi).
+  **Esclusa dal deploy** via `.vercelignore` (solo archivio/riferimento). Contiene
+  anche `UnownTCG.ttf` (per il TODO Unown) e le famiglie non usate dal vintage:
+  Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
   Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue (JP), Pokémon TCG Pocket.
 
 #### Simboli via font: EssentiarumTCG
 I 9 simboli energia (`{X}`) sono generati da **`make-assets.mjs`** usando il
 font-simboli **EssentiarumTCG** (da pokemonaaah; licenza Creative Commons **non
-commerciale**, ~31kb, v0.96) — non più SVG disegnati a mano. Ogni `assets/energy/<CODE>.svg`
-è un SVG con due `<text>` sovrapposti (la `o` = cerchio colorato + la lettera tipo
-= icona); il `@font-face` EssentiarumTCG è iniettato dal documento (`src/fonts.mjs`)
-così l'SVG inline usa il font sia nel render PNG che nel dev server. Il font contiene
-anche **rarità** e tipi-carta (GX/EX/V…); i simboli **set** li scarichiamo da
-pokemontcg.io. **Convenzione d'uso (vintage):**
+commerciale**, ~31kb, v0.96). Ogni `assets/energy/<CODE>.svg` è un SVG con due `<text>`
+sovrapposti (la `o` = cerchio colorato + la lettera tipo = icona); gli SVG sono iniettati
+inline nella carta e nel menu (`lib/card-render.tsx`, `components/Sidebar.tsx`) e usano il
+`@font-face` EssentiarumTCG dichiarato in `app/globals.css`. Il font contiene anche
+**rarità** e tipi-carta (GX/EX/V…); i simboli **set** li scarichiamo da pokemontcg.io.
+**Convenzione d'uso (vintage):**
 - Icone tipo/energia: stile **"Old" = lettere MAIUSCOLE** (`G R W L P F C D M`,
   tutti e 9 in un solo font, D/M inclusi); minuscole = stile "New", non usato.
 - Energia in cerchio: la `o` minuscola (BG Circle, advance 0) + la lettera tipo
@@ -340,7 +331,7 @@ pokemontcg.io. **Convenzione d'uso (vintage):**
 - Geometria misurata (fs100): `o` ink ~117×116, lettere ~115.7×159 (più alte del
   cerchio) → viewBox quadrato `-30 -125 175 175` per inquadrare tutto senza tagli.
 - Rarità: cifre `1`=● comune, `2`=◆ non comune, `3`=★ rara (stile "Old").
-- Ispezione/specimen del font: `scripts/inspect-font.mjs`, `scripts/font-specimen.mjs`.
+- Ispezione del font: `scripts/inspect-font.mjs`.
 
 (Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,
 che è la versione **Pocket**, non EssentiarumTCG.)

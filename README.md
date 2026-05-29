@@ -1,40 +1,42 @@
 # Pokémon Vintage Cards
 
-Gestione e rendering delle carte Pokémon dell'era vintage WOTC.
-Dettagli di dominio e modello dati in [CLAUDE.md](CLAUDE.md).
+App per la gestione e il rendering delle carte Pokémon dell'era **vintage WOTC**
+(set pubblicati prima di Expedition). Dominio, modello dati e dettagli di rendering:
+vedi [CLAUDE.md](CLAUDE.md).
+
+## Stack
+**Next.js** (App Router) · **TypeScript** · **Tailwind** · deploy su **Vercel**.
 
 ## Requisiti
 - Node.js 18+
 
-## Avvio in locale
-
+## Sviluppo
 ```bash
-npm install                      # dipendenze
-npx playwright install chromium  # browser per il rendering (solo la prima volta)
+npm install
+npm run dev          # http://localhost:3000
 ```
+Browser delle carte: menu laterale (set collassabili, ricerca per nome/numero/tipo,
+slider zoom) e anteprima della carta su `/card/<id>`.
 
-### Anteprima live nel browser
+## Build / produzione
 ```bash
-npm run serve
+npm run build
+npm run start
 ```
-Apri http://localhost:5173/?card=base1-4 — sidebar per scegliere la carta,
-live-reload alla modifica di `src/card.css`.
+Su Vercel non serve configurazione: il framework Next.js viene rilevato in automatico.
 
-Per **fermare** il server: `Ctrl+C` nel terminale dove gira. Se gira in
-background (porta 5173 occupata), su Windows/PowerShell:
-```powershell
-Get-NetTCPConnection -LocalPort 5173 -State Listen |
-  Select-Object -ExpandProperty OwningProcess -Unique |
-  ForEach-Object { Stop-Process -Id $_ -Force }
-```
-
-### Esportare una carta in PNG
+## Dati e asset (rigenerazione opzionale)
 ```bash
-npm run render -- base1-4   # output in out/
+npm run dump     # scarica le carte Pokémon dei set in scope  -> data/
+npm run assets   # genera simboli energia/rarità e scarica i simboli set -> assets/
 ```
 
-### Rigenerare dati e asset (opzionale)
-```bash
-npm run dump     # scarica le carte -> data/
-npm run assets   # simboli energia + simboli set -> assets/
-```
+## Struttura
+- **`app/`** — route (`layout`, home, `card/[id]`) e stili (`globals.css`, `card.css`)
+- **`components/Sidebar.tsx`** — menu laterale (client)
+- **`lib/`** — dati (`data.ts`), simboli (`symbols.ts`), rendering carta
+  (`card-render.tsx`), utility (`card-utils.ts`), tipi (`types.ts`)
+- **`data/`** — set (`sets.json`) e carte (un JSON per carta)
+- **`public/`** — asset statici serviti: `fonts/`, `sets/`
+- **`assets/`** — simboli `energy/`, `rarity/`, `sets/`; `fonts-all/` (archivio font, escluso dal deploy)
+- **`scripts/`** — `dump.mjs`, `make-assets.mjs`, `inspect-font.mjs`

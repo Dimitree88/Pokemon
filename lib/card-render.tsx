@@ -1,6 +1,6 @@
-// Rendering della carta Pokémon come componente React (porting di card-template.mjs).
-// Le classi CSS sono IDENTICHE a quelle di src/card.css, che resta l'unica fonte di
-// stile (layout Base/WOTC + regola del --card-scale). Componente server, nessuno stato.
+// Rendering della carta Pokémon come componente React (server, nessuno stato).
+// Le classi CSS sono definite in app/card.css, unica fonte di stile della carta
+// (layout Base/WOTC + regola del --card-scale).
 
 import React from "react";
 import type { Card as CardData, CardSet, Symbols, Attack, Power } from "./types";

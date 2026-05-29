@@ -22,8 +22,8 @@
   --bar-w: calc(var(--art-w) * 0.85);   /* barra specie ~15% più stretta */
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'GillSans', sans-serif; background: #2b2b2b; }
+/* Sfondo e font dell'app sono gestiti dal layout (Tailwind); qui solo la carta.
+   Il box-model è già normalizzato dal preflight di Tailwind. */
 
 .card-box { width: calc(var(--card-w) * var(--card-scale, 1)); height: calc(var(--card-h) * var(--card-scale, 1)); }
 .card {

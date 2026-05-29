@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* Font reali era WOTC — copie web-safe in public/fonts/ (vedi src/fonts.mjs per la
-   mappatura famiglia→file e CLAUDE.md). card.css referenzia queste famiglie. */
+/* Font reali era WOTC — copie web-safe in public/fonts/ (collezione completa in
+   assets/fonts-all/, esclusa dal deploy). card.css referenzia queste famiglie. */
 @font-face { font-family: 'GillSans';       src: url('/fonts/GillSans.ttf') format('truetype'); }
 @font-face { font-family: 'GillSansCB';      src: url('/fonts/GillSansCondensedBold.ttf') format('truetype'); }
 @font-face { font-family: 'GillSansBI';      src: url('/fonts/GillSansBoldItalic.ttf') format('truetype'); }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "../src/card.css";
+import "./card.css";
 import Sidebar from "@/components/Sidebar";
 import { getCardIndex, sets } from "@/lib/data";
 import { getSymbols } from "@/lib/symbols";
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="it">
-      <body>
+      <body className="bg-[#2b2b2b]">
         <Sidebar index={index} sym={sym} setSymbolIds={setSymbolIds} />
         <main className="ml-72 min-h-screen flex items-center justify-center p-6">{children}</main>
       </body>
