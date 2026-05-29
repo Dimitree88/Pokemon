@@ -104,7 +104,7 @@ export function buildCardMarkup(card, set, ctx) {
       <span class="name">${esc(card.name)}</span>
       ${card.level ? `<span class="lv">Lv.${esc(card.level)}</span>` : ""}
       <span class="hp">HP <b>${esc(card.hp)}</b></span>
-      <span class="type-ico">${ctx.energy[card.type] || ""}</span>
+      <span class="type-ico">${energyIcon(ctx, card.type, 26)}</span>
     </div>
     <div class="art" style="background-image:url('${ctx.artUrl}')"></div>
     <div class="species">${speciesLine}</div>

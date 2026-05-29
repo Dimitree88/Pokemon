@@ -27,24 +27,24 @@ const ENERGY = {
   M: { color: "#9AA3AB", glyphFill: "#ffffff" }, // Metal
 };
 
-// Glifi (su viewBox 100x100, disco centrato in 50,50 r=46)
-const GLYPH = {
-  G: '<path d="M50 24 C72 34 72 64 50 80 C28 64 28 34 50 24 Z"/><path d="M50 30 L50 76" stroke="#6CB33F" stroke-width="4" fill="none"/>',
-  R: '<path d="M52 22 C58 38 72 44 62 62 C68 58 68 50 66 48 C74 60 66 80 50 80 C33 80 30 60 43 50 C42 58 47 60 50 56 C43 45 50 33 52 22 Z"/>',
-  W: '<path d="M50 24 C50 24 72 52 72 64 A22 22 0 1 1 28 64 C28 52 50 24 50 24 Z"/>',
-  L: '<polygon points="57,20 33,55 47,55 41,82 70,44 54,44"/>',
-  P: '<circle cx="50" cy="50" r="20"/><circle cx="50" cy="50" r="9" fill="#9B59B6"/>',
-  F: '<path d="M36 44 q14 -16 28 0 l0 18 q-14 14 -28 0 Z"/><rect x="38" y="36" width="6" height="12" rx="3"/><rect x="47" y="33" width="6" height="14" rx="3"/><rect x="56" y="36" width="6" height="12" rx="3"/>',
-  C: '<polygon points="50,24 58,42 76,50 58,58 50,76 42,58 24,50 42,42"/>',
-  D: '<path d="M62 30 A24 24 0 1 0 62 70 A19 19 0 1 1 62 30 Z"/>',
-  M: '<polygon points="50,22 57,38 74,38 60,49 65,66 50,56 35,66 40,49 26,38 43,38"/>',
-};
+// Simboli energia resi col font EssentiarumTCG (stile "Old", lettere MAIUSCOLE):
+// la `o` minuscola è il cerchio di sfondo, la lettera del tipo (G/R/W/L/P/F/C/D/M)
+// è l'icona; si sovrappongono allo stesso centro. Vedi memoria essentiarum-tcg-glyph-map.
+// Il @font-face EssentiarumTCG è iniettato dal documento (src/fonts.mjs), così
+// l'SVG inline usa il font del documento sia nel render PNG che nel dev server.
+// Geometria misurata dei glifi EssentiarumTCG a font-size 100, penna in (0,0)
+// (vedi scripts/inspect-font.mjs / getBBox): `o` (cerchio, advance 0) e le lettere
+// tipo condividono lo stesso centro-inchiostro ~(57.5, -37.5). Le lettere sono più
+// alte del cerchio (h159 vs 116): inquadriamo l'intero inchiostro in un viewBox
+// quadrato centrato, così nulla viene tagliato.
+const TEXT_ATTRS = 'x="0" y="0" font-family="EssentiarumTCG" font-size="100"';
+const VIEWBOX = "-30 -125 175 175"; // quadrato centrato su (57.5,-37.5), lato 175
 
 function energySvg(code) {
   const { color, glyphFill } = ENERGY[code];
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="46" fill="${color}" stroke="#3a3320" stroke-width="3"/>
-  <g fill="${glyphFill}">${GLYPH[code]}</g>
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEWBOX}">
+  <text ${TEXT_ATTRS} fill="${color}" stroke="#3a3320" stroke-width="5" style="paint-order:stroke">o</text>
+  <text ${TEXT_ATTRS} fill="${glyphFill}">${code}</text>
 </svg>`;
 }
 

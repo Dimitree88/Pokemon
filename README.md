@@ -20,6 +20,14 @@ npm run serve
 Apri http://localhost:5173/?card=base1-4 — sidebar per scegliere la carta,
 live-reload alla modifica di `src/card.css`.
 
+Per **fermare** il server: `Ctrl+C` nel terminale dove gira. Se gira in
+background (porta 5173 occupata), su Windows/PowerShell:
+```powershell
+Get-NetTCPConnection -LocalPort 5173 -State Listen |
+  Select-Object -ExpandProperty OwningProcess -Unique |
+  ForEach-Object { Stop-Process -Id $_ -Force }
+```
+
 ### Esportare una carta in PNG
 ```bash
 npm run render -- base1-4   # output in out/

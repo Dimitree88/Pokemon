@@ -28,7 +28,7 @@ body { font-family: 'GillSans', sans-serif; background: #2b2b2b; }
 .lv { font-family: 'GillSans'; font-size: 12px; color: #1c1206; }
 .hp { margin-left: auto; font-family: 'Futura'; font-size: 14px; color: #c0271a; white-space: nowrap; }
 .hp b { font-size: 24px; font-weight: normal; }
-.type-ico { width: 26px; height: 26px; display: inline-block; vertical-align: middle; }
+.type-ico { display: inline-flex; align-self: center; }
 
 .art {
   position: absolute; left: 40px; top: 96px; width: 420px; height: 236px;

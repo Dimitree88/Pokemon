@@ -16,6 +16,7 @@ export const FONTS = [
   { family: "GillSansBI", file: "Gill Sans/Gill Sans Bold Italic.ttf" },   // info bar, evolves from, flavor
   { family: "Futura",     file: "Futura/Futura Heavy.ttf" },               // HP
   { family: "FuturaI",    file: "Futura/Futura Heavy Italic.ttf" },        // illustratore, numero
+  { family: "EssentiarumTCG", file: "EssentiarumTCG [v0.96]/EssentiarumTCG [Desktop].ttf" }, // simboli energia/rarità
 ];
 
 const face = (family, src) =>

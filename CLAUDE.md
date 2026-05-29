@@ -212,8 +212,8 @@ Motore: **HTML/CSS + Playwright** (Chromium). Stack Node, ESM.
   **auto-reload** su modifica di `src/` (SSE). `http://localhost:5173/?card=<id>`.
 
 Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
-simboli energia stilizzati; font *Cabin* (sostituto) da Google Fonts. Mancano
-**Gym** e **Neo**.
+simboli energia resi col font **EssentiarumTCG** (vedi sotto); font *Cabin*
+(sostituto) da Google Fonts. Mancano **Gym** e **Neo**.
 
 ### Tipografia (font WOTC) — riferimento
 
@@ -273,17 +273,22 @@ Frutiger (ere moderne), Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue
 (carte giapponesi), Pokémon TCG Pocket Fonts.
 
 #### Simboli via font: EssentiarumTCG
-Per ora i simboli `{X}` li generiamo come **SVG fatti a mano**. In alternativa
-esiste il font-simboli **EssentiarumTCG** (da pokemonaaah, link sopra; licenza
-Creative Commons **non commerciale**, ~31kb, v0.96), che contiene icone
-tipo/energia, **rarità** e tipi-carta (GX/EX/V…) — utile per energie e rarità
-(i simboli **set** li scarichiamo già da pokemontcg.io). **Uso per il vintage:**
-- Icone tipo/energia: due stili — **"Old" (Base→Platinum) = lettere MAIUSCOLE**,
-  "New" (HGSS in poi) = minuscole. Per noi → **Old (maiuscole)**.
-- Energia in cerchio (come sulle carte): anteporre il **"BG Circle"** (la `o`
-  minuscola), poi la lettera del tipo. Colorazione: la `o` (cerchio) del colore
-  voluto, la lettera del tipo in nero (si sovrappongono).
-- Rarità: stile **"Old" (Base Set→SwSh)** per il nostro periodo.
+I 9 simboli energia (`{X}`) sono generati da **`make-assets.mjs`** usando il
+font-simboli **EssentiarumTCG** (da pokemonaaah; licenza Creative Commons **non
+commerciale**, ~31kb, v0.96) — non più SVG disegnati a mano. Ogni `assets/energy/<CODE>.svg`
+è un SVG con due `<text>` sovrapposti (la `o` = cerchio colorato + la lettera tipo
+= icona); il `@font-face` EssentiarumTCG è iniettato dal documento (`src/fonts.mjs`)
+così l'SVG inline usa il font sia nel render PNG che nel dev server. Il font contiene
+anche **rarità** e tipi-carta (GX/EX/V…); i simboli **set** li scarichiamo da
+pokemontcg.io. **Convenzione d'uso (vintage):**
+- Icone tipo/energia: stile **"Old" = lettere MAIUSCOLE** (`G R W L P F C D M`,
+  tutti e 9 in un solo font, D/M inclusi); minuscole = stile "New", non usato.
+- Energia in cerchio: la `o` minuscola (BG Circle, advance 0) + la lettera tipo
+  allo stesso punto-penna; la `o` colorata, la lettera in bianco/contrasto.
+- Geometria misurata (fs100): `o` ink ~117×116, lettere ~115.7×159 (più alte del
+  cerchio) → viewBox quadrato `-30 -125 175 175` per inquadrare tutto senza tagli.
+- Rarità: cifre `1`=● comune, `2`=◆ non comune, `3`=★ rara (stile "Old").
+- Ispezione/specimen del font: `scripts/inspect-font.mjs`, `scripts/font-specimen.mjs`.
 
 (Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,
 che è la versione **Pocket**, non EssentiarumTCG.)

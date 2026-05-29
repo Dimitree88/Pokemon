@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="46" fill="#E8513A" stroke="#3a3320" stroke-width="3"/>
-  <g fill="#ffffff"><path d="M52 22 C58 38 72 44 62 62 C68 58 68 50 66 48 C74 60 66 80 50 80 C33 80 30 60 43 50 C42 58 47 60 50 56 C43 45 50 33 52 22 Z"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -125 175 175">
+  <text x="0" y="0" font-family="EssentiarumTCG" font-size="100" fill="#E8513A" stroke="#3a3320" stroke-width="5" style="paint-order:stroke">o</text>
+  <text x="0" y="0" font-family="EssentiarumTCG" font-size="100" fill="#ffffff">R</text>
 </svg>
