@@ -50,7 +50,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Does 10 damage plus 10 damage times the number of Water Energy cards in your discard pile. Then, shuffle all Water Energy cards from your discard pile into your deck."
+        "en": "Does 10 damage plus 10 damage times the number of {W} Energy cards in your discard pile. Then, shuffle all {W} Energy cards from your discard pile into your deck."
       }
     }
   ],
@@ -60,7 +60,7 @@
         "en": "Downpour"
       },
       "text": {
-        "en": "As often as you like during your turn (before your attack), you may discard a Water Energy card from your hand. This power can't be used if Feraligatr is Asleep, Confused, or Paralyzed."
+        "en": "As often as you like during your turn (before your attack), you may discard a {W} Energy card from your hand. This power can't be used if Feraligatr is Asleep, Confused, or Paralyzed."
       }
     }
   ],

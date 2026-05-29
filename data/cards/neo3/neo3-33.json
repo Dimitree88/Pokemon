@@ -50,7 +50,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "You may discard any number of Fire Energy cards attached to Magcargo when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each Fire Energy card you discarded in this way."
+        "en": "You may discard any number of {R} Energy cards attached to Magcargo when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each {R} Energy card you discarded in this way."
       }
     }
   ],
@@ -60,7 +60,7 @@
         "en": "Magma Pool"
       },
       "text": {
-        "en": "If Magcargo is your Active Pokémon and moves to the Bench, remove 1 Fire Energy card attached to Magcargo, if any, and attach it to the new Active Pokémon. (You can't choose an Energy card that you used to pay the Retreat Cost.)"
+        "en": "If Magcargo is your Active Pokémon and moves to the Bench, remove 1 {R} Energy card attached to Magcargo, if any, and attach it to the new Active Pokémon. (You can't choose an Energy card that you used to pay the Retreat Cost.)"
       }
     }
   ],

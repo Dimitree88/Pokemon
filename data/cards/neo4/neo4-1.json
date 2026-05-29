@@ -50,7 +50,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Discard all Lightning Energy cards attached to Dark Ampharos or this attack does nothing."
+        "en": "Discard all {L} Energy cards attached to Dark Ampharos or this attack does nothing."
       }
     }
   ],

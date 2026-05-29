@@ -55,7 +55,7 @@
         "modifier": null
       },
       "text": {
-        "en": "You may change Cool Porygon's Resistance to a type of your choice other than Colorless. If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless. (Benching either Pokémon ends the effect on that Pokémon.)"
+        "en": "You may change Cool Porygon's Resistance to a type of your choice other than {C}. If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than {C}. (Benching either Pokémon ends the effect on that Pokémon.)"
       }
     },
     {

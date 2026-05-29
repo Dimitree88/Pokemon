@@ -69,7 +69,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip a coin for each Fire Energy card attached to Shining Tyranitar. For each heads, discard a Fire Energy card attached to Shining Tyranitar or this attack does nothing. Then, for each heads, choose an Energy card attached to the Defending Pokémon and discard it. If it has fewer Energy cards than that, remove all of them."
+        "en": "Flip a coin for each {R} Energy card attached to Shining Tyranitar. For each heads, discard a {R} Energy card attached to Shining Tyranitar or this attack does nothing. Then, for each heads, choose an Energy card attached to the Defending Pokémon and discard it. If it has fewer Energy cards than that, remove all of them."
       }
     }
   ],

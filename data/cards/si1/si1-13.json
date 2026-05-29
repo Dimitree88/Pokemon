@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of Grass Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance."
+        "en": "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of {G} Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance."
       }
     }
   ],

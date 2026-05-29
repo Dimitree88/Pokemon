@@ -50,6 +50,19 @@ const ENERGY_CODE = {
 };
 const toCode = (t) => ENERGY_CODE[t] ?? t;
 
+// Tokenizza i nomi-tipo nel testo libero in simboli {X} (es. "Fire Energy" ->
+// "{R} Energy", "other than Colorless." -> "other than {C}."). Analisi del corpus:
+// ogni occorrenza di un nome-tipo è un simbolo sulla carta, tranne il nome proprio
+// "Lightning Rod" (un marcatore).
+const TOKEN_RE = /\b(Grass|Fire|Water|Lightning|Psychic|Fighting|Colorless|Darkness|Metal)\b/g;
+function tokenizeEnergy(text) {
+  if (!text) return text;
+  return text.replace(TOKEN_RE, (full, t, offset, str) => {
+    if (t === "Lightning" && str.startsWith("Lightning Rod", offset)) return full;
+    return `{${ENERGY_CODE[t]}}`;
+  });
+}
+
 const OWNER_RE = /^(.+?)'s\s+/; // "Brock's Onix", "Lt. Surge's Electabuzz", "Rocket's Zapdos"
 const VARIANT_RE = /^(Dark|Light|Shining)\s+/i;
 
@@ -244,13 +257,13 @@ async function main() {
           name: { en: a.name },
           cost: (a.cost ?? []).map(toCode),
           damage: parseDamage(a.damage),
-          text: { en: a.text || null },
+          text: { en: tokenizeEnergy(a.text) || null },
         })),
         powers: (c.abilities || [])
           .filter((ab) => /Pok[eé]mon Power/i.test(ab.type || ""))
           .map((ab) => ({
             name: { en: ab.name },
-            text: { en: ab.text || null },
+            text: { en: tokenizeEnergy(ab.text) || null },
             // colore: omesso = rosso (default)
           })),
         _lang: ["en"],

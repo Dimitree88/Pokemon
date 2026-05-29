@@ -58,7 +58,7 @@
         "en": "[Normal]"
       },
       "text": {
-        "en": "Whenever a Colorless Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [N] in play. (This power works even if Unown [N] is Asleep, Confused, or Paralyzed.)"
+        "en": "Whenever a {C} Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [N] in play. (This power works even if Unown [N] is Asleep, Confused, or Paralyzed.)"
       }
     }
   ],

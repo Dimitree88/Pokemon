@@ -71,7 +71,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Does 10 damage to each non-Fighting Pokémon in play. Don't apply Weakness and Resistance."
+        "en": "Does 10 damage to each non-{F} Pokémon in play. Don't apply Weakness and Resistance."
       }
     }
   ],

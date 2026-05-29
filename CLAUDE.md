@@ -188,6 +188,10 @@ I dati sono dumpati in locale (decisione DB rimandata).
   libero si usa `{X}` **solo dove va mostrato il simbolo**. Mappa: `G`=Grass,
   `R`=Fire, `W`=Water, `L`=Lightning, `P`=Psychic, `F`=Fighting, `C`=Colorless,
   `D`=Darkness, `M`=Metal.
+- **Testi tokenizzati**: nel testo di attacchi e poteri ogni nome-tipo è già
+  convertito nel simbolo `{X}` (es. *"into {R} Energy"*, *"your {W} Pokémon"*,
+  *"type is still {C}."*). La parola generica *"Energy"* senza tipo resta invariata.
+  Unica eccezione esclusa: il nome proprio *"Lightning Rod"* (marcatore, non simbolo).
 - **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri
   diverso dal rosso.
 

@@ -53,7 +53,7 @@
         "modifier": "×"
       },
       "text": {
-        "en": "Flip a number of coins equal to the number of Fighting Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck."
+        "en": "Flip a number of coins equal to the number of {F} Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck."
       }
     },
     {

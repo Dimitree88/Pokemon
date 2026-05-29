@@ -70,7 +70,7 @@
         "modifier": "×"
       },
       "text": {
-        "en": "Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads."
+        "en": "Flip a number of coins equal to the number of {R} Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of {R} Energy cards attached to Dark Charizard equal to the number of heads."
       }
     }
   ],

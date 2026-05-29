@@ -49,7 +49,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip a coin. If tails, discard all Fire Energy cards attached to Blaine's Ninetales."
+        "en": "Flip a coin. If tails, discard all {R} Energy cards attached to Blaine's Ninetales."
       }
     }
   ],
@@ -59,7 +59,7 @@
         "en": "Healing Fire"
       },
       "text": {
-        "en": "Whenever you attach a Fire Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed."
+        "en": "Whenever you attach a {R} Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed."
       }
     }
   ],

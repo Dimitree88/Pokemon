@@ -49,7 +49,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Lightning Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all {L} Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
       }
     },
     {

@@ -65,7 +65,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays Colorless more to retreat the Defending Pokémon."
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays {C} more to retreat the Defending Pokémon."
       }
     }
   ],

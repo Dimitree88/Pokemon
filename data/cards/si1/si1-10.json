@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip a number of coins equal to the number of Water Energy attached to Tentacruel. For each heads, draw 2 cards."
+        "en": "Flip a number of coins equal to the number of {W} Energy attached to Tentacruel. For each heads, draw 2 cards."
       }
     },
     {

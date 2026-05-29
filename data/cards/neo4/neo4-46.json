@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "If you have any benched Pokémon, search your deck for a Fire Energy card and attach it to 1 of them. Then shuffle your deck."
+        "en": "If you have any benched Pokémon, search your deck for a {R} Energy card and attach it to 1 of them. Then shuffle your deck."
       }
     },
     {
@@ -66,7 +66,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Flip 2 coins. For each heads, discard a Fire Energy card attached to Light Flareon or this attack does nothing. This attack does 30 damage plus 20 damage for each heads."
+        "en": "Flip 2 coins. For each heads, discard a {R} Energy card attached to Light Flareon or this attack does nothing. This attack does 30 damage plus 20 damage for each heads."
       }
     }
   ],

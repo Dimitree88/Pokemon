@@ -65,7 +65,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "If there are any Darkness Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the Darkness Energy you discarded). If there aren't any, this attack does 30 damage."
+        "en": "If there are any {D} Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the {D} Energy you discarded). If there aren't any, this attack does 30 damage."
       }
     }
   ],

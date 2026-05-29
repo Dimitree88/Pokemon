@@ -64,7 +64,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
+        "en": "Flip 3 coins. For each heads, if you have a {R} Energy card in your discard pile, put it into your hand."
       }
     }
   ],

@@ -50,7 +50,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Discard 2 Fire Energy cards attached to Entei or this attack does nothing."
+        "en": "Discard 2 {R} Energy cards attached to Entei or this attack does nothing."
       }
     }
   ],
@@ -60,7 +60,7 @@
         "en": "Howl"
       },
       "text": {
-        "en": "When you play Entei from your hand, you may discard the top 5 cards of your deck. (If you have fewer cards in your deck than that, discard all of them.) If any of those are Fire Energy cards, attach them to any of your Fire Pokémon of your choice. Using this power ends your turn."
+        "en": "When you play Entei from your hand, you may discard the top 5 cards of your deck. (If you have fewer cards in your deck than that, discard all of them.) If any of those are {R} Energy cards, attach them to any of your {R} Pokémon of your choice. Using this power ends your turn."
       }
     }
   ],

@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
+        "en": "Take up to 2 {L} Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
       }
     },
     {
@@ -65,7 +65,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+        "en": "Take 1 {L} Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
       }
     }
   ],

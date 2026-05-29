@@ -69,7 +69,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Does 50 damage plus 10 more damage for each Water Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance."
+        "en": "Does 50 damage plus 10 more damage for each {W} Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance."
       }
     }
   ],

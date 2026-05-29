@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Remove a number of damage counters from 1 of your Benched Pokémon equal to the number of Water Energy cards attached to Shining Celebi. If the Pokémon has fewer damage counters than that, remove all of them."
+        "en": "Remove a number of damage counters from 1 of your Benched Pokémon equal to the number of {W} Energy cards attached to Shining Celebi. If the Pokémon has fewer damage counters than that, remove all of them."
       }
     },
     {

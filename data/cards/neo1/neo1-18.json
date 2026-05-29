@@ -51,7 +51,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Discard 3 Fire Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        "en": "Discard 3 {R} Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }
     }
   ],
@@ -61,7 +61,7 @@
         "en": "Fire Boost"
       },
       "text": {
-        "en": "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
+        "en": "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 {R} Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
       }
     }
   ],

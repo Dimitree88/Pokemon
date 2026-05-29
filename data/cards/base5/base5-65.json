@@ -65,7 +65,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
+        "en": "Does 20 damage plus 10 more damage for each {W} Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
       }
     }
   ],

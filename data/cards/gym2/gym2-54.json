@@ -49,7 +49,7 @@
         "modifier": null
       },
       "text": {
-        "en": "If the Defending Pokémon is Fighting, this attack's base damage is doubled."
+        "en": "If the Defending Pokémon is {F}, this attack's base damage is doubled."
       }
     },
     {

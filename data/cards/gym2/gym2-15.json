@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
+        "en": "If there are any {L} Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
       }
     },
     {
@@ -67,7 +67,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
+        "en": "Rocket's Zapdos does damage to itself equal to 10 times the number of {L} Energy cards attached to it."
       }
     }
   ],

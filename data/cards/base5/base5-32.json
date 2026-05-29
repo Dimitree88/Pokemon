@@ -67,7 +67,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Use this attack only if there are any Fire Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage)."
+        "en": "Use this attack only if there are any {R} Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage)."
       }
     }
   ],

@@ -72,7 +72,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+        "en": "Search your deck for a {F} Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
       }
     }
   ],

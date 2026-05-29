@@ -67,7 +67,7 @@
         "modifier": null
       },
       "text": {
-        "en": "You may discard all Lightning Energy cards attached to Raichu. If you do, this attack does 80 damage."
+        "en": "You may discard all {L} Energy cards attached to Raichu. If you do, this attack does 80 damage."
       }
     }
   ],

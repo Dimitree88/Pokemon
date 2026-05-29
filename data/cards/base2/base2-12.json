@@ -67,7 +67,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+        "en": "Does 30 damage plus 10 more damage for each {W} Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra {W} Energy after the 2nd doesn't count."
       }
     }
   ],

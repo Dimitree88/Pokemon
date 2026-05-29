@@ -48,7 +48,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Water Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way."
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each {W} Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way."
       }
     }
   ],

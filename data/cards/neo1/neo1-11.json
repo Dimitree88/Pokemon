@@ -61,7 +61,7 @@
         "en": "Wild Growth"
       },
       "text": {
-        "en": "As long as Meganium is in play each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed."
+        "en": "As long as Meganium is in play each {G} Energy card attached to your {G} Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed."
       }
     }
   ],

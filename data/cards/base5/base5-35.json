@@ -65,7 +65,7 @@
         "modifier": "+"
       },
       "text": {
-        "en": "Use this attack only if there are any Fire Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
+        "en": "Use this attack only if there are any {R} Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
       }
     }
   ],

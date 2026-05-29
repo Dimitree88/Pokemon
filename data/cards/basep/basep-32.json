@@ -53,7 +53,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Flip a coin. If heads, choose a type (other than Colorless) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you chose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing."
+        "en": "Flip a coin. If heads, choose a type (other than {C}) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you chose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing."
       }
     }
   ],

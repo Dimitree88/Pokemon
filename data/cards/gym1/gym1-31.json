@@ -51,7 +51,7 @@
         "modifier": null
       },
       "text": {
-        "en": "Does 10 damage to each Pokémon that isn't Water on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        "en": "Does 10 damage to each Pokémon that isn't {W} on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }
     }
   ],

@@ -50,7 +50,7 @@
         "modifier": null
       },
       "text": {
-        "en": "If the Defending Pokémon has Dark in its name or is a Darkness Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
+        "en": "If the Defending Pokémon has Dark in its name or is a {D} Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
       }
     }
   ],

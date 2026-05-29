@@ -64,7 +64,7 @@
         "modifier": "×"
       },
       "text": {
-        "en": "You may discard any number of Fire Energy cards attached to your Pokémon. Flip a coin for each Fire Energy card discarded in this way. This attack does 40 damage times the number of heads."
+        "en": "You may discard any number of {R} Energy cards attached to your Pokémon. Flip a coin for each {R} Energy card discarded in this way. This attack does 40 damage times the number of heads."
       }
     }
   ],
