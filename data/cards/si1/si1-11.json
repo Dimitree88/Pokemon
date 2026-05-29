@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 183,
   "level": null,
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Squirt"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Rolling Tackle"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

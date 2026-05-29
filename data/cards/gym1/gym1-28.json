@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Mega Punch"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -55,14 +57,16 @@
         "en": "Thunderbolt"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L",
+        "L"
       ],
-      "raw": "100",
-      "value": 100,
-      "modifier": null,
+      "damage": {
+        "raw": "100",
+        "value": 100,
+        "modifier": null
+      },
       "text": {
         "en": "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack."
       }

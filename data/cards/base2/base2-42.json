@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 53,
   "level": "25",
@@ -27,13 +27,13 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Scratch"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -62,9 +62,9 @@
         "en": "Pounce"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

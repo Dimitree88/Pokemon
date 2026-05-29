@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 66,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "Toshinao Aoki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Chop"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Punch"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

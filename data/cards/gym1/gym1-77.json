@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 102,
   "level": "12",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Eggsplosion"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10×",
-      "value": 10,
-      "modifier": "×",
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads."
       }
@@ -54,12 +56,14 @@
         "en": "Psychic"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
-      "raw": "10+",
-      "value": 10,
-      "modifier": "+",
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
       }

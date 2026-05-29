@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 17,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Whirlwind"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -62,9 +62,9 @@
         "en": "Mirror Move"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

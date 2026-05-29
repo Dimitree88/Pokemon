@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 100,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 130,
   "level": "41",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Dragon Rage"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "50",
@@ -63,10 +63,10 @@
         "en": "Bubblebeam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "40",

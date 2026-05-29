@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 5,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Slash"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -56,13 +58,15 @@
         "en": "Flamethrower"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 1 Fire Energy card attached to Charmeleon in order to use this attack."
       }

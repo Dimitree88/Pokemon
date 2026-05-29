@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Baby",
   "hp": 30,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 236,
   "level": "7",
@@ -37,7 +37,7 @@
         "en": "Smash Punch"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "30",

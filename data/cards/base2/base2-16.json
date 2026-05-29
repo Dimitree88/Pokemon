@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 40,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Lullaby"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -61,9 +61,9 @@
         "en": "Do the Wave"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 216,
   "level": "12",
@@ -27,13 +27,13 @@
   "illustrator": "Miki Tanaka",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Scratch"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -61,8 +61,8 @@
         "en": "Nap Time"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

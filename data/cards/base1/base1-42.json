@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 8,
   "level": "22",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Withdraw"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Bite"
       },
       "cost": [
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "40",

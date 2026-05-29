@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 54,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Dizziness"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Draw a card."
       }
@@ -54,12 +56,14 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
       }

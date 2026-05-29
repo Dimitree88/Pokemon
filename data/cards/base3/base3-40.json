@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 139,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "20+",
@@ -57,8 +57,8 @@
         "en": "Spike Cannon"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "30×",

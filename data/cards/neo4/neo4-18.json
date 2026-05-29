@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 219,
   "level": "36",
@@ -27,7 +27,7 @@
   "illustrator": "Toshinao Aoki",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Ball of Flame"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "20",

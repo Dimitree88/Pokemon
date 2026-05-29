@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 20,
   "level": "33",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Focus Energy"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled."
       }
@@ -59,12 +61,14 @@
         "en": "Double-edge"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Lt. Surge's Raticate does 20 damage to itself."
       }

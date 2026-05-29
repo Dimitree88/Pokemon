@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 244,
   "level": "38",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Searing Flames"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "60",

@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 148,
   "level": "35",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Healing Light"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Protective Wave"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

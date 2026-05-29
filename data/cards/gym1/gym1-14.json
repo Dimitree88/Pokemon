@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 94,
   "level": "39",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Pain Amplifier"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Put a damage counter on each of your opponent's Pokémon has already has any damage counters on it."
       }
@@ -54,13 +56,15 @@
         "en": "Call of the Night"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Unless this attack Knocks Out the Defending Pokémon, flip 2 coins. If both of them are heads, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
       }

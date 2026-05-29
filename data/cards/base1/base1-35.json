@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 129,
   "level": "8",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Tackle"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -56,7 +56,7 @@
         "en": "Flail"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10×",

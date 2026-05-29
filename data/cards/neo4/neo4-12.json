@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 100,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 59,
   "level": "47",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Gentle Flames"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "50",

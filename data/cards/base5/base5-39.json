@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 50,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 64,
   "level": "24",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Mind Shock"
       },
       "cost": [
-        "Psychic",
-        "Psychic"
+        "P",
+        "P"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 100,
   "level": "13",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Speed Ball"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

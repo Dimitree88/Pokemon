@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 230,
   "level": "49",
@@ -35,7 +35,7 @@
         "en": "Genetic Memory"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -51,10 +51,10 @@
         "en": "Twister"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "50",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 78,
   "level": null,
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Jump Over"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Super Singe"
       },
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "R",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

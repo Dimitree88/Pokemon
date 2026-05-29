@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 195,
   "level": "35",
@@ -27,13 +27,13 @@
   "illustrator": "Yuka Morii",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Mud Slap"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "30",
@@ -62,10 +62,10 @@
         "en": "Whirlpool"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "40",

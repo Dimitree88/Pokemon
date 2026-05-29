@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 146,
   "level": "35",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Wildfire"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "",
@@ -56,10 +56,10 @@
         "en": "Dive Bomb"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "80",

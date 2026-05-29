@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 144,
   "level": "34",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Ice Beam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

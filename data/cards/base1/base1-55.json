@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 32,
   "level": "20",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Horn Hazard"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "30",

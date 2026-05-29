@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 150,
   "level": "53",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Psychic"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
-      "raw": "10+",
-      "value": 10,
-      "modifier": "+",
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
       }
@@ -55,12 +57,14 @@
         "en": "Barrier"
       },
       "cost": [
-        "Psychic",
-        "Psychic"
+        "P",
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 1 Psychic Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo."
       }

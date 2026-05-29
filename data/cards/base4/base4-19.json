@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 40,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Lullaby"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "The Defending Pokémon is now Asleep."
       }
@@ -59,13 +61,15 @@
         "en": "Do the Wave"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "10+",
-      "value": 10,
-      "modifier": "+",
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
       }

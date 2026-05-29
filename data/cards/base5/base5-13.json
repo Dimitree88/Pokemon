@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 45,
   "level": "29",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Petal Whirlwind"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "30×",
-      "value": 30,
-      "modifier": "×",
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip a coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after doing damage)."
       }

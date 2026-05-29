@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 19,
   "level": "9",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

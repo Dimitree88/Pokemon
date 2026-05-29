@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 177,
   "level": "13",
@@ -27,13 +27,13 @@
   "illustrator": "Sumiyoshi Kizuki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "10",

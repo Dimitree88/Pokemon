@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 178,
   "level": "10",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Prophecy"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Look at the top 3 cards of either player's deck and rearrange them as you like."
       }
@@ -59,13 +61,15 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
       }

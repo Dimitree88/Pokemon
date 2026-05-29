@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 37,
   "level": "18",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -54,11 +56,13 @@
         "en": "Call Will-o'-the-wisp"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
       }

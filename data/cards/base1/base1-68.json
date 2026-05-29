@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 37,
   "level": "11",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "10",

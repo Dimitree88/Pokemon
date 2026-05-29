@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 21,
   "level": "8",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Drill Peck"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

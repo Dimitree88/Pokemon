@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 233,
   "level": "34",
@@ -27,13 +27,13 @@
   "illustrator": "Shin-ichi Yoshikawa, CR CG gangs",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Curve Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

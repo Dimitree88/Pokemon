@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 181,
   "level": "46",
@@ -27,7 +27,7 @@
   "illustrator": "Toshinao Aoki",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Attract Current"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
       "damage": {
         "raw": "20",
@@ -56,10 +56,10 @@
         "en": "Gigavolt"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "40+",

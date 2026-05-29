@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Darkness",
+  "type": "D",
   "types": [
-    "Darkness"
+    "D"
   ],
   "pokedex": 198,
   "level": "21",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Call for Family"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Flock Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",

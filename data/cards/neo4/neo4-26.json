@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 221,
   "level": "43",
@@ -27,13 +27,13 @@
   "illustrator": "Yukiko Baba",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Knock Over"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 243,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Lightning Tackle"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "50",

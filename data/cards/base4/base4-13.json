@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 38,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Lure"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
       }
@@ -55,14 +57,16 @@
         "en": "Fire Blast"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
-      "raw": "80",
-      "value": 80,
-      "modifier": null,
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 1 Fire Energy card attached to Ninetales in order to use this attack."
       }

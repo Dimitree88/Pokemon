@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 243,
   "level": "26",
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Lightning Spark"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "30",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 61,
   "level": "37",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Rapids"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
       }
@@ -55,13 +57,15 @@
         "en": "Water Punch"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a number of coins equal to the number of Water Energy attached to Misty's Poliwhirl. This attack does 30 damage plus 10 damage for each heads."
       }

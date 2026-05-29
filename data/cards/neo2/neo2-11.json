@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 235,
   "level": "27",
@@ -27,13 +27,13 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Sketch"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

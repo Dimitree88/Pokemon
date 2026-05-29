@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 57,
   "level": "23",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Frenzied Attack"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Dark Primeape is now Confused (after doing damage)."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 145,
   "level": "30",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Lightning Burn"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "30",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 60,
   "level": "13",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water"
+        "W"
       ],
-      "raw": "10+",
-      "value": 10,
-      "modifier": "+",
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 10 damage plus 10 more damage for each Water Energy attached to Poliwag but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
       }

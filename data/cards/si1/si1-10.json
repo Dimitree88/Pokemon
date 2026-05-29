@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 73,
   "level": null,
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Tentacle Grip"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Poison Sting"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "20",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 75,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Tackle"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -55,13 +57,15 @@
         "en": "Detonate"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": "Does 10 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Graveler does 50 damage to itself. If there is a Stadium card in play, discard it."
       }

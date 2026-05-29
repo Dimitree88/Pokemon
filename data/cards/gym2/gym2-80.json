@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 16,
   "level": "15",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Peck"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -59,13 +61,15 @@
         "en": "Sand-attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 65,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
       "damage": {
         "raw": "30",

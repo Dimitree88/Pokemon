@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 220,
   "level": "13",
@@ -27,13 +27,13 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Generate Cold"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "20",

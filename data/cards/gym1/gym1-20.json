@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 76,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Rock Slide"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If your opponent has any Benched Pokémon, choose up to 3 of them. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }
@@ -56,14 +58,16 @@
         "en": "Fissure"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "F",
+        "C",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

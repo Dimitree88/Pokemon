@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 74,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Stone Barrage"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "10×",

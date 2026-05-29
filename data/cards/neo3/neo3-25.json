@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 121,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Keita Komatsuya, CR CG gangs",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10",
@@ -56,9 +56,9 @@
         "en": "Core Stream"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "P",
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "",

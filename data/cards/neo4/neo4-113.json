@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 80,
-  "type": "Darkness",
+  "type": "D",
   "types": [
-    "Darkness"
+    "D"
   ],
   "pokedex": 248,
   "level": "41",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Mountain Crush"
       },
       "cost": [
-        "Darkness",
-        "Fighting",
-        "Fighting"
+        "D",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "30",
@@ -58,10 +58,10 @@
         "en": "Destructive Fire"
       },
       "cost": [
-        "Darkness",
-        "Fire",
-        "Fire",
-        "Fire"
+        "D",
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "50",

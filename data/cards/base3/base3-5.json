@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 94,
   "level": "38",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Dark Mind"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
       "damage": {
         "raw": "30",

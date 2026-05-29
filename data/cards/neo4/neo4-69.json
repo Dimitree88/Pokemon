@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 107,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Dodge"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Supersonic Jab"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "40",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 20,
   "level": "41",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -61,9 +61,9 @@
         "en": "Super Fang"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

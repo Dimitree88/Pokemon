@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Baby",
   "hp": 30,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 173,
   "level": "5",
@@ -37,7 +37,7 @@
         "en": "Eek"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",

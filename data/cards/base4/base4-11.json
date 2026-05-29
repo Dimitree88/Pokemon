@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 34,
   "level": "23",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Thrash"
       },
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "C",
+        "C"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself."
       }
@@ -56,13 +58,15 @@
         "en": "Toxic"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 144,
   "level": "35",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Freeze Dry"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "30",
@@ -58,10 +58,10 @@
         "en": "Blizzard"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "50",

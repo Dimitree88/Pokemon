@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 127,
   "level": "24",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Irongrip"
       },
       "cost": [
-        "Grass",
-        "Grass"
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "20",
@@ -57,10 +57,10 @@
         "en": "Guillotine"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "G",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "50",

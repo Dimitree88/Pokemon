@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 138,
   "level": "19",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10+",

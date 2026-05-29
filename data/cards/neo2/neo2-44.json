@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 61,
   "level": "35",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Belly Drum"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "W",
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "30+",

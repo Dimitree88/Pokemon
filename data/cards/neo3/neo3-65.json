@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 100,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 130,
   "level": "62",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Outrage"
       },
       "cost": [
-        "Water",
-        "Fighting",
-        "Fighting"
+        "W",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "30+",
@@ -63,10 +63,10 @@
         "en": "Devastate"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Fire",
-        "Fire"
+        "W",
+        "W",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "50",

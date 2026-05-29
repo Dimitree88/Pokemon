@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 10,
   "level": "13",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "String Shot"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 30,
   "level": "35",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Poison Sting Tackle"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Giovanni's Nidorina does 20 damage to itself. Flip a coin. If heads, the Defending Pokémon is now Poisoned."
       }
@@ -55,13 +57,15 @@
         "en": "Body Slam"
       },
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }

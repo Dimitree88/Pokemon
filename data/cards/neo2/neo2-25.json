@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 141,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Kimiya Masago",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Slash"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -56,7 +56,7 @@
         "en": "Hydrocutter"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "40×",

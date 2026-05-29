@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 225,
   "level": "34",
@@ -27,13 +27,13 @@
   "illustrator": "Tomokazu Komiya",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Present"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 119,
   "level": "29",
@@ -27,7 +27,7 @@
   "illustrator": "Miki Tanaka",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Rising Lunge"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10+",
@@ -56,8 +56,8 @@
         "en": "Horn Swipe"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "20+",

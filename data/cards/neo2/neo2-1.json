@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 196,
   "level": "41",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,9 +57,9 @@
         "en": "Psychic"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "P",
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "30+",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 107,
   "level": "33",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Jab"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "20",
@@ -56,9 +56,9 @@
         "en": "Special Punch"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "40",

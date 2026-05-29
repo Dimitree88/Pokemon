@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 102,
   "level": "14",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Hypnosis"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Leech Seed"
       },
       "cost": [
-        "Grass",
-        "Grass"
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "20",

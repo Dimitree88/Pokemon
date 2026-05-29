@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 117,
   "level": "30",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Tail Snap"
       },
       "cost": [
-        "Water"
+        "W"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -54,13 +56,15 @@
         "en": "Knockout Needle"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage."
       }

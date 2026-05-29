@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 201,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "CR CG gangs",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Hidden Power"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "10",

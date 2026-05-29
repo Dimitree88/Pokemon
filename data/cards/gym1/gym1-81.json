@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 25,
   "level": "15",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Charge"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Take 1 Lightning Energy card from your discard pile and attach it to Lt. Surge's Pikachu."
       }
@@ -54,12 +56,14 @@
         "en": "Lightning Tail"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }

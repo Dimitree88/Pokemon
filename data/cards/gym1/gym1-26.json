@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 71,
   "level": "37",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Razor Leaf"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 202,
   "level": "46",
@@ -27,7 +27,7 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Counter"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",

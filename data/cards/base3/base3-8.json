@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 97,
   "level": "36",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Prophecy"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Dark Mind"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
       "damage": {
         "raw": "30",

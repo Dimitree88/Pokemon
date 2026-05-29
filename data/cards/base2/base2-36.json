@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 22,
   "level": "27",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Agility"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -63,10 +63,10 @@
         "en": "Drill Peck"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "40",

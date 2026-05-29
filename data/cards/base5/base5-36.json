@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 44,
   "level": "21",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Poisonpowder"
       },
       "cost": [
-        "Grass",
-        "Grass"
+        "G",
+        "G"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "The Defending Pokémon is now Poisoned."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 3,
   "level": "67",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Solarbeam"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "60",

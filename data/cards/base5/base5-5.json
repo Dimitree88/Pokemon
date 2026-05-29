@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 149,
   "level": "33",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,14 +40,16 @@
         "en": "Giant Tail"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "70",
-      "value": 70,
-      "modifier": null,
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If tails, this attack does nothing."
       }

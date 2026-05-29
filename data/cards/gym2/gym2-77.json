@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 23,
   "level": "17",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Fast-Acting Poison"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned."
       }

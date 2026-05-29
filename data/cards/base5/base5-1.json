@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 60,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 65,
   "level": "30",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Teleport Blast"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "P",
+        "P",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
       }
@@ -56,13 +58,15 @@
         "en": "Mind Shock"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 129,
   "level": "9",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Ancestral Memory"
       },
       "cost": [
-        "Water"
+        "W"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Giovanni's Magikarp stays in play (even putting Giovanni's Magikarp on the Bench won't let you use it again)."
       }
@@ -54,12 +56,14 @@
         "en": "Flail Around"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
-      "raw": "10×",
-      "value": 10,
-      "modifier": "×",
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
       }

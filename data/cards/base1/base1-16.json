@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 145,
   "level": "64",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Thunder"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "60",
@@ -59,10 +59,10 @@
         "en": "Thunderbolt"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "100",

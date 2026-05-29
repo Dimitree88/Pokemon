@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 237,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Sumiyoshi Kizuki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Detect"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Triple Kick"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "30×",

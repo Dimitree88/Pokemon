@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 223,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "Jungo Suzuki, CR CG gangs",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Fury Strikes"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10×",

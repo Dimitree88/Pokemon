@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 49,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Masako Yamashita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Mysterious Wing"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",
@@ -61,8 +61,8 @@
         "en": "Synchronize"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "40",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 212,
   "level": "43",
@@ -27,13 +27,13 @@
   "illustrator": "Kimiya Masago",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "False Swipe"
       },
       "cost": [
-        "Metal"
+        "M"
       ],
       "damage": {
         "raw": "",
@@ -61,9 +61,9 @@
         "en": "Double Claw"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20+",

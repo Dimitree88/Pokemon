@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 75,
   "level": "29",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Harden"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Rock Throw"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "40",

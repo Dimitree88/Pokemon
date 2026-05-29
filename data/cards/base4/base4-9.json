@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 82,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Keiji Kinebuchi",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Thunder Wave"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }
@@ -56,14 +58,16 @@
         "en": "Selfdestruct"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "L",
+        "C",
+        "C"
       ],
-      "raw": "80",
-      "value": 80,
-      "modifier": null,
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
       "text": {
         "en": "Does 20 damage to each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 114,
   "level": "8",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Bind"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }
@@ -55,13 +57,15 @@
         "en": "Poisonpowder"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "The Defending Pokémon is now Poisoned."
       }

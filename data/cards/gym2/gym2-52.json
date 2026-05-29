@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 101,
   "level": "33",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Power Ball"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "C"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads."
       }

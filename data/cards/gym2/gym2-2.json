@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 6,
   "level": "50",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Roaring Flames"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Discard all Fire Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Fire Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Fire Energy discarded in this way."
       }
@@ -59,12 +61,14 @@
         "en": "Flame Jet"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
       }

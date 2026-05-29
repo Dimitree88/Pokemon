@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 101,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Tackle"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,9 +57,9 @@
         "en": "Chain Lightning"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "20",

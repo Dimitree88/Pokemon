@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 125,
   "level": "35",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Thundershock"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }
@@ -54,12 +56,14 @@
         "en": "Thunderpunch"
       },
       "cost": [
-        "Lightning",
-        "Colorless"
+        "L",
+        "C"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself."
       }

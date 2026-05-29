@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 63,
   "level": "14",
@@ -27,7 +27,7 @@
   "illustrator": "Sumiyoshi Kizuki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Vanish"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
       }
@@ -54,11 +56,13 @@
         "en": "Psyshock"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }

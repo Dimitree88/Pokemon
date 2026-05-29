@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 75,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Yukiko Baba",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Earthquake"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "40",
@@ -57,9 +57,9 @@
         "en": "Rock Tumble"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "50",

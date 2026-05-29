@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 110,
   "level": "24",
@@ -27,7 +27,7 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Mass Explosion"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
-      "raw": "20×",
-      "value": 20,
-      "modifier": "×",
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
       "text": {
         "en": "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance."
       }
@@ -55,13 +57,15 @@
         "en": "Stun Gas"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed."
       }

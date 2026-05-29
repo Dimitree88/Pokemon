@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 4,
   "level": "10",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Scratch"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Ember"
       },
       "cost": [
-        "Fire",
-        "Colorless"
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "30",

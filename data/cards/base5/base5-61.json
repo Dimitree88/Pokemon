@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 56,
   "level": "14",
@@ -27,7 +27,7 @@
   "illustrator": "Sumiyoshi Kizuki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Mischief"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Shuffle your opponent's deck."
       }
@@ -54,12 +56,14 @@
         "en": "Anger"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
       }

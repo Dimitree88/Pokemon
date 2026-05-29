@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 150,
   "level": "13",
@@ -27,7 +27,7 @@
   "illustrator": "Christopher Rush",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Energy Control"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Telekinesis"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "P",
+        "P",
+        "P"
       ],
       "damage": {
         "raw": "",

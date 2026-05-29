@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 60,
   "level": "14",
@@ -27,7 +27,7 @@
   "illustrator": "Aya Kusube",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Rollout"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -56,7 +56,7 @@
         "en": "Hypnosis"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",

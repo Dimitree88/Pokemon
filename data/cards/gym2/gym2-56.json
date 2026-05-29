@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 97,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Invigorate"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Choose 1 Basic Pokémon in any player's discard pile. Put it onto that player's Bench. Put a number of damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't put a Pokémon on a Bench that's full.)"
       }
@@ -54,12 +56,14 @@
         "en": "Pendulum Curse"
       },
       "cost": [
-        "Psychic",
-        "Psychic"
+        "P",
+        "P"
       ],
-      "raw": "20×",
-      "value": 20,
-      "modifier": "×",
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 20 damage times the number of heads."
       }

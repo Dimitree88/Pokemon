@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 167,
   "level": "19",
@@ -27,7 +27,7 @@
   "illustrator": "Yukiko Baba",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Poison Sting"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "20",

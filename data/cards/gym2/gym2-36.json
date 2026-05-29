@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 28,
   "level": "34",
@@ -27,13 +27,13 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,12 +45,14 @@
         "en": "Swift"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
       }
@@ -60,12 +62,14 @@
         "en": "Needle Ball"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
       }

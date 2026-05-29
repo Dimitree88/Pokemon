@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Agility"
       },
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -58,10 +58,10 @@
         "en": "Thunder"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "60",

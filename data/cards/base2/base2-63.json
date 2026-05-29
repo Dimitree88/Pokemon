@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 48,
   "level": "12",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Stun Spore"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Leech Life"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "10",

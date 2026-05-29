@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 168,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Toshinao Aoki",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Entangle"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Poison Bind"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "30",

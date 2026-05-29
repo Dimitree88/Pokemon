@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 171,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Blinding Light"
       },
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

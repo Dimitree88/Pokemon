@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 61,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Amnesia"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Doubleslap"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "W",
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "30×",

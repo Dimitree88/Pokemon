@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 146,
   "level": "44",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,15 +40,17 @@
         "en": "Phoenix Flame"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R",
+        "R"
       ],
-      "raw": "90",
-      "value": 90,
-      "modifier": null,
+      "damage": {
+        "raw": "90",
+        "value": 90,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage)."
       }

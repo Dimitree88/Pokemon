@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 131,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Water Gun"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10+",
@@ -56,8 +56,8 @@
         "en": "Confuse Ray"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "10",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 250,
   "level": null,
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,10 +45,10 @@
         "en": "Sacred Wing"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "R",
+        "R",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "60",

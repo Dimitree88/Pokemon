@@ -27,6 +27,51 @@
     "copyright": null
   },
   {
+    "id": "base4",
+    "name": "Base Set 2",
+    "sigla": "B2",
+    "releaseDate": "2000/02/24",
+    "printedTotal": 130,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "base5",
+    "name": "Team Rocket",
+    "sigla": "TR",
+    "releaseDate": "2000/04/24",
+    "printedTotal": 82,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "sigla": "G1",
+    "releaseDate": "2000/08/14",
+    "printedTotal": 132,
+    "layoutFamily": "Gym",
+    "copyright": null
+  },
+  {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "sigla": "G2",
+    "releaseDate": "2000/10/16",
+    "printedTotal": 132,
+    "layoutFamily": "Gym",
+    "copyright": null
+  },
+  {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "sigla": "N1",
+    "releaseDate": "2000/12/16",
+    "printedTotal": 111,
+    "layoutFamily": "Neo",
+    "copyright": null
+  },
+  {
     "id": "neo2",
     "name": "Neo Discovery",
     "sigla": "N2",

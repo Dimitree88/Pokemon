@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 67,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Karate Chop"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
-      "raw": "50-",
-      "value": 50,
-      "modifier": "−",
+      "damage": {
+        "raw": "50-",
+        "value": 50,
+        "modifier": "−"
+      },
       "text": {
         "en": "Does 50 damage minus 10 damage for each damage counter on Machoke."
       }
@@ -56,14 +58,16 @@
         "en": "Submission"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "F",
+        "C",
+        "C"
       ],
-      "raw": "60",
-      "value": 60,
-      "modifier": null,
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
       "text": {
         "en": "Machoke does 20 damage to itself."
       }

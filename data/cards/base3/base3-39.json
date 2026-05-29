@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 126,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Smokescreen"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Smog"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "20",

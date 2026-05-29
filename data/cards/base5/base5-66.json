@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 19,
   "level": "12",
@@ -27,13 +27,13 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10+",
-      "value": 10,
-      "modifier": "+",
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
       }

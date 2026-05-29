@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 81,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Removal Pulse"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
       }
@@ -54,12 +56,14 @@
         "en": "Confusion Pulse"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
       }

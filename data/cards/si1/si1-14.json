@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 199,
   "level": null,
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Revelation"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Psychic"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "10+",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 195,
   "level": "33",
@@ -27,13 +27,13 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,12 +45,14 @@
         "en": "Surf"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -60,14 +62,16 @@
         "en": "Earthquake"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "F",
+        "C",
+        "C"
       ],
-      "raw": "60",
-      "value": 60,
-      "modifier": null,
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
       "text": {
         "en": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 92,
   "level": "17",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Lick"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Energy Conversion"
       },
       "cost": [
-        "Psychic",
-        "Psychic"
+        "P",
+        "P"
       ],
       "damage": {
         "raw": "",

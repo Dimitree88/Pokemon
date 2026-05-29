@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 57,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Mega Thrash"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
-      "raw": "60",
-      "value": 60,
-      "modifier": null,
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
       "text": {
         "en": "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
       }

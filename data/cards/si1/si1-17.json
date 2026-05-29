@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 45,
   "level": null,
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Paradise Pollen"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Horrid Pollen"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "G",
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "30",

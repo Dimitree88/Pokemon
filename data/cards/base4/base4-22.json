@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 148,
   "level": "33",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Slam"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "30×",
-      "value": 30,
-      "modifier": "×",
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
       }
@@ -56,14 +58,16 @@
         "en": "Hyper Beam"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
       }

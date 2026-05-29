@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 232,
   "level": "29",
@@ -27,13 +27,13 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Tusk Toss"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "",
@@ -62,9 +62,9 @@
         "en": "Giant Tusk"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "50",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 87,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Aurora Beam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "W",
+        "W",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -56,14 +58,16 @@
         "en": "Ice Beam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "W",
+        "C",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
       }

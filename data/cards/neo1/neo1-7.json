@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 189,
   "level": "35",
@@ -27,13 +27,13 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Sleep Powder"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "The Defending Pokémon is now Asleep."
       }
@@ -59,11 +61,13 @@
         "en": "Leech Seed"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any."
       }

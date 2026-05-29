@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 15,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Aya Kusube",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Triple Poison"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",
@@ -61,9 +61,9 @@
         "en": "Pin Missile"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "G",
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "20×",

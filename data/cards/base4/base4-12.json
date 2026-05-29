@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 31,
   "level": "43",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Boyfriends"
       },
       "cost": [
-        "Grass",
-        "Colorless"
+        "G",
+        "C"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
       }
@@ -55,14 +57,16 @@
         "en": "Mega Punch"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "G",
+        "C",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

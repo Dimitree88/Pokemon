@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 56,
   "level": "12",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Fidget"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Shuffle your deck."
       }
@@ -54,12 +56,14 @@
         "en": "Karate Chop"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
-      "raw": "40-",
-      "value": 40,
-      "modifier": "−",
+      "damage": {
+        "raw": "40-",
+        "value": 40,
+        "modifier": "−"
+      },
       "text": {
         "en": "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
       }

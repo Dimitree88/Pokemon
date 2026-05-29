@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 145,
   "level": "34",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Plasma"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
       }
@@ -54,14 +56,16 @@
         "en": "Electroburn"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "L",
+        "C"
       ],
-      "raw": "70",
-      "value": 70,
-      "modifier": null,
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
       "text": {
         "en": "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
       }

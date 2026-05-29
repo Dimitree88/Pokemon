@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 42,
   "level": "29",
@@ -27,13 +27,13 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Wing Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",
@@ -63,9 +63,9 @@
         "en": "Leech Life"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "G",
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "20",

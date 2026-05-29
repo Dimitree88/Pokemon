@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 140,
   "level": "21",
@@ -27,7 +27,7 @@
   "illustrator": "Yuka Morii",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Work Together"
       },
       "cost": [
-        "Fighting",
-        "Colorless"
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "10+",

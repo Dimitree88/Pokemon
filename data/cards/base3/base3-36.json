@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 76,
   "level": "36",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Avalanche"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "60",
@@ -59,10 +59,10 @@
         "en": "Selfdestruct"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "100",

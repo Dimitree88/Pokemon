@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 77,
   "level": "10",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Smash Kick"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,8 +57,8 @@
         "en": "Flame Tail"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "30",

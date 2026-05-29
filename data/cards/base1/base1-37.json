@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 33,
   "level": "25",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Double Kick"
       },
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30×",
@@ -58,10 +58,10 @@
         "en": "Horn Drill"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "G",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "50",

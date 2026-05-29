@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 60,
   "level": "15",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Hypnotic Stare"
       },
       "cost": [
-        "Water"
+        "W"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep."
       }
@@ -54,12 +56,14 @@
         "en": "Tail Rap"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
-      "raw": "20×",
-      "value": 20,
-      "modifier": "×",
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
       }

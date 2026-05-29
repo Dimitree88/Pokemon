@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 134,
   "level": "41",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Wash Away"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Hypnoshower"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "W",
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "30",

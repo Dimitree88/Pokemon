@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 150,
   "level": "63",
@@ -27,7 +27,7 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Reflect Shield"
       },
       "cost": [
-        "Psychic",
-        "Lightning"
+        "P",
+        "L"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Psyburst"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Fire"
+        "P",
+        "P",
+        "R"
       ],
       "damage": {
         "raw": "40+",

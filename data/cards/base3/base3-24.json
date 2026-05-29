@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 60,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 141,
   "level": "30",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Sharp Sickle"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "30",
@@ -57,10 +57,10 @@
         "en": "Absorb"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "40",

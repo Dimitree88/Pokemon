@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 98,
   "level": "20",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Call for Family"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Irongrip"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "20",

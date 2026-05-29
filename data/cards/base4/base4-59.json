@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 100,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 112,
   "level": "48",
@@ -27,13 +27,13 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,13 +45,15 @@
         "en": "Horn Attack"
       },
       "cost": [
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "C",
+        "C"
       ],
-      "raw": "30",
-      "value": 30,
-      "modifier": null,
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -61,14 +63,16 @@
         "en": "Ram"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F",
+        "F"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)"
       }

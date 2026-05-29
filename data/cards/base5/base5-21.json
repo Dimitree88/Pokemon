@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 6,
   "level": "38",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "Nail Flick"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -59,12 +61,14 @@
         "en": "Continuous Fireball"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
-      "raw": "50×",
-      "value": 50,
-      "modifier": "×",
+      "damage": {
+        "raw": "50×",
+        "value": 50,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 50,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 93,
   "level": "17",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Nightmare"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "10",

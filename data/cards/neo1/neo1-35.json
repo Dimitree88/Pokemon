@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 162,
   "level": "27",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,12 +45,14 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
       }
@@ -60,13 +62,15 @@
         "en": "Slam"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "30×",
-      "value": 30,
-      "modifier": "×",
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
       }

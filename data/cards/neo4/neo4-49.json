@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 67,
   "level": "37",
@@ -27,7 +27,7 @@
   "illustrator": "Miki Tanaka",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Return Home"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Gentle Kick"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "40",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 139,
   "level": "39",
@@ -27,7 +27,7 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Squeeze"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10+",
@@ -56,9 +56,9 @@
         "en": "Spike Barrage"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "20+",

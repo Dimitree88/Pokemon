@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 87,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Aurora Beam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "W",
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "50",
@@ -58,10 +58,10 @@
         "en": "Ice Beam"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

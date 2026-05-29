@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 69,
   "level": "11",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Vine Whip"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",
@@ -56,7 +56,7 @@
         "en": "Call for Family"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",

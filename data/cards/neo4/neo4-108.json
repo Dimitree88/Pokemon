@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 141,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Lightning Cut"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Lightning"
+        "F",
+        "F",
+        "L"
       ],
       "damage": {
         "raw": "30+",
@@ -58,10 +58,10 @@
         "en": "Water Slash"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Water",
-        "Water"
+        "F",
+        "F",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "50+",

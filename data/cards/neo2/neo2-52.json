@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 178,
   "level": "38",
@@ -27,13 +27,13 @@
   "illustrator": "Sumiyoshi Kizuki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Energy Cycle"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "",
@@ -61,9 +61,9 @@
         "en": "Super Psy"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "P",
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "50",

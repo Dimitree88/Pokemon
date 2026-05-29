@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 110,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 208,
   "level": "64",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,12 +45,14 @@
         "en": "Tackle"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -60,13 +62,15 @@
         "en": "Tail Crush"
       },
       "cost": [
-        "Metal",
-        "Colorless",
-        "Colorless"
+        "M",
+        "C",
+        "C"
       ],
-      "raw": "30+",
-      "value": 30,
-      "modifier": "+",
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage; if tails, this attack does 30 damage."
       }

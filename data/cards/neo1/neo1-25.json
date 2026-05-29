@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Darkness",
+  "type": "D",
   "types": [
-    "Darkness"
+    "D"
   ],
   "pokedex": 215,
   "level": "34",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,11 +40,13 @@
         "en": "Fury Swipes"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10×",
-      "value": 10,
-      "modifier": "×",
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
       }
@@ -54,12 +56,14 @@
         "en": "Beat Up"
       },
       "cost": [
-        "Darkness",
-        "Darkness"
+        "D",
+        "D"
       ],
-      "raw": "20×",
-      "value": 20,
-      "modifier": "×",
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
       }

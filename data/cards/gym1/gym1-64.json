@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 70,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 128,
   "level": "34",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,11 +45,13 @@
         "en": "3-Pronged Tail"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10×",
-      "value": 10,
-      "modifier": "×",
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
       }
@@ -59,13 +61,15 @@
         "en": "Full Speed Charge"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "20×",
-      "value": 20,
-      "modifier": "×",
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros."
       }

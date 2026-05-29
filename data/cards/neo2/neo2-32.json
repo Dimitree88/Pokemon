@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Darkness",
+  "type": "D",
   "types": [
-    "Darkness"
+    "D"
   ],
   "pokedex": 197,
   "level": "33",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",
@@ -57,9 +57,9 @@
         "en": "Pursuit"
       },
       "cost": [
-        "Darkness",
-        "Colorless",
-        "Colorless"
+        "D",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

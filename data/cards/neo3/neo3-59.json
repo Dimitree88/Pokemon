@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 41,
   "level": "13",
@@ -27,13 +27,13 @@
   "illustrator": "Yukiko Baba",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10",
@@ -61,7 +61,7 @@
         "en": "Poison Spray"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",

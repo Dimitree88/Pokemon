@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 188,
   "level": "29",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Hop"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -61,7 +61,7 @@
         "en": "Mysterious Powder"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",

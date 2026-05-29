@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 196,
   "level": "38",
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",
@@ -57,9 +57,9 @@
         "en": "Psybeam"
       },
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "P",
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "30",

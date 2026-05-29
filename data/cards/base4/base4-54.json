@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 33,
   "level": "25",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Double Kick"
       },
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "C",
+        "C"
       ],
-      "raw": "30×",
-      "value": 30,
-      "modifier": "×",
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
       }
@@ -56,14 +58,16 @@
         "en": "Horn Drill"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "G",
+        "G",
+        "C",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

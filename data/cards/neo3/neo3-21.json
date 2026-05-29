@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "39",
@@ -27,7 +27,7 @@
   "illustrator": "Masako Yamashita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Thundershock"
       },
       "cost": [
-        "Lightning",
-        "Colorless"
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,9 +57,9 @@
         "en": "Lightning Strike"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "40",

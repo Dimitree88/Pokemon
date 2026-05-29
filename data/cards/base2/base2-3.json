@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 136,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",
@@ -57,10 +57,10 @@
         "en": "Flamethrower"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "R",
+        "R",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "60",

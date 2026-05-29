@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 221,
   "level": "41",
@@ -27,13 +27,13 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Nap"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -62,10 +62,10 @@
         "en": "High-Speed Charge"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "F",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "80",

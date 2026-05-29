@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 171,
   "level": "33",
@@ -27,7 +27,7 @@
   "illustrator": "Miki Tanaka",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Searchlight"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
       "damage": {
         "raw": "",
@@ -56,8 +56,8 @@
         "en": "Spark"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "30",

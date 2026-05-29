@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 100,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 6,
   "level": "61",
@@ -27,13 +27,13 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,11 +45,11 @@
         "en": "White-hot Flame"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Lightning",
-        "Lightning"
+        "R",
+        "R",
+        "R",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "100",

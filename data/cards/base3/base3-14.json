@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "45",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Gigashock"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "30",

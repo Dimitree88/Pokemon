@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Baby",
   "hp": 30,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 239,
   "level": "6",

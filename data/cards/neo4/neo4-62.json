@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 224,
   "level": "30",
@@ -27,7 +27,7 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Ink Blast"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "20+",
@@ -56,8 +56,8 @@
         "en": "Tentacle Wrap"
       },
       "cost": [
-        "Water",
-        "Colorless"
+        "W",
+        "C"
       ],
       "damage": {
         "raw": "20",

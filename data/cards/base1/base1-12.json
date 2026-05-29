@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 38,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Lure"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -57,10 +57,10 @@
         "en": "Fire Blast"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "80",

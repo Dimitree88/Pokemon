@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 143,
   "level": "20",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,10 +45,10 @@
         "en": "Body Slam"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

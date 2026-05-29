@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "38",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,12 +40,14 @@
         "en": "Kerzap"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
-      "raw": "20+",
-      "value": 20,
-      "modifier": "+",
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Lightning Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
       }
@@ -55,14 +57,16 @@
         "en": "Thundertackle"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "L",
+        "C",
+        "C"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge's Raichu does 20 damage to itself."
       }

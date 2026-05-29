@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 55,
   "level": "36",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Flipper Stroke"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Core Blast"
       },
       "cost": [
-        "Psychic",
-        "Colorless",
-        "Colorless"
+        "P",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30+",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 189,
   "level": "37",
@@ -27,13 +27,13 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Evolutionary Spore"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "",
@@ -61,7 +61,7 @@
         "en": "Solarbeam"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "30",

@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "30",
@@ -27,7 +27,7 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Thundersquall"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Water",
-        "Water"
+        "L",
+        "L",
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "40",

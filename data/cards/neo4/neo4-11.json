@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 90,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 248,
   "level": "47",
@@ -27,13 +27,13 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Mountain Smasher"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "20×",
@@ -61,10 +61,10 @@
         "en": "Fling Away"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "50",

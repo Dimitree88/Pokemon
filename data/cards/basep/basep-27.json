@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 30,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 25,
   "level": "5",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Thundershock"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Agility"
       },
       "cost": [
-        "Lightning",
-        "Lightning"
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "20",

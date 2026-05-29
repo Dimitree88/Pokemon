@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 126,
   "level": "27",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Burning Fire"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "10+",
@@ -56,9 +56,9 @@
         "en": "Magma Punch"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "40",

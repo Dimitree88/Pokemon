@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 51,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Keiji Kinebuchi",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,13 +45,15 @@
         "en": "Slash"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": null
       }
@@ -61,14 +63,16 @@
         "en": "Earthquake"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F",
+        "F"
       ],
-      "raw": "70",
-      "value": 70,
-      "modifier": null,
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
       "text": {
         "en": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
       }

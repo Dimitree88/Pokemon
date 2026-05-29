@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 26,
   "level": "40",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Agility"
       },
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "C",
+        "C"
       ],
-      "raw": "20",
-      "value": 20,
-      "modifier": null,
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Raichu."
       }
@@ -56,14 +58,16 @@
         "en": "Thunder"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "L",
+        "C"
       ],
-      "raw": "60",
-      "value": 60,
-      "modifier": null,
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If tails, Raichu does 30 damage to itself."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 81,
   "level": "16",
@@ -27,13 +27,13 @@
   "illustrator": "K. Hoshiba, CR CG gangs",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Lock-on"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -61,8 +61,8 @@
         "en": "Electric Bolt"
       },
       "cost": [
-        "Lightning",
-        "Colorless"
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "50",

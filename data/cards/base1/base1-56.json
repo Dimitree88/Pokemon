@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 95,
   "level": "12",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Rock Throw"
       },
       "cost": [
-        "Fighting"
+        "F"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Harden"
       },
       "cost": [
-        "Fighting",
-        "Fighting"
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "",

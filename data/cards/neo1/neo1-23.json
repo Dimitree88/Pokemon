@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Baby",
   "hp": 30,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 240,
   "level": "5",
@@ -37,11 +37,13 @@
         "en": "Sputter"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "10",
-      "value": 10,
-      "modifier": null,
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
       "text": {
         "en": "All Pokémon Powers stop working until the end of your next turn."
       }

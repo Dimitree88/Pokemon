@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 196,
   "level": "32",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Gouge"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10+",
@@ -56,9 +56,9 @@
         "en": "Psysplash"
       },
       "cost": [
-        "Psychic",
-        "Colorless",
-        "Colorless"
+        "P",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",

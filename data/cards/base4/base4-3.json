@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 120,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 113,
   "level": "55",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -45,12 +45,14 @@
         "en": "Scrunch"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)"
       }
@@ -60,14 +62,16 @@
         "en": "Double-edge"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
-      "raw": "80",
-      "value": 80,
-      "modifier": null,
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
       "text": {
         "en": "Chansey does 80 damage to itself."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 100,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 130,
   "level": "42",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,14 +45,16 @@
         "en": "Tidal Wave"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W",
+        "W"
       ],
-      "raw": "70",
-      "value": 70,
-      "modifier": null,
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
       "text": {
         "en": null
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 205,
   "level": "40",
@@ -27,13 +27,13 @@
   "illustrator": "CR CG gangs",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Rapid Spin"
       },
       "cost": [
-        "Metal",
-        "Colorless",
-        "Colorless"
+        "M",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 51,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Keiji Kinebuchi",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,9 +45,9 @@
         "en": "Slash"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "40",
@@ -63,10 +63,10 @@
         "en": "Earthquake"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "70",

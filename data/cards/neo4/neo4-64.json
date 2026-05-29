@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Psychic",
+  "type": "P",
   "types": [
-    "Psychic"
+    "P"
   ],
   "pokedex": 102,
   "level": "12",
@@ -27,7 +27,7 @@
   "illustrator": "Toshinao Aoki",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Sleep Powder"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",
@@ -56,7 +56,7 @@
         "en": "Psyshock"
       },
       "cost": [
-        "Psychic"
+        "P"
       ],
       "damage": {
         "raw": "10",

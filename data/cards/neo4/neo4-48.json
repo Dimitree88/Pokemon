@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 135,
   "level": "31",
@@ -27,7 +27,7 @@
   "illustrator": "Naoyo Kimura",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Pulse Guard"
       },
       "cost": [
-        "Lightning"
+        "L"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Thunder Needle"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "20×",

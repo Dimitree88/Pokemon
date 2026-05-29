@@ -183,8 +183,11 @@ I dati sono dumpati in locale (decisione DB rimandata).
 - `owner` e `variant` (dark/light/shining) sono estratti dal nome (possono coesistere).
 - `evolvesFromDex` = numero Pokédex del pre-evoluto; `null` quando si evolve da una
   carta **Trainer** (es. *Mysterious Fossil* per i Pokémon fossile) — caso atteso.
-- `cost`/`weaknesses`/`resistances` usano i nomi-tipo canonici EN (es. `"Fire"`);
-  i codici `{X}` servono al rendering.
+- **Energia**: nei campi strutturati (`type`, `types`, `cost`, `weaknesses[].type`,
+  `resistances[].type`) si usa il **codice nudo** (`G R W L P F C D M`); nel testo
+  libero si usa `{X}` **solo dove va mostrato il simbolo**. Mappa: `G`=Grass,
+  `R`=Fire, `W`=Water, `L`=Lightning, `P`=Psychic, `F`=Fighting, `C`=Colorless,
+  `D`=Darkness, `M`=Metal.
 - **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri
   diverso dal rosso.
 

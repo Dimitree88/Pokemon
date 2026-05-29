@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 112,
   "level": "38",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "-30"
     }
   ],
@@ -45,14 +45,16 @@
         "en": "Lariat"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "F",
+        "F",
+        "C",
+        "C"
       ],
-      "raw": "70",
-      "value": 70,
-      "modifier": null,
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
       "text": {
         "en": "Flip a coin. If tails, this attack does nothing."
       }

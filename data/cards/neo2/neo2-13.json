@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Darkness",
+  "type": "D",
   "types": [
-    "Darkness"
+    "D"
   ],
   "pokedex": 197,
   "level": "40",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "-30"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Bite"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,9 +57,9 @@
         "en": "Feint Attack"
       },
       "cost": [
-        "Darkness",
-        "Darkness",
-        "Colorless"
+        "D",
+        "D",
+        "C"
       ],
       "damage": {
         "raw": "",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 1,
   "level": "13",
@@ -27,7 +27,7 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Leech Seed"
       },
       "cost": [
-        "Grass",
-        "Grass"
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "20",

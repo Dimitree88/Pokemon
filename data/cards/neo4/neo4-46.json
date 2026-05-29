@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 136,
   "level": "37",
@@ -27,7 +27,7 @@
   "illustrator": "Atsuko Nishida",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Warm Up"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Burning Flame"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "30+",

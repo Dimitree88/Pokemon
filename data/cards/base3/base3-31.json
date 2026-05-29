@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 24,
   "level": "27",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Terror Strike"
       },
       "cost": [
-        "Grass"
+        "G"
       ],
       "damage": {
         "raw": "10",
@@ -56,9 +56,9 @@
         "en": "Poison Fang"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "G",
+        "G",
+        "C"
       ],
       "damage": {
         "raw": "20",

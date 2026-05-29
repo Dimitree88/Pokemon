@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 18,
   "level": null,
@@ -27,13 +27,13 @@
   "illustrator": "Keiko Fukuyama",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,8 +45,8 @@
         "en": "Supersonic Flight"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "40",
@@ -62,10 +62,10 @@
         "en": "Slicing Wind"
       },
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "C",
+        "C",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "50",

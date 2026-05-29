@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Baby",
   "hp": 30,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 173,
   "level": "6",
@@ -37,11 +37,13 @@
         "en": "Eeeeeeek"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
-      "raw": "",
-      "value": null,
-      "modifier": null,
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
       "text": {
         "en": "Shuffle your hand into your deck, then draw 7 cards."
       }

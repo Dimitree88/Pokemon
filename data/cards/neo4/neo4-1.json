@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 2",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 181,
   "level": "36",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Shock Bolt"
       },
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "50",

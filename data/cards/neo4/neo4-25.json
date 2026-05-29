@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 68,
   "level": "65",
@@ -27,7 +27,7 @@
   "illustrator": "Miki Tanaka",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Beatdown"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "F",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "50",

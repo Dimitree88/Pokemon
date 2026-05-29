@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 250,
   "level": "45",
@@ -27,13 +27,13 @@
   "illustrator": "Kimiya Masago",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Stoke"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "",
@@ -61,9 +61,9 @@
         "en": "Sacred Fire"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "",
@@ -79,11 +79,11 @@
         "en": "Dive Bomb"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "90",

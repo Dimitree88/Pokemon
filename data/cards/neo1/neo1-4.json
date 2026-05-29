@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 160,
   "level": "56",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,14 +40,16 @@
         "en": "Chomp"
       },
       "cost": [
-        "Water",
-        "Water",
-        "Water",
-        "Water"
+        "W",
+        "W",
+        "W",
+        "W"
       ],
-      "raw": "50+",
-      "value": 50,
-      "modifier": "+",
+      "damage": {
+        "raw": "50+",
+        "value": 50,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads."
       }

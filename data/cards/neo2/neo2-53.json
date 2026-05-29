@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 10,
   "level": "16",
@@ -27,7 +27,7 @@
   "illustrator": "Yuka Morii",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Spin Tackle"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "20",

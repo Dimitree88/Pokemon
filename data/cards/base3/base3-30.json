@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 145,
   "level": "40",
@@ -28,7 +28,7 @@
   "weaknesses": [],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Thunderstorm"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "40",

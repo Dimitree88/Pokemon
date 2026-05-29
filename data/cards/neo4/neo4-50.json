@@ -8,9 +8,9 @@
   "variant": "light",
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 38,
   "level": "39",
@@ -27,7 +27,7 @@
   "illustrator": "Masako Yamashita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Guiding Flame"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "",
@@ -56,9 +56,9 @@
         "en": "Fire Blast"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "50",

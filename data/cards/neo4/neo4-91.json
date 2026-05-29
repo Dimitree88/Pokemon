@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 37,
   "level": "15",
@@ -27,7 +27,7 @@
   "illustrator": "Masako Yamashita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Ember"
       },
       "cost": [
-        "Fire",
-        "Colorless"
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "30",

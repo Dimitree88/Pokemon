@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 11,
   "level": "21",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Stiffen"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -57,8 +57,8 @@
         "en": "Stun Spore"
       },
       "cost": [
-        "Grass",
-        "Grass"
+        "G",
+        "G"
       ],
       "damage": {
         "raw": "20",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 60,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 227,
   "level": "29",
@@ -27,13 +27,13 @@
   "illustrator": "Aya Kusube",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Fury Attack"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "10×",
@@ -61,9 +61,9 @@
         "en": "Agility"
       },
       "cost": [
-        "Metal",
-        "Colorless",
-        "Colorless"
+        "M",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

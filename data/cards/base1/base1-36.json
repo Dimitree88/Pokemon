@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 126,
   "level": "24",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Fire Punch"
       },
       "cost": [
-        "Fire",
-        "Fire"
+        "R",
+        "R"
       ],
       "damage": {
         "raw": "30",
@@ -57,9 +57,9 @@
         "en": "Flamethrower"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
       "damage": {
         "raw": "50",

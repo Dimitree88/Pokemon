@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 50,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 54,
   "level": "14",
@@ -27,7 +27,7 @@
   "illustrator": "Yuka Morii",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Flipper Splash"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "10",
@@ -56,8 +56,8 @@
         "en": "Migraine"
       },
       "cost": [
-        "Psychic",
-        "Colorless"
+        "P",
+        "C"
       ],
       "damage": {
         "raw": "20",

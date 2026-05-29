@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 135,
   "level": "29",
@@ -27,7 +27,7 @@
   "illustrator": "Kagemaru Himeno",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Quick Attack"
       },
       "cost": [
-        "Colorless",
-        "Colorless"
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "10+",
@@ -57,9 +57,9 @@
         "en": "Pin Missile"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "20×",

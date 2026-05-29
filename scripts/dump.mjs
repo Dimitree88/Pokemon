@@ -35,6 +35,21 @@ const SET_IDS = [
   "si1",   // Southern Islands
 ];
 
+// Codici energia canonici (nei campi strutturati si usa il codice nudo;
+// nel testo libero si usa {X} dove va mostrato il simbolo).
+const ENERGY_CODE = {
+  Grass: "G",
+  Fire: "R",
+  Water: "W",
+  Lightning: "L",
+  Psychic: "P",
+  Fighting: "F",
+  Colorless: "C",
+  Darkness: "D",
+  Metal: "M",
+};
+const toCode = (t) => ENERGY_CODE[t] ?? t;
+
 const OWNER_RE = /^(.+?)'s\s+/; // "Brock's Onix", "Lt. Surge's Electabuzz", "Rocket's Zapdos"
 const VARIANT_RE = /^(Dark|Light|Shining)\s+/i;
 
@@ -201,8 +216,8 @@ async function main() {
         variant,
         stage,
         hp: c.hp ? parseInt(c.hp, 10) : null,
-        type: c.types ? c.types[0] : null,
-        types: c.types ?? [],
+        type: c.types ? toCode(c.types[0]) : null,
+        types: (c.types ?? []).map(toCode),
         pokedex: c.nationalPokedexNumbers ? c.nationalPokedexNumbers[0] : null,
         level: c.level ?? null,
         evolvesFromName,
@@ -212,8 +227,14 @@ async function main() {
         weight: null, // riempito da PokéAPI
         height: null, // riempito da PokéAPI
         illustrator: c.artist ?? null,
-        weaknesses: c.weaknesses ?? [],
-        resistances: c.resistances ?? [],
+        weaknesses: (c.weaknesses ?? []).map((w) => ({
+          type: toCode(w.type),
+          value: w.value,
+        })),
+        resistances: (c.resistances ?? []).map((r) => ({
+          type: toCode(r.type),
+          value: r.value,
+        })),
         retreatCost:
           typeof c.convertedRetreatCost === "number"
             ? c.convertedRetreatCost
@@ -221,7 +242,7 @@ async function main() {
         babyInfo: isBaby && c.rules ? { en: c.rules.join("\n") } : null,
         attacks: (c.attacks || []).map((a) => ({
           name: { en: a.name },
-          cost: a.cost ?? [],
+          cost: (a.cost ?? []).map(toCode),
           damage: parseDamage(a.damage),
           text: { en: a.text || null },
         })),

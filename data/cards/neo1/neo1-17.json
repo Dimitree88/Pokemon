@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 157,
   "level": "55",
@@ -27,7 +27,7 @@
   "illustrator": "Shin-ichi Yoshida",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,14 +40,16 @@
         "en": "Flame Burst"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
-      "raw": "60+",
-      "value": 60,
-      "modifier": "+",
+      "damage": {
+        "raw": "60+",
+        "value": 60,
+        "modifier": "+"
+      },
       "text": {
         "en": "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage."
       }

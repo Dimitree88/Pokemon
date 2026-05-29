@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 100,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 59,
   "level": "45",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Flamethrower"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "R",
+        "R",
+        "C"
       ],
-      "raw": "50",
-      "value": 50,
-      "modifier": null,
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 1 Fire Energy card attached to Arcanine in order to use this attack."
       }
@@ -56,14 +58,16 @@
         "en": "Take Down"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "R",
+        "R",
+        "C",
+        "C"
       ],
-      "raw": "80",
-      "value": 80,
-      "modifier": null,
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
       "text": {
         "en": "Arcanine does 30 damage to itself."
       }

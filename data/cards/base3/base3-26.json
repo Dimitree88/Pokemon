@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 80,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 82,
   "level": "35",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Sonicboom"
       },
       "cost": [
-        "Lightning",
-        "Colorless"
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "20",
@@ -57,10 +57,10 @@
         "en": "Selfdestruct"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "L",
+        "L",
+        "L",
+        "L"
       ],
       "damage": {
         "raw": "100",

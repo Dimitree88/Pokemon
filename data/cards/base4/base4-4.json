@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 120,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 6,
   "level": "76",
@@ -27,13 +27,13 @@
   "illustrator": "Mitsuhiro Arita",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,14 +45,16 @@
         "en": "Fire Spin"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
-      "raw": "100",
-      "value": 100,
-      "modifier": null,
+      "damage": {
+        "raw": "100",
+        "value": 100,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 2 Energy cards attached to Charizard in order to use this attack."
       }

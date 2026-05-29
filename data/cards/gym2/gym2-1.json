@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 90,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 59,
   "level": "42",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Heat Tackle"
       },
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "R",
+        "C",
+        "C"
       ],
-      "raw": "40",
-      "value": 40,
-      "modifier": null,
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
       "text": {
         "en": "Blaine's Arcanine does 10 damage to itself."
       }
@@ -56,14 +58,16 @@
         "en": "Firestorm"
       },
       "cost": [
-        "Fire",
-        "Fire",
-        "Fire",
-        "Fire"
+        "R",
+        "R",
+        "R",
+        "R"
       ],
-      "raw": "120",
-      "value": 120,
-      "modifier": null,
+      "damage": {
+        "raw": "120",
+        "value": 120,
+        "modifier": null
+      },
       "text": {
         "en": "Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack."
       }

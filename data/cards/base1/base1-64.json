@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 121,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Keiji Kinebuchi",
   "weaknesses": [
     {
-      "type": "Lightning",
+      "type": "L",
       "value": "×2"
     }
   ],
@@ -40,8 +40,8 @@
         "en": "Recover"
       },
       "cost": [
-        "Water",
-        "Water"
+        "W",
+        "W"
       ],
       "damage": {
         "raw": "",
@@ -57,9 +57,9 @@
         "en": "Star Freeze"
       },
       "cost": [
-        "Water",
-        "Colorless",
-        "Colorless"
+        "W",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "20",

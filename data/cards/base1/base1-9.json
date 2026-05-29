@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Lightning",
+  "type": "L",
   "types": [
-    "Lightning"
+    "L"
   ],
   "pokedex": 82,
   "level": "28",
@@ -27,7 +27,7 @@
   "illustrator": "Keiji Kinebuchi",
   "weaknesses": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "×2"
     }
   ],
@@ -40,9 +40,9 @@
         "en": "Thunder Wave"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "L",
+        "L",
+        "C"
       ],
       "damage": {
         "raw": "30",
@@ -58,10 +58,10 @@
         "en": "Selfdestruct"
       },
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "L",
+        "L",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "80",

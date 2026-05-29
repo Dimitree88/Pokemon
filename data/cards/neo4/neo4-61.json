@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 40,
-  "type": "Fire",
+  "type": "R",
   "types": [
-    "Fire"
+    "R"
   ],
   "pokedex": 155,
   "level": "15",
@@ -27,7 +27,7 @@
   "illustrator": "Yukiko Baba",
   "weaknesses": [
     {
-      "type": "Water",
+      "type": "W",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Smokescreen"
       },
       "cost": [
-        "Fire"
+        "R"
       ],
       "damage": {
         "raw": "10",

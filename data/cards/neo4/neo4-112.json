@@ -8,9 +8,9 @@
   "variant": "shining",
   "stage": "Basic",
   "hp": 90,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 208,
   "level": "51",
@@ -27,13 +27,13 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,10 +45,10 @@
         "en": "Crushing Earth"
       },
       "cost": [
-        "Metal",
-        "Metal",
-        "Fighting",
-        "Fighting"
+        "M",
+        "M",
+        "F",
+        "F"
       ],
       "damage": {
         "raw": "80",

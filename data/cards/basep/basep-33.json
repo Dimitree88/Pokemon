@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 70,
-  "type": "Metal",
+  "type": "M",
   "types": [
-    "Metal"
+    "M"
   ],
   "pokedex": 212,
   "level": "36",
@@ -27,13 +27,13 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "-30"
     }
   ],
@@ -45,7 +45,7 @@
         "en": "Leer"
       },
       "cost": [
-        "Colorless"
+        "C"
       ],
       "damage": {
         "raw": "",
@@ -61,9 +61,9 @@
         "en": "Metal Pincer"
       },
       "cost": [
-        "Metal",
-        "Colorless",
-        "Colorless"
+        "M",
+        "C",
+        "C"
       ],
       "damage": {
         "raw": "30+",

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 1",
   "hp": 60,
-  "type": "Grass",
+  "type": "G",
   "types": [
-    "Grass"
+    "G"
   ],
   "pokedex": 2,
   "level": "22",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Fire",
+      "type": "R",
       "value": "×2"
     }
   ],
@@ -40,13 +40,15 @@
         "en": "Double Razor Leaf"
       },
       "cost": [
-        "Grass",
-        "Grass",
-        "Grass"
+        "G",
+        "G",
+        "G"
       ],
-      "raw": "40×",
-      "value": 40,
-      "modifier": "×",
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
       "text": {
         "en": "Flip 2 coins. This attack does 40 damage times the number of heads."
       }

@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Basic",
   "hp": 90,
-  "type": "Colorless",
+  "type": "C",
   "types": [
-    "Colorless"
+    "C"
   ],
   "pokedex": 249,
   "level": "45",
@@ -27,13 +27,13 @@
   "illustrator": "Hironobu Yoshida",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
   "resistances": [
     {
-      "type": "Fighting",
+      "type": "F",
       "value": "-30"
     }
   ],
@@ -45,13 +45,15 @@
         "en": "Elemental Blast"
       },
       "cost": [
-        "Fire",
-        "Water",
-        "Lightning"
+        "R",
+        "W",
+        "L"
       ],
-      "raw": "90",
-      "value": 90,
-      "modifier": null,
+      "damage": {
+        "raw": "90",
+        "value": 90,
+        "modifier": null
+      },
       "text": {
         "en": "Discard a Fire Energy card, a Water Energy card, and a Lightning Energy card attached to Lugia in order to use this attack."
       }

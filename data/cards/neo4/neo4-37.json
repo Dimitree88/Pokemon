@@ -8,9 +8,9 @@
   "variant": "dark",
   "stage": "Stage 1",
   "hp": 40,
-  "type": "Water",
+  "type": "W",
   "types": [
-    "Water"
+    "W"
   ],
   "pokedex": 138,
   "level": "18",
@@ -27,7 +27,7 @@
   "illustrator": "Tomokazu Komiya",
   "weaknesses": [
     {
-      "type": "Grass",
+      "type": "G",
       "value": "×2"
     }
   ],
@@ -40,7 +40,7 @@
         "en": "Water Cannon"
       },
       "cost": [
-        "Water"
+        "W"
       ],
       "damage": {
         "raw": "",

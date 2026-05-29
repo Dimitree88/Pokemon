@@ -8,9 +8,9 @@
   "variant": null,
   "stage": "Stage 2",
   "hp": 100,
-  "type": "Fighting",
+  "type": "F",
   "types": [
-    "Fighting"
+    "F"
   ],
   "pokedex": 68,
   "level": "67",
@@ -27,7 +27,7 @@
   "illustrator": "Ken Sugimori",
   "weaknesses": [
     {
-      "type": "Psychic",
+      "type": "P",
       "value": "×2"
     }
   ],
@@ -40,10 +40,10 @@
         "en": "Seismic Toss"
       },
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "F",
+        "F",
+        "F",
+        "C"
       ],
       "damage": {
         "raw": "60",
