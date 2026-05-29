@@ -1,0 +1,9 @@
+# La collezione font completa (anche i font non usati, ~110M, nomi con spazi/parentesi
+# che rompono il routing statico) NON va deployata. In produzione bastano i 6 font usati
+# in assets/fonts/ (nomi web-safe).
+assets/fonts-all/
+
+# Non serve in produzione
+out/
+data/.cache/
+scripts/
