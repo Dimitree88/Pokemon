@@ -288,24 +288,28 @@ Note:
   Pokémon TCG Font Collection"* che raccoglie i pacchetti utili.
 - Attualmente nel renderer usiamo *Cabin* (Google Fonts) come **sostituto**.
 
-#### Stato font locali (`assets/fonts/`)
-È presente l'intera *"Complete Pokémon TCG Font Collection"* di pokemonaaah,
-organizzata in sottocartelle per famiglia. **Tutti i font testuali del vintage
-sono presenti:**
+#### Stato font locali — due cartelle
+I font sono divisi in due cartelle per separare ciò che serve in produzione dal resto:
 
-| Uso (vintage) | File |
-|---|---|
-| Nomi, poteri, attacchi (e flavor Neo) | `Gill Sans/Gill Sans Condensed Bold.ttf` |
-| Info bar, "Evolves from", flavor (Base→Gym) | `Gill Sans/Gill Sans Bold Italic.ttf` |
-| Testo attacchi/poteri, danni, resto | `Gill Sans/Gill Sans.ttf` |
-| HP | `Futura/Futura Heavy.ttf` |
-| Illustratore, numero carta | `Futura/Futura Heavy Italic.ttf` |
-| Unown (Neo Discovery) | `UnownTCG.ttf` (+ otf/woff/woff2) |
+- **`assets/fonts/`** — SOLO i font effettivamente usati dal renderer, con **nomi
+  web-safe** (niente spazi/parentesi, che rompono il routing dei file statici su
+  Vercel). **Questi vengono deployati.** Mappatura famiglia → file in `src/fonts.mjs`:
 
-Altre famiglie presenti ma **non** necessarie al vintage: Gill Sans Nova
-(post-2007), Tekton (prototipi), Bauhaus (parola "TRAINER"), Optima/Sanvito/
-Frutiger (ere moderne), Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue
-(carte giapponesi), Pokémon TCG Pocket Fonts.
+  | Uso (vintage) | File (`assets/fonts/`) |
+  |---|---|
+  | Nomi, poteri, attacchi (e flavor Neo) | `GillSansCondensedBold.ttf` |
+  | Info bar, "Evolves from", flavor (Base→Gym) | `GillSansBoldItalic.ttf` |
+  | Testo attacchi/poteri, danni, resto | `GillSans.ttf` |
+  | HP | `FuturaHeavy.ttf` |
+  | Illustratore, numero carta | `FuturaHeavyItalic.ttf` |
+  | Simboli energia/rarità | `EssentiarumTCG.ttf` |
+
+- **`assets/fonts-all/`** — l'intera *"Complete Pokémon TCG Font Collection"* di
+  pokemonaaah (organizzata in sottocartelle per famiglia, nomi originali con spazi/
+  parentesi). **Esclusa dal deploy** via `.vercelignore` (è solo archivio/riferimento).
+  Qui stanno anche `UnownTCG.ttf` (per il TODO Unown) e le famiglie non usate dal
+  vintage: Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
+  Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue (JP), Pokémon TCG Pocket.
 
 #### Simboli via font: EssentiarumTCG
 I 9 simboli energia (`{X}`) sono generati da **`make-assets.mjs`** usando il
