@@ -16,7 +16,7 @@ Ogni carta appartiene a un **supertipo**, uno fra tre: **Pokémon**, **Trainer**
 Energy sono fuori scope).
 
 Ogni carta appartiene a un **set**, pubblicato in una certa data. Il progetto
-tratta esclusivamente i seguenti set (Legendary Collection escluso per ora):
+tratta esclusivamente i seguenti set (Legendary Collection e Base Set 2 esclusi):
 
 | Data | Set | Sigla |
 |------|-----|-------|
@@ -24,7 +24,6 @@ tratta esclusivamente i seguenti set (Legendary Collection escluso per ora):
 | 1999-06-16 | Jungle | JU |
 | 1999-07-01 | Wizards Black Star Promos | — |
 | 1999-10-10 | Fossil | FO |
-| 2000-02-24 | Base Set 2 | B2 |
 | 2000-04-24 | Team Rocket | RO |
 | 2000-07-21 | Miscellaneous | — |
 | 2000-08-14 | Gym Heroes | G1 |
@@ -56,6 +55,11 @@ Campi modellati (solo carte di supertipo **Pokémon**):
 - **numero nel set** — stringa (non intero: alcune promo usano numerazioni particolari).
 - **rarità** — include la distinzione di finitura, es. *Rara* vs *Rara Holo*
   (NB: non trattiamo varianti di tiratura/collezionismo come 1st Ed / Shadowless).
+  Il **reverse holo** è anch'esso una finitura modellata **dentro la rarità** (non
+  un campo a parte): si registra appendendo `" Reverse Holo"` alla rarità base,
+  es. `"Common Reverse Holo"`, `"Uncommon Reverse Holo"`, `"Rare Reverse Holo"`.
+  Non è esposto dalla fonte → inserimento **manuale**; reso grafico **non gestito**
+  per ora (come gli holo).
 - **nome sulla carta**
 - **numero Pokédex** del Pokémon.
 - **tipo** (energia) — enum: Grass, Fire, Water, Lightning, Psychic, Fighting,
@@ -65,6 +69,11 @@ Campi modellati (solo carte di supertipo **Pokémon**):
 - **evolve da** — riferimento tramite **numero Pokédex** del pre-evoluto (non
   l'ID carta, perché un Pokémon può evolvere da carte di set diversi). Vale anche
   per la baby-evoluzione. Assente per i Basic.
+- **evolve in** (`evolvesIntoName`) — **nome** dell'evoluzione, usato **solo per i
+  baby** (le righe "Evolves into …"). Non ricavabile dai dati (i baby hanno
+  `evolvesFrom` null e gli evoluti WOTC sono Basic senza riferimento al baby):
+  mappa fissa in `dump.mjs`. `null` altrimenti. **TODO**: *Tyrogue* ha 3 evoluzioni
+  possibili (Hitmonlee/Hitmonchan/Hitmontop) → da decidere a mano.
 - **descrizione breve** — specie/categoria (es. *"Lizard Pokémon"*).
 - **descrizione completa** — flavor text.
 - **peso** — testo (unità imperiali come stampato).
@@ -138,7 +147,7 @@ Per popolare il modello attingiamo a fonti community strutturate.
 
 - **Primaria — pokemontcg.io** (REST API + dump GitHub `PokemonTCG/pokemon-tcg-data`).
   Copre tutti i set in scope. ID set: `base1` (Base), `base2` (Jungle),
-  `base3` (Fossil), `base4` (Base Set 2), `base5` (Team Rocket), `gym1`/`gym2`,
+  `base3` (Fossil), `base5` (Team Rocket), `gym1`/`gym2`,
   `neo1..4`, `basep` (Black Star Promos), `si1` (Southern Islands).
   Verificata sul campo (`base1-4` Charizard, `neo1-20` Cleffa): copertura ~90%.
   - Corrispondenze chiave: `id` = nostro **ID**; `set.ptcgoCode` = **sigla**;
@@ -167,11 +176,12 @@ Prezzi (`tcgplayer`/`cardmarket`), `legalities`, `series` e simili — non rilev
 I dati sono dumpati in locale (decisione DB rimandata).
 
 - **`scripts/dump.mjs`** (Node, nessuna dipendenza) — scarica da pokemontcg.io,
-  filtra solo le carte **Pokémon**, arricchisce da PokéAPI (specie + peso/altezza
-  convertiti in imperiale) e scrive il nostro formato. Rieseguibile (cache PokéAPI
-  in `data/.cache/`, ignorata da git). Lancio: `node scripts/dump.mjs`.
-- **`data/sets.json`** — metadati dei 13 set.
-- **`data/cards/<setId>/<cardId>.json`** — un file per carta. **921 carte** totali.
+  filtra solo le carte **Pokémon** (escludendo Base Set 2 e le promo 50–53),
+  arricchisce da PokéAPI (specie + peso/altezza convertiti in imperiale) e scrive
+  il nostro formato. Rieseguibile (cache PokéAPI in `data/.cache/`, ignorata da
+  git). Lancio: `node scripts/dump.mjs`.
+- **`data/sets.json`** — metadati dei 12 set.
+- **`data/cards/<setId>/<cardId>.json`** — un file per carta. **817 carte** totali.
 
 ### Stato lingue
 - **Solo inglese (EN)** per ora. I campi testuali sono già strutturati come
@@ -193,7 +203,8 @@ I dati sono dumpati in locale (decisione DB rimandata).
   *"type is still {C}."*). La parola generica *"Energy"* senza tipo resta invariata.
   Unica eccezione esclusa: il nome proprio *"Lightning Rod"* (marcatore, non simbolo).
 - **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri
-  diverso dal rosso.
+  diverso dal rosso; finitura **reverse holo** (suffisso `" Reverse Holo"` nella
+  rarità, vedi entità Carta).
 
 ## Rendering (implementazione)
 

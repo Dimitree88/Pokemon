@@ -38,6 +38,9 @@ body { font-family: 'GillSans', sans-serif; background: #2b2b2b; }
 
 .toprow { position: absolute; left: 30px; right: 30px; top: 22px; display: flex; align-items: center; gap: 8px; }
 .stage { font-family: 'GillSansCB'; font-size: 9px; color: #3a2f10; text-transform: uppercase; white-space: nowrap; }
+.stage--basic { text-transform: none; }
+/* Baby: la riga occupa tutta la toprow e il testo va a destra. */
+.stage--baby { margin-left: auto; text-align: right; }
 .evo-from { font-family: 'GillSansBI'; font-size: 9px; color: #3a2f10; white-space: nowrap; }
 .evo-put { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #3a2f10; text-align: right; }
 .header { position: absolute; left: 28px; right: 28px; top: 38px; display: flex; align-items: baseline; gap: 8px; }
@@ -66,6 +69,12 @@ body { font-family: 'GillSans', sans-serif; background: #2b2b2b; }
 /* Separatore solo TRA mosse consecutive (mai sopra la prima). La barra che divide
    le mosse dalla sezione weakness è il border-top di .wrr. */
 .body > * + * { border-top: 3px solid #000; }
+
+/* Sezione baby: attributo speciale (rosso corsivo) + righe "Evolves into / Put …". */
+.baby { padding: 6px 2px; line-height: 1.34; }
+.baby-rule { font-family: 'GillSans'; font-style: italic; font-size: 11.5px; color: #c0271a; }
+.baby-evo-into { margin-top: 4px; font-family: 'GillSansBI'; font-size: 11.5px; color: #1c1206; }
+.baby-evo-put { font-family: 'GillSans'; font-size: 11.5px; color: #1c1206; }
 
 .power { padding: 6px 2px; line-height: 1.34; }
 .power-tag, .power-name { font-family: 'GillSansCB'; color: #c0271a; font-size: 15px; }

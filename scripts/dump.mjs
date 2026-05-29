@@ -23,7 +23,6 @@ const SET_IDS = [
   "base1", // Base Set
   "base2", // Jungle
   "base3", // Fossil
-  "base4", // Base Set 2
   "base5", // Team Rocket
   "gym1",  // Gym Heroes
   "gym2",  // Gym Challenge
@@ -34,6 +33,13 @@ const SET_IDS = [
   "basep", // Wizards Black Star Promos
   "si1",   // Southern Islands
 ];
+// Base Set 2 (base4) è fuori scope: non si scarica.
+
+// Carte da escludere per-set (numero stampato). Le ultime 4 promo (50–53) sono
+// fuori scope.
+const EXCLUDE_NUMBERS = {
+  basep: new Set(["50", "51", "52", "53"]),
+};
 
 // Codici energia canonici (nei campi strutturati si usa il codice nudo;
 // nel testo libero si usa {X} dove va mostrato il simbolo).
@@ -65,6 +71,14 @@ function tokenizeEnergy(text) {
 
 const OWNER_RE = /^(.+?)'s\s+/; // "Brock's Onix", "Lt. Surge's Electabuzz", "Rocket's Zapdos"
 const VARIANT_RE = /^(Dark|Light|Shining)\s+/i;
+
+// Evoluzione dei baby Pokémon: non ricavabile dai dati (i baby hanno evolvesFrom
+// null e gli evoluti WOTC sono Basic, senza riferimento al baby). Mappa fissa.
+// Tyrogue è escluso di proposito: ha 3 possibili evoluzioni → da decidere a mano.
+const BABY_EVOLVES_INTO = {
+  Pichu: "Pikachu", Cleffa: "Clefairy", Igglybuff: "Jigglypuff",
+  Elekid: "Electabuzz", Magby: "Magmar", Smoochum: "Jynx",
+};
 
 // ---------- util ----------
 
@@ -193,7 +207,10 @@ async function main() {
       });
     }
 
-    const pokemonCards = cards.filter((c) => c.supertype === "Pokémon");
+    const excluded = EXCLUDE_NUMBERS[setId];
+    const pokemonCards = cards.filter(
+      (c) => c.supertype === "Pokémon" && !(excluded && excluded.has(c.number))
+    );
     console.log(
       `• ${setId}: ${pokemonCards.length} carte Pokémon (su ${cards.length} totali)`
     );
@@ -236,6 +253,8 @@ async function main() {
         level: c.level ?? null,
         evolvesFromName,
         evolvesFromDex,
+        // Per i baby: nome dell'evoluzione (mappa fissa). null altrimenti / Tyrogue.
+        evolvesIntoName: isBaby ? (BABY_EVOLVES_INTO[fullName] ?? null) : null,
         species: { en: null }, // riempito da PokéAPI
         flavor: { en: c.flavorText ?? null },
         weight: null, // riempito da PokéAPI

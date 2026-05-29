@@ -138,16 +138,34 @@ export function buildCardMarkup(card, set, ctx) {
   const numStr = set?.printedTotal ? `${esc(card.number)}/${set.printedTotal}` : esc(card.number);
   const copyright = set?.copyright || (set?.releaseDate ? `© ${String(set.releaseDate).slice(0, 4)}` : "");
 
-  // Etichetta stage: Basic/Baby → "Basic Pokémon"; le evoluzioni mostrano "Stage N".
-  // La resa MAIUSCOLO è gestita dal CSS (.stage text-transform).
-  const stageLabel = (card.stage === "Basic" || card.stage === "Baby") ? "Basic Pokémon" : card.stage;
+  // Etichetta stage: Basic → "Basic Pokémon" (solo iniziali maiuscole, a sinistra);
+  // Baby → "Baby Pokémon counts as a Basic Pokémon" (stesso font, allineata a destra);
+  // le evoluzioni mostrano "Stage N" tutto MAIUSCOLO. La resa è gestita dal CSS:
+  // .stage--basic mantiene le maiuscole come scritte, le altre vanno uppercase.
+  const isBaby = card.stage === "Baby";
+  const isBasic = card.stage === "Basic" || isBaby;
+  const stageLabel = isBaby ? "Baby Pokémon counts as a Basic Pokémon"
+    : isBasic ? "Basic Pokémon" : card.stage;
+
+  // Sezione baby (solo stage Baby): sotto la barra gold, prima degli attacchi.
+  // L'attributo speciale (babyInfo) è in rosso corsivo; sotto, "Evolves into NAME"
+  // (grassetto corsivo) e "Put NAME on the Baby Pokémon" (regolare, senza punto).
+  const babyBlock = isBaby
+    ? `<div class="baby">` +
+        `<div class="baby-rule">${renderText(ctx, card.babyInfo?.en || "")}</div>` +
+        (card.evolvesIntoName
+          ? `<div class="baby-evo-into">Evolves into ${esc(card.evolvesIntoName)}</div>` +
+            `<div class="baby-evo-put">Put ${esc(card.evolvesIntoName)} on the Baby Pokémon</div>`
+          : "") +
+      `</div>`
+    : "";
 
   // .face = area interna (tint) che ritaglia il contenuto; .canvas ripristina lo
   // spazio coordinate 500x700 così nulla finisce sul bordo giallo esterno.
   return `<div class="card" style="${vars}">
     <div class="face"><div class="canvas">
       <div class="toprow">
-        <span class="stage">${esc(stageLabel)}</span>
+        <span class="stage${isBasic ? " stage--basic" : ""}${isBaby ? " stage--baby" : ""}">${esc(stageLabel)}</span>
         ${evoMarkup}
       </div>
       <div class="header">
@@ -158,7 +176,7 @@ export function buildCardMarkup(card, set, ctx) {
       <div class="art" style="background-image:url('${ctx.artUrl}')"></div>
       <div class="species">${speciesLine}</div>
       ${ctx.setSymbolUrl ? `<img class="setico" src="${ctx.setSymbolUrl}" />` : ""}
-      <div class="body">${powers}${attacks}</div>
+      <div class="body">${babyBlock}${powers}${attacks}</div>
       ${wrrBar(ctx, card)}
       ${flavor}
       <div class="footer">
