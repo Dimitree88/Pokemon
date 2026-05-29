@@ -41,11 +41,13 @@ const ENERGY = {
 const TEXT_ATTRS = 'x="0" y="0" font-family="EssentiarumTCG" font-size="100"';
 const VIEWBOX = "-30 -125 175 175"; // quadrato centrato su (57.5,-37.5), lato 175
 
+// Il simbolo del tipo è SEMPRE nero (come sulle carte originali); colorato è solo
+// il cerchio di sfondo.
 function energySvg(code) {
-  const { color, glyphFill } = ENERGY[code];
+  const { color } = ENERGY[code];
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEWBOX}">
   <text ${TEXT_ATTRS} fill="${color}">o</text>
-  <text ${TEXT_ATTRS} fill="${glyphFill}">${code}</text>
+  <text ${TEXT_ATTRS} fill="#000">${code}</text>
 </svg>`;
 }
 

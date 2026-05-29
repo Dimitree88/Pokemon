@@ -6,7 +6,7 @@
     "releaseDate": "1999/01/09",
     "printedTotal": 102,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 1999"
   },
   {
     "id": "base2",
@@ -15,7 +15,7 @@
     "releaseDate": "1999/06/16",
     "printedTotal": 64,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 1999"
   },
   {
     "id": "base3",
@@ -24,7 +24,7 @@
     "releaseDate": "1999/10/10",
     "printedTotal": 62,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 1999"
   },
   {
     "id": "base4",
@@ -33,7 +33,7 @@
     "releaseDate": "2000/02/24",
     "printedTotal": 130,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 2000"
   },
   {
     "id": "base5",
@@ -42,7 +42,7 @@
     "releaseDate": "2000/04/24",
     "printedTotal": 82,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 2000"
   },
   {
     "id": "gym1",
@@ -51,7 +51,7 @@
     "releaseDate": "2000/08/14",
     "printedTotal": 132,
     "layoutFamily": "Gym",
-    "copyright": null
+    "copyright": "© 2000"
   },
   {
     "id": "gym2",
@@ -60,7 +60,7 @@
     "releaseDate": "2000/10/16",
     "printedTotal": 132,
     "layoutFamily": "Gym",
-    "copyright": null
+    "copyright": "© 2000"
   },
   {
     "id": "neo1",
@@ -69,7 +69,7 @@
     "releaseDate": "2000/12/16",
     "printedTotal": 111,
     "layoutFamily": "Neo",
-    "copyright": null
+    "copyright": "© 2000"
   },
   {
     "id": "neo2",
@@ -78,7 +78,7 @@
     "releaseDate": "2001/06/01",
     "printedTotal": 75,
     "layoutFamily": "Neo",
-    "copyright": null
+    "copyright": "© 2001"
   },
   {
     "id": "neo3",
@@ -87,7 +87,7 @@
     "releaseDate": "2001/09/21",
     "printedTotal": 64,
     "layoutFamily": "Neo",
-    "copyright": null
+    "copyright": "© 2001"
   },
   {
     "id": "neo4",
@@ -96,7 +96,7 @@
     "releaseDate": "2002/02/28",
     "printedTotal": 105,
     "layoutFamily": "Neo",
-    "copyright": null
+    "copyright": "© 2002"
   },
   {
     "id": "basep",
@@ -105,7 +105,7 @@
     "releaseDate": "1999/07/01",
     "printedTotal": 53,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 1999"
   },
   {
     "id": "si1",
@@ -114,6 +114,6 @@
     "releaseDate": "2001/07/31",
     "printedTotal": 18,
     "layoutFamily": "Base",
-    "copyright": null
+    "copyright": "© 2001"
   }
 ]

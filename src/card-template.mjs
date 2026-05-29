@@ -47,13 +47,26 @@ function energyIcon(ctx, code, size) {
   return `<span class="en" style="width:${size}px;height:${size}px">${svg}</span>`;
 }
 
-function renderText(ctx, text) {
-  if (!text) return "";
+// Escape + sostituzione dei token energia {X} con i simboli.
+function tokenize(ctx, text) {
   return esc(text)
     .split(/(\{[GRWLPFCDM]\})/)
     .map((p) => {
       const m = p.match(/^\{([GRWLPFCDM])\}$/);
       return m ? energyIcon(ctx, m[1], 16) : p;
+    })
+    .join("");
+}
+
+// Testo di attacchi/poteri. Le frasi tra parentesi — parentesi incluse — vanno in
+// corsivo, per distinguerle dal testo normale (i simboli energia restano gestiti).
+function renderText(ctx, text) {
+  if (!text) return "";
+  return text
+    .split(/(\([^)]*\))/)
+    .map((seg) => {
+      const inner = tokenize(ctx, seg);
+      return /^\(.*\)$/.test(seg) ? `<i>${inner}</i>` : inner;
     })
     .join("");
 }
@@ -65,27 +78,25 @@ function costIcons(ctx, cost) {
 
 function attackRow(ctx, a) {
   const dmg = a.damage?.raw ? `<div class="atk-dmg">${esc(a.damage.raw)}</div>` : "";
-  const text = a.text?.en ? `<div class="atk-text">${renderText(ctx, a.text.en)}</div>` : "";
+  // Il testo segue subito il nome (font proprio), senza andare a capo.
+  const text = a.text?.en ? ` <span class="atk-text">${renderText(ctx, a.text.en)}</span>` : "";
   return `<div class="atk">
-    <div class="atk-head">
-      <div class="atk-cost">${costIcons(ctx, a.cost)}</div>
-      <div class="atk-name">${esc(a.name.en)}</div>
-      ${dmg}
-    </div>
-    ${text}
+    <div class="atk-cost">${costIcons(ctx, a.cost)}</div>
+    <div class="atk-body"><span class="atk-name">${esc(a.name.en)}</span>${text}</div>
+    ${dmg}
   </div>`;
 }
 
 function powerRow(ctx, p) {
-  return `<div class="power">
-    <div class="power-head"><span class="power-tag">Pokémon Power</span> <span class="power-name">${esc(p.name.en)}</span></div>
-    <div class="power-text">${renderText(ctx, p.text.en)}</div>
-  </div>`;
+  // Titolo e testo sulla stessa riga: il testo segue subito, con il suo font.
+  return `<div class="power"><span class="power-tag">Pokémon Power:</span> <span class="power-name">${esc(p.name.en)}</span> <span class="power-text">${renderText(ctx, p.text.en)}</span></div>`;
 }
 
 function wrrBar(ctx, card) {
   const cell = (label, content) => `<div class="wrr-cell"><div class="wrr-label">${label}</div><div class="wrr-val">${content}</div></div>`;
-  const wk = card.weaknesses.map((w) => `${energyIcon(ctx, w.type, 22)}<span class="wrr-x">${esc(w.value)}</span>`).join("");
+  // Debolezza: nell'era vintage il moltiplicatore (×2) NON era stampato — solo il
+  // simbolo del tipo. Il valore resta nei dati come metadata.
+  const wk = card.weaknesses.map((w) => energyIcon(ctx, w.type, 22)).join("");
   const rs = card.resistances.map((r) => `${energyIcon(ctx, r.type, 22)}<span class="wrr-x">${esc(r.value)}</span>`).join("");
   const rt = card.retreatCost > 0 ? Array.from({ length: card.retreatCost }, () => energyIcon(ctx, "C", 22)).join("") : "";
   return `<div class="wrr">${cell("weakness", wk)}${cell("resistance", rs)}${cell("retreat cost", rt)}</div>`;
@@ -95,45 +106,67 @@ export function buildCardMarkup(card, set, ctx) {
   const col = TYPE_COLOR[card.type] || TYPE_COLOR.C;
   const vars = `--accent:${col.accent};--tint:${col.tint};--frame:${col.frame}`;
 
-  const stageLine =
-    card.stage === "Basic"
-      ? "Basic Pokémon"
-      : `${esc(card.stage)} Pokémon${card.evolvesFromName ? ` &nbsp;(evolves from ${esc(card.evolvesFromName)})` : ""}`;
+  // Riga evoluzione: "Evolves from X" + "Put NAME on the <stage prec.> card".
+  const prevStage = card.stage === "Stage 2" ? "Stage 1 card"
+    : card.stage === "Stage 1" ? "Basic Pokémon" : null;
+  const evoMarkup = card.evolvesFromName
+    ? `<span class="evo-from">Evolves from ${esc(card.evolvesFromName)}</span>` +
+      (prevStage ? `<span class="evo-put">Put ${esc(card.name)} on the ${prevStage}</span>` : "")
+    : "";
 
-  const speciesLine = [
-    card.species?.en ? esc(card.species.en) : null,
-    card.height ? `Length ${esc(card.height)}` : null,
-    card.weight ? `Weight ${esc(card.weight)}` : null,
-  ].filter(Boolean).join(" &nbsp; ");
+  // Barra specie: "Specie. Length h, Weight w." (terminatori . , .)
+  const speciesParts = [];
+  if (card.species?.en) speciesParts.push(`${esc(card.species.en)}.`);
+  if (card.height) speciesParts.push(`Length ${esc(card.height)},`);
+  if (card.weight) speciesParts.push(`Weight ${esc(card.weight)}.`);
+  const speciesLine = speciesParts.join(" ");
 
   const powers = (card.powers || []).map((p) => powerRow(ctx, p)).join("");
   const attacks = (card.attacks || []).map((a) => attackRow(ctx, a)).join("");
-  const flavor = card.flavor?.en ? `<div class="flavor">${esc(card.flavor.en)}</div>` : "";
-  const numStr = set?.printedTotal ? `${esc(card.number)}/${set.printedTotal}` : esc(card.number);
 
+  // Flavor + livello (LV. x) + numero Pokédex (#y) in coda alla descrizione.
+  let flavor = "";
+  if (card.flavor?.en) {
+    let t = card.flavor.en.trim();
+    if (!/[.!?"]$/.test(t)) t += ".";
+    const sp = "&nbsp;&nbsp;"; // 2 spazi prima di LV e #
+    const lv = card.level ? `${sp}LV. ${esc(card.level)}` : "";
+    const dex = card.pokedex ? `${sp}#${esc(card.pokedex)}` : "";
+    flavor = `<div class="flavor">${esc(t)}${lv}${dex}</div>`;
+  }
+
+  const numStr = set?.printedTotal ? `${esc(card.number)}/${set.printedTotal}` : esc(card.number);
+  const copyright = set?.copyright || (set?.releaseDate ? `© ${String(set.releaseDate).slice(0, 4)}` : "");
+
+  // Etichetta stage: Basic/Baby → "Basic Pokémon"; le evoluzioni mostrano "Stage N".
+  // La resa MAIUSCOLO è gestita dal CSS (.stage text-transform).
+  const stageLabel = (card.stage === "Basic" || card.stage === "Baby") ? "Basic Pokémon" : card.stage;
+
+  // .face = area interna (tint) che ritaglia il contenuto; .canvas ripristina lo
+  // spazio coordinate 500x700 così nulla finisce sul bordo giallo esterno.
   return `<div class="card" style="${vars}">
-    <div class="face"></div>
-    <div class="stage">${stageLine}</div>
-    <div class="header">
-      <span class="name">${esc(card.name)}</span>
-      ${card.level ? `<span class="lv">Lv.${esc(card.level)}</span>` : ""}
-      <span class="hp">HP <b>${esc(card.hp)}</b></span>
-      <span class="type-ico">${energyIcon(ctx, card.type, 26)}</span>
-    </div>
-    <div class="art" style="background-image:url('${ctx.artUrl}')"></div>
-    <div class="species">${speciesLine}</div>
-    <div class="body">${powers}${attacks}</div>
-    ${wrrBar(ctx, card)}
-    ${flavor}
-    <div class="footer">
-      <span class="illus">Illus. ${esc(card.illustrator)}</span>
-      <span class="right">
-        <span>${esc(set?.name || card.set)}</span>
-        <img class="setico" src="${ctx.setSymbolUrl}" />
-        <span class="cnum">${numStr}</span>
-        ${raritySym(ctx, card.rarity)}
-      </span>
-    </div>
+    <div class="face"><div class="canvas">
+      <div class="toprow">
+        <span class="stage">${esc(stageLabel)}</span>
+        ${evoMarkup}
+      </div>
+      <div class="header">
+        <span class="name">${esc(card.name)}</span>
+        <span class="hp">${esc(card.hp)} HP</span>
+        <span class="type-ico">${energyIcon(ctx, card.type, 26)}</span>
+      </div>
+      <div class="art" style="background-image:url('${ctx.artUrl}')"></div>
+      <div class="species">${speciesLine}</div>
+      ${ctx.setSymbolUrl ? `<img class="setico" src="${ctx.setSymbolUrl}" />` : ""}
+      <div class="body">${powers}${attacks}</div>
+      ${wrrBar(ctx, card)}
+      ${flavor}
+      <div class="footer">
+        <span class="illus">Illus. ${esc(card.illustrator)}</span>
+        <span class="copy">${esc(copyright)}</span>
+        <span class="right"><span class="cnum">${numStr}</span>${raritySym(ctx, card.rarity)}</span>
+      </div>
+    </div></div>
   </div>`;
 }
 
@@ -141,12 +174,15 @@ export function buildDocument(card, set, ctx, opts = {}) {
   const style = opts.cssHref
     ? `<link rel="stylesheet" href="${opts.cssHref}">`
     : `<style>${opts.cssInline || ""}</style>`;
+  // La carta è sempre dentro .card-box: un solo --card-scale ridimensiona tutto.
+  const scale = opts.scale ?? 1;
+  const cardBox = `<div class="card-box" style="--card-scale:${scale}">${buildCardMarkup(card, set, ctx)}</div>`;
   return `<!doctype html><html><head><meta charset="utf-8">
 ${opts.headExtra || ""}
 ${style}
 </head><body>
 ${opts.bodyPrepend || ""}
-${buildCardMarkup(card, set, ctx)}
+${cardBox}
 ${opts.bodyAppend || ""}
 </body></html>`;
 }

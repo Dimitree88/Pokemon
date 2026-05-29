@@ -188,7 +188,8 @@ async function main() {
         releaseDate: setMeta.releaseDate ?? null,
         printedTotal: setMeta.printedTotal ?? null,
         layoutFamily: layoutFamily(setMeta.series),
-        copyright: null, // da inserire a mano in seguito
+        // Copyright per ora derivato dall'anno del set (manca una fonte API affidabile).
+        copyright: setMeta.releaseDate ? `© ${String(setMeta.releaseDate).slice(0, 4)}` : null,
       });
     }
 

@@ -202,7 +202,17 @@ Motore: **HTML/CSS + Playwright** (Chromium). Stack Node, ESM.
 - **`src/card.css`** — stile della carta (layout Base). Colori per-tipo via variabili
   CSS (`--accent`, `--tint`, `--frame`) impostate inline su `.card`. **Unica fonte**
   di stile, condivisa da dev server e render PNG.
-- **`src/card-template.mjs`** — `buildCardMarkup` / `buildDocument` (HTML).
+- **`src/card-template.mjs`** — `buildCardMarkup` / `buildDocument` (HTML). La carta
+  è sempre avvolta in `.card-box`.
+
+### Scaling — regola assoluta
+La carta si disegna **sempre** a 500×700px con misure fisse in px. Per ridimensionarla
+si imposta **un solo fattore** `--card-scale` (default 1) su `.card-box`: la carta
+viene scalata geometricamente (`transform: scale`), quindi **tutto** scala in modo
+perfettamente proporzionale. **Nessuna misura interna deve mai dipendere dalla
+dimensione di output** (così anche un px aggiunto in futuro resta proporzionale).
+- Dev server: `?scale=<n>` oppure i pulsanti zoom in sidebar (50/75/100/150/200%, live).
+- Render PNG: `npm run render -- <cardId> [scale]` (es. `... base1-4 2` → 2000×2800 a 2×).
 - **`scripts/make-assets.mjs`** (`npm run assets`) — genera i 9 simboli energia SVG
   in `assets/energy/` e i 3 simboli rarità (● comune, ◆ non comune, ★ rara) in
   `assets/rarity/` (entrambi dal font EssentiarumTCG), e scarica i simboli set in

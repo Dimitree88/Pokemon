@@ -6,77 +6,104 @@
      GillSansBI = Gill Sans Bold Italic (info bar, "evolves from", flavor)
      Futura     = Futura Heavy (HP)
      FuturaI    = Futura Heavy Italic (illustratore, numero)
-   Coordinate per una carta 500x700. */
+   Coordinate per una carta 500x700.
+
+   SCALING — REGOLA ASSOLUTA: la carta si disegna SEMPRE a 500x700px con misure
+   fisse. Per ridimensionarla NON si toccano i valori interni: si imposta un solo
+   fattore `--card-scale` e l'intera carta viene scalata geometricamente
+   (transform: scale), così TUTTO — posizioni, font, bordi, SVG, artwork —
+   scala in modo perfettamente proporzionale. Nessuna misura interna deve mai
+   dipendere dalla dimensione di output. Il contenitore `.card-box` riserva lo
+   spazio della carta scalata (la transform non altera il box di layout). */
+
+:root {
+  --card-w: 500px; --card-h: 700px; --gold: #C9A227;
+  --art-w: 420px;                       /* larghezza cornice foto (centrata) */
+  --bar-w: calc(var(--art-w) * 0.85);   /* barra specie ~15% più stretta */
+}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'GillSans', sans-serif; background: #2b2b2b; }
 
+.card-box { width: calc(var(--card-w) * var(--card-scale, 1)); height: calc(var(--card-h) * var(--card-scale, 1)); }
 .card {
-  position: relative; width: 500px; height: 700px; border-radius: 18px; overflow: hidden;
-  background: linear-gradient(160deg, #F6D63B, #E7B100);
+  position: relative; width: var(--card-w); height: var(--card-h); border-radius: 18px; overflow: hidden;
+  background: #F6D63B;
+  transform: scale(var(--card-scale, 1)); transform-origin: top left;
 }
-.face {
-  position: absolute; inset: 18px; border-radius: 8px;
-  background: var(--tint);
-}
-.stage {
-  position: absolute; left: 30px; top: 24px; font-family: 'GillSansBI'; font-size: 10px; color: #3a2f10;
-  background: rgba(255, 255, 255, .55); padding: 1px 6px; border-radius: 6px;
-}
+/* Area interna: nessun border-radius (solo lo sfondo giallo esterno è arrotondato).
+   overflow:hidden ritaglia il contenuto, così nulla esce sul bordo giallo. */
+.face { position: absolute; inset: 18px; overflow: hidden; background: var(--tint); }
+.canvas { position: absolute; inset: -18px; }  /* ripristina coordinate 500x700 */
+
+.toprow { position: absolute; left: 30px; right: 30px; top: 22px; display: flex; align-items: center; gap: 8px; }
+.stage { font-family: 'GillSansCB'; font-size: 9px; color: #3a2f10; text-transform: uppercase; white-space: nowrap; }
+.evo-from { font-family: 'GillSansBI'; font-size: 9px; color: #3a2f10; white-space: nowrap; }
+.evo-put { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #3a2f10; text-align: right; }
 .header { position: absolute; left: 28px; right: 28px; top: 38px; display: flex; align-items: baseline; gap: 8px; }
 .name { font-family: 'GillSansCB'; font-size: 28px; color: #1c1206; letter-spacing: .2px; }
-.lv { font-family: 'GillSans'; font-size: 12px; color: #1c1206; }
-.hp { margin-left: auto; font-family: 'Futura'; font-size: 14px; color: #c0271a; white-space: nowrap; }
-.hp b { font-size: 24px; font-weight: normal; }
+/* HP: numero poi "HP", stesso font e stessa dimensione (GillSans, non bold, non italic). */
+.hp { margin-left: auto; font-family: 'GillSans'; font-size: 20px; color: #c0271a; white-space: nowrap; }
 .type-ico { display: inline-flex; align-self: center; }
 
+/* Cornice foto: oro, spessa, senza ombra né border-radius (outline = non sposta il layout). */
+/* Cornice foto: oro, larghezza fissa (--art-w), centrata sulla card (left 50%). */
 .art {
-  position: absolute; left: 40px; top: 96px; width: 420px; height: 236px;
+  position: absolute; top: 96px; left: 50%; transform: translateX(-50%);
+  width: var(--art-w); height: 236px;
   background-size: 500px 700px; background-position: -40px -96px;
-  box-shadow: 0 0 0 3px var(--frame), 0 0 0 5px #8a6d1e; border-radius: 2px;
+  outline: 5px solid var(--gold);
 }
+/* Barra specie: larghezza fissa (--bar-w, ~15% < cornice foto), centrata sulla card.
+   Indipendente dal logo set, che le galleggia accanto in posizione assoluta. */
 .species {
-  position: absolute; left: 40px; width: 420px; top: 340px;
-  background: var(--accent); color: #fff; font-family: 'GillSansBI'; font-size: 10px; text-align: center;
-  padding: 3px 4px; border-radius: 3px;
+  position: absolute; top: 340px; left: 50%; transform: translateX(-50%); width: var(--bar-w);
+  background: var(--gold); color: #2a2410; font-family: 'GillSansBI'; font-size: 10px;
+  text-align: center; padding: 3px 4px;
 }
+.setico { position: absolute; top: 338px; right: 34px; width: 24px; height: 24px; object-fit: contain; }
 .body { position: absolute; left: 30px; right: 30px; top: 366px; bottom: 96px; overflow: hidden; }
+/* Separatore solo TRA mosse consecutive (mai sopra la prima). La barra che divide
+   le mosse dalla sezione weakness è il border-top di .wrr. */
+.body > * + * { border-top: 3px solid #000; }
 
-.power { border-top: 2px solid var(--accent); border-bottom: 2px solid var(--accent); padding: 5px 2px; margin-bottom: 7px; }
-.power-head { font-size: 15px; }
-.power-tag { font-family: 'GillSansCB'; color: #c0271a; }
-.power-name { font-family: 'GillSansCB'; color: #1c1206; }
-.power-text, .atk-text { font-size: 11.5px; line-height: 1.34; color: #1c1206; margin-top: 2px; }
+.power { padding: 6px 2px; line-height: 1.34; }
+.power-tag, .power-name { font-family: 'GillSansCB'; color: #c0271a; font-size: 15px; }
+.power-text { font-family: 'GillSans'; font-size: 11.5px; color: #1c1206; }
 
-.atk { padding: 5px 0; border-bottom: 1px solid rgba(0, 0, 0, .12); }
-.atk-head { display: flex; align-items: center; gap: 8px; }
-.atk-cost { display: flex; gap: 2px; min-width: 60px; }
+.atk { padding: 6px 0; display: flex; align-items: baseline; gap: 8px; }
+/* Costo energia: max 2 simboli per riga, centrati (3°→a capo centrato, 4→2x2). */
+.atk-cost { display: flex; flex-wrap: wrap; justify-content: center; align-content: center;
+  gap: 2px; width: 54px; flex: none; }
+.atk-body { flex: 1; line-height: 1.34; }
 .atk-name { font-family: 'GillSansCB'; font-size: 17px; color: #1c1206; }
-.atk-dmg { margin-left: auto; font-family: 'GillSans'; font-size: 21px; color: #1c1206; }
+.atk-text { font-family: 'GillSans'; font-size: 11.5px; color: #1c1206; }
+.atk-dmg { flex: none; font-family: 'GillSans'; font-size: 21px; color: #1c1206; }
 
 .en { display: inline-flex; vertical-align: middle; }
 .en svg { width: 100%; height: 100%; display: block; }
 
 .wrr {
   position: absolute; left: 30px; right: 30px; bottom: 56px; display: flex;
-  border-top: 2px solid var(--accent); border-bottom: 1px solid rgba(0, 0, 0, .2); padding: 5px 0;
+  border-top: 3px solid #000; padding: 5px 0;
 }
 .wrr-cell { flex: 1; text-align: center; }
-.wrr-label { font-family: 'GillSans'; font-size: 9px; color: #544; text-transform: lowercase; }
+.wrr-label { font-family: 'GillSansCB'; font-size: 9px; color: #544; text-transform: lowercase; }
 .wrr-val { display: flex; align-items: center; justify-content: center; gap: 3px; min-height: 24px; }
 .wrr-x { font-family: 'GillSans'; font-size: 14px; color: #1c1206; }
 
 .flavor {
   position: absolute; left: 30px; right: 30px; bottom: 30px; font-family: 'GillSansBI'; font-size: 10.5px;
-  color: #2a2418; line-height: 1.3; border-left: 3px solid var(--accent); padding-left: 7px;
+  color: #2a2418; line-height: 1.3;
 }
+/* Footer: niente corsivo; illustratore e numero in bold, copyright regolare al centro. */
 .footer {
-  position: absolute; left: 30px; right: 30px; bottom: 12px; display: flex; align-items: center;
+  position: absolute; left: 30px; right: 30px; bottom: 20px; display: flex; align-items: center;
   font-family: 'GillSans'; font-size: 9px; color: #3a2f10;
 }
-.footer .illus { font-family: 'FuturaI'; }
+.footer .illus { font-family: 'GillSansCB'; }
+.footer .copy { flex: 1; text-align: center; }
+.footer .cnum { font-family: 'GillSansCB'; }
 .footer .right { margin-left: auto; display: flex; align-items: center; gap: 6px; }
-.footer .cnum { font-family: 'FuturaI'; }
-.footer .setico { width: 14px; height: 14px; }
 .rarity-ico { display: inline-flex; width: 11px; height: 11px; }
 .rarity-ico svg { width: 100%; height: 100%; display: block; }

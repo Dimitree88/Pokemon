@@ -45,6 +45,7 @@ function localArt(cardId) {
 
 async function main() {
   const cardId = process.argv[2] || "base1-4";
+  const scale = Math.max(0.1, parseFloat(process.argv[3]) || 1); // node ... <cardId> [scale]
   const setId = cardId.split("-").slice(0, -1).join("-");
 
   const card = JSON.parse(await readFile(path.join(ROOT, "data", "cards", setId, `${cardId}.json`), "utf8"));
@@ -67,6 +68,7 @@ async function main() {
   const cssInline = await readFile(path.join(ROOT, "src", "card.css"), "utf8");
   const html = buildDocument(card, set, ctx, {
     cssInline,
+    scale,
     headExtra: `<style>${fontFaceDataCss()}</style>`,
   });
 
@@ -74,9 +76,12 @@ async function main() {
   const outFile = path.join(ROOT, "out", `${cardId}.png`);
 
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: CARD_W, height: CARD_H }, deviceScaleFactor: 2 });
+  const page = await browser.newPage({
+    viewport: { width: Math.ceil(CARD_W * scale), height: Math.ceil(CARD_H * scale) },
+    deviceScaleFactor: 2,
+  });
   await page.setContent(html, { waitUntil: "networkidle" });
-  const el = await page.$(".card");
+  const el = await page.$(".card-box");
   await el.screenshot({ path: outFile });
   await browser.close();
 
