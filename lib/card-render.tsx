@@ -159,10 +159,11 @@ export function Card({
             <div className="baby">
               <div className="baby-rule">{renderText(sym, card.babyInfo?.en || "")}</div>
               {card.evolvesIntoName ? (
-                <>
-                  <div className="baby-evo-into">Evolves into {card.evolvesIntoName}</div>
-                  <div className="baby-evo-put">Put {card.evolvesIntoName} on the Baby Pokémon</div>
-                </>
+                <div className="baby-evo">
+                  <span className="baby-evo-into">Evolves into {card.evolvesIntoName}</span>
+                  {"  "}
+                  <span className="baby-evo-put">Put {card.evolvesIntoName} on the Baby Pokémon</span>
+                </div>
               ) : null}
             </div>
           ) : null}
