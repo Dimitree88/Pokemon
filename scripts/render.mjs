@@ -1,0 +1,79 @@
+// Renderizza una carta in PNG: JSON -> HTML -> screenshot via Playwright.
+// Uso: node scripts/render.mjs [cardId]   (default base1-4)
+
+import { mkdir, writeFile, readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { chromium } from "playwright";
+import { buildDocument, CARD_W, CARD_H } from "../src/card-template.mjs";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const CODES = ["G", "R", "W", "L", "P", "F", "C", "D", "M"];
+
+// I riferimenti file:// vengono bloccati da Chromium con setContent (origine
+// about:blank): incorporiamo le immagini come data URI.
+async function toDataUrl(file, mime) {
+  const buf = await readFile(file);
+  return `data:${mime};base64,${buf.toString("base64")}`;
+}
+
+async function loadEnergy() {
+  const m = {};
+  for (const c of CODES) {
+    m[c] = await readFile(path.join(ROOT, "assets", "energy", `${c}.svg`), "utf8");
+  }
+  return m;
+}
+
+async function ensureArt(cardId, setId, number) {
+  const dest = path.join(ROOT, "assets", "art", `${cardId}.png`);
+  if (!existsSync(dest)) {
+    const res = await fetch(`https://images.pokemontcg.io/${setId}/${number}_hires.png`);
+    if (res.ok) {
+      await mkdir(path.dirname(dest), { recursive: true });
+      await writeFile(dest, Buffer.from(await res.arrayBuffer()));
+    } else {
+      return null;
+    }
+  }
+  return dest;
+}
+
+async function main() {
+  const cardId = process.argv[2] || "base1-4";
+  const setId = cardId.split("-").slice(0, -1).join("-");
+
+  const card = JSON.parse(await readFile(path.join(ROOT, "data", "cards", setId, `${cardId}.json`), "utf8"));
+  const sets = JSON.parse(await readFile(path.join(ROOT, "data", "sets.json"), "utf8"));
+  const set = sets.find((s) => s.id === setId);
+
+  const energy = await loadEnergy();
+  const artPath = await ensureArt(cardId, setId, card.number);
+  const setSymbolPath = path.join(ROOT, "assets", "sets", `${setId}.png`);
+
+  const ctx = {
+    energy,
+    artUrl: artPath ? await toDataUrl(artPath, "image/png") : "",
+    setSymbolUrl: existsSync(setSymbolPath) ? await toDataUrl(setSymbolPath, "image/png") : "",
+    blankUrl: null,
+  };
+
+  const cssInline = await readFile(path.join(ROOT, "src", "card.css"), "utf8");
+  const html = buildDocument(card, set, ctx, { cssInline });
+
+  await mkdir(path.join(ROOT, "out"), { recursive: true });
+  const outFile = path.join(ROOT, "out", `${cardId}.png`);
+
+  const browser = await chromium.launch();
+  const page = await browser.newPage({ viewport: { width: CARD_W, height: CARD_H }, deviceScaleFactor: 2 });
+  await page.setContent(html, { waitUntil: "networkidle" });
+  const el = await page.$(".card");
+  await el.screenshot({ path: outFile });
+  await browser.close();
+
+  console.log(`✓ ${cardId} -> ${path.relative(ROOT, outFile)}`);
+}
+
+main().catch((e) => { console.error(e); process.exit(1); });

@@ -14,6 +14,12 @@ desktop.ini
 # Cache dump (rigenerabile)
 data/.cache/
 
+# Node
+node_modules/
+
+# Output rendering (rigenerabile)
+out/
+
 # Env
 .env
 .env.local

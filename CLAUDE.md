@@ -195,5 +195,25 @@ I dati sono dumpati in locale (decisione DB rimandata).
 - **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri
   diverso dal rosso.
 
+## Rendering (implementazione)
+
+Motore: **HTML/CSS + Playwright** (Chromium). Stack Node, ESM.
+
+- **`src/card.css`** — stile della carta (layout Base). Colori per-tipo via variabili
+  CSS (`--accent`, `--tint`, `--frame`) impostate inline su `.card`. **Unica fonte**
+  di stile, condivisa da dev server e render PNG.
+- **`src/card-template.mjs`** — `buildCardMarkup` / `buildDocument` (HTML).
+- **`scripts/make-assets.mjs`** (`npm run assets`) — genera i 9 simboli energia SVG
+  in `assets/energy/` e scarica i simboli set in `assets/sets/`.
+- **`scripts/render.mjs`** (`npm run render -- <cardId>`) — render PNG headless in
+  `out/`. Arte ritagliata dalla scansione (`assets/art/<id>.png`, scaricata da
+  pokemontcg.io) via sfondo CSS offset; immagini incorporate come data URI.
+- **`scripts/serve.mjs`** (`npm run serve`) — dev server con anteprima live e
+  **auto-reload** su modifica di `src/` (SSE). `http://localhost:5173/?card=<id>`.
+
+Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
+simboli energia stilizzati; font *Cabin* (sostituto) da Google Fonts. Mancano
+**Gym** e **Neo**.
+
 ## Note
 - Lingua del progetto: italiano (codice/documenti); dati carte attualmente EN.
