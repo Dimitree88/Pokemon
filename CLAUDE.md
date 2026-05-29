@@ -3,7 +3,9 @@
 Progetto per la gestione delle carte Pokémon vintage.
 
 ## Stato
-Progetto appena avviato — struttura e stack ancora da definire.
+App **Next.js** (App Router) + **TypeScript** + **Tailwind**, deploy su **Vercel**.
+La carta è un componente React (`lib/card-render.tsx`) stilizzato da `src/card.css`
+(invariato). In roadmap: editor di set, deck builder, gioco con le carte, effetti grafici.
 
 ## TODO aperti
 Lista di lavori rimandati. **Da rivalutare ogni volta che si chiede "cosa manca / cosa
@@ -220,35 +222,46 @@ I dati sono dumpati in locale (decisione DB rimandata).
 
 ## Rendering (implementazione)
 
-Motore: **HTML/CSS + Playwright** (Chromium). Stack Node, ESM.
+Stack: **Next.js** (App Router, Turbopack) + **TypeScript** + **Tailwind v4**. Deploy
+su **Vercel** (auto-rilevamento Next: nessun `vercel.json`). `npm run dev` / `build` / `start`.
 
-- **`src/card.css`** — stile della carta (layout Base). Colori per-tipo via variabili
-  CSS (`--accent`, `--tint`, `--frame`) impostate inline su `.card`. **Unica fonte**
-  di stile, condivisa da dev server e render PNG.
-- **`src/card-template.mjs`** — `buildCardMarkup` / `buildDocument` (HTML). La carta
-  è sempre avvolta in `.card-box`.
+Struttura app:
+- **`app/layout.tsx`** — shell: importa `globals.css` (Tailwind + `@font-face`) e
+  `src/card.css`; monta `<Sidebar>` (resta montato tra le navigazioni → niente reload
+  del menu) + `<main>`.
+- **`app/page.tsx`** — redirect alla primissima carta. **`app/card/[id]/page.tsx`** —
+  pagina carta (server component) che rende `<Card>`; 404 se l'id non esiste.
+- **`components/Sidebar.tsx`** (`"use client"`) — menu: set collassabili, ricerca
+  (nome/numero/tipo), slider zoom (50–200%, step 25), espandi/collassa tutti. Naviga
+  con `<Link href="/card/<id>">` (client-side, layout persistente).
+- **`lib/card-render.tsx`** — il componente **`<Card>`** (porting React di card-template).
+  Classi CSS identiche a `src/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache),
+  **`lib/symbols.ts`** (SVG energia/rarità via fs), **`lib/card-utils.ts`** (puro:
+  `TYPE_KEYWORDS`, `rarityTier` — usabile anche client), **`lib/types.ts`**.
+- **`src/card.css`** — **unica fonte** di stile della carta (layout Base). Colori per-tipo
+  via variabili CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
+- **`next.config.mjs`** — `outputFileTracingIncludes` per includere `data/`, `assets/energy/`,
+  `assets/rarity/` nel bundle serverless (letti via fs a runtime).
+
+Asset statici (serviti da Vercel da `public/`): font in **`public/fonts/`** (le 6 copie
+web-safe, vedi Tipografia), simboli set in **`public/sets/`**. L'arte (`/art/<id>.png`)
+non è presente → cornice vuota (atteso).
 
 ### Scaling — regola assoluta
 La carta si disegna **sempre** a 500×700px con misure fisse in px. Per ridimensionarla
-si imposta **un solo fattore** `--card-scale` (default 1) su `.card-box`: la carta
-viene scalata geometricamente (`transform: scale`), quindi **tutto** scala in modo
-perfettamente proporzionale. **Nessuna misura interna deve mai dipendere dalla
-dimensione di output** (così anche un px aggiunto in futuro resta proporzionale).
-- Dev server: `?scale=<n>` oppure i pulsanti zoom in sidebar (50/75/100/150/200%, live).
-- Render PNG: `npm run render -- <cardId> [scale]` (es. `... base1-4 2` → 2000×2800 a 2×).
-- **`scripts/make-assets.mjs`** (`npm run assets`) — genera i 9 simboli energia SVG
-  in `assets/energy/` e i 3 simboli rarità (● comune, ◆ non comune, ★ rara) in
-  `assets/rarity/` (entrambi dal font EssentiarumTCG), e scarica i simboli set in
-  `assets/sets/`.
-- **`scripts/render.mjs`** (`npm run render -- <cardId>`) — render PNG headless in
-  `out/`. Arte ritagliata dalla scansione (`assets/art/<id>.png`, scaricata da
-  pokemontcg.io) via sfondo CSS offset; immagini incorporate come data URI.
-- **`scripts/serve.mjs`** (`npm run serve`) — dev server con anteprima live e
-  **auto-reload** su modifica di `src/` (SSE). `http://localhost:5173/?card=<id>`.
+si imposta **un solo fattore** `--card-scale` (default 1): lo slider zoom lo imposta su
+`<html>` e `.card-box` lo eredita, scalando geometricamente (`transform: scale`) **tutto**
+in modo proporzionale. **Nessuna misura interna deve mai dipendere dalla dimensione di
+output** (così anche un px aggiunto in futuro resta proporzionale).
+
+### Legacy (non più usati dall'app)
+`scripts/serve.mjs` + `src/preview.mjs` (vecchio dev server, sostituito da `next dev`) e
+`scripts/render.mjs` + `src/card-template.mjs` + `src/fonts.mjs` (export PNG via Playwright,
+**rimandato**). `scripts/make-assets.mjs` (`npm run assets`) resta utile per (ri)generare
+i simboli energia/rarità in `assets/` e scaricare i simboli set.
 
 Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
-simboli energia resi col font **EssentiarumTCG** (vedi sotto); font *Cabin*
-(sostituto) da Google Fonts. Mancano **Gym** e **Neo**.
+simboli energia resi col font **EssentiarumTCG**. Mancano **Gym** e **Neo**.
 
 ### Tipografia (font WOTC) — riferimento
 

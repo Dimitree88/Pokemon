@@ -17,6 +17,10 @@ data/.cache/
 # Node
 node_modules/
 
+# Next.js
+.next/
+.vercel/
+
 # Output rendering (rigenerabile)
 out/
 
