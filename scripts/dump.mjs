@@ -112,6 +112,9 @@ function layoutFamily(series) {
   if (series === "Neo") return "Neo";
   return "Base";
 }
+// Override per set la cui series non riflette la famiglia grafica reale.
+// Southern Islands (2001) usa il design dell'era Neo (stage sulla cornice, ecc.).
+const LAYOUT_OVERRIDE = { si1: "Neo" };
 
 function parseDamage(raw) {
   if (!raw) return { raw: "", value: null, modifier: null };
@@ -202,7 +205,7 @@ async function main() {
         releaseDate: setMeta.releaseDate ?? null,
         // Le promo (Black Star Promos) non hanno un totale stampato → niente "/X" sulla carta.
         printedTotal: setMeta.id === "basep" ? null : (setMeta.printedTotal ?? null),
-        layoutFamily: layoutFamily(setMeta.series),
+        layoutFamily: LAYOUT_OVERRIDE[setMeta.id] ?? layoutFamily(setMeta.series),
         // Copyright per ora derivato dall'anno del set (manca una fonte API affidabile).
         copyright: setMeta.releaseDate ? `© ${String(setMeta.releaseDate).slice(0, 4)}` : null,
       });

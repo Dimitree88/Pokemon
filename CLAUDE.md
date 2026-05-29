@@ -238,8 +238,25 @@ Struttura app:
   `app/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache), **`lib/symbols.ts`**
   (SVG energia/rarità via fs), **`lib/card-utils.ts`** (puro: `TYPE_KEYWORDS`, `rarityTier`
   — usabile anche client), **`lib/types.ts`** (tipi del modello).
-- **`app/card.css`** — **unica fonte** di stile della carta (layout Base). Colori per-tipo
-  via variabili CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
+- **`app/card.css`** — **unica fonte** di stile della carta. Colori per-tipo via variabili
+  CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
+
+### Famiglie di layout (Base / Gym / Neo)
+Tre ere grafiche, dal campo `layoutFamily` del set: **Base** (Base, Jungle, Fossil, Team
+Rocket, Promos), **Gym** (Gym Heroes/Challenge), **Neo** (i 4 Neo + **Southern Islands**).
+Condividono ~80% (stessa anatomia e stessi dati). Architettura: **un solo template
+generico** (`<Card>`) con variazioni localizzate, scelte in base al *tipo* di differenza:
+- **Solo estetica** (cornice, proporzioni, font, colori, posizioni) → classe
+  **`layout-{family}`** sul `.card` (`layout-base|gym|neo`) + override in `app/card.css`
+  (es. `.layout-neo .flavor { … }`). Nessun branch in JS.
+- **Strutturale/contenuto** (elementi presenti solo in alcune famiglie, o dati diversi) →
+  **pochi branch espliciti** nel componente (o piccoli sotto-componenti). Es. Neo:
+  etichetta stage sul riquadro foto, miniatura pre-evoluzione; Gym: proprietario, sfondo.
+
+Regola: *aspetto → CSS per famiglia; elemento/dato diverso → branch esplicito.*
+Stato: implementato **Base**; per **Neo** finora solo l'etichetta stage sul riquadro
+(+ baby, che però è trasversale allo *stage*, non alla famiglia). **Gym** non ancora
+differenziato. Da arricchire quando si introdurranno nuovi elementi grafici.
 - **`next.config.mjs`** — `outputFileTracingIncludes` per includere `data/`, `assets/energy/`,
   `assets/rarity/` nel bundle serverless (letti via fs a runtime).
 

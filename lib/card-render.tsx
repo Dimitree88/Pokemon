@@ -26,10 +26,6 @@ const RARITY_TIER: Record<string, string> = {
   Rare: "rare", "Rare Holo": "rare", "Rare Shining": "rare", "Rare Secret": "rare",
 };
 
-// Set dall'era Neo in poi (4 set Neo + Southern Islands): mostrano l'etichetta dello
-// stage ("Stage 2 Pokémon", "Basic Pokémon", …) sul riquadro dorato dell'immagine.
-const NEO_ERA_SETS = new Set(["neo1", "neo2", "neo3", "neo4", "si1"]);
-
 function Inline({ html, className, title }: { html: string; className?: string; title?: string }) {
   return <span className={className} title={title} dangerouslySetInnerHTML={{ __html: html }} />;
 }
@@ -115,9 +111,13 @@ export function Card({
   const stageLabel = isBaby ? "Baby Pokémon counts as a Basic Pokémon" : isBasic ? "Basic Pokémon" : card.stage;
   const stageCls = `stage${isBasic ? " stage--basic" : ""}${isBaby ? " stage--baby" : ""}`;
 
-  // Era Neo+ (4 Neo + Southern Islands): etichetta stage sul riquadro foto. Per i Basic
-  // non si ripete in alto a sinistra (dove sta già): la si mostra solo sul riquadro.
-  const neoEra = NEO_ERA_SETS.has(card.set);
+  // Famiglia grafica → classe sul .card (layout-base | layout-gym | layout-neo): aggancio
+  // per gli override CSS per-famiglia. Le differenze strutturali restano branch espliciti.
+  const layoutClass = `layout-${(set?.layoutFamily ?? "Base").toLowerCase()}`;
+
+  // Famiglia grafica Neo (4 Neo + Southern Islands): etichetta stage sul riquadro foto.
+  // Per i Basic non si ripete in alto a sinistra (dove sta già): solo sul riquadro.
+  const neoEra = set?.layoutFamily === "Neo";
   const frameStageLabel = `${card.stage} Pokémon`;
   const showTopLeftStage = !(neoEra && card.stage === "Basic");
 
@@ -145,7 +145,7 @@ export function Card({
   const raritySvg = tier ? sym.rarity[tier] : null;
 
   return (
-    <div className="card" style={vars}>
+    <div className={`card ${layoutClass}`} style={vars}>
       <div className="face"><div className="canvas">
         <div className="toprow">
           {showTopLeftStage ? <span className={stageCls}>{stageLabel}</span> : null}
