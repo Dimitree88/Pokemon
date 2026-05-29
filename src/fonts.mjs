@@ -10,13 +10,16 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 // family -> file (relativo a assets/fonts). Mappatura secondo l'articolo pokemonaaah.
+// Copie con nomi web-safe (niente spazi/parentesi) in assets/fonts/web/: gli originali
+// della collezione pokemonaaah hanno nomi con spazi e parentesi che rompono il routing
+// dei file statici su Vercel. Le copie sono usate da dev server, render PNG e prod.
 export const FONTS = [
-  { family: "GillSans",   file: "Gill Sans/Gill Sans.ttf" },               // testo attacchi/poteri, danni, resto
-  { family: "GillSansCB", file: "Gill Sans/Gill Sans Condensed Bold.ttf" },// nomi, poteri, attacchi
-  { family: "GillSansBI", file: "Gill Sans/Gill Sans Bold Italic.ttf" },   // info bar, evolves from, flavor
-  { family: "Futura",     file: "Futura/Futura Heavy.ttf" },               // HP
-  { family: "FuturaI",    file: "Futura/Futura Heavy Italic.ttf" },        // illustratore, numero
-  { family: "EssentiarumTCG", file: "EssentiarumTCG [v0.96]/EssentiarumTCG [Desktop].ttf" }, // simboli energia/rarità
+  { family: "GillSans",   file: "web/GillSans.ttf" },               // testo attacchi/poteri, danni, resto
+  { family: "GillSansCB", file: "web/GillSansCondensedBold.ttf" },  // nomi, poteri, attacchi
+  { family: "GillSansBI", file: "web/GillSansBoldItalic.ttf" },     // info bar, evolves from, flavor
+  { family: "Futura",     file: "web/FuturaHeavy.ttf" },            // HP
+  { family: "FuturaI",    file: "web/FuturaHeavyItalic.ttf" },      // illustratore, numero
+  { family: "EssentiarumTCG", file: "web/EssentiarumTCG.ttf" },     // simboli energia/rarità
 ];
 
 const face = (family, src) =>
