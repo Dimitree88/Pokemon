@@ -10,7 +10,7 @@
     "render": "node scripts/render.mjs",
     "serve": "node scripts/serve.mjs"
   },
-  "dependencies": {
+  "devDependencies": {
     "playwright": "^1.48.0"
   }
 }

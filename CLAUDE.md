@@ -5,6 +5,18 @@ Progetto per la gestione delle carte Pokémon vintage.
 ## Stato
 Progetto appena avviato — struttura e stack ancora da definire.
 
+## TODO aperti
+Lista di lavori rimandati. **Da rivalutare ogni volta che si chiede "cosa manca / cosa
+c'è ancora da fare".**
+- **Tyrogue (neo2-66) — evoluzione baby**: ha 3 evoluzioni possibili
+  (Hitmonlee/Hitmonchan/Hitmontop), quindi `evolvesIntoName` è `null` e le righe
+  "Evolves into … / Put …" non sono mostrate. Decidere come gestire le multi-evoluzioni.
+- **Unown (Neo Discovery)**: gestione dedicata nel rendering — sia il testo in alto,
+  sia i simboli speciali (font/ricreazione "Unown TCG", vedi sezione Tipografia).
+- **Evoluzioni da Fossile Misterioso**: i Pokémon fossile evolvono da una carta
+  *Trainer* (Mysterious Fossil) → `evolvesFromDex` è `null` (caso atteso). Gestire la
+  resa/relazione di questa evoluzione speciale.
+
 ## Scopo
 Gestire le carte Pokémon dell'era **vintage WOTC** (Wizards of the Coast), ovvero
 tutti i set pubblicati **prima di Expedition** (inizio era e-Card).
