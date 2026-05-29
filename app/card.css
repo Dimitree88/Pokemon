@@ -57,6 +57,8 @@
   background-size: 500px 700px; background-position: -40px -96px;
   outline: 5px solid var(--gold);
 }
+/* Etichetta stage sul riquadro foto (solo era Neo+): in alto a destra, bold italic. */
+.art-stage { position: absolute; top: 4px; right: 6px; font-family: 'GillSansBI'; font-size: 9px; color: #1c1206; }
 /* Barra specie: larghezza fissa (--bar-w, ~15% < cornice foto), centrata sulla card.
    Indipendente dal logo set, che le galleggia accanto in posizione assoluta. */
 .species {

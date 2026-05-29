@@ -200,7 +200,8 @@ async function main() {
         name: setMeta.name,
         sigla: setMeta.ptcgoCode ?? null,
         releaseDate: setMeta.releaseDate ?? null,
-        printedTotal: setMeta.printedTotal ?? null,
+        // Le promo (Black Star Promos) non hanno un totale stampato → niente "/X" sulla carta.
+        printedTotal: setMeta.id === "basep" ? null : (setMeta.printedTotal ?? null),
         layoutFamily: layoutFamily(setMeta.series),
         // Copyright per ora derivato dall'anno del set (manca una fonte API affidabile).
         copyright: setMeta.releaseDate ? `© ${String(setMeta.releaseDate).slice(0, 4)}` : null,

@@ -18,13 +18,17 @@ const TYPE_COLOR: Record<string, { accent: string; tint: string; frame: string }
   M: { accent: "#6E7A86", tint: "#DEE2E6", frame: "#9AA3AB" },
 };
 
-// Rarità → simbolo sulla carta: ● comune, ◆ non comune, ★ rara. Rare/Holo/Shining/
-// Secret e Promo usano la stella.
+// Rarità → simbolo sulla carta: ● comune, ◆ non comune, ★ rara. Tutte le Rare/Holo/
+// Shining/Secret usano la stella. Le Promo NON hanno simbolo di rarità (né /totale).
 const RARITY_TIER: Record<string, string> = {
   Common: "common",
   Uncommon: "uncommon",
-  Rare: "rare", "Rare Holo": "rare", "Rare Shining": "rare", "Rare Secret": "rare", Promo: "rare",
+  Rare: "rare", "Rare Holo": "rare", "Rare Shining": "rare", "Rare Secret": "rare",
 };
+
+// Set dall'era Neo in poi (4 set Neo + Southern Islands): mostrano l'etichetta dello
+// stage ("Stage 2 Pokémon", "Basic Pokémon", …) sul riquadro dorato dell'immagine.
+const NEO_ERA_SETS = new Set(["neo1", "neo2", "neo3", "neo4", "si1"]);
 
 function Inline({ html, className, title }: { html: string; className?: string; title?: string }) {
   return <span className={className} title={title} dangerouslySetInnerHTML={{ __html: html }} />;
@@ -111,6 +115,12 @@ export function Card({
   const stageLabel = isBaby ? "Baby Pokémon counts as a Basic Pokémon" : isBasic ? "Basic Pokémon" : card.stage;
   const stageCls = `stage${isBasic ? " stage--basic" : ""}${isBaby ? " stage--baby" : ""}`;
 
+  // Era Neo+ (4 Neo + Southern Islands): etichetta stage sul riquadro foto. Per i Basic
+  // non si ripete in alto a sinistra (dove sta già): la si mostra solo sul riquadro.
+  const neoEra = NEO_ERA_SETS.has(card.set);
+  const frameStageLabel = `${card.stage} Pokémon`;
+  const showTopLeftStage = !(neoEra && card.stage === "Basic");
+
   // Barra specie: "Specie. Length h, Weight w."
   const speciesParts: string[] = [];
   if (card.species?.en) speciesParts.push(`${card.species.en}.`);
@@ -138,7 +148,7 @@ export function Card({
     <div className="card" style={vars}>
       <div className="face"><div className="canvas">
         <div className="toprow">
-          <span className={stageCls}>{stageLabel}</span>
+          {showTopLeftStage ? <span className={stageCls}>{stageLabel}</span> : null}
           {card.evolvesFromName ? (
             <>
               <span className="evo-from">Evolves from {card.evolvesFromName}</span>
@@ -151,7 +161,9 @@ export function Card({
           <span className="hp">{card.hp} HP</span>
           <span className="type-ico"><EnergyIcon sym={sym} code={card.type} size={26} /></span>
         </div>
-        <div className="art" style={{ backgroundImage: `url('${artUrl}')` }} />
+        <div className="art" style={{ backgroundImage: `url('${artUrl}')` }}>
+          {neoEra ? <span className="art-stage">{frameStageLabel}</span> : null}
+        </div>
         <div className="species">{speciesLine}</div>
         {setSymbolUrl ? <img className="setico" src={setSymbolUrl} alt="" /> : null}
         <div className="body">

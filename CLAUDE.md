@@ -336,5 +336,14 @@ inline nella carta e nel menu (`lib/card-render.tsx`, `components/Sidebar.tsx`) 
 (Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,
 che è la versione **Pocket**, non EssentiarumTCG.)
 
+## Convenzioni di lavoro
+- **Sviluppo con hot reload**: usare **`npm run dev`** (Next Fast Refresh) — le modifiche a
+  `app/`, `lib/`, `components/`, CSS si aggiornano da sole nel browser, **senza riavviare**.
+  `npm run start` (= `next start`) serve solo a testare la **build di produzione** e **non**
+  ha hot reload (richiede `npm run build` + restart): non usarlo per iterare.
+- **Verifiche visive**: le fa **l'utente**. L'assistente applica le modifiche (con eventuale
+  check non-visivo: build/typecheck o ispezione del markup) e non esegue screenshot/anteprime
+  a ogni cambiamento.
+
 ## Note
 - Lingua del progetto: italiano (codice/documenti); dati carte attualmente EN.
