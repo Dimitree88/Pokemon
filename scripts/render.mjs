@@ -1,7 +1,7 @@
 // Renderizza una carta in PNG: JSON -> HTML -> screenshot via Playwright.
 // Uso: node scripts/render.mjs [cardId]   (default base1-4)
 
-import { mkdir, writeFile, readFile } from "node:fs/promises";
+import { mkdir, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -28,18 +28,11 @@ async function loadEnergy() {
   return m;
 }
 
-async function ensureArt(cardId, setId, number) {
+// L'arte si usa SOLO dal file locale (assets/art/<id>.png), se presente.
+// Niente download dal web: le immagini verranno caricate a mano in futuro.
+function localArt(cardId) {
   const dest = path.join(ROOT, "assets", "art", `${cardId}.png`);
-  if (!existsSync(dest)) {
-    const res = await fetch(`https://images.pokemontcg.io/${setId}/${number}_hires.png`);
-    if (res.ok) {
-      await mkdir(path.dirname(dest), { recursive: true });
-      await writeFile(dest, Buffer.from(await res.arrayBuffer()));
-    } else {
-      return null;
-    }
-  }
-  return dest;
+  return existsSync(dest) ? dest : null;
 }
 
 async function main() {
@@ -51,7 +44,7 @@ async function main() {
   const set = sets.find((s) => s.id === setId);
 
   const energy = await loadEnergy();
-  const artPath = await ensureArt(cardId, setId, card.number);
+  const artPath = localArt(cardId);
   const setSymbolPath = path.join(ROOT, "assets", "sets", `${setId}.png`);
 
   const ctx = {

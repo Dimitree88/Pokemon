@@ -6,7 +6,7 @@
 // - Anche le modifiche a src/card-template.mjs vengono ricaricate (import fresh).
 
 import http from "node:http";
-import { readFile, writeFile, readdir } from "node:fs/promises";
+import { readFile, readdir } from "node:fs/promises";
 import { existsSync, watch } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -39,16 +39,6 @@ async function listCards() {
   return out;
 }
 const cardIndex = await listCards();
-
-async function ensureArt(cardId, setId, number) {
-  const dest = path.join(ROOT, "assets", "art", `${cardId}.png`);
-  if (!existsSync(dest)) {
-    const res = await fetch(`https://images.pokemontcg.io/${setId}/${number}_hires.png`);
-    if (!res.ok) return null;
-    await writeFile(dest, Buffer.from(await res.arrayBuffer()));
-  }
-  return dest;
-}
 
 const MIME = {
   ".png": "image/png", ".css": "text/css", ".svg": "image/svg+xml",
@@ -134,13 +124,8 @@ const server = http.createServer(async (req, res) => {
     }
     if (p.startsWith("/sets/")) return serveFile(res, path.join(ROOT, "assets", "sets", path.basename(p)));
     if (p.startsWith("/art/")) {
+      // Solo file locale: nessun download dal web (404 se assente → carta senza arte).
       const id = path.basename(p, ".png");
-      const setId = id.split("-").slice(0, -1).join("-");
-      const cardFile = path.join(ROOT, "data", "cards", setId, `${id}.json`);
-      if (existsSync(cardFile)) {
-        const card = JSON.parse(await readFile(cardFile, "utf8"));
-        await ensureArt(id, setId, card.number);
-      }
       return serveFile(res, path.join(ROOT, "assets", "art", `${id}.png`));
     }
 
