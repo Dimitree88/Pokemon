@@ -17,9 +17,11 @@ const ROOT = path.resolve(__dirname, "..");
 const PORT = 5173;
 const CODES = ["G", "R", "W", "L", "P", "F", "C", "D", "M"];
 
-// energia (inline) + indice carte, caricati all'avvio
+// energia + rarità (inline) + indice carte, caricati all'avvio
 const energy = {};
 for (const c of CODES) energy[c] = await readFile(path.join(ROOT, "assets", "energy", `${c}.svg`), "utf8");
+const rarity = {};
+for (const tier of ["common", "uncommon", "rare"]) rarity[tier] = await readFile(path.join(ROOT, "assets", "rarity", `${tier}.svg`), "utf8");
 const sets = JSON.parse(await readFile(path.join(ROOT, "data", "sets.json"), "utf8"));
 
 const esc = (s) =>
@@ -139,7 +141,7 @@ const server = http.createServer(async (req, res) => {
 
     // import fresh del template (così le modifiche al .mjs si ricaricano)
     const mod = await import(`../src/card-template.mjs?t=${Date.now()}`);
-    const ctx = { energy, artUrl: `/art/${cardId}.png`, setSymbolUrl: `/sets/${setId}.png` };
+    const ctx = { energy, rarity, artUrl: `/art/${cardId}.png`, setSymbolUrl: `/sets/${setId}.png` };
     const html = mod.buildDocument(card, set, ctx, {
       cssHref: "/card.css",
       headExtra: `<style>${fontFaceUrlCss("/fonts")}</style>`,

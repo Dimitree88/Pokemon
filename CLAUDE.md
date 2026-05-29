@@ -204,7 +204,9 @@ Motore: **HTML/CSS + Playwright** (Chromium). Stack Node, ESM.
   di stile, condivisa da dev server e render PNG.
 - **`src/card-template.mjs`** — `buildCardMarkup` / `buildDocument` (HTML).
 - **`scripts/make-assets.mjs`** (`npm run assets`) — genera i 9 simboli energia SVG
-  in `assets/energy/` e scarica i simboli set in `assets/sets/`.
+  in `assets/energy/` e i 3 simboli rarità (● comune, ◆ non comune, ★ rara) in
+  `assets/rarity/` (entrambi dal font EssentiarumTCG), e scarica i simboli set in
+  `assets/sets/`.
 - **`scripts/render.mjs`** (`npm run render -- <cardId>`) — render PNG headless in
   `out/`. Arte ritagliata dalla scansione (`assets/art/<id>.png`, scaricata da
   pokemontcg.io) via sfondo CSS offset; immagini incorporate come data URI.

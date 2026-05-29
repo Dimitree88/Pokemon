@@ -28,6 +28,20 @@ const TYPE_COLOR = {
 const esc = (s) =>
   String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+// Rarità sulle carte originali → simbolo: ● comune, ◆ non comune, ★ rara.
+// Tutte le varianti Rare/Holo/Shining/Secret e le Promo usano la stella.
+const RARITY_TIER = {
+  Common: "common",
+  Uncommon: "uncommon",
+  Rare: "rare", "Rare Holo": "rare", "Rare Shining": "rare", "Rare Secret": "rare", Promo: "rare",
+};
+
+function raritySym(ctx, rarity) {
+  const tier = RARITY_TIER[rarity];
+  const svg = tier && ctx.rarity ? ctx.rarity[tier] : null;
+  return svg ? `<span class="rarity-ico" title="${esc(rarity)}">${svg}</span>` : "";
+}
+
 function energyIcon(ctx, code, size) {
   const svg = ctx.energy[code] || ctx.energy.C;
   return `<span class="en" style="width:${size}px;height:${size}px">${svg}</span>`;
@@ -116,7 +130,8 @@ export function buildCardMarkup(card, set, ctx) {
       <span class="right">
         <span>${esc(set?.name || card.set)}</span>
         <img class="setico" src="${ctx.setSymbolUrl}" />
-        <span class="cnum">${numStr} · ${esc(card.rarity || "")}</span>
+        <span class="cnum">${numStr}</span>
+        ${raritySym(ctx, card.rarity)}
       </span>
     </div>
   </div>`;

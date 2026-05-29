@@ -12,6 +12,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const ENERGY_DIR = path.join(ROOT, "assets", "energy");
+const RARITY_DIR = path.join(ROOT, "assets", "rarity");
 const SETS_DIR = path.join(ROOT, "assets", "sets");
 
 // Colori energia (palette in stile TCG)
@@ -43,19 +44,38 @@ const VIEWBOX = "-30 -125 175 175"; // quadrato centrato su (57.5,-37.5), lato 1
 function energySvg(code) {
   const { color, glyphFill } = ENERGY[code];
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEWBOX}">
-  <text ${TEXT_ATTRS} fill="${color}" stroke="#3a3320" stroke-width="5" style="paint-order:stroke">o</text>
+  <text ${TEXT_ATTRS} fill="${color}">o</text>
   <text ${TEXT_ATTRS} fill="${glyphFill}">${code}</text>
+</svg>`;
+}
+
+// Simboli rarità come sulle carte originali: ● comune, ◆ non comune, ★ rara.
+// Stesso font EssentiarumTCG: cifre `1`/`2`/`3` (stile "Old"). Monocromatici.
+// I glifi cifra sono leggermente più larghi (ink ~124×159): viewBox quadrato
+// centrato sul loro inchiostro.
+const RARITY = { common: "1", uncommon: "2", rare: "3" };
+const RARITY_VIEWBOX = "-25 -125 175 175";
+
+function raritySvg(char) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${RARITY_VIEWBOX}">
+  <text ${TEXT_ATTRS} fill="#1c1206">${char}</text>
 </svg>`;
 }
 
 async function main() {
   await mkdir(ENERGY_DIR, { recursive: true });
+  await mkdir(RARITY_DIR, { recursive: true });
   await mkdir(SETS_DIR, { recursive: true });
 
   for (const code of Object.keys(ENERGY)) {
     await writeFile(path.join(ENERGY_DIR, `${code}.svg`), energySvg(code));
   }
   console.log(`• Simboli energia: ${Object.keys(ENERGY).length} SVG scritti`);
+
+  for (const [tier, char] of Object.entries(RARITY)) {
+    await writeFile(path.join(RARITY_DIR, `${tier}.svg`), raritySvg(char));
+  }
+  console.log(`• Simboli rarità: ${Object.keys(RARITY).length} SVG scritti`);
 
   // simboli set da pokemontcg.io
   const sets = JSON.parse(await readFile(path.join(ROOT, "data", "sets.json"), "utf8"));

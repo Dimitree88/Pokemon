@@ -28,6 +28,14 @@ async function loadEnergy() {
   return m;
 }
 
+async function loadRarity() {
+  const m = {};
+  for (const tier of ["common", "uncommon", "rare"]) {
+    m[tier] = await readFile(path.join(ROOT, "assets", "rarity", `${tier}.svg`), "utf8");
+  }
+  return m;
+}
+
 // L'arte si usa SOLO dal file locale (assets/art/<id>.png), se presente.
 // Niente download dal web: le immagini verranno caricate a mano in futuro.
 function localArt(cardId) {
@@ -44,11 +52,13 @@ async function main() {
   const set = sets.find((s) => s.id === setId);
 
   const energy = await loadEnergy();
+  const rarity = await loadRarity();
   const artPath = localArt(cardId);
   const setSymbolPath = path.join(ROOT, "assets", "sets", `${setId}.png`);
 
   const ctx = {
     energy,
+    rarity,
     artUrl: artPath ? await toDataUrl(artPath, "image/png") : "",
     setSymbolUrl: existsSync(setSymbolPath) ? await toDataUrl(setSymbolPath, "image/png") : "",
     blankUrl: null,
