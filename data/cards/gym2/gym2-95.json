@@ -1,0 +1,72 @@
+{
+  "id": "gym2-95",
+  "set": "gym2",
+  "number": "95",
+  "rarity": "Common",
+  "name": "Sabrina's Drowzee",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 96,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Hypnosis Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Energy Support"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Search your deck for a Psychic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Mind Shock"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

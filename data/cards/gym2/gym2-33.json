@@ -1,0 +1,73 @@
+{
+  "id": "gym2-33",
+  "set": "gym2",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Blaine's Rapidash",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 78,
+  "level": "31",
+  "evolvesFromName": "Blaine's Ponyta",
+  "evolvesFromDex": 77,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "209 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fire Mane"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Stamp"
+      },
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage (to the Defending Pokémon) and 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage (to the Defending Pokémon)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

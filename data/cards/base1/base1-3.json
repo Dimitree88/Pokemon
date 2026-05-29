@@ -1,0 +1,84 @@
+{
+  "id": "base1-3",
+  "set": "base1",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Chansey",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 120,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 113,
+  "level": "55",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Egg Pokémon"
+  },
+  "flavor": {
+    "en": "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it."
+  },
+  "weight": "76 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scrunch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Double-edge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Chansey does 80 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

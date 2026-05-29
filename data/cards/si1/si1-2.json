@@ -1,0 +1,84 @@
+{
+  "id": "si1-2",
+  "set": "si1",
+  "number": "2",
+  "rarity": null,
+  "name": "Pidgeot",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 18,
+  "level": null,
+  "evolvesFromName": "Pidgeotto",
+  "evolvesFromDex": 17,
+  "species": {
+    "en": "Bird Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons."
+  },
+  "weight": "87 lbs",
+  "height": "4'11\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Supersonic Flight"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Slicing Wind"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

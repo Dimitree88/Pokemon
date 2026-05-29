@@ -1,0 +1,61 @@
+{
+  "id": "gym1-1",
+  "set": "gym1",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Blaine's Moltres",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 146,
+  "level": "44",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "132 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Phoenix Flame"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "90",
+      "value": 90,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

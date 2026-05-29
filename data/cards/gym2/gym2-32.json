@@ -1,0 +1,63 @@
+{
+  "id": "gym2-32",
+  "set": "gym2",
+  "number": "32",
+  "rarity": "Uncommon",
+  "name": "Blaine's Dodrio",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 85,
+  "level": "26",
+  "evolvesFromName": "Blaine's Doduo",
+  "evolvesFromDex": 84,
+  "species": {
+    "en": "Triple Bird Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "188 lbs",
+  "height": "5'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Peck"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

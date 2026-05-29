@@ -1,0 +1,77 @@
+{
+  "id": "basep-12",
+  "set": "basep",
+  "number": "12",
+  "rarity": "Promo",
+  "name": "Mewtwo",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 150,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Genetic Pokémon"
+  },
+  "flavor": {
+    "en": "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments."
+  },
+  "weight": "269 lbs",
+  "height": "6'07\"",
+  "illustrator": "Christopher Rush",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Energy Control"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pokémon and attach it to another of your opponent's Pokémon of your choice."
+      }
+    },
+    {
+      "name": {
+        "en": "Telekinesis"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

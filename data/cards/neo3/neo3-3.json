@@ -1,0 +1,68 @@
+{
+  "id": "neo3-3",
+  "set": "neo3",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Celebi",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 251,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Time Travel Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
+  },
+  "weight": "11 lbs",
+  "height": "2'00\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Psychic Damage"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Time Travel"
+      },
+      "text": {
+        "en": "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi isn't Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

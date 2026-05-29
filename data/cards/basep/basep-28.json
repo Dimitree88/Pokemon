@@ -1,0 +1,60 @@
+{
+  "id": "basep-28",
+  "set": "basep",
+  "number": "28",
+  "rarity": "Promo",
+  "name": "Surfing Pikachu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 25,
+  "level": "32",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "One summer, a group of Pikachus was found riding the waves at the local beach."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Surf"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

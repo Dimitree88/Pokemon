@@ -1,0 +1,76 @@
+{
+  "id": "base1-49",
+  "set": "base1",
+  "number": "49",
+  "rarity": "Common",
+  "name": "Drowzee",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 96,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Hypnosis Pokémon"
+  },
+  "flavor": {
+    "en": "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams."
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Pound"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

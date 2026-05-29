@@ -1,0 +1,69 @@
+{
+  "id": "neo4-15",
+  "set": "neo4",
+  "number": "15",
+  "rarity": "Rare Holo",
+  "name": "Light Togetic",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 176,
+  "level": "32",
+  "evolvesFromName": "Togepi",
+  "evolvesFromDex": 175,
+  "species": {
+    "en": "Happiness Pokémon"
+  },
+  "flavor": {
+    "en": "It becomes depressed if it is not near kind-hearted people. Is is able to float in the air without moving its wings."
+  },
+  "weight": "7 lbs",
+  "height": "2'00\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sweet Kiss"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent may draw a card."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Gift"
+      },
+      "text": {
+        "en": "When you play Light Togetic from your hand, your opponent may search his or her deck for a Pokémon Tool card, show that card to you, and put it into his or her hand. Either way, you may do the same, and then each player who searched shuffles his or her deck."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

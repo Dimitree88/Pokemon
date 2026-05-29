@@ -1,0 +1,79 @@
+{
+  "id": "base4-26",
+  "set": "base4",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Kangaskhan",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 115,
+  "level": "40",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Parent Pokémon"
+  },
+  "flavor": {
+    "en": "The infant rarely ventures out of its mother's protective pouch until it is three years old."
+  },
+  "weight": "176 lbs",
+  "height": "7'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fetch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Draw a card."
+      }
+    },
+    {
+      "name": {
+        "en": "Comet Punch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

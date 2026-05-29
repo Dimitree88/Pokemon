@@ -1,0 +1,75 @@
+{
+  "id": "base3-48",
+  "set": "base3",
+  "number": "48",
+  "rarity": "Common",
+  "name": "Grimer",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 88,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sludge Pokémon"
+  },
+  "flavor": {
+    "en": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
+  },
+  "weight": "66 lbs",
+  "height": "2'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nasty Goo"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Minimize"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

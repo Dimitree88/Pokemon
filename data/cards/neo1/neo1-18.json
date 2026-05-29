@@ -1,0 +1,69 @@
+{
+  "id": "neo1-18",
+  "set": "neo1",
+  "number": "18",
+  "rarity": "Rare Holo",
+  "name": "Typhlosion",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 157,
+  "level": "57",
+  "evolvesFromName": "Quilava",
+  "evolvesFromDex": 156,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
+  },
+  "weight": "175 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flame Wheel"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "80",
+      "value": 80,
+      "modifier": null,
+      "text": {
+        "en": "Discard 3 Fire Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Fire Boost"
+      },
+      "text": {
+        "en": "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "neo1-44",
+  "set": "neo1",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Piloswine",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 221,
+  "level": "36",
+  "evolvesFromName": "Swinub",
+  "evolvesFromDex": 220,
+  "species": {
+    "en": "Swine Pokémon"
+  },
+  "flavor": {
+    "en": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
+  },
+  "weight": "123 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Freeze"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon can't attack. (Benching or evolving the Defending Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Blizzard"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon; if tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

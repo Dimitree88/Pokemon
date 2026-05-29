@@ -1,0 +1,58 @@
+{
+  "id": "gym2-84",
+  "set": "gym2",
+  "number": "84",
+  "rarity": "Common",
+  "name": "Lt. Surge's Pikachu",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 25,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

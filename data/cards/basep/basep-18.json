@@ -1,0 +1,64 @@
+{
+  "id": "basep-18",
+  "set": "basep",
+  "number": "18",
+  "rarity": "Promo",
+  "name": "Team Rocket's Meowth",
+  "owner": "Team Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 52,
+  "level": "30",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Scratch Cat Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection."
+  },
+  "weight": "9 lbs",
+  "height": "1'04\"",
+  "illustrator": "Kunihiko Yuyama",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Miraculous Comeback"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Pokémon in play. This attack does 10 damage times the number of heads. Then Team Rocket's Meowth does 10 damage times the number of tails to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

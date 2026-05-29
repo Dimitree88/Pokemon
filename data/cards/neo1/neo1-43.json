@@ -1,0 +1,76 @@
+{
+  "id": "neo1-43",
+  "set": "neo1",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Phanpy",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 231,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Long Nose Pokémon"
+  },
+  "flavor": {
+    "en": "It swings its long snout around playfully, but, because it is so strong, that can be dangerous."
+  },
+  "weight": "74 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Endure"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, then if, during your opponent's next turn, Phanpy would be Knocked Out by an attack, Phanpy isn't Knocked Out and its remaining HP become 10 instead."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

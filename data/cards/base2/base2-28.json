@@ -1,0 +1,78 @@
+{
+  "id": "base2-28",
+  "set": "base2",
+  "number": "28",
+  "rarity": "Rare",
+  "name": "Vaporeon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 134,
+  "level": "42",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Bubble Jet Pokémon"
+  },
+  "flavor": {
+    "en": "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid's."
+  },
+  "weight": "64 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

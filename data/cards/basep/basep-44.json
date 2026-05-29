@@ -1,0 +1,77 @@
+{
+  "id": "basep-44",
+  "set": "basep",
+  "number": "44",
+  "rarity": "Promo",
+  "name": "Magmar",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 126,
+  "level": "27",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spitfire Pokémon"
+  },
+  "flavor": {
+    "en": "Its body always burns with an orange glow that enables it to hide perfectly among flames."
+  },
+  "weight": "98 lbs",
+  "height": "4'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Burning Fire"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "When you use this attack, you may discard any number of Fire Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each Fire Energy card you discarded in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Magma Punch"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

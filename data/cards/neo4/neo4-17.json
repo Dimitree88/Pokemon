@@ -1,0 +1,77 @@
+{
+  "id": "neo4-17",
+  "set": "neo4",
+  "number": "17",
+  "rarity": "Rare",
+  "name": "Dark Ariados",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 168,
+  "level": "28",
+  "evolvesFromName": "Spinarak",
+  "evolvesFromDex": 167,
+  "species": {
+    "en": "Long Leg Pokémon"
+  },
+  "flavor": {
+    "en": "Wherever it goes, it spins a thread that always leads back to its web."
+  },
+  "weight": "74 lbs",
+  "height": "3'07\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Entangle"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon, then flip a coin. If heads, the new Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Bind"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon can't retreat until the end of your opponent's next turn and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

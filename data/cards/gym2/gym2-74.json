@@ -1,0 +1,78 @@
+{
+  "id": "gym2-74",
+  "set": "gym2",
+  "number": "74",
+  "rarity": "Common",
+  "name": "Giovanni's Meowth",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 52,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Scratch Cat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "9 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Cat Fleas"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    },
+    {
+      "name": {
+        "en": "Cat Kick"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

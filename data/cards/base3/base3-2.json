@@ -1,0 +1,80 @@
+{
+  "id": "base3-2",
+  "set": "base3",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Articuno",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 144,
+  "level": "35",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Freeze Pokémon"
+  },
+  "flavor": {
+    "en": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
+  },
+  "weight": "122 lbs",
+  "height": "5'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Freeze Dry"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Blizzard"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

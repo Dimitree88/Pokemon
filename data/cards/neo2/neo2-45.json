@@ -1,0 +1,82 @@
+{
+  "id": "neo2-45",
+  "set": "neo2",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Pupitar",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 247,
+  "level": "32",
+  "evolvesFromName": "Larvitar",
+  "evolvesFromDex": 246,
+  "species": {
+    "en": "Hard Shell Pokémon"
+  },
+  "flavor": {
+    "en": "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain."
+  },
+  "weight": "335 lbs",
+  "height": "3'11\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Skull Bash"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Dust Devil"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 10 damage to each non-Fighting Pokémon in play. Don't apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

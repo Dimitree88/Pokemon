@@ -1,0 +1,62 @@
+{
+  "id": "neo1-79",
+  "set": "neo1",
+  "number": "79",
+  "rarity": "Common",
+  "name": "Swinub",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 220,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Pig Pokémon"
+  },
+  "flavor": {
+    "en": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+  },
+  "weight": "14 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Powder Snow"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

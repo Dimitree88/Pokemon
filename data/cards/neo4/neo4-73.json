@@ -1,0 +1,76 @@
+{
+  "id": "neo4-73",
+  "set": "neo4",
+  "number": "73",
+  "rarity": "Common",
+  "name": "Machop",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 66,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "When bored, this super-strong Pokémon trains by lifting rocks."
+  },
+  "weight": "43 lbs",
+  "height": "2'07\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Chop"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Punch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

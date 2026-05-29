@@ -1,0 +1,72 @@
+{
+  "id": "gym1-27",
+  "set": "gym1",
+  "number": "27",
+  "rarity": "Rare",
+  "name": "Lt. Surge's Electabuzz",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 125,
+  "level": "22",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Charge"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
+      }
+    },
+    {
+      "name": {
+        "en": "Electric Current"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

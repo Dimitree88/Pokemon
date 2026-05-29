@@ -1,0 +1,77 @@
+{
+  "id": "gym1-25",
+  "set": "gym1",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Erika's Clefairy",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 35,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fairy Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "17 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Moonwatching"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Search your deck for a basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Comet Slap"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

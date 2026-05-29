@@ -1,0 +1,77 @@
+{
+  "id": "neo4-52",
+  "set": "neo4",
+  "number": "52",
+  "rarity": "Uncommon",
+  "name": "Light Vaporeon",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 134,
+  "level": "41",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Bubble Jet Pokémon"
+  },
+  "flavor": {
+    "en": "If its fins being to vibrate, it is a sign that it will begin raining soon."
+  },
+  "weight": "64 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Wash Away"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If you have any Benched Pokémon, flip a coin. If heads, remove all damage counters from 1 of your Benched Pokémon and discard all Energy cards attached to it."
+      }
+    },
+    {
+      "name": {
+        "en": "Hypnoshower"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep. Remove 1 damage counter from each Benched Pokémon (yours and your opponent's) with any damage counters on it."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

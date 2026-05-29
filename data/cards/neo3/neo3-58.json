@@ -1,0 +1,68 @@
+{
+  "id": "neo3-58",
+  "set": "neo3",
+  "number": "58",
+  "rarity": "Common",
+  "name": "Unown [K]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Keep]"
+      },
+      "text": {
+        "en": "Your opponent's attacks, Pokémon Powers, and Trainer cards can't discard Energy cards from your Pokémon with Unown in their names. (Any other effects still happen.)"
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

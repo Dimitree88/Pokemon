@@ -1,0 +1,76 @@
+{
+  "id": "neo2-39",
+  "set": "neo2",
+  "number": "39",
+  "rarity": "Uncommon",
+  "name": "Houndour",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 228,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dark Pokémon"
+  },
+  "flavor": {
+    "en": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+  },
+  "weight": "24 lbs",
+  "height": "2'00\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Plunder"
+      },
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

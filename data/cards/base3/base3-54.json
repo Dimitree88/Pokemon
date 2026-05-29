@@ -1,0 +1,75 @@
+{
+  "id": "base3-54",
+  "set": "base3",
+  "number": "54",
+  "rarity": "Common",
+  "name": "Shellder",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 90,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Bivalve Pokémon"
+  },
+  "flavor": {
+    "en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+  },
+  "weight": "9 lbs",
+  "height": "1'00\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Supersonic"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    },
+    {
+      "name": {
+        "en": "Hide in Shell"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

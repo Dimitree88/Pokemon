@@ -1,0 +1,72 @@
+{
+  "id": "neo1-68",
+  "set": "neo1",
+  "number": "68",
+  "rarity": "Common",
+  "name": "Oddish",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 43,
+  "level": "7",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": "Awakened by moonlight, it roams actively at night. In the day it stays quietly underground."
+  },
+  "weight": "12 lbs",
+  "height": "1'08\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hide"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Oddish."
+      }
+    },
+    {
+      "name": {
+        "en": "Absorb"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Remove a number of damage counters from Oddish equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Oddish has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

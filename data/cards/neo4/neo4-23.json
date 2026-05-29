@@ -1,0 +1,76 @@
+{
+  "id": "neo4-23",
+  "set": "neo4",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Light Lanturn",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 171,
+  "level": "33",
+  "evolvesFromName": "Chinchou",
+  "evolvesFromDex": 170,
+  "species": {
+    "en": "Light Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon has evolved its dorsal fin to emit light, which attracts the fish it feeds on."
+  },
+  "weight": "50 lbs",
+  "height": "3'11\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Searchlight"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand."
+      }
+    },
+    {
+      "name": {
+        "en": "Spark"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

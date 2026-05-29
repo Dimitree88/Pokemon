@@ -1,0 +1,77 @@
+{
+  "id": "neo4-13",
+  "set": "neo4",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Light Azumarill",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 184,
+  "level": "37",
+  "evolvesFromName": "Marill",
+  "evolvesFromDex": 183,
+  "species": {
+    "en": "Aqua Rabbit Pokémon"
+  },
+  "flavor": {
+    "en": "It curls up its long ears when swimming to prevent water from entering them."
+  },
+  "weight": "63 lbs",
+  "height": "2'07\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bubble"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Bubble Jump"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If you have any Benched Pokémon, flip a coin. If heads, take 2 Energy cards attached to Light Azumarill and attach them to 1 of your Benched Pokémon. Then return Light Azumarill and all cards attached to it to your hand."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

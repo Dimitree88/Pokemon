@@ -1,0 +1,75 @@
+{
+  "id": "base2-34",
+  "set": "base2",
+  "number": "34",
+  "rarity": "Uncommon",
+  "name": "Dodrio",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 85,
+  "level": "28",
+  "evolvesFromName": "Doduo",
+  "evolvesFromDex": 84,
+  "species": {
+    "en": "Triple Bird Pokémon"
+  },
+  "flavor": {
+    "en": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
+  },
+  "weight": "188 lbs",
+  "height": "5'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rage"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each damage counter on Dodrio."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Retreat Aid"
+      },
+      "text": {
+        "en": "As long as Dodrio is Benched, pay Colorless less to retreat your Active Pokémon."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

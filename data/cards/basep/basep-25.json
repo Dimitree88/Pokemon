@@ -1,0 +1,77 @@
+{
+  "id": "basep-25",
+  "set": "basep",
+  "number": "25",
+  "rarity": "Promo",
+  "name": "Flying Pikachu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 25,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thundershock"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Fly"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Flying Pikachu; if tails, this attack does nothing (not even damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "basep-15",
+  "set": "basep",
+  "number": "15",
+  "rarity": "Promo",
+  "name": "Cool Porygon",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 137,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Virtual Pokémon"
+  },
+  "flavor": {
+    "en": "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace."
+  },
+  "weight": "80 lbs",
+  "height": "2'07\"",
+  "illustrator": "Hiromichi Sugiyama",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Texture Magic"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may change Cool Porygon's Resistance to a type of your choice other than Colorless. If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless. (Benching either Pokémon ends the effect on that Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "3-D Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

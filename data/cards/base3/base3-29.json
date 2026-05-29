@@ -1,0 +1,62 @@
+{
+  "id": "base3-29",
+  "set": "base3",
+  "number": "29",
+  "rarity": "Rare",
+  "name": "Raichu",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 26,
+  "level": "45",
+  "evolvesFromName": "Pikachu",
+  "evolvesFromDex": 25,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "Its long tail serves as a ground to protect itself from its own high voltage power."
+  },
+  "weight": "66 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gigashock"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do that damage to each of them."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

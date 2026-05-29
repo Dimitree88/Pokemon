@@ -1,0 +1,71 @@
+{
+  "id": "gym2-94",
+  "set": "gym2",
+  "number": "94",
+  "rarity": "Common",
+  "name": "Sabrina's Abra",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 63,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Psyscan"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Look at your opponent's hand."
+      }
+    },
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

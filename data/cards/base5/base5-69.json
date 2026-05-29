@@ -1,0 +1,57 @@
+{
+  "id": "base5-69",
+  "set": "base5",
+  "number": "69",
+  "rarity": "Common",
+  "name": "Voltorb",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 100,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel."
+  },
+  "weight": "23 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Speed Ball"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

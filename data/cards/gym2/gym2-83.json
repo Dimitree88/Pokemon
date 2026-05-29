@@ -1,0 +1,63 @@
+{
+  "id": "gym2-83",
+  "set": "gym2",
+  "number": "83",
+  "rarity": "Common",
+  "name": "Koga's Zubat",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 41,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "17 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Group Attack"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Does 10 damage times the number of Koga's Zubats you have in play. Before doing damage, you may search your deck for any number of Basic Pokémon named Koga's Zubat and put them onto your Bench. (You can't get more cards with this attack than you have room on your Bench.) If you do, shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

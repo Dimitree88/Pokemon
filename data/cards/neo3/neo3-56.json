@@ -1,0 +1,75 @@
+{
+  "id": "neo3-56",
+  "set": "neo3",
+  "number": "56",
+  "rarity": "Common",
+  "name": "Staryu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 120,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Star Shape Pokémon"
+  },
+  "flavor": {
+    "en": "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
+  },
+  "weight": "76 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Bubblebeam"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

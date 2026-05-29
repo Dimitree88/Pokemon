@@ -1,0 +1,76 @@
+{
+  "id": "base3-46",
+  "set": "base3",
+  "number": "46",
+  "rarity": "Common",
+  "name": "Ekans",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 23,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Snake Pokémon"
+  },
+  "flavor": {
+    "en": "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole."
+  },
+  "weight": "15 lbs",
+  "height": "6'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spit Poison"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Wrap"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

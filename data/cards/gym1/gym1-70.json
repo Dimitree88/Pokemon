@@ -1,0 +1,63 @@
+{
+  "id": "gym1-70",
+  "set": "gym1",
+  "number": "70",
+  "rarity": "Common",
+  "name": "Brock's Rhyhorn",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 111,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spikes Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "254 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Drill Tackle"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "70",
+      "value": 70,
+      "modifier": null,
+      "text": {
+        "en": "Flip 2 coins. If 1 or both of them are tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

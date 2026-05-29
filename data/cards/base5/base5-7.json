@@ -1,0 +1,72 @@
+{
+  "id": "base5-7",
+  "set": "base5",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Dark Golbat",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 42,
+  "level": "25",
+  "evolvesFromName": "Zubat",
+  "evolvesFromDex": 41,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": "Sneaks up silently on its prey and attacks it from behind, sometimes killing it with one bite."
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flitter"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Sneak Attack"
+      },
+      "text": {
+        "en": "When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pokémon. If you do, Dark Golbat does 10 damage to that Pokémon. Apply Weakness and Resistance."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

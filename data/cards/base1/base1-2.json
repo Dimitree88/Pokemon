@@ -1,0 +1,70 @@
+{
+  "id": "base1-2",
+  "set": "base1",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Blastoise",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 9,
+  "level": "52",
+  "evolvesFromName": "Wartortle",
+  "evolvesFromDex": 8,
+  "species": {
+    "en": "Shellfish Pokémon"
+  },
+  "flavor": {
+    "en": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles."
+  },
+  "weight": "188 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hydro Pump"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "40+",
+        "value": 40,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Rain Dance"
+      },
+      "text": {
+        "en": "As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

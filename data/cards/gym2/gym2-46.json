@@ -1,0 +1,79 @@
+{
+  "id": "gym2-46",
+  "set": "gym2",
+  "number": "46",
+  "rarity": "Uncommon",
+  "name": "Koga's Golbat",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 42,
+  "level": "28",
+  "evolvesFromName": "Koga's Zubat",
+  "evolvesFromDex": 41,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Sonic Scream"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "si1-16",
+  "set": "si1",
+  "number": "16",
+  "rarity": null,
+  "name": "Lickitung",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 108,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Licking Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery."
+  },
+  "weight": "144 lbs",
+  "height": "3'11\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lick Wounds"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1)."
+      }
+    },
+    {
+      "name": {
+        "en": "Tongue Stretch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

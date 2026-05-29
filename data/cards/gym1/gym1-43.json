@@ -1,0 +1,72 @@
+{
+  "id": "gym1-43",
+  "set": "gym1",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Erika's Exeggcute",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 102,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Egg Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "6 lbs",
+  "height": "1'04\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Deflector"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "During your opponent's next turn, whenever Erika's Exeggcute takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Egg Bomb"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing to the Defending Pokémon and Erika's Exeggcute does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

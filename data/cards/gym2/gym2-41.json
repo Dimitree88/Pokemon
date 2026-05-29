@@ -1,0 +1,68 @@
+{
+  "id": "gym2-41",
+  "set": "gym2",
+  "number": "41",
+  "rarity": "Uncommon",
+  "name": "Erika's Ivysaur",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 2,
+  "level": "22",
+  "evolvesFromName": "Erika's Bulbasaur",
+  "evolvesFromDex": 1,
+  "species": {
+    "en": "Seed Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "29 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Double Razor Leaf"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "40×",
+      "value": 40,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 40 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Relaxing Scent"
+      },
+      "text": {
+        "en": "As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

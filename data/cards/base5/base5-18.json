@@ -1,0 +1,75 @@
+{
+  "id": "base5-18",
+  "set": "base5",
+  "number": "18",
+  "rarity": "Rare",
+  "name": "Dark Alakazam",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 65,
+  "level": "30",
+  "evolvesFromName": "Dark Kadabra",
+  "evolvesFromDex": 64,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle."
+  },
+  "weight": "106 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Teleport Blast"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Mind Shock"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

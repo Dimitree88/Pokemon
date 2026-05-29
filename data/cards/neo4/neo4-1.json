@@ -1,0 +1,70 @@
+{
+  "id": "neo4-1",
+  "set": "neo4",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Dark Ampharos",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 181,
+  "level": "36",
+  "evolvesFromName": "Dark Flaaffy",
+  "evolvesFromDex": 180,
+  "species": {
+    "en": "Light Pokémon"
+  },
+  "flavor": {
+    "en": "Its brightly lit tail can be seen for miles in the dark, even by ships on the sea."
+  },
+  "weight": "136 lbs",
+  "height": "4'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Shock Bolt"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard all Lightning Energy cards attached to Dark Ampharos or this attack does nothing."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Conductivity"
+      },
+      "text": {
+        "en": "Whenever your opponent attaches an Energy card from his or her hand to a Pokémon, this power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

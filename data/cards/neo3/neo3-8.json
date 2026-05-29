@@ -1,0 +1,77 @@
+{
+  "id": "neo3-8",
+  "set": "neo3",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Houndoom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 229,
+  "level": "35",
+  "evolvesFromName": "Houndour",
+  "evolvesFromDex": 228,
+  "species": {
+    "en": "Dark Pokémon"
+  },
+  "flavor": {
+    "en": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests."
+  },
+  "weight": "77 lbs",
+  "height": "4'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dark Flame"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Houndoom or this attack does nothing. If there are any Darkness Energy cards in your discard pile, attach 1 of them to Houndoom."
+      }
+    },
+    {
+      "name": {
+        "en": "Black Fang"
+      },
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Darkness Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

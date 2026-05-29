@@ -1,0 +1,68 @@
+{
+  "id": "gym1-65",
+  "set": "gym1",
+  "number": "65",
+  "rarity": "Common",
+  "name": "Blaine's Vulpix",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 37,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Fan"
+      },
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Natural Healing"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may remove 1 damage counter from Blaine's Vulpix. This power can't be used if Blaine's Vulpix is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

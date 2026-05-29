@@ -1,0 +1,67 @@
+{
+  "id": "base5-12",
+  "set": "base5",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Dark Slowbro",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 80,
+  "level": "27",
+  "evolvesFromName": "Slowpoke",
+  "evolvesFromDex": 79,
+  "species": {
+    "en": "Hermit Crab Pokémon"
+  },
+  "flavor": {
+    "en": "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people."
+  },
+  "weight": "173 lbs",
+  "height": "5'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fickle Attack"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Reel In"
+      },
+      "text": {
+        "en": "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

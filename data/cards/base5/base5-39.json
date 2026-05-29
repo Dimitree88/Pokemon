@@ -1,0 +1,67 @@
+{
+  "id": "base5-39",
+  "set": "base5",
+  "number": "39",
+  "rarity": "Uncommon",
+  "name": "Dark Kadabra",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 64,
+  "level": "24",
+  "evolvesFromName": "Abra",
+  "evolvesFromDex": 63,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "Some people say that Kadabras are responsible for many of the mysterious events reported in the news."
+  },
+  "weight": "125 lbs",
+  "height": "4'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mind Shock"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Matter Exchange"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may discard a card from your hand in order to draw a card. This power can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

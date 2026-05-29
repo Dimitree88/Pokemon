@@ -1,0 +1,64 @@
+{
+  "id": "neo2-57",
+  "set": "neo2",
+  "number": "57",
+  "rarity": "Common",
+  "name": "Larvitar",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 246,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Skin Pokémon"
+  },
+  "flavor": {
+    "en": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
+  },
+  "weight": "159 lbs",
+  "height": "2'00\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

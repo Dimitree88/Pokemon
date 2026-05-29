@@ -1,0 +1,78 @@
+{
+  "id": "neo4-109",
+  "set": "neo4",
+  "number": "109",
+  "rarity": "Rare Shining",
+  "name": "Shining Mewtwo",
+  "owner": null,
+  "variant": "shining",
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 150,
+  "level": "63",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Genetic Pokémon"
+  },
+  "flavor": {
+    "en": "It uses its highly developed psychic powers to defeat its enemies before they even have time to think."
+  },
+  "weight": "269 lbs",
+  "height": "6'07\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Reflect Shield"
+      },
+      "cost": [
+        "Psychic",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If an attack does damage to Shining Mewtwo during your opponent's next turn (even if Shining Mewtwo is Knocked Out), flip a coin. If heads, prevent all damage done to Shining Mewtwo from that attack (any other effects of attacks still happen) and do 20 damage to the attacking Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Psyburst"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "40+",
+        "value": 40,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Discard a Fire Energy card attached to Shining Mewtwo or this attack does nothing. This attack does 40 damage plus 10 damage for each Energy attached to the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "gym1-80",
+  "set": "gym1",
+  "number": "80",
+  "rarity": "Common",
+  "name": "Lt. Surge's Magnemite",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 81,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "13 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thundershock"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

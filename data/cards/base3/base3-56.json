@@ -1,0 +1,68 @@
+{
+  "id": "base3-56",
+  "set": "base3",
+  "number": "56",
+  "rarity": "Common",
+  "name": "Tentacool",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 72,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Jellyfish Pokémon"
+  },
+  "flavor": {
+    "en": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
+  },
+  "weight": "100 lbs",
+  "height": "2'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Acid"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Cowardice"
+      },
+      "text": {
+        "en": "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

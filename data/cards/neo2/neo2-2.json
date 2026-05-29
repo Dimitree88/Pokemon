@@ -1,0 +1,75 @@
+{
+  "id": "neo2-2",
+  "set": "neo2",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Forretress",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 205,
+  "level": "40",
+  "evolvesFromName": "Pineco",
+  "evolvesFromDex": 204,
+  "species": {
+    "en": "Bagworm Pokémon"
+  },
+  "flavor": {
+    "en": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery."
+  },
+  "weight": "277 lbs",
+  "height": "3'11\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rapid Spin"
+      },
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Spikes"
+      },
+      "text": {
+        "en": "During your opponent's turn, whenever 1 of your opponent's Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. (Don't apply Weakness and Resistance.) This power stops working if Forretress is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

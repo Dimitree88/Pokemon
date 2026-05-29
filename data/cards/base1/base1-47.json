@@ -1,0 +1,81 @@
+{
+  "id": "base1-47",
+  "set": "base1",
+  "number": "47",
+  "rarity": "Common",
+  "name": "Diglett",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 50,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mole Pokémon"
+  },
+  "flavor": {
+    "en": "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground."
+  },
+  "weight": "2 lbs",
+  "height": "0'08\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dig"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Mud Slap"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

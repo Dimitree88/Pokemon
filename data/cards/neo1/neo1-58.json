@@ -1,0 +1,68 @@
+{
+  "id": "neo1-58",
+  "set": "neo1",
+  "number": "58",
+  "rarity": "Common",
+  "name": "Girafarig",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 203,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Long Neck Pokémon"
+  },
+  "flavor": {
+    "en": "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite."
+  },
+  "weight": "91 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig."
+      }
+    },
+    {
+      "name": {
+        "en": "Psybeam"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

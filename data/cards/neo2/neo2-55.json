@@ -1,0 +1,64 @@
+{
+  "id": "neo2-55",
+  "set": "neo2",
+  "number": "55",
+  "rarity": "Common",
+  "name": "Hoppip",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 187,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Cottonweed Pokémon"
+  },
+  "flavor": {
+    "en": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away."
+  },
+  "weight": "1 lbs",
+  "height": "1'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rolling Tackle"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "base3-49",
+  "set": "base3",
+  "number": "49",
+  "rarity": "Common",
+  "name": "Horsea",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 116,
+  "level": "19",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
+  },
+  "weight": "18 lbs",
+  "height": "1'04\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smokescreen"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

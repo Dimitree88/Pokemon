@@ -1,0 +1,81 @@
+{
+  "id": "gym2-27",
+  "set": "gym2",
+  "number": "27",
+  "rarity": "Rare",
+  "name": "Koga's Pidgeotto",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 17,
+  "level": "34",
+  "evolvesFromName": "Koga's Pidgey",
+  "evolvesFromDex": 16,
+  "species": {
+    "en": "Bird Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Turn"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Aerial Maneuvers"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage, and, during your opponent's next turn, prevent all effects of attacks, including damage, done to Koga's Pidgeotto. If tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

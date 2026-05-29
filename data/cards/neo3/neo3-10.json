@@ -1,0 +1,75 @@
+{
+  "id": "neo3-10",
+  "set": "neo3",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Magneton",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 82,
+  "level": "37",
+  "evolvesFromName": "Magnemite",
+  "evolvesFromDex": 81,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": "Three Magnemites are linked by a strong magnetic force. Earaches will occur if you get too close."
+  },
+  "weight": "132 lbs",
+  "height": "3'03\"",
+  "illustrator": "\"Big Mama\" Tagawa, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Plasma"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Magneton."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Electromagnetic Power"
+      },
+      "text": {
+        "en": "As often as you like during your turn (before your attack), you may take 1 Energy card attached to 1 of your Magnemites, Magnetons, or Dark Magnetons and attach it to a different 1 of your Magnemites, Magnetons, and Dark Magnetons. This power can't be used if Magneton is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

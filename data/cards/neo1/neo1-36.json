@@ -1,0 +1,74 @@
+{
+  "id": "neo1-36",
+  "set": "neo1",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Gloom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 44,
+  "level": "26",
+  "evolvesFromName": "Oddish",
+  "evolvesFromDex": 43,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
+  },
+  "weight": "19 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Strange Powder"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Sticky Nectar"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and, until the end of your next turn, as long as Gloom is your Active Pokémon, the Defending Pokémon can't retreat, and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing. If tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

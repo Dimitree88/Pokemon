@@ -1,0 +1,76 @@
+{
+  "id": "neo4-34",
+  "set": "neo4",
+  "number": "34",
+  "rarity": "Uncommon",
+  "name": "Dark Flaaffy",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 180,
+  "level": "25",
+  "evolvesFromName": "Mareep",
+  "evolvesFromDex": 179,
+  "species": {
+    "en": "Wool Pokémon"
+  },
+  "flavor": {
+    "en": "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body."
+  },
+  "weight": "29 lbs",
+  "height": "2'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "High Voltage"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Stun Wave"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

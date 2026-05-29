@@ -1,0 +1,74 @@
+{
+  "id": "base4-4",
+  "set": "base4",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Charizard",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 120,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 6,
+  "level": "76",
+  "evolvesFromName": "Charmeleon",
+  "evolvesFromDex": 5,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires."
+  },
+  "weight": "200 lbs",
+  "height": "5'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fire Spin"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "100",
+      "value": 100,
+      "modifier": null,
+      "text": {
+        "en": "Discard 2 Energy cards attached to Charizard in order to use this attack."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Energy Burn"
+      },
+      "text": {
+        "en": "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

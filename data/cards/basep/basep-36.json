@@ -1,0 +1,56 @@
+{
+  "id": "basep-36",
+  "set": "basep",
+  "number": "36",
+  "rarity": "Promo",
+  "name": "Igglybuff",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 174,
+  "level": "5",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
+  },
+  "weight": "2 lbs",
+  "height": "1'00\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Good Night Song"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

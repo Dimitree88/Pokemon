@@ -1,0 +1,76 @@
+{
+  "id": "gym1-20",
+  "set": "gym1",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Brock's Golem",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 76,
+  "level": "40",
+  "evolvesFromName": "Brock's Graveler",
+  "evolvesFromDex": 75,
+  "species": {
+    "en": "Megaton Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "661 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rock Slide"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose up to 3 of them. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Fissure"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

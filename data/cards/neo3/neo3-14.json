@@ -1,0 +1,70 @@
+{
+  "id": "neo3-14",
+  "set": "neo3",
+  "number": "14",
+  "rarity": "Rare Holo",
+  "name": "Suicune",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 245,
+  "level": "33",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Aurora Pokémon"
+  },
+  "flavor": {
+    "en": "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water."
+  },
+  "weight": "412 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Aurora Wave"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If only 1 is heads, the Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Crystal Body"
+      },
+      "text": {
+        "en": "Prevent all effects of your opponent's attacks, other than damage, done to Suicune. This power stops working while Suicune is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

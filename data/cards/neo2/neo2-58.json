@@ -1,0 +1,60 @@
+{
+  "id": "neo2-58",
+  "set": "neo2",
+  "number": "58",
+  "rarity": "Common",
+  "name": "Mareep",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 179,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Wool Pokémon"
+  },
+  "flavor": {
+    "en": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week."
+  },
+  "weight": "17 lbs",
+  "height": "2'00\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thunder Jolt"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, Mareep does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

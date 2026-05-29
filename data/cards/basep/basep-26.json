@@ -1,0 +1,76 @@
+{
+  "id": "basep-26",
+  "set": "basep",
+  "number": "26",
+  "rarity": "Promo",
+  "name": "Pikachu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 25,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Gakuji Nomoto",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Thunderbolt"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard all Energy cards attached to Pikachu."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

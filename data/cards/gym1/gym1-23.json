@@ -1,0 +1,78 @@
+{
+  "id": "gym1-23",
+  "set": "gym1",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Brock's Sandslash",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 28,
+  "level": "26",
+  "evolvesFromName": "Brock's Sandshrew",
+  "evolvesFromDex": 27,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "65 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Needles"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Sandstorm"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

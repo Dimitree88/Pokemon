@@ -1,0 +1,77 @@
+{
+  "id": "basep-4",
+  "set": "basep",
+  "number": "4",
+  "rarity": "Promo",
+  "name": "Pikachu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 25,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Recharge"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Search your deck for a Lightning Energy card and attach it to Pikachu. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Thunderbolt"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard all Energy cards attached to Pikachu in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

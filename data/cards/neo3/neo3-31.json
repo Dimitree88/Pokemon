@@ -1,0 +1,77 @@
+{
+  "id": "neo3-31",
+  "set": "neo3",
+  "number": "31",
+  "rarity": "Uncommon",
+  "name": "Jynx",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 124,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Human Shape Pokémon"
+  },
+  "flavor": {
+    "en": "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+  },
+  "weight": "90 lbs",
+  "height": "4'07\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Freezing Kiss Goodnight"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Strange Dance"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Confused. If tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

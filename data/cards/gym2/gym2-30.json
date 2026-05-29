@@ -1,0 +1,74 @@
+{
+  "id": "gym2-30",
+  "set": "gym2",
+  "number": "30",
+  "rarity": "Rare",
+  "name": "Sabrina's Golduck",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 55,
+  "level": "33",
+  "evolvesFromName": "Sabrina's Psyduck",
+  "evolvesFromDex": 54,
+  "species": {
+    "en": "Duck Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "169 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Damage Shift"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don't apply Weakness and Resistance.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Water Spray"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

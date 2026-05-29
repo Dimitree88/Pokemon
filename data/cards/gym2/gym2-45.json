@@ -1,0 +1,59 @@
+{
+  "id": "gym2-45",
+  "set": "gym2",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Giovanni's Nidorino",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 33,
+  "level": "32",
+  "evolvesFromName": "Giovanni's Nidoran ♂",
+  "evolvesFromDex": 32,
+  "species": {
+    "en": "Poison Pin Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rend"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

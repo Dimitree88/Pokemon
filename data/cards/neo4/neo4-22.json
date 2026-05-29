@@ -1,0 +1,78 @@
+{
+  "id": "neo4-22",
+  "set": "neo4",
+  "number": "22",
+  "rarity": "Rare",
+  "name": "Light Dragonair",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 148,
+  "level": "35",
+  "evolvesFromName": "Dratini",
+  "evolvesFromDex": 147,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "The aura it projects from its body has an effect on the surrounding climate and weather."
+  },
+  "weight": "36 lbs",
+  "height": "13'01\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Healing Light"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
+      }
+    },
+    {
+      "name": {
+        "en": "Protective Wave"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

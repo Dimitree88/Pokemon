@@ -1,0 +1,80 @@
+{
+  "id": "base1-13",
+  "set": "base1",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Poliwrath",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 62,
+  "level": "48",
+  "evolvesFromName": "Poliwhirl",
+  "evolvesFromDex": 61,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers."
+  },
+  "weight": "119 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+      }
+    },
+    {
+      "name": {
+        "en": "Whirlpool"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

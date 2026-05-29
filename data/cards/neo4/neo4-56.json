@@ -1,0 +1,76 @@
+{
+  "id": "neo4-56",
+  "set": "neo4",
+  "number": "56",
+  "rarity": "Uncommon",
+  "name": "Togepi",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 175,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spike Ball Pokémon"
+  },
+  "flavor": {
+    "en": "Its shell is said to contain happiness itself, which it will share with those who are kind to it."
+  },
+  "weight": "3 lbs",
+  "height": "1'00\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Charm"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance)."
+      }
+    },
+    {
+      "name": {
+        "en": "Spike Ball Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Togepi does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

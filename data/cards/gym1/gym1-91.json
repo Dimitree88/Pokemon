@@ -1,0 +1,57 @@
+{
+  "id": "gym1-91",
+  "set": "gym1",
+  "number": "91",
+  "rarity": "Common",
+  "name": "Sabrina's Abra",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 63,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Energy Loop"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Return a Psychic Energy card attached to Sabrina's Abra to your hand in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

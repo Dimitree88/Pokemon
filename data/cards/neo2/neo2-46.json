@@ -1,0 +1,65 @@
+{
+  "id": "neo2-46",
+  "set": "neo2",
+  "number": "46",
+  "rarity": "Uncommon",
+  "name": "Scyther",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 123,
+  "level": "24",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mantis Pokémon"
+  },
+  "flavor": {
+    "en": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+  },
+  "weight": "123 lbs",
+  "height": "4'11\"",
+  "illustrator": "Kimiya Masago",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Cutter"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

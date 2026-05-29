@@ -1,0 +1,79 @@
+{
+  "id": "neo2-4",
+  "set": "neo2",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Houndoom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 229,
+  "level": "37",
+  "evolvesFromName": "Houndour",
+  "evolvesFromDex": 228,
+  "species": {
+    "en": "Dark Pokémon"
+  },
+  "flavor": {
+    "en": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests."
+  },
+  "weight": "77 lbs",
+  "height": "4'07\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crunch"
+      },
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Flamethrower"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Houndoom or this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

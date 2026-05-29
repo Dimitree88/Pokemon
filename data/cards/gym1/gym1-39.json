@@ -1,0 +1,78 @@
+{
+  "id": "gym1-39",
+  "set": "gym1",
+  "number": "39",
+  "rarity": "Uncommon",
+  "name": "Brock's Golbat",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 42,
+  "level": "30",
+  "evolvesFromName": "Brock's Zubat",
+  "evolvesFromDex": 41,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dive"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Spiral Dive"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

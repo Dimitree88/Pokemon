@@ -1,0 +1,77 @@
+{
+  "id": "gym2-51",
+  "set": "gym2",
+  "number": "51",
+  "rarity": "Uncommon",
+  "name": "Lt. Surge's Eevee",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 133,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Evolution Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "14 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Surprise"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Look at a random card from your opponent's hand. Your opponent shuffles that card into his or her deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

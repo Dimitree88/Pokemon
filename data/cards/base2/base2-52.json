@@ -1,0 +1,76 @@
+{
+  "id": "base2-52",
+  "set": "base2",
+  "number": "52",
+  "rarity": "Common",
+  "name": "Exeggcute",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 102,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Egg Pokémon"
+  },
+  "flavor": {
+    "en": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
+  },
+  "weight": "6 lbs",
+  "height": "1'04\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hypnosis"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Leech Seed"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

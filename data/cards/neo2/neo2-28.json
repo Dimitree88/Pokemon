@@ -1,0 +1,79 @@
+{
+  "id": "neo2-28",
+  "set": "neo2",
+  "number": "28",
+  "rarity": "Rare",
+  "name": "Poliwrath",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 62,
+  "level": "45",
+  "evolvesFromName": "Poliwhirl",
+  "evolvesFromDex": 61,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land."
+  },
+  "weight": "119 lbs",
+  "height": "4'03\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Corkscrew Punch"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Submission"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "70",
+        "value": 70,
+        "modifier": null
+      },
+      "text": {
+        "en": "Poliwrath does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

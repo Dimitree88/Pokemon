@@ -1,0 +1,78 @@
+{
+  "id": "base2-2",
+  "set": "base2",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Electrode",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 101,
+  "level": "42",
+  "evolvesFromName": "Voltorb",
+  "evolvesFromDex": 100,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": "It stores electrical energy under very high pressure. It often explodes with little or no provocation."
+  },
+  "weight": "147 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Chain Lightning"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

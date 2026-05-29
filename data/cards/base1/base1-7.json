@@ -1,0 +1,77 @@
+{
+  "id": "base1-7",
+  "set": "base1",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Hitmonchan",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 107,
+  "level": "33",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Punching Pokémon"
+  },
+  "flavor": {
+    "en": "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."
+  },
+  "weight": "111 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Jab"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Special Punch"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

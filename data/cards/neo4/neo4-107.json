@@ -1,0 +1,68 @@
+{
+  "id": "neo4-107",
+  "set": "neo4",
+  "number": "107",
+  "rarity": "Rare Shining",
+  "name": "Shining Charizard",
+  "owner": null,
+  "variant": "shining",
+  "stage": "Basic",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 6,
+  "level": "61",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": "The flames it breathes are so hot that they can melt anything."
+  },
+  "weight": "200 lbs",
+  "height": "5'07\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "White-hot Flame"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "100",
+        "value": 100,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Fire Energy card and 1 Lightning Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

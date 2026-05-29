@@ -1,0 +1,79 @@
+{
+  "id": "base1-11",
+  "set": "base1",
+  "number": "11",
+  "rarity": "Rare Holo",
+  "name": "Nidoking",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 34,
+  "level": "23",
+  "evolvesFromName": "Nidorino",
+  "evolvesFromDex": 33,
+  "species": {
+    "en": "Drill Pokémon"
+  },
+  "flavor": {
+    "en": "Uses its powerful tail in battle to smash, constrict, then break its prey's bones."
+  },
+  "weight": "137 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thrash"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself."
+      }
+    },
+    {
+      "name": {
+        "en": "Toxic"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

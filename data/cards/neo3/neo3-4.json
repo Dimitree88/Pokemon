@@ -1,0 +1,82 @@
+{
+  "id": "neo3-4",
+  "set": "neo3",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Crobat",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 169,
+  "level": "51",
+  "evolvesFromName": "Golbat",
+  "evolvesFromDex": 42,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby."
+  },
+  "weight": "165 lbs",
+  "height": "5'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Triggered Poison"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Cross Attack"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

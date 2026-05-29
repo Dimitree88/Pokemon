@@ -1,0 +1,60 @@
+{
+  "id": "basep-29",
+  "set": "basep",
+  "number": "29",
+  "rarity": "Promo",
+  "name": "Marill",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 183,
+  "level": "64",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Aqua Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning."
+  },
+  "weight": "19 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each Energy attached to Marill but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

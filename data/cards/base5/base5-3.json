@@ -1,0 +1,74 @@
+{
+  "id": "base5-3",
+  "set": "base5",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Dark Blastoise",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 9,
+  "level": "28",
+  "evolvesFromName": "Dark Wartortle",
+  "evolvesFromDex": 8,
+  "species": {
+    "en": "Shellfish Pokémon"
+  },
+  "flavor": {
+    "en": "An aggressive Pokémon that tackles anything it sees."
+  },
+  "weight": "188 lbs",
+  "height": "5'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hydrocannon"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Rocket Tackle"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

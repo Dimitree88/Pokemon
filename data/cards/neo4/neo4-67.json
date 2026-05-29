@@ -1,0 +1,65 @@
+{
+  "id": "neo4-67",
+  "set": "neo4",
+  "number": "67",
+  "rarity": "Common",
+  "name": "Gligar",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 207,
+  "level": "26",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fly Scorpion Pokémon"
+  },
+  "flavor": {
+    "en": "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point."
+  },
+  "weight": "143 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Stun Poison"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

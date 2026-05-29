@@ -1,0 +1,63 @@
+{
+  "id": "neo1-39",
+  "set": "neo1",
+  "number": "39",
+  "rarity": "Uncommon",
+  "name": "Ledian",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 166,
+  "level": "32",
+  "evolvesFromName": "Ledyba",
+  "evolvesFromDex": 165,
+  "species": {
+    "en": "Five Star Pokémon"
+  },
+  "flavor": {
+    "en": "When the stars flicker in the night sky, Ledian flutters about, scattering a glowing powder."
+  },
+  "weight": "78 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Baton Pass"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "If you have any Grass Pokémon on your Bench, remove all Grass Energy cards from Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

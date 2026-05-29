@@ -1,0 +1,81 @@
+{
+  "id": "neo2-63",
+  "set": "neo2",
+  "number": "63",
+  "rarity": "Common",
+  "name": "Sentret",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 161,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Scout Pokémon"
+  },
+  "flavor": {
+    "en": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+  },
+  "weight": "13 lbs",
+  "height": "2'07\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scout"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Look at your opponent's hand."
+      }
+    },
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

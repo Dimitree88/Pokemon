@@ -1,0 +1,62 @@
+{
+  "id": "base4-72",
+  "set": "base4",
+  "number": "72",
+  "rarity": "Common",
+  "name": "Doduo",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 84,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Twin Bird Pokémon"
+  },
+  "flavor": {
+    "en": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
+  },
+  "weight": "86 lbs",
+  "height": "4'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Attack"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

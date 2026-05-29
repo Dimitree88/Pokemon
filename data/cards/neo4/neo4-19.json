@@ -1,0 +1,76 @@
+{
+  "id": "neo4-19",
+  "set": "neo4",
+  "number": "19",
+  "rarity": "Rare",
+  "name": "Dark Omastar",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 139,
+  "level": "33",
+  "evolvesFromName": "Dark Omanyte",
+  "evolvesFromDex": 138,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "Nothing can escape once wrapped in its tentacles, which it uses for self-defense as well as to catch food."
+  },
+  "weight": "77 lbs",
+  "height": "3'03\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Prehistoric Water"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Dark Tentacle"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

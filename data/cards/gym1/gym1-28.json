@@ -1,0 +1,75 @@
+{
+  "id": "gym1-28",
+  "set": "gym1",
+  "number": "28",
+  "rarity": "Rare",
+  "name": "Lt. Surge's Raichu",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 26,
+  "level": "32",
+  "evolvesFromName": "Lt. Surge's Pikachu",
+  "evolvesFromDex": 25,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Punch"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Thunderbolt"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "100",
+      "value": 100,
+      "modifier": null,
+      "text": {
+        "en": "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

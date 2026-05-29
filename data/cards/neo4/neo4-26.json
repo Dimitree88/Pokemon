@@ -1,0 +1,75 @@
+{
+  "id": "neo4-26",
+  "set": "neo4",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Light Piloswine",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 221,
+  "level": "43",
+  "evolvesFromName": "Swinub",
+  "evolvesFromDex": 220,
+  "species": {
+    "en": "Swine Pokémon"
+  },
+  "flavor": {
+    "en": "Its legs are short, but its hooves are wide and flat, allowing it to easily walk over snow."
+  },
+  "weight": "123 lbs",
+  "height": "3'07\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Knock Over"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If there is a Stadium card in play, you may discard it."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Fluffy Wool"
+      },
+      "text": {
+        "en": "During your opponent's turn, if Light Piloswine is your Active Pokémon and is damaged by your opponent's attack (even if it's Knocked Out), flip a coin. If heads, the attacking Pokémon is now Asleep. This power stops working if Light Piloswine is already Asleep, Confused, or Paralyzed when your opponent attacks."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

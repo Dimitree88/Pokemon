@@ -1,0 +1,67 @@
+{
+  "id": "gym1-42",
+  "set": "gym1",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Erika's Dratini",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 147,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "7 lbs",
+  "height": "5'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Strike"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Strange Barrier"
+      },
+      "text": {
+        "en": "Whenever an attack by a Basic Pokémon (including your own) does 20 or more damage to Erika's Dratini (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Erika's Dratini is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

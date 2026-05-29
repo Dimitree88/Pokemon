@@ -1,0 +1,58 @@
+{
+  "id": "neo1-51",
+  "set": "neo1",
+  "number": "51",
+  "rarity": "Uncommon",
+  "name": "Togepi",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 175,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spike Ball Pokémon"
+  },
+  "flavor": {
+    "en": "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+  },
+  "weight": "3 lbs",
+  "height": "1'00\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poison Barb"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

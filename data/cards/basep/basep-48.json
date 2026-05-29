@@ -1,0 +1,71 @@
+{
+  "id": "basep-48",
+  "set": "basep",
+  "number": "48",
+  "rarity": "Promo",
+  "name": "Articuno",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 144,
+  "level": "34",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Freeze Pokémon"
+  },
+  "flavor": {
+    "en": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
+  },
+  "weight": "122 lbs",
+  "height": "5'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ice Beam"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Aurora Veil"
+      },
+      "text": {
+        "en": "As long as Articuno is your Active Pokémon, your Benched Pokémon do not take damage from and are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

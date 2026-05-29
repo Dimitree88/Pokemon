@@ -1,0 +1,72 @@
+{
+  "id": "base5-65",
+  "set": "base5",
+  "number": "65",
+  "rarity": "Common",
+  "name": "Psyduck",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 54,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Duck Pokémon"
+  },
+  "flavor": {
+    "en": "It is often seen holding its head in its paws, as if it were suffering from a headache."
+  },
+  "weight": "43 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dizziness"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Draw a card."
+      }
+    },
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

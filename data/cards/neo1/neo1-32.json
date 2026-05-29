@@ -1,0 +1,74 @@
+{
+  "id": "neo1-32",
+  "set": "neo1",
+  "number": "32",
+  "rarity": "Uncommon",
+  "name": "Croconaw",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 159,
+  "level": "41",
+  "evolvesFromName": "Totodile",
+  "evolvesFromDex": 158,
+  "species": {
+    "en": "Big Jaw Pokémon"
+  },
+  "flavor": {
+    "en": "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in."
+  },
+  "weight": "55 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Sweep Away"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Discard the top 3 cards from your deck."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

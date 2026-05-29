@@ -1,0 +1,76 @@
+{
+  "id": "neo4-83",
+  "set": "neo4",
+  "number": "83",
+  "rarity": "Common",
+  "name": "Sunkern",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 191,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Seed Pokémon"
+  },
+  "flavor": {
+    "en": "It is very small and powerless. If attacked, the best it can do is flap its leaves in an attempt to frighten away its enemies."
+  },
+  "weight": "4 lbs",
+  "height": "1'00\"",
+  "illustrator": "Etsuya Hattori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rollout"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Sunbathe"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, remove all damage counters from Sunkern. Search your deck for a card that evolves from Sunkern and attach that card to Sunkern. This counts as evolving Sunkern. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

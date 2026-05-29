@@ -1,0 +1,73 @@
+{
+  "id": "gym1-44",
+  "set": "gym1",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Erika's Exeggutor",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 103,
+  "level": "31",
+  "evolvesFromName": "Erika's Exeggcute",
+  "evolvesFromDex": 102,
+  "species": {
+    "en": "Coconut Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "265 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Psychic Exchange"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle your hand into your deck, then draw 5 cards."
+      }
+    },
+    {
+      "name": {
+        "en": "Stomp"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

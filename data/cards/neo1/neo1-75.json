@@ -1,0 +1,71 @@
+{
+  "id": "neo1-75",
+  "set": "neo1",
+  "number": "75",
+  "rarity": "Common",
+  "name": "Spinarak",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 167,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "String Spit Pokémon"
+  },
+  "flavor": {
+    "en": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+  },
+  "weight": "19 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scary Face"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, until the end of your opponent's next turn, the Defending Pokémon can't attack or retreat."
+      }
+    },
+    {
+      "name": {
+        "en": "String Shot"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

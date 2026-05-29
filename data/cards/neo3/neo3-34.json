@@ -1,0 +1,77 @@
+{
+  "id": "neo3-34",
+  "set": "neo3",
+  "number": "34",
+  "rarity": "Uncommon",
+  "name": "Octillery",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 224,
+  "level": "43",
+  "evolvesFromName": "Remoraid",
+  "evolvesFromDex": 223,
+  "species": {
+    "en": "Jet Pokémon"
+  },
+  "flavor": {
+    "en": "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head."
+  },
+  "weight": "63 lbs",
+  "height": "2'11\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Constrict"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Octazooka"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, whenever the Defending Pokémon attacks, your opponent flips a coin. If tails, that attack does nothing. (Benching or evolving that Pokémon ends this effect.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

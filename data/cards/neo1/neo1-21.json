@@ -1,0 +1,78 @@
+{
+  "id": "neo1-21",
+  "set": "neo1",
+  "number": "21",
+  "rarity": "Rare",
+  "name": "Donphan",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 232,
+  "level": "34",
+  "evolvesFromName": "Phanpy",
+  "evolvesFromDex": 231,
+  "species": {
+    "en": "Armor Pokémon"
+  },
+  "flavor": {
+    "en": "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
+  },
+  "weight": "265 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flail"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Does 10 damage times the number of damage counters on Donphan."
+      }
+    },
+    {
+      "name": {
+        "en": "Rapid Spin"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

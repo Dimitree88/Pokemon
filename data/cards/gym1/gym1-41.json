@@ -1,0 +1,79 @@
+{
+  "id": "gym1-41",
+  "set": "gym1",
+  "number": "41",
+  "rarity": "Uncommon",
+  "name": "Brock's Lickitung",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 108,
+  "level": "24",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Licking Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "144 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tongue Slap"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

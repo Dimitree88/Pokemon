@@ -1,0 +1,64 @@
+{
+  "id": "neo2-54",
+  "set": "neo2",
+  "number": "54",
+  "rarity": "Common",
+  "name": "Dunsparce",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 206,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Land Snake Pokémon"
+  },
+  "flavor": {
+    "en": "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+  },
+  "weight": "31 lbs",
+  "height": "4'11\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Glare"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

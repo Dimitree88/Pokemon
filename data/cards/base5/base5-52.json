@@ -1,0 +1,77 @@
+{
+  "id": "base5-52",
+  "set": "base5",
+  "number": "52",
+  "rarity": "Common",
+  "name": "Diglett",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 50,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mole Pokémon"
+  },
+  "flavor": {
+    "en": "It follows Onixes in their tunnels, looking for scraps of food they have left behind."
+  },
+  "weight": "2 lbs",
+  "height": "0'08\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dig Under"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

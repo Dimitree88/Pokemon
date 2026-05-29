@@ -1,0 +1,74 @@
+{
+  "id": "base4-55",
+  "set": "base4",
+  "number": "55",
+  "rarity": "Uncommon",
+  "name": "Parasect",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 47,
+  "level": "28",
+  "evolvesFromName": "Paras",
+  "evolvesFromDex": 46,
+  "species": {
+    "en": "Mushroom Pokémon"
+  },
+  "flavor": {
+    "en": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
+  },
+  "weight": "65 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spore"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

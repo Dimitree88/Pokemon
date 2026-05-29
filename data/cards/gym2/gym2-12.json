@@ -1,0 +1,73 @@
+{
+  "id": "gym2-12",
+  "set": "gym2",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Misty's Golduck",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 55,
+  "level": "32",
+  "evolvesFromName": "Misty's Psyduck",
+  "evolvesFromDex": 54,
+  "species": {
+    "en": "Duck Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "169 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Electro Beam"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck."
+      }
+    },
+    {
+      "name": {
+        "en": "Super Removal"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

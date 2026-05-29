@@ -1,0 +1,72 @@
+{
+  "id": "gym1-92",
+  "set": "gym1",
+  "number": "92",
+  "rarity": "Common",
+  "name": "Sabrina's Drowzee",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 96,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Hypnosis Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Suggestion"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Headbutt"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

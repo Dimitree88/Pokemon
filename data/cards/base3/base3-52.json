@@ -1,0 +1,68 @@
+{
+  "id": "base3-52",
+  "set": "base3",
+  "number": "52",
+  "rarity": "Common",
+  "name": "Omanyte",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 138,
+  "level": "19",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
+  },
+  "weight": "17 lbs",
+  "height": "1'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Clairvoyance"
+      },
+      "text": {
+        "en": "Your opponent plays with his or her hand face up. This power stops working while Omanyte is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

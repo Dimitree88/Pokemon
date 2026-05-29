@@ -1,0 +1,102 @@
+{
+  "id": "neo3-7",
+  "set": "neo3",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Ho-oh",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 250,
+  "level": "45",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rainbow Pokémon"
+  },
+  "flavor": {
+    "en": "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven colored wings."
+  },
+  "weight": "439 lbs",
+  "height": "12'06\"",
+  "illustrator": "Kimiya Masago",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Stoke"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may search your deck for a Fire Energy card and attach it to Ho-Oh. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Sacred Fire"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    },
+    {
+      "name": {
+        "en": "Dive Bomb"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "90",
+        "value": 90,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

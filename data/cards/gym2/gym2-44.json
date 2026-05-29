@@ -1,0 +1,74 @@
+{
+  "id": "gym2-44",
+  "set": "gym2",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Giovanni's Nidorina",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 30,
+  "level": "35",
+  "evolvesFromName": "Giovanni's Nidoran ♀",
+  "evolvesFromDex": 29,
+  "species": {
+    "en": "Poison Pin Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poison Sting Tackle"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Giovanni's Nidorina does 20 damage to itself. Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Body Slam"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

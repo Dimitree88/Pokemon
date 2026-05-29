@@ -1,0 +1,77 @@
+{
+  "id": "gym2-43",
+  "set": "gym2",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Giovanni's Meowth",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 52,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Scratch Cat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "9 lbs",
+  "height": "1'04\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "False Charity"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, look at the top card of your opponent's deck. If it's a Trainer card, put it in your opponent's discard pile; otherwise, put it into his or her hand."
+      }
+    },
+    {
+      "name": {
+        "en": "Double Scratch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

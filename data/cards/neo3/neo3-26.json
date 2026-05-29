@@ -1,0 +1,69 @@
+{
+  "id": "neo3-26",
+  "set": "neo3",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Sudowoodo",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 185,
+  "level": "27",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Imitation Pokémon"
+  },
+  "flavor": {
+    "en": "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
+  },
+  "weight": "84 lbs",
+  "height": "3'11\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Mimic"
+      },
+      "text": {
+        "en": "As long as Sudowoodo is your Active Pokémon, it copies all of the Defending Pokémon's attacks, including their costs. This power can't be used if Sudowoodo is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "neo4-84",
+  "set": "neo4",
+  "number": "84",
+  "rarity": "Common",
+  "name": "Swinub",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 220,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Pig Pokémon"
+  },
+  "flavor": {
+    "en": "It moves with its sensitive nose pressed to the ground, always searching for food."
+  },
+  "weight": "14 lbs",
+  "height": "1'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Generate Cold"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

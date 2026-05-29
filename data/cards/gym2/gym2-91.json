@@ -1,0 +1,72 @@
+{
+  "id": "gym2-91",
+  "set": "gym2",
+  "number": "91",
+  "rarity": "Common",
+  "name": "Misty's Seel",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 86,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sea Lion Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "198 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Frostbite"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Mirage"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

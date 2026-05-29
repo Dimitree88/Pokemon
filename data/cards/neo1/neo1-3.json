@@ -1,0 +1,73 @@
+{
+  "id": "neo1-3",
+  "set": "neo1",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Bellossom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 182,
+  "level": "36",
+  "evolvesFromName": "Gloom",
+  "evolvesFromDex": 44,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sweet Nectar"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Flower Dance"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

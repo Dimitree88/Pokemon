@@ -1,0 +1,62 @@
+{
+  "id": "base4-89",
+  "set": "base4",
+  "number": "89",
+  "rarity": "Common",
+  "name": "Rattata",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 19,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
+  },
+  "weight": "8 lbs",
+  "height": "1'00\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

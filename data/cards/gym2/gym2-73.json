@@ -1,0 +1,72 @@
+{
+  "id": "gym2-73",
+  "set": "gym2",
+  "number": "73",
+  "rarity": "Common",
+  "name": "Giovanni's Magikarp",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 129,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "22 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ancestral Memory"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Giovanni's Magikarp stays in play (even putting Giovanni's Magikarp on the Bench won't let you use it again)."
+      }
+    },
+    {
+      "name": {
+        "en": "Flail Around"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

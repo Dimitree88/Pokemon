@@ -1,0 +1,59 @@
+{
+  "id": "gym1-40",
+  "set": "gym1",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Brock's Graveler",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 75,
+  "level": "30",
+  "evolvesFromName": "Brock's Geodude",
+  "evolvesFromDex": 74,
+  "species": {
+    "en": "Rock Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "231 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rock Toss"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

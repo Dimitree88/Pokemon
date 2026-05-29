@@ -1,0 +1,72 @@
+{
+  "id": "gym1-68",
+  "set": "gym1",
+  "number": "68",
+  "rarity": "Common",
+  "name": "Brock's Mankey",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 56,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "62 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fidget"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle your deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Karate Chop"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "40-",
+      "value": 40,
+      "modifier": "−",
+      "text": {
+        "en": "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

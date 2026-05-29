@@ -1,0 +1,63 @@
+{
+  "id": "gym1-72",
+  "set": "gym1",
+  "number": "72",
+  "rarity": "Common",
+  "name": "Brock's Sandshrew",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 27,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "26 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sand Pit"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

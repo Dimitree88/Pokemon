@@ -1,0 +1,79 @@
+{
+  "id": "gym2-5",
+  "set": "gym2",
+  "number": "5",
+  "rarity": "Rare Holo",
+  "name": "Giovanni's Gyarados",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 130,
+  "level": "40",
+  "evolvesFromName": "Giovanni's Magikarp",
+  "evolvesFromDex": 129,
+  "species": {
+    "en": "Atrocious Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "518 lbs",
+  "height": "21'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Summon Storm"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip 2 coins. If both of them are heads, this attack does 20 damage to each other Pokémon (even your own). Don't apply Weakness and Resistance for this attack."
+      }
+    },
+    {
+      "name": {
+        "en": "Dragon Tornado"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Unless this attack Knocks Out the Defending Pokémon, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

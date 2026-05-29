@@ -1,0 +1,59 @@
+{
+  "id": "base1-43",
+  "set": "base1",
+  "number": "43",
+  "rarity": "Common",
+  "name": "Abra",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 63,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "Using its ability to read minds, it will identify impending danger and teleport to safety."
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Psyshock"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

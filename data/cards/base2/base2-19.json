@@ -1,0 +1,79 @@
+{
+  "id": "base2-19",
+  "set": "base2",
+  "number": "19",
+  "rarity": "Rare",
+  "name": "Flareon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 136,
+  "level": "28",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
+  },
+  "weight": "55 lbs",
+  "height": "2'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Flamethrower"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

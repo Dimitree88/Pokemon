@@ -1,0 +1,77 @@
+{
+  "id": "neo2-42",
+  "set": "neo2",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Metapod",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 11,
+  "level": "23",
+  "evolvesFromName": "Caterpie",
+  "evolvesFromDex": 10,
+  "species": {
+    "en": "Cocoon Pokémon"
+  },
+  "flavor": {
+    "en": "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell."
+  },
+  "weight": "22 lbs",
+  "height": "2'04\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Harden"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen)."
+      }
+    },
+    {
+      "name": {
+        "en": "Hatch"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

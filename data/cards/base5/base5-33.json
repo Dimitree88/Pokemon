@@ -1,0 +1,68 @@
+{
+  "id": "base5-33",
+  "set": "base5",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Dark Dragonair",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 148,
+  "level": "28",
+  "evolvesFromName": "Dratini",
+  "evolvesFromDex": 147,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall."
+  },
+  "weight": "36 lbs",
+  "height": "13'01\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Strike"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Evolutionary Light"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

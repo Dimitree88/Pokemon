@@ -1,0 +1,68 @@
+{
+  "id": "base4-25",
+  "set": "base4",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Electrode",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 101,
+  "level": "40",
+  "evolvesFromName": "Voltorb",
+  "evolvesFromDex": 100,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": "It stores electrical energy under very high pressure. It often explodes with little or no provocation."
+  },
+  "weight": "147 lbs",
+  "height": "3'11\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Electric Shock"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, Electrode does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Buzzap"
+      },
+      "text": {
+        "en": "At any time during your turn (before your attack), you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card of that type (instead of a Pokémon) that provides 2 energy. This power can't be used if Electrode is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

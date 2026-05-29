@@ -1,0 +1,73 @@
+{
+  "id": "gym1-9",
+  "set": "gym1",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Misty's Seadra",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 117,
+  "level": "30",
+  "evolvesFromName": "Misty's Horsea",
+  "evolvesFromDex": 116,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "55 lbs",
+  "height": "3'11\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Snap"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Knockout Needle"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

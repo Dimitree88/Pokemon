@@ -1,0 +1,74 @@
+{
+  "id": "neo1-47",
+  "set": "neo1",
+  "number": "47",
+  "rarity": "Uncommon",
+  "name": "Quilava",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 156,
+  "level": "35",
+  "evolvesFromName": "Cyndaquil",
+  "evolvesFromDex": 155,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back."
+  },
+  "weight": "42 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smokescreen"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Char"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon doesn't have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it's in play.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

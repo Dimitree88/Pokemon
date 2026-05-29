@@ -1,0 +1,67 @@
+{
+  "id": "basep-52",
+  "set": "basep",
+  "number": "52",
+  "rarity": "Promo",
+  "name": "Ho-oh",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 80,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 250,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rainbow Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "439 lbs",
+  "height": "12'06\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sacred Wing"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack's base damage is 20 instead of 60."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "base1-67",
+  "set": "base1",
+  "number": "67",
+  "rarity": "Common",
+  "name": "Voltorb",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 100,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": "Usually found in power plants. Easily mistaken for a Monster Ball, it has zapped many people."
+  },
+  "weight": "23 lbs",
+  "height": "1'08\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gym2-21",
+  "set": "gym2",
+  "number": "21",
+  "rarity": "Rare",
+  "name": "Blaine's Ninetales",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 38,
+  "level": "27",
+  "evolvesFromName": "Blaine's Vulpix",
+  "evolvesFromDex": 37,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Burn Up"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, discard all Fire Energy cards attached to Blaine's Ninetales."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Healing Fire"
+      },
+      "text": {
+        "en": "Whenever you attach a Fire Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

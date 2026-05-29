@@ -1,0 +1,76 @@
+{
+  "id": "neo3-49",
+  "set": "neo3",
+  "number": "49",
+  "rarity": "Common",
+  "name": "Qwilfish",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 211,
+  "level": "30",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
+  },
+  "weight": "9 lbs",
+  "height": "1'08\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poison Sting"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Needle Storm"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip a coin until you get tails. This attack does 20 damage times the number of heads you get."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

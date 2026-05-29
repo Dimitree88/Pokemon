@@ -1,0 +1,73 @@
+{
+  "id": "neo1-31",
+  "set": "neo1",
+  "number": "31",
+  "rarity": "Uncommon",
+  "name": "Croconaw",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 159,
+  "level": "34",
+  "evolvesFromName": "Totodile",
+  "evolvesFromDex": 158,
+  "species": {
+    "en": "Big Jaw Pokémon"
+  },
+  "flavor": {
+    "en": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth."
+  },
+  "weight": "55 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Screech"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon"
+      }
+    },
+    {
+      "name": {
+        "en": "Jaw Clamp"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Until the end of your opponent's next turn, as long as Croconaw is your Active Pokémon, the Defending Pokémon can't retreat, and if the effect of an attack, Pokémon Power, or Trainer card would change that player's Active Pokémon, that part of the effect does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

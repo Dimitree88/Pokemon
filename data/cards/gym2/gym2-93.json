@@ -1,0 +1,72 @@
+{
+  "id": "gym2-93",
+  "set": "gym2",
+  "number": "93",
+  "rarity": "Common",
+  "name": "Sabrina's Abra",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 63,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Pound"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Synchronize"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "This attack can't be used unless Sabrina's Abra and the Defending Pokémon have the same number of Energy cards attached to them."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

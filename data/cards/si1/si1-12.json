@@ -1,0 +1,76 @@
+{
+  "id": "si1-12",
+  "set": "si1",
+  "number": "12",
+  "rarity": null,
+  "name": "Lapras",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 131,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Transport Pokémon"
+  },
+  "flavor": {
+    "en": "This gentle Pokémon can understand human language and allows people to ride on its back."
+  },
+  "weight": "485 lbs",
+  "height": "8'02\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gentle Song"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Ice Beam"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

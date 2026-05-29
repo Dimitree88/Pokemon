@@ -1,0 +1,76 @@
+{
+  "id": "base2-11",
+  "set": "base2",
+  "number": "11",
+  "rarity": "Rare Holo",
+  "name": "Snorlax",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 143,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sleeping Pokémon"
+  },
+  "flavor": {
+    "en": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+  },
+  "weight": "1014 lbs",
+  "height": "6'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Body Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Thick Skinned"
+      },
+      "text": {
+        "en": "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

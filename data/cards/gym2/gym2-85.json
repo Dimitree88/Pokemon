@@ -1,0 +1,77 @@
+{
+  "id": "gym2-85",
+  "set": "gym2",
+  "number": "85",
+  "rarity": "Common",
+  "name": "Lt. Surge's Rattata",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 19,
+  "level": "7",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "8 lbs",
+  "height": "1'00\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Focus Energy"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "During your next turn, Lt. Surge's Rattata's Quick Attack's base damage is doubled."
+      }
+    },
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

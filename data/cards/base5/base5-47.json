@@ -1,0 +1,73 @@
+{
+  "id": "base5-47",
+  "set": "base5",
+  "number": "47",
+  "rarity": "Uncommon",
+  "name": "Magikarp",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 129,
+  "level": "6",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fish Pokémon"
+  },
+  "flavor": {
+    "en": "Recent research has revealed the presence of dragon DNA in this species of Pokémon."
+  },
+  "weight": "22 lbs",
+  "height": "2'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flop"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Rapid Evolution"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

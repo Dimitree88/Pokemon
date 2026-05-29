@@ -1,0 +1,60 @@
+{
+  "id": "neo4-81",
+  "set": "neo4",
+  "number": "81",
+  "rarity": "Common",
+  "name": "Seel",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 86,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sea Lion Pokémon"
+  },
+  "flavor": {
+    "en": "Although clumsy on land, it moves easily through the arctic waters it calls home."
+  },
+  "weight": "198 lbs",
+  "height": "3'07\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Take Down"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Seel does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "base1-42",
+  "set": "base1",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Wartortle",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 8,
+  "level": "22",
+  "evolvesFromName": "Squirtle",
+  "evolvesFromDex": 7,
+  "species": {
+    "en": "Turtle Pokémon"
+  },
+  "flavor": {
+    "en": "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance."
+  },
+  "weight": "50 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Withdraw"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

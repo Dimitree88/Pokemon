@@ -1,0 +1,70 @@
+{
+  "id": "neo3-17",
+  "set": "neo3",
+  "number": "17",
+  "rarity": "Rare",
+  "name": "Entei",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 244,
+  "level": "24",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "A Pokémon that races across the land. It is said that one is born every time a new volcano appears."
+  },
+  "weight": "437 lbs",
+  "height": "6'11\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Flame"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 2 coins. For each tails, discard 1 Fire Energy card from Entei, if it has any."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Legendary Body"
+      },
+      "text": {
+        "en": "As long as Entei is your Active Pokémon, Entei and Energy cards attached to it aren't affected by effects from Trainer cards other than Stadium cards. As long as this Power is active, discard any Trainer cards attached to Entei. (This power works even if Entei is Asleep, Confused, or Paralyzed.)"
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "neo3-59",
+  "set": "neo3",
+  "number": "59",
+  "rarity": "Common",
+  "name": "Zubat",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 41,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": "While flying, it constantly emits ultrasonic waves from its mouth to check its surroundings."
+  },
+  "weight": "17 lbs",
+  "height": "2'07\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Spray"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

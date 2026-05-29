@@ -1,0 +1,68 @@
+{
+  "id": "basep-38",
+  "set": "basep",
+  "number": "38",
+  "rarity": "Promo",
+  "name": "Unown [J]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "Hideki Kazama",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Join]"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), if you have Unown [J], Unown [O], Unown [I], and Unown Dragon on your Bench, you may search your deck for a Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

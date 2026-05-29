@@ -1,0 +1,78 @@
+{
+  "id": "basep-37",
+  "set": "basep",
+  "number": "37",
+  "rarity": "Promo",
+  "name": "Hitmontop",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 237,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Handstand Pokémon"
+  },
+  "flavor": {
+    "en": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
+  },
+  "weight": "106 lbs",
+  "height": "4'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Repeating Kick"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Rapid Spin"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "base3-26",
+  "set": "base3",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Magneton",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 82,
+  "level": "35",
+  "evolvesFromName": "Magnemite",
+  "evolvesFromDex": 81,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": "Formed by several Magnemites linked together. They frequently appear when sunspots flare up."
+  },
+  "weight": "132 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sonicboom"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Selfdestruct"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "100",
+        "value": 100,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "base2-55",
+  "set": "base2",
+  "number": "55",
+  "rarity": "Common",
+  "name": "Mankey",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 56,
+  "level": "7",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": "Extremely quick to anger. It could be docile one moment, then thrashing away the next."
+  },
+  "weight": "62 lbs",
+  "height": "1'08\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Peek"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be used if Mankey is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

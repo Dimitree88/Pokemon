@@ -1,0 +1,82 @@
+{
+  "id": "base2-26",
+  "set": "base2",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Scyther",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 123,
+  "level": "25",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mantis Pokémon"
+  },
+  "flavor": {
+    "en": "With ninja-like agility and speed, it can create the illusion that there is more than one of it."
+  },
+  "weight": "123 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Swords Dance"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+      }
+    },
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

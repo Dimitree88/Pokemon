@@ -1,0 +1,72 @@
+{
+  "id": "gym2-89",
+  "set": "gym2",
+  "number": "89",
+  "rarity": "Common",
+  "name": "Misty's Poliwag",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 60,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "27 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bubbles"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, you can't use this attack during your next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Amnesia"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

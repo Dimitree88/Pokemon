@@ -1,0 +1,59 @@
+{
+  "id": "neo1-50",
+  "set": "neo1",
+  "number": "50",
+  "rarity": "Uncommon",
+  "name": "Sunflora",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 192,
+  "level": "36",
+  "evolvesFromName": "Sunkern",
+  "evolvesFromDex": 191,
+  "species": {
+    "en": "Sun Pokémon"
+  },
+  "flavor": {
+    "en": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still."
+  },
+  "weight": "19 lbs",
+  "height": "2'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Petal Dance"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

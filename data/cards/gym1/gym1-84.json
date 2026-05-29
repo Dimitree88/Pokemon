@@ -1,0 +1,72 @@
+{
+  "id": "gym1-84",
+  "set": "gym1",
+  "number": "84",
+  "rarity": "Common",
+  "name": "Lt. Surge's Voltorb",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 100,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "23 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spin Ball"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 1 coin. This attack does 20 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Double Spin"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

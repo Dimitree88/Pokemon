@@ -1,0 +1,75 @@
+{
+  "id": "base5-40",
+  "set": "base5",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Dark Machoke",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 67,
+  "level": "28",
+  "evolvesFromName": "Machop",
+  "evolvesFromDex": 66,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "While normally peaceful and friendly, the number of incidents involving cruel Machokes is rising."
+  },
+  "weight": "155 lbs",
+  "height": "4'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Drag Off"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. Do the damage to the new Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Knock Back"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

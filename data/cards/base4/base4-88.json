@@ -1,0 +1,57 @@
+{
+  "id": "base4-88",
+  "set": "base4",
+  "number": "88",
+  "rarity": "Common",
+  "name": "Poliwag",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 60,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand."
+  },
+  "weight": "27 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Water Energy attached to Poliwag but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "base1-50",
+  "set": "base1",
+  "number": "50",
+  "rarity": "Common",
+  "name": "Gastly",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 92,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice."
+  },
+  "weight": "0 lbs",
+  "height": "4'03\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sleeping Gas"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Destiny Bond"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Psychic Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

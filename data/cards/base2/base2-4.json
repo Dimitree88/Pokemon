@@ -1,0 +1,78 @@
+{
+  "id": "base2-4",
+  "set": "base2",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Jolteon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 135,
+  "level": "29",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Lightning Pokémon"
+  },
+  "flavor": {
+    "en": "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts."
+  },
+  "weight": "54 lbs",
+  "height": "2'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Pin Missile"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

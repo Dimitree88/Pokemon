@@ -1,0 +1,62 @@
+{
+  "id": "gym1-51",
+  "set": "gym1",
+  "number": "51",
+  "rarity": "Uncommon",
+  "name": "Lt. Surge's Raticate",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 20,
+  "level": "32",
+  "evolvesFromName": "Lt. Surge's Rattata",
+  "evolvesFromDex": 19,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "41 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Super Fang"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "neo1-7",
+  "set": "neo1",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Jumpluff",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 189,
+  "level": "35",
+  "evolvesFromName": "Skiploom",
+  "evolvesFromDex": 188,
+  "species": {
+    "en": "Cottonweed Pokémon"
+  },
+  "flavor": {
+    "en": "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world."
+  },
+  "weight": "7 lbs",
+  "height": "2'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sleep Powder"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Leech Seed"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

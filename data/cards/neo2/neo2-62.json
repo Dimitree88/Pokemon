@@ -1,0 +1,75 @@
+{
+  "id": "neo2-62",
+  "set": "neo2",
+  "number": "62",
+  "rarity": "Common",
+  "name": "Poliwag",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 60,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": "Because it is inept at walking on its newly grown legs, it always swims around in water."
+  },
+  "weight": "27 lbs",
+  "height": "2'00\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rollout"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Hypnosis"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

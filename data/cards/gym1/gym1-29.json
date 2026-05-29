@@ -1,0 +1,68 @@
+{
+  "id": "gym1-29",
+  "set": "gym1",
+  "number": "29",
+  "rarity": "Rare",
+  "name": "Misty's Cloyster",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 91,
+  "level": "30",
+  "evolvesFromName": "Misty's Shellder",
+  "evolvesFromDex": 90,
+  "species": {
+    "en": "Bivalve Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "292 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Triple Cannon"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Shell Armor"
+      },
+      "text": {
+        "en": "You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen). This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

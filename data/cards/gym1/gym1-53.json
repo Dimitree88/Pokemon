@@ -1,0 +1,74 @@
+{
+  "id": "gym1-53",
+  "set": "gym1",
+  "number": "53",
+  "rarity": "Uncommon",
+  "name": "Misty's Poliwhirl",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 61,
+  "level": "37",
+  "evolvesFromName": "Misty's Poliwag",
+  "evolvesFromDex": 60,
+  "species": {
+    "en": "Tadpole Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rapids"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
+      }
+    },
+    {
+      "name": {
+        "en": "Water Punch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a number of coins equal to the number of Water Energy attached to Misty's Poliwhirl. This attack does 30 damage plus 10 damage for each heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

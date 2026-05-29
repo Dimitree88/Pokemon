@@ -1,0 +1,60 @@
+{
+  "id": "si1-15",
+  "set": "si1",
+  "number": "15",
+  "rarity": null,
+  "name": "Wartortle",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 8,
+  "level": null,
+  "evolvesFromName": "Squirtle",
+  "evolvesFromDex": 7,
+  "species": {
+    "en": "Turtle Pokémon"
+  },
+  "flavor": {
+    "en": "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail."
+  },
+  "weight": "50 lbs",
+  "height": "3'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

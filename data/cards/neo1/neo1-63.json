@@ -1,0 +1,77 @@
+{
+  "id": "neo1-63",
+  "set": "neo1",
+  "number": "63",
+  "rarity": "Common",
+  "name": "Ledyba",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 165,
+  "level": "19",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Five Star Pokémon"
+  },
+  "flavor": {
+    "en": "It is very timid. It's afraid to move if alone, but it's active if in a group."
+  },
+  "weight": "24 lbs",
+  "height": "3'03\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Supersonic"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    },
+    {
+      "name": {
+        "en": "Comet Punch"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip 4 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

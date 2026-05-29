@@ -1,0 +1,54 @@
+{
+  "id": "neo1-12",
+  "set": "neo1",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Pichu",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 172,
+  "level": "5",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tiny Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+  },
+  "weight": "4 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Zzzap"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Does 20 damage to each Pokémon in play that has a Pokémon Power. Don't apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

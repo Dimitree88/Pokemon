@@ -1,0 +1,58 @@
+{
+  "id": "gym1-95",
+  "set": "gym1",
+  "number": "95",
+  "rarity": "Common",
+  "name": "Sabrina's Slowpoke",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 79,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dopey Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "79 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lazy Attack"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Sabrina's Slowpoke is now Asleep (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

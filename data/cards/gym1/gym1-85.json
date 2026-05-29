@@ -1,0 +1,71 @@
+{
+  "id": "gym1-85",
+  "set": "gym1",
+  "number": "85",
+  "rarity": "Common",
+  "name": "Misty's Goldeen",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 118,
+  "level": "22",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "33 lbs",
+  "height": "2'00\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Attack"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Supersonic"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

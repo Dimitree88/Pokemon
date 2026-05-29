@@ -1,0 +1,56 @@
+{
+  "id": "base3-3",
+  "set": "base3",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Ditto",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 132,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Transform Pokémon"
+  },
+  "flavor": {
+    "en": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
+  },
+  "weight": "9 lbs",
+  "height": "1'00\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [],
+  "powers": [
+    {
+      "name": {
+        "en": "Transform"
+      },
+      "text": {
+        "en": "If Ditto is your Active Pokémon, treat it as if it were the same card as the Defending Pokémon, including type, Hit Points, Weakness, and so on, except Ditto can't evolve, always has this Pokémon Power, and you may treat any Energy attached to Ditto as Energy of any type. Ditto isn't a copy of any other Pokémon while Ditto is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

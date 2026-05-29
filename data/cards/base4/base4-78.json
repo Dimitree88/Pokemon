@@ -1,0 +1,57 @@
+{
+  "id": "base4-78",
+  "set": "base4",
+  "number": "78",
+  "rarity": "Common",
+  "name": "Machop",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 66,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
+  },
+  "weight": "43 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Low Kick"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

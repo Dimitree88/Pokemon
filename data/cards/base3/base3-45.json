@@ -1,0 +1,78 @@
+{
+  "id": "base3-45",
+  "set": "base3",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Weezing",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 110,
+  "level": "27",
+  "evolvesFromName": "Koffing",
+  "evolvesFromDex": 109,
+  "species": {
+    "en": "Poison Gas Pokémon"
+  },
+  "flavor": {
+    "en": "Where two kinds of poison gases meet, two Koffings can fuse into a Weezing over many years."
+  },
+  "weight": "21 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smog"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Selfdestruct"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Weezing does 60 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

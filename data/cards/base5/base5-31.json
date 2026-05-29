@@ -1,0 +1,74 @@
+{
+  "id": "base5-31",
+  "set": "base5",
+  "number": "31",
+  "rarity": "Rare",
+  "name": "Dark Weezing",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 110,
+  "level": "24",
+  "evolvesFromName": "Koffing",
+  "evolvesFromDex": 109,
+  "species": {
+    "en": "Poison Gas Pokémon"
+  },
+  "flavor": {
+    "en": "Researchers have observed these Pokémon reproducing in industrial waste sites."
+  },
+  "weight": "21 lbs",
+  "height": "3'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mass Explosion"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don't apply Weakness and Resistance."
+      }
+    },
+    {
+      "name": {
+        "en": "Stun Gas"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "neo4-25",
+  "set": "neo4",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Light Machamp",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 68,
+  "level": "65",
+  "evolvesFromName": "Light Machoke",
+  "evolvesFromDex": 67,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "It uses its four arms in combat to unleash a ceaseless flurry of punches."
+  },
+  "weight": "287 lbs",
+  "height": "5'03\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Beatdown"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has Dark in its name or is a Darkness Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Tag Team"
+      },
+      "text": {
+        "en": "When you play Light Machamp from your hand, if it is on your Bench, remove 3 damage counters from your Active Pokémon. If it has fewer damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

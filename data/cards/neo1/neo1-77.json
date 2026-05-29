@@ -1,0 +1,72 @@
+{
+  "id": "neo1-77",
+  "set": "neo1",
+  "number": "77",
+  "rarity": "Common",
+  "name": "Sudowoodo",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 185,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Imitation Pokémon"
+  },
+  "flavor": {
+    "en": "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant."
+  },
+  "weight": "84 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flail"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Does 10 damage times the number of damage counters on Sudowoodo."
+      }
+    },
+    {
+      "name": {
+        "en": "Rock Throw"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

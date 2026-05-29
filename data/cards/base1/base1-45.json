@@ -1,0 +1,59 @@
+{
+  "id": "base1-45",
+  "set": "base1",
+  "number": "45",
+  "rarity": "Common",
+  "name": "Caterpie",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 10,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Worm Pokémon"
+  },
+  "flavor": {
+    "en": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+  },
+  "weight": "6 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "String Shot"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

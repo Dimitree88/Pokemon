@@ -1,0 +1,82 @@
+{
+  "id": "neo3-23",
+  "set": "neo3",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Skarmory",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 227,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Armor Bird Pokémon"
+  },
+  "flavor": {
+    "en": "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
+  },
+  "weight": "111 lbs",
+  "height": "5'07\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Attack"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Skarmory."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

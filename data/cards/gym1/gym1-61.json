@@ -1,0 +1,72 @@
+{
+  "id": "gym1-61",
+  "set": "gym1",
+  "number": "61",
+  "rarity": "Common",
+  "name": "Blaine's Charmander",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 4,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Lizard Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "19 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Kindle"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Discard 1 Energy card attached to Blaine's Charmander in order to use this attack. If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    },
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

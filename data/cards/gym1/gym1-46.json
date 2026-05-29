@@ -1,0 +1,74 @@
+{
+  "id": "gym1-46",
+  "set": "gym1",
+  "number": "46",
+  "rarity": "Uncommon",
+  "name": "Erika's Gloom",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 44,
+  "level": "16",
+  "evolvesFromName": "Erika's Oddish",
+  "evolvesFromDex": 43,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "19 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dream Dance"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage)."
+      }
+    },
+    {
+      "name": {
+        "en": "Vile Smell"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

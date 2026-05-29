@@ -1,0 +1,58 @@
+{
+  "id": "base4-99",
+  "set": "base4",
+  "number": "99",
+  "rarity": "Common",
+  "name": "Vulpix",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 37,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older."
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

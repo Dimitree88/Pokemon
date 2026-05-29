@@ -1,0 +1,67 @@
+{
+  "id": "gym2-3",
+  "set": "gym2",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Brock's Ninetales",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 38,
+  "level": "30",
+  "evolvesFromName": "Brock's Vulpix",
+  "evolvesFromDex": 37,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Will-o'-the-wisp"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Shapeshift"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may attach an Evolution card from your hand to Brock's Ninetales. (This doesn't count as evolving Brock's Ninetales.) Treat Brock's Ninetales as if it were that Pokémon instead. It can't evolve, devolve, or use the Pokémon Power of that Pokémon. During your turn, you may discard the Evolution card attached to Brock's Ninetales. This power can't be used if Brock's Ninetales is Asleep, Confused, or Paralyzed. If Brock's Ninetales becomes Asleep, Confused, or Paralyzed, discard all Evolution cards attached to it."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

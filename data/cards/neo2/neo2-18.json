@@ -1,0 +1,82 @@
+{
+  "id": "neo2-18",
+  "set": "neo2",
+  "number": "18",
+  "rarity": "Rare",
+  "name": "Beedrill",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 15,
+  "level": "36",
+  "evolvesFromName": "Kakuna",
+  "evolvesFromDex": 14,
+  "species": {
+    "en": "Poison Bee Pokémon"
+  },
+  "flavor": {
+    "en": "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."
+  },
+  "weight": "65 lbs",
+  "height": "3'03\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Triple Poison"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player's turn (even if it was already Poisoned)."
+      }
+    },
+    {
+      "name": {
+        "en": "Pin Missile"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

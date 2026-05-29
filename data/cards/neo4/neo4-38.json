@@ -1,0 +1,83 @@
+{
+  "id": "neo4-38",
+  "set": "neo4",
+  "number": "38",
+  "rarity": "Uncommon",
+  "name": "Dark Pupitar",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 247,
+  "level": "26",
+  "evolvesFromName": "Larvitar",
+  "evolvesFromDex": 246,
+  "species": {
+    "en": "Hard Shell Pokémon"
+  },
+  "flavor": {
+    "en": "It is encased within a hard shell, yet retains a great deal of mobility—a dangerous combination."
+  },
+  "weight": "335 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rock Tackle"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Dark Pupitar does 10 damage to itself. Dark Pupitar can't use this attack during your next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Explosive Evolution"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, search your deck for an Evolution card named Dark Tyranitar and put it on Dark Pupitar. (This counts as evolving Dark Pupitar.) Shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "neo1-49",
+  "set": "neo1",
+  "number": "49",
+  "rarity": "Uncommon",
+  "name": "Skiploom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 188,
+  "level": "28",
+  "evolvesFromName": "Hoppip",
+  "evolvesFromDex": 187,
+  "species": {
+    "en": "Cottonweed Pokémon"
+  },
+  "flavor": {
+    "en": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+  },
+  "weight": "2 lbs",
+  "height": "2'00\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Stun Spore"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

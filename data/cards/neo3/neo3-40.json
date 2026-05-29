@@ -1,0 +1,68 @@
+{
+  "id": "neo3-40",
+  "set": "neo3",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Unown [Y]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Yield]"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Pokémon with Unown in its name. Shuffle your deck afterward. This power can be used even if Unown [Y] is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

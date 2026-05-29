@@ -1,0 +1,82 @@
+{
+  "id": "base2-32",
+  "set": "base2",
+  "number": "32",
+  "rarity": "Rare",
+  "name": "Wigglytuff",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 40,
+  "level": "36",
+  "evolvesFromName": "Jigglypuff",
+  "evolvesFromDex": 39,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
+  },
+  "weight": "26 lbs",
+  "height": "3'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lullaby"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Do the Wave"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

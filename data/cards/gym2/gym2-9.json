@@ -1,0 +1,79 @@
+{
+  "id": "gym2-9",
+  "set": "gym2",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Koga's Beedrill",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 15,
+  "level": "34",
+  "evolvesFromName": "Koga's Kakuna",
+  "evolvesFromDex": 14,
+  "species": {
+    "en": "Poison Bee Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "65 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nerve Poison"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Hyper Needle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "70",
+      "value": 70,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

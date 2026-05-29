@@ -1,0 +1,58 @@
+{
+  "id": "gym2-59",
+  "set": "gym2",
+  "number": "59",
+  "rarity": "Uncommon",
+  "name": "Sabrina's Mr. Mime",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 122,
+  "level": "30",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Barrier Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "120 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Magic Darts"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon and flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance for this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

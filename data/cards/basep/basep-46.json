@@ -1,0 +1,76 @@
+{
+  "id": "basep-46",
+  "set": "basep",
+  "number": "46",
+  "rarity": "Promo",
+  "name": "Electabuzz",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 125,
+  "level": "22",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": "Normally found near power plants, it can wander away and cause major blackouts in cities."
+  },
+  "weight": "66 lbs",
+  "height": "3'07\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lightning Rod"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon and put a Lightning Rod marker on it. (A Pokémon can have only 1 Lightning Rod marker on it at a time.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightning Bolt"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "This attack does 20 damage to any Pokémon with a Lightning Rod marker on it. Apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

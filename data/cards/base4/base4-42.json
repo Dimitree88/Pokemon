@@ -1,0 +1,58 @@
+{
+  "id": "base4-42",
+  "set": "base4",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Growlithe",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 58,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Puppy Pokémon"
+  },
+  "flavor": {
+    "en": "Very protective of its territory. It will bark and bite to repel intruders from its space."
+  },
+  "weight": "42 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flare"
+      },
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

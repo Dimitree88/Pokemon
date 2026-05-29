@@ -1,0 +1,76 @@
+{
+  "id": "base4-33",
+  "set": "base4",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Arcanine",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 59,
+  "level": "45",
+  "evolvesFromName": "Growlithe",
+  "evolvesFromDex": 58,
+  "species": {
+    "en": "Legendary Pokémon"
+  },
+  "flavor": {
+    "en": "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings."
+  },
+  "weight": "342 lbs",
+  "height": "6'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flamethrower"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Arcanine in order to use this attack."
+      }
+    },
+    {
+      "name": {
+        "en": "Take Down"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "80",
+      "value": 80,
+      "modifier": null,
+      "text": {
+        "en": "Arcanine does 30 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

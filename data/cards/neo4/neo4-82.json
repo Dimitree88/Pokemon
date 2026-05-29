@@ -1,0 +1,60 @@
+{
+  "id": "neo4-82",
+  "set": "neo4",
+  "number": "82",
+  "rarity": "Common",
+  "name": "Slugma",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 218,
+  "level": "28",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Lava Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon is often seen crawling around in volcanic regions."
+  },
+  "weight": "77 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Combustion"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

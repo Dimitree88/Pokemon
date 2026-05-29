@@ -1,0 +1,77 @@
+{
+  "id": "base5-4",
+  "set": "base5",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Dark Charizard",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 6,
+  "level": "38",
+  "evolvesFromName": "Dark Charmeleon",
+  "evolvesFromDex": 5,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": "Seemingly possessed, it spews fire like a volcano, trying to burn all it sees."
+  },
+  "weight": "200 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nail Flick"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Continuous Fireball"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "50×",
+      "value": 50,
+      "modifier": "×",
+      "text": {
+        "en": "Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

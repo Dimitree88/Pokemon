@@ -1,0 +1,76 @@
+{
+  "id": "neo4-36",
+  "set": "neo4",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Dark Haunter",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 93,
+  "level": "18",
+  "evolvesFromName": "Gastly",
+  "evolvesFromDex": 92,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": "It silently hunts its prey in dark rooms."
+  },
+  "weight": "0 lbs",
+  "height": "5'03\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Call Back"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Put a Baby Pokémon or Basic Pokémon card from your opponent's discard pile onto his or her Bench. Put 1 damage counter on that Pokémon. (You can't use this attack if your Bench is full.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Surround"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

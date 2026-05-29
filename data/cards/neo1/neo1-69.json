@@ -1,0 +1,72 @@
+{
+  "id": "neo1-69",
+  "set": "neo1",
+  "number": "69",
+  "rarity": "Common",
+  "name": "Onix",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 95,
+  "level": "22",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Snake Pokémon"
+  },
+  "flavor": {
+    "en": "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way."
+  },
+  "weight": "463 lbs",
+  "height": "28'10\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Screech"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Rage"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each damage counter on Onix."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

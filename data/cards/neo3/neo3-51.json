@@ -1,0 +1,69 @@
+{
+  "id": "neo3-51",
+  "set": "neo3",
+  "number": "51",
+  "rarity": "Common",
+  "name": "Shuckle",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 213,
+  "level": "28",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mold Pokémon"
+  },
+  "flavor": {
+    "en": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+  },
+  "weight": "45 lbs",
+  "height": "2'00\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Toxic Saliva"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Hard Shell"
+      },
+      "text": {
+        "en": "Whenever an attack (including your own) does 40 or less damage to Shuckle (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Shuckle is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

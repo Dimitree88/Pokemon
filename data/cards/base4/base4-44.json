@@ -1,0 +1,75 @@
+{
+  "id": "base4-44",
+  "set": "base4",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Ivysaur",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 2,
+  "level": "20",
+  "evolvesFromName": "Bulbasaur",
+  "evolvesFromDex": 1,
+  "species": {
+    "en": "Seed Pokémon"
+  },
+  "flavor": {
+    "en": "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs."
+  },
+  "weight": "29 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Vine Whip"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

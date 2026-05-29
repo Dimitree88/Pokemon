@@ -1,0 +1,78 @@
+{
+  "id": "gym2-36",
+  "set": "gym2",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Brock's Sandslash",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 28,
+  "level": "34",
+  "evolvesFromName": "Brock's Sandshrew",
+  "evolvesFromDex": 27,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "65 lbs",
+  "height": "3'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Swift"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Needle Ball"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

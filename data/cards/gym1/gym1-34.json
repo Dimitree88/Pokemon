@@ -1,0 +1,76 @@
+{
+  "id": "gym1-34",
+  "set": "gym1",
+  "number": "34",
+  "rarity": "Rare",
+  "name": "Sabrina's Venomoth",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 49,
+  "level": "22",
+  "evolvesFromName": "Sabrina's Venonat",
+  "evolvesFromDex": 48,
+  "species": {
+    "en": "Poison Moth Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "28 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Healing Pollen"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them."
+      }
+    },
+    {
+      "name": {
+        "en": "Sonic Distortion"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

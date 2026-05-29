@@ -1,0 +1,78 @@
+{
+  "id": "neo1-52",
+  "set": "neo1",
+  "number": "52",
+  "rarity": "Uncommon",
+  "name": "Xatu",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 178,
+  "level": "10",
+  "evolvesFromName": "Natu",
+  "evolvesFromDex": 177,
+  "species": {
+    "en": "Mystic Pokémon"
+  },
+  "flavor": {
+    "en": "They say that it stays still and quiet because it is seeing both the past and future at the same time."
+  },
+  "weight": "33 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Prophecy"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Look at the top 3 cards of either player's deck and rearrange them as you like."
+      }
+    },
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

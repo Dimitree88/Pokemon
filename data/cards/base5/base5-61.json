@@ -1,0 +1,72 @@
+{
+  "id": "base5-61",
+  "set": "base5",
+  "number": "61",
+  "rarity": "Common",
+  "name": "Mankey",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 56,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": "Normally friendly, it quickly becomes angry if it doesn't get what it wants."
+  },
+  "weight": "62 lbs",
+  "height": "1'08\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mischief"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle your opponent's deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Anger"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

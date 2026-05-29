@@ -1,0 +1,66 @@
+{
+  "id": "gym2-38",
+  "set": "gym2",
+  "number": "38",
+  "rarity": "Uncommon",
+  "name": "Erika's Bellsprout",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 69,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "9 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Stretch Vine"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Benched Pokémon, and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Soak Up"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may take up to 2 Grass Energy cards attached to your other Pokémon and attach them to Erika's Bellsprout. This power can't be used if Erika's Bellsprout is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

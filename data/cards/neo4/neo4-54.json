@@ -1,0 +1,82 @@
+{
+  "id": "neo4-54",
+  "set": "neo4",
+  "number": "54",
+  "rarity": "Uncommon",
+  "name": "Light Wigglytuff",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 40,
+  "level": "33",
+  "evolvesFromName": "Jigglypuff",
+  "evolvesFromDex": 39,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "If two of them brush against each other, they will not be able to separate themselves, as they enjoy touching each other's soft fur too much."
+  },
+  "weight": "26 lbs",
+  "height": "3'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Evolution Song"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent may choose 1 of his or her Pokémon and search his or her deck for a card that evolves from that Pokémon. Your opponent attaches that card to that Pokémon. This counts as evolving that Pokémon. Either way, you may do the same, and then each player who searched shuffles his or her deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Body Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "neo4-31",
+  "set": "neo4",
+  "number": "31",
+  "rarity": "Uncommon",
+  "name": "Chansey",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 113,
+  "level": "38",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Egg Pokémon"
+  },
+  "flavor": {
+    "en": "It holds its egg carefully when moving so as not to break it. Still, it is fast enough to disappear in the blink of an eye."
+  },
+  "weight": "76 lbs",
+  "height": "3'07\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Doubleslap"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Egg Toss"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 2 coins. If either of them is tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

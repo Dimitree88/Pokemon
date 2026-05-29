@@ -1,0 +1,68 @@
+{
+  "id": "neo4-86",
+  "set": "neo4",
+  "number": "86",
+  "rarity": "Common",
+  "name": "Unown [L]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "19",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Laugh]"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, each player shuffles his or her deck. This power can be used even if Unown [L] is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

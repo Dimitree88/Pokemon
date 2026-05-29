@@ -1,0 +1,73 @@
+{
+  "id": "base5-38",
+  "set": "base5",
+  "number": "38",
+  "rarity": "Uncommon",
+  "name": "Dark Jolteon",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 135,
+  "level": "23",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Lightning Pokémon"
+  },
+  "flavor": {
+    "en": "A dangerous Pokémon when angered. It likes to playfully shock people with the electricity it stores within its body."
+  },
+  "weight": "54 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lightning Flash"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Thunder Attack"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

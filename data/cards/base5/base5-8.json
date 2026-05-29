@@ -1,0 +1,73 @@
+{
+  "id": "base5-8",
+  "set": "base5",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Dark Gyarados",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 130,
+  "level": "31",
+  "evolvesFromName": "Magikarp",
+  "evolvesFromDex": 129,
+  "species": {
+    "en": "Atrocious Pokémon"
+  },
+  "flavor": {
+    "en": "Normally found only in the deep ocean, it has recently been seen in shallow waters as well."
+  },
+  "weight": "518 lbs",
+  "height": "21'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ice Beam"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Final Beam"
+      },
+      "text": {
+        "en": "When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

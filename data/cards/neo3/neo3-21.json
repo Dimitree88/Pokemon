@@ -1,0 +1,78 @@
+{
+  "id": "neo3-21",
+  "set": "neo3",
+  "number": "21",
+  "rarity": "Rare",
+  "name": "Raichu",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 26,
+  "level": "39",
+  "evolvesFromName": "Pikachu",
+  "evolvesFromDex": 25,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
+  },
+  "weight": "66 lbs",
+  "height": "2'07\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thundershock"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Lightning Strike"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may discard all Lightning Energy cards attached to Raichu. If you do, this attack does 80 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

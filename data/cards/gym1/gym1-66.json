@@ -1,0 +1,72 @@
+{
+  "id": "gym1-66",
+  "set": "gym1",
+  "number": "66",
+  "rarity": "Common",
+  "name": "Brock's Geodude",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 74,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Call for Friend"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Hook Shot"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

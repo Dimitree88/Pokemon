@@ -1,0 +1,74 @@
+{
+  "id": "neo1-40",
+  "set": "neo1",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Magmar",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 126,
+  "level": "37",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spitfire Pokémon"
+  },
+  "flavor": {
+    "en": "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself."
+  },
+  "weight": "98 lbs",
+  "height": "4'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Slap"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Magma Punch"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

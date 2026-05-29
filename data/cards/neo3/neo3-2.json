@@ -1,0 +1,76 @@
+{
+  "id": "neo3-2",
+  "set": "neo3",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Blissey",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 120,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 242,
+  "level": "62",
+  "evolvesFromName": "Chansey",
+  "evolvesFromDex": 113,
+  "species": {
+    "en": "Happiness Pokémon"
+  },
+  "flavor": {
+    "en": "Anyone who takes even one bite of Blissey's egg becomes unfailingly caring and pleasant to everyone."
+  },
+  "weight": "103 lbs",
+  "height": "4'11\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Body Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Softboiled"
+      },
+      "text": {
+        "en": "When you play Blissey from your hand, you may flip a coin. If heads, remove 8 damage counters from Blissey. If tails, remove 4 damage counters from Blissey. Either way, if Blissey has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

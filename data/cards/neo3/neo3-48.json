@@ -1,0 +1,84 @@
+{
+  "id": "neo3-48",
+  "set": "neo3",
+  "number": "48",
+  "rarity": "Common",
+  "name": "Quagsire",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 195,
+  "level": "35",
+  "evolvesFromName": "Wooper",
+  "evolvesFromDex": 194,
+  "species": {
+    "en": "Water Fish Pokémon"
+  },
+  "flavor": {
+    "en": "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
+  },
+  "weight": "165 lbs",
+  "height": "4'07\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mud Slap"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Whirlpool"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

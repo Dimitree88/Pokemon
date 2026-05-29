@@ -1,0 +1,78 @@
+{
+  "id": "base3-42",
+  "set": "base3",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Seadra",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 117,
+  "level": "23",
+  "evolvesFromName": "Horsea",
+  "evolvesFromDex": 116,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail."
+  },
+  "weight": "55 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "gym1-30",
+  "set": "gym1",
+  "number": "30",
+  "rarity": "Rare",
+  "name": "Misty's Goldeen",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 118,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "33 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Horn Hazard"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "neo1-22",
+  "set": "neo1",
+  "number": "22",
+  "rarity": "Rare",
+  "name": "Elekid",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 239,
+  "level": "6",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit."
+  },
+  "weight": "52 lbs",
+  "height": "2'00\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack."
+  },
+  "attacks": [],
+  "powers": [
+    {
+      "name": {
+        "en": "Playful Punch"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, do 20 damage to your opponent's Active Pokémon. (Apply Weakness and Resistance.) Either way, this ends your turn. This power can't be used if Elekid is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

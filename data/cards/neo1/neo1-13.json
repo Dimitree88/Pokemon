@@ -1,0 +1,78 @@
+{
+  "id": "neo1-13",
+  "set": "neo1",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Skarmory",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 227,
+  "level": "30",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Armor Bird Pokémon"
+  },
+  "flavor": {
+    "en": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky."
+  },
+  "weight": "111 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Claw"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Steel Wing"
+      },
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "gym1-6",
+  "set": "gym1",
+  "number": "6",
+  "rarity": "Rare Holo",
+  "name": "Lt. Surge's Electabuzz",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 125,
+  "level": "28",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Charge"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
+      }
+    },
+    {
+      "name": {
+        "en": "Discharge"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Discard all Lightning Energy cards attached to Lt. Surge's Electabuzz in order to use this attack. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

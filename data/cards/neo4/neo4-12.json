@@ -1,0 +1,70 @@
+{
+  "id": "neo4-12",
+  "set": "neo4",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Light Arcanine",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 59,
+  "level": "47",
+  "evolvesFromName": "Growlithe",
+  "evolvesFromDex": 58,
+  "species": {
+    "en": "Legendary Pokémon"
+  },
+  "flavor": {
+    "en": "This legendary Chinese Pokémon is easily recognized by its large flowing mane."
+  },
+  "weight": "342 lbs",
+  "height": "6'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gentle Flames"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon is a Baby Pokémon, this attack does 10 damage instead of 50. If the Defending Pokémon is a Basic Pokémon, this attack does 30 damage instead of 50."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Drive Off"
+      },
+      "text": {
+        "en": "As long as Light Arcanine is your Active Pokémon, once during your turn (before your attack), if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. This power can't be used while Light Arcanine is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

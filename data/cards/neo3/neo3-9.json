@@ -1,0 +1,80 @@
+{
+  "id": "neo3-9",
+  "set": "neo3",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Jumpluff",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 189,
+  "level": "37",
+  "evolvesFromName": "Skiploom",
+  "evolvesFromDex": 188,
+  "species": {
+    "en": "Cottonweed Pokémon"
+  },
+  "flavor": {
+    "en": "Drifts on seasonal winds and spreads its cotton-like spores all over the world to make more offspring."
+  },
+  "weight": "7 lbs",
+  "height": "2'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Evolutionary Spore"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Solarbeam"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

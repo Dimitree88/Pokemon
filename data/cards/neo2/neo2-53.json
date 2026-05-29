@@ -1,0 +1,59 @@
+{
+  "id": "neo2-53",
+  "set": "neo2",
+  "number": "53",
+  "rarity": "Common",
+  "name": "Caterpie",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 10,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Worm Pokémon"
+  },
+  "flavor": {
+    "en": "For protection, it releases a horrible stench from the antennae on its head to drive away enemies."
+  },
+  "weight": "6 lbs",
+  "height": "1'00\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spin Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Caterpie does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

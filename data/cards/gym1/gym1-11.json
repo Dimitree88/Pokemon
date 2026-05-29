@@ -1,0 +1,73 @@
+{
+  "id": "gym1-11",
+  "set": "gym1",
+  "number": "11",
+  "rarity": "Rare Holo",
+  "name": "Rocket's Hitmonchan",
+  "owner": "Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 107,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Punching Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "111 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crosscounter"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "If an attack does damage to Rocket's Hitmonchan during your opponent's next turn (even if Rocket's Hitmonchan is Knocked Out), flip a coin. If heads, Rocket's Hitmonchan attacks your opponent's Active Pokémon for double that amount of damage. (If Rocket's Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Magnum Punch"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

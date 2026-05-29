@@ -1,0 +1,74 @@
+{
+  "id": "base4-94",
+  "set": "base4",
+  "number": "94",
+  "rarity": "Common",
+  "name": "Starmie",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 121,
+  "level": "28",
+  "evolvesFromName": "Staryu",
+  "evolvesFromDex": 120,
+  "species": {
+    "en": "Mysterious Pokémon"
+  },
+  "flavor": {
+    "en": "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem."
+  },
+  "weight": "176 lbs",
+  "height": "3'07\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Recover"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Discard 1 Water Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie."
+      }
+    },
+    {
+      "name": {
+        "en": "Star Freeze"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

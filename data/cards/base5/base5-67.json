@@ -1,0 +1,71 @@
+{
+  "id": "base5-67",
+  "set": "base5",
+  "number": "67",
+  "rarity": "Common",
+  "name": "Slowpoke",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 79,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dopey Pokémon"
+  },
+  "flavor": {
+    "en": "Although it knows how to fish, no other intelligent behavior has been detected in it."
+  },
+  "weight": "79 lbs",
+  "height": "3'11\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Afternoon Nap"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Search your deck for a Psychic Energy card and attach it to Slowpoke. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Headbutt"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

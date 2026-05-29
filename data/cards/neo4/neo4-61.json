@@ -1,0 +1,59 @@
+{
+  "id": "neo4-61",
+  "set": "neo4",
+  "number": "61",
+  "rarity": "Common",
+  "name": "Cyndaquil",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 155,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fire Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "It is very meek and constantly crouches in a defensive posture. When threatened, it protects itself with the flame on its back."
+  },
+  "weight": "17 lbs",
+  "height": "1'08\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smokescreen"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

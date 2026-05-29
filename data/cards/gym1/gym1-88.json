@@ -1,0 +1,58 @@
+{
+  "id": "gym1-88",
+  "set": "gym1",
+  "number": "88",
+  "rarity": "Common",
+  "name": "Misty's Seel",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 86,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sea Lion Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "198 lbs",
+  "height": "3'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Aurora Beam"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

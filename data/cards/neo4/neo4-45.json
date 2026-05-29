@@ -1,0 +1,78 @@
+{
+  "id": "neo4-45",
+  "set": "neo4",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Light Dewgong",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 87,
+  "level": "40",
+  "evolvesFromName": "Seel",
+  "evolvesFromDex": 86,
+  "species": {
+    "en": "Sea Lion Pokémon"
+  },
+  "flavor": {
+    "en": "It has an aerodynamic shape that allows it to swim at great speeds. The colder the water gets, the more active it becomes."
+  },
+  "weight": "265 lbs",
+  "height": "5'07\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Freezing Breath"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Ice Pillar"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Until the end of your opponent's next turn, as long as Light Dewgong is your Active Pokémon, prevent all damage done by attacks to your Benched Pokémon. (Any other effects of attacks still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

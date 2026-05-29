@@ -1,0 +1,81 @@
+{
+  "id": "base4-23",
+  "set": "base4",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Dugtrio",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 51,
+  "level": "36",
+  "evolvesFromName": "Diglett",
+  "evolvesFromDex": 50,
+  "species": {
+    "en": "Mole Pokémon"
+  },
+  "flavor": {
+    "en": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+  },
+  "weight": "73 lbs",
+  "height": "2'04\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Earthquake"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "70",
+      "value": 70,
+      "modifier": null,
+      "text": {
+        "en": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

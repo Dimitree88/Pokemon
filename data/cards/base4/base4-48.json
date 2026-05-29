@@ -1,0 +1,77 @@
+{
+  "id": "base4-48",
+  "set": "base4",
+  "number": "48",
+  "rarity": "Uncommon",
+  "name": "Lickitung",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 108,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Licking Pokémon"
+  },
+  "flavor": {
+    "en": "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies."
+  },
+  "weight": "144 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tongue Wrap"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Supersonic"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

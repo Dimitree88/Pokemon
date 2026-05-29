@@ -1,0 +1,58 @@
+{
+  "id": "base5-64",
+  "set": "base5",
+  "number": "64",
+  "rarity": "Common",
+  "name": "Ponyta",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 77,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": "A gentle grass-eater, it will allow riders on its back. However, anyone attempting to do so must be careful not to get burned."
+  },
+  "weight": "66 lbs",
+  "height": "3'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ember"
+      },
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Ponyta in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

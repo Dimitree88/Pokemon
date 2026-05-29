@@ -1,0 +1,68 @@
+{
+  "id": "gym1-5",
+  "set": "gym1",
+  "number": "5",
+  "rarity": "Rare Holo",
+  "name": "Erika's Vileplume",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 45,
+  "level": "34",
+  "evolvesFromName": "Erika's Gloom",
+  "evolvesFromDex": 44,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "41 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Drain"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "If Erika's Vileplume does damage to the Defending Pokémon (after applying Weakness and Resistance), remove a number of damage counters from Erika's Vileplume equal to half the damage done to the Defending Pokémon (rounded up to the nearest 10). If Erika's Vileplume has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Pollen Defense"
+      },
+      "text": {
+        "en": "If an attack does damage to Erika's Vileplume while it's your Active Pokémon (even if it's Knocked Out), flip a coin. If heads, your opponent's Active Pokémon is now Confused. This power works even while Erika's Vileplume is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

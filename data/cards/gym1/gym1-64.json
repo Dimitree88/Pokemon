@@ -1,0 +1,78 @@
+{
+  "id": "gym1-64",
+  "set": "gym1",
+  "number": "64",
+  "rarity": "Common",
+  "name": "Blaine's Tauros",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 128,
+  "level": "34",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Wild Bull Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "195 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "3-Pronged Tail"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Full Speed Charge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

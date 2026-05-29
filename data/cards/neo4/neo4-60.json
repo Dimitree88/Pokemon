@@ -1,0 +1,68 @@
+{
+  "id": "neo4-60",
+  "set": "neo4",
+  "number": "60",
+  "rarity": "Uncommon",
+  "name": "Unown [Z]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Zoom]"
+      },
+      "text": {
+        "en": "As long as Unown [Z] is Benched, you pay no Energy cost to retreat a Pokémon with Unown in its name."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

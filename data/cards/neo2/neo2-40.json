@@ -1,0 +1,48 @@
+{
+  "id": "neo2-40",
+  "set": "neo2",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Igglybuff",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 174,
+  "level": "6",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop."
+  },
+  "weight": "2 lbs",
+  "height": "1'00\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [],
+  "powers": [
+    {
+      "name": {
+        "en": "Gaze"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

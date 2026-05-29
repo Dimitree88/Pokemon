@@ -1,0 +1,78 @@
+{
+  "id": "gym1-3",
+  "set": "gym1",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Erika's Clefable",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 36,
+  "level": "35",
+  "evolvesFromName": "Erika's Clefairy",
+  "evolvesFromDex": 35,
+  "species": {
+    "en": "Fairy Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "88 lbs",
+  "height": "4'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fairy Power"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand."
+      }
+    },
+    {
+      "name": {
+        "en": "Moon Impact"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

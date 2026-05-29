@@ -1,0 +1,76 @@
+{
+  "id": "basep-49",
+  "set": "basep",
+  "number": "49",
+  "rarity": "Promo",
+  "name": "Snorlax",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 143,
+  "level": "35",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sleeping Pokémon"
+  },
+  "flavor": {
+    "en": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+  },
+  "weight": "1014 lbs",
+  "height": "6'11\"",
+  "illustrator": "Craig Turvey",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Roll Over"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Snorlax is now Asleep. Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Guard"
+      },
+      "text": {
+        "en": "As long as Snorlax is your Active Pokémon, the Defending Pokémon can't Retreat. This power stops working when Snorlax is affected by a Special Condition."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "neo2-51",
+  "set": "neo2",
+  "number": "51",
+  "rarity": "Uncommon",
+  "name": "Unown [U]",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 201,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Symbol Pokémon"
+  },
+  "flavor": {
+    "en": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+  },
+  "weight": "11 lbs",
+  "height": "1'08\"",
+  "illustrator": "CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hidden Power"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "[Undo]"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pokémon and all cards attached to it to your hand."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "gym1-47",
+  "set": "gym1",
+  "number": "47",
+  "rarity": "Uncommon",
+  "name": "Erika's Oddish",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 43,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "12 lbs",
+  "height": "1'08\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Photosynthesis"
+      },
+      "text": {
+        "en": "All Energy cards attached to Erika's Oddish provide Grass Energy instead of their usual type. This power works even while Erika's Oddish is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

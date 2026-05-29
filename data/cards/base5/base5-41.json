@@ -1,0 +1,67 @@
+{
+  "id": "base5-41",
+  "set": "base5",
+  "number": "41",
+  "rarity": "Uncommon",
+  "name": "Dark Muk",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 89,
+  "level": "25",
+  "evolvesFromName": "Grimer",
+  "evolvesFromDex": 88,
+  "species": {
+    "en": "Sludge Pokémon"
+  },
+  "flavor": {
+    "en": "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues."
+  },
+  "weight": "66 lbs",
+  "height": "3'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sludge Punch"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Sticky Goo"
+      },
+      "text": {
+        "en": "As long as Dark Muk is your Active Pokémon, your opponent pays ColorlessColorless more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

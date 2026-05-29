@@ -1,0 +1,65 @@
+{
+  "id": "neo4-78",
+  "set": "neo4",
+  "number": "78",
+  "rarity": "Common",
+  "name": "Porygon",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 137,
+  "level": "24",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Virtual Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction."
+  },
+  "weight": "80 lbs",
+  "height": "2'07\"",
+  "illustrator": "Hiromichi Sugiyama, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sharpen"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

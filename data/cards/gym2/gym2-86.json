@@ -1,0 +1,58 @@
+{
+  "id": "gym2-86",
+  "set": "gym2",
+  "number": "86",
+  "rarity": "Common",
+  "name": "Lt. Surge's Voltorb",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 100,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "23 lbs",
+  "height": "1'08\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bouncing Ball"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

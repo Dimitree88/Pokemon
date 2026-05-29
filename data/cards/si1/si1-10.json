@@ -1,0 +1,76 @@
+{
+  "id": "si1-10",
+  "set": "si1",
+  "number": "10",
+  "rarity": null,
+  "name": "Tentacruel",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 73,
+  "level": null,
+  "evolvesFromName": "Tentacool",
+  "evolvesFromDex": 72,
+  "species": {
+    "en": "Jellyfish Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon attacks its prey with its eighty toxin-producing tentacles."
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tentacle Grip"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Water Energy attached to Tentacruel. For each heads, draw 2 cards."
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Sting"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

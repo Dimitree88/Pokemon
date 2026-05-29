@@ -1,0 +1,79 @@
+{
+  "id": "neo1-35",
+  "set": "neo1",
+  "number": "35",
+  "rarity": "Uncommon",
+  "name": "Furret",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 162,
+  "level": "27",
+  "evolvesFromName": "Sentret",
+  "evolvesFromDex": 161,
+  "species": {
+    "en": "Long Body Pokémon"
+  },
+  "flavor": {
+    "en": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+  },
+  "weight": "72 lbs",
+  "height": "5'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

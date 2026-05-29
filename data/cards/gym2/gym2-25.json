@@ -1,0 +1,72 @@
+{
+  "id": "gym2-25",
+  "set": "gym2",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Koga's Arbok",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 24,
+  "level": "44",
+  "evolvesFromName": "Koga's Ekans",
+  "evolvesFromDex": 23,
+  "species": {
+    "en": "Cobra Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "143 lbs",
+  "height": "11'06\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poison Buildup"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Koga's Arbok is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Power"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If Koga's Arbok is Poisoned, this attack's base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

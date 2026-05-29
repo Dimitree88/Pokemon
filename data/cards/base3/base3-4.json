@@ -1,0 +1,71 @@
+{
+  "id": "base3-4",
+  "set": "base3",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Dragonite",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 149,
+  "level": "45",
+  "evolvesFromName": "Dragonair",
+  "evolvesFromDex": 148,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans."
+  },
+  "weight": "463 lbs",
+  "height": "7'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 40 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Step In"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), if Dragonite is on your Bench, you may switch it with your Active Pokémon."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

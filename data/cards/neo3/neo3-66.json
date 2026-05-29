@@ -1,0 +1,75 @@
+{
+  "id": "neo3-66",
+  "set": "neo3",
+  "number": "66",
+  "rarity": "Rare Shining",
+  "name": "Shining Magikarp",
+  "owner": null,
+  "variant": "shining",
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 129,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fish Pokémon"
+  },
+  "flavor": {
+    "en": "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
+  },
+  "weight": "22 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gold Scale"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent may draw 2 cards. Either way, you may draw 2 cards."
+      }
+    },
+    {
+      "name": {
+        "en": "Dragon Bond"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

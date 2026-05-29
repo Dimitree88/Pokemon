@@ -1,0 +1,80 @@
+{
+  "id": "base1-9",
+  "set": "base1",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Magneton",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 82,
+  "level": "28",
+  "evolvesFromName": "Magnemite",
+  "evolvesFromDex": 81,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": "Formed by several Magnemites linked together. It frequently appears when sunspots flare up."
+  },
+  "weight": "132 lbs",
+  "height": "3'03\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thunder Wave"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Selfdestruct"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

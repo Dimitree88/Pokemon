@@ -1,0 +1,70 @@
+{
+  "id": "neo4-5",
+  "set": "neo4",
+  "number": "5",
+  "rarity": "Rare Holo",
+  "name": "Dark Feraligatr",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 160,
+  "level": "44",
+  "evolvesFromName": "Dark Croconaw",
+  "evolvesFromDex": 159,
+  "species": {
+    "en": "Big Jaw Pokémon"
+  },
+  "flavor": {
+    "en": "Its powerful muscles allow it to move at a speed that belies its bulk."
+  },
+  "weight": "196 lbs",
+  "height": "7'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crushing Blow"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those cards and discard it."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Scare"
+      },
+      "text": {
+        "en": "As long as Dark Feraligatr is your Active Pokémon, all of your opponent's Baby Pokémon Powers stop working and your opponent's Baby Pokémon can't attack. This power stops working while Dark Feraligatr is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

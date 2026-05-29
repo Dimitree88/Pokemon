@@ -1,0 +1,81 @@
+{
+  "id": "base4-7",
+  "set": "base4",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Gyarados",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 100,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 130,
+  "level": "41",
+  "evolvesFromName": "Magikarp",
+  "evolvesFromDex": 129,
+  "species": {
+    "en": "Atrocious Pokémon"
+  },
+  "flavor": {
+    "en": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
+  },
+  "weight": "518 lbs",
+  "height": "21'04\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dragon Rage"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Bubblebeam"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "base3-36",
+  "set": "base3",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Golem",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 76,
+  "level": "36",
+  "evolvesFromName": "Graveler",
+  "evolvesFromDex": 75,
+  "species": {
+    "en": "Megaton Pokémon"
+  },
+  "flavor": {
+    "en": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
+  },
+  "weight": "661 lbs",
+  "height": "4'07\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Avalanche"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Selfdestruct"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "100",
+        "value": 100,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

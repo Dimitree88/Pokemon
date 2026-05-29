@@ -1,0 +1,70 @@
+{
+  "id": "neo4-14",
+  "set": "neo4",
+  "number": "14",
+  "rarity": "Rare Holo",
+  "name": "Light Dragonite",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 149,
+  "level": "47",
+  "evolvesFromName": "Light Dragonair",
+  "evolvesFromDex": 148,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "It is said to fly constantly over the sea, looking for people in need of aid."
+  },
+  "weight": "463 lbs",
+  "height": "7'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Light Wave"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Prevent all effects of attacks, other than damage, done to Light Dragonite during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Miraculous Wind"
+      },
+      "text": {
+        "en": "As long as Light Dragonite is your Active Pokémon, each Special Energy card provides Colorless Energy instead of its usual type and its other effects stop working. This power stops working while Light Dragonite is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

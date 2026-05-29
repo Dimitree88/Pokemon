@@ -1,0 +1,76 @@
+{
+  "id": "gym2-23",
+  "set": "gym2",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Giovanni's Nidoqueen",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 31,
+  "level": "51",
+  "evolvesFromName": "Giovanni's Nidorina",
+  "evolvesFromDex": 30,
+  "species": {
+    "en": "Drill Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "132 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Kick"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Love Lariat"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "50+",
+      "value": 50,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 50 damage plus 50 more damage if you have at least 1 Giovanni's Nidoking on your Bench. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

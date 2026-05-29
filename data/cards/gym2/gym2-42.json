@@ -1,0 +1,73 @@
+{
+  "id": "gym2-42",
+  "set": "gym2",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Giovanni's Machoke",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 67,
+  "level": "36",
+  "evolvesFromName": "Giovanni's Machop",
+  "evolvesFromDex": 66,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "155 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Risky Attack"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does no damage to the Defending Pokémon and Giovanni's Machoke does 100 damage to itself."
+      }
+    },
+    {
+      "name": {
+        "en": "Headlock"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

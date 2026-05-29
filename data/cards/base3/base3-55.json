@@ -1,0 +1,76 @@
+{
+  "id": "base3-55",
+  "set": "base3",
+  "number": "55",
+  "rarity": "Common",
+  "name": "Slowpoke",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 79,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dopey Pokémon"
+  },
+  "flavor": {
+    "en": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
+  },
+  "weight": "79 lbs",
+  "height": "3'11\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spacing Out"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
+      }
+    },
+    {
+      "name": {
+        "en": "Scavenge"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

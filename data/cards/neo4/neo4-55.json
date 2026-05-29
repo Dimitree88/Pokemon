@@ -1,0 +1,83 @@
+{
+  "id": "neo4-55",
+  "set": "neo4",
+  "number": "55",
+  "rarity": "Uncommon",
+  "name": "Scyther",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 123,
+  "level": "21",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mantis Pokémon"
+  },
+  "flavor": {
+    "en": "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen."
+  },
+  "weight": "123 lbs",
+  "height": "4'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Scyther."
+      }
+    },
+    {
+      "name": {
+        "en": "Sharp Sickle"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

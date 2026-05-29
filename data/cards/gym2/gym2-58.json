@@ -1,0 +1,73 @@
+{
+  "id": "gym2-58",
+  "set": "gym2",
+  "number": "58",
+  "rarity": "Uncommon",
+  "name": "Sabrina's Kadabra",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 64,
+  "level": "41",
+  "evolvesFromName": "Sabrina's Abra",
+  "evolvesFromDex": 63,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "125 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Life Drain"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10."
+      }
+    },
+    {
+      "name": {
+        "en": "Psyshot"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "neo1-17",
+  "set": "neo1",
+  "number": "17",
+  "rarity": "Rare Holo",
+  "name": "Typhlosion",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 157,
+  "level": "55",
+  "evolvesFromName": "Quilava",
+  "evolvesFromDex": 156,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames."
+  },
+  "weight": "175 lbs",
+  "height": "5'07\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flame Burst"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "60+",
+      "value": 60,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Fire Recharge"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Fire Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

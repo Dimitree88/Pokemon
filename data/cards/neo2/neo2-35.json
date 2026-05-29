@@ -1,0 +1,59 @@
+{
+  "id": "neo2-35",
+  "set": "neo2",
+  "number": "35",
+  "rarity": "Rare",
+  "name": "Wobbuffet",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 202,
+  "level": "46",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Patient Pokémon"
+  },
+  "flavor": {
+    "en": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
+  },
+  "weight": "63 lbs",
+  "height": "4'03\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Counter"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

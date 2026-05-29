@@ -1,0 +1,75 @@
+{
+  "id": "neo4-8",
+  "set": "neo4",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Dark Porygon2",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 233,
+  "level": "34",
+  "evolvesFromName": "Porygon",
+  "evolvesFromDex": 137,
+  "species": {
+    "en": "Virtual Pokémon"
+  },
+  "flavor": {
+    "en": "Advances in technology have allowed it to evolve. It occasionally displays behavior not found in its programming."
+  },
+  "weight": "72 lbs",
+  "height": "2'00\"",
+  "illustrator": "Shin-ichi Yoshikawa, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Curve Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done by attacks to Dark Porygon2 during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Spatial Distortion"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, choose a Stadium card from your discard pile and put it into play. (If there's already a Stadium card in play, discard it.) This power can't be used if Dark Porygon2 is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

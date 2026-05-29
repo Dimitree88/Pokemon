@@ -1,0 +1,69 @@
+{
+  "id": "neo4-20",
+  "set": "neo4",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Dark Slowking",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 199,
+  "level": "27",
+  "evolvesFromName": "Slowpoke",
+  "evolvesFromDex": 79,
+  "species": {
+    "en": "Royal Pokémon"
+  },
+  "flavor": {
+    "en": "Each time it yawns, the Shellder on its head releases an enzyme that makes it grow even smarter."
+  },
+  "weight": "175 lbs",
+  "height": "6'07\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mind Shock"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Don't apply Weakness or Resistance for this attack."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Cunning"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck. This power can't be used if Dark Slowking is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

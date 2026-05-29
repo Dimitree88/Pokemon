@@ -1,0 +1,74 @@
+{
+  "id": "gym1-21",
+  "set": "gym1",
+  "number": "21",
+  "rarity": "Rare",
+  "name": "Brock's Onix",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 95,
+  "level": "30",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Snake Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "463 lbs",
+  "height": "28'10\"",
+  "illustrator": "Benimaru Itoh",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bind"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Tunneling"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

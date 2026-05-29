@@ -1,0 +1,79 @@
+{
+  "id": "neo1-37",
+  "set": "neo1",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Granbull",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 210,
+  "level": "33",
+  "evolvesFromName": "Snubbull",
+  "evolvesFromDex": 209,
+  "species": {
+    "en": "Fairy Pokémon"
+  },
+  "flavor": {
+    "en": "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker."
+  },
+  "weight": "107 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Raging Charge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "This attack does 10 damage plus 10 more damage for each damage counter on Granbull. Then, Granbull does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

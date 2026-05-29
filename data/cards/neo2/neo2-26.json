@@ -1,0 +1,81 @@
+{
+  "id": "neo2-26",
+  "set": "neo2",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Magnemite",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 81,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": "These Pokémon are attracted to electrical emissions and will often follow people using PokéGear."
+  },
+  "weight": "13 lbs",
+  "height": "1'00\"",
+  "illustrator": "K. Hoshiba, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lock-on"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack as if they were heads. (Benching or evolving either Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Electric Bolt"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

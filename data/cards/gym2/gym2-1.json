@@ -1,0 +1,76 @@
+{
+  "id": "gym2-1",
+  "set": "gym2",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Blaine's Arcanine",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 59,
+  "level": "42",
+  "evolvesFromName": "Blaine's Growlithe",
+  "evolvesFromDex": 58,
+  "species": {
+    "en": "Legendary Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "342 lbs",
+  "height": "6'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Heat Tackle"
+      },
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Blaine's Arcanine does 10 damage to itself."
+      }
+    },
+    {
+      "name": {
+        "en": "Firestorm"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "120",
+      "value": 120,
+      "modifier": null,
+      "text": {
+        "en": "Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

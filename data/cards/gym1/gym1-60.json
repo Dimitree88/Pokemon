@@ -1,0 +1,73 @@
+{
+  "id": "gym1-60",
+  "set": "gym1",
+  "number": "60",
+  "rarity": "Uncommon",
+  "name": "Sabrina's Slowbro",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 80,
+  "level": "29",
+  "evolvesFromName": "Sabrina's Slowpoke",
+  "evolvesFromDex": 79,
+  "species": {
+    "en": "Hermit Crab Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "173 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Naptime"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, remove 3 damage counters from Sabrina's Slowbro and Sabrina's Slowbro is now Asleep. If Sabrina's Slowbro has fewer damage counters than that, remove all of them."
+      }
+    },
+    {
+      "name": {
+        "en": "Screaming Headbutt"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "You can't use this attack during your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

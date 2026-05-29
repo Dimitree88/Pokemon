@@ -1,0 +1,76 @@
+{
+  "id": "neo4-43",
+  "set": "neo4",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Houndour",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 228,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dark Pokémon"
+  },
+  "flavor": {
+    "en": "When night falls, the air fills with the eerie cries of this Pokémon as it stakes out its territory."
+  },
+  "weight": "24 lbs",
+  "height": "2'00\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Corner"
+      },
+      "cost": [
+        "Darkness"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Lunge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

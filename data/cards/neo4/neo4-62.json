@@ -1,0 +1,76 @@
+{
+  "id": "neo4-62",
+  "set": "neo4",
+  "number": "62",
+  "rarity": "Common",
+  "name": "Dark Octillery",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 224,
+  "level": "30",
+  "evolvesFromName": "Remoraid",
+  "evolvesFromDex": 223,
+  "species": {
+    "en": "Jet Pokémon"
+  },
+  "flavor": {
+    "en": "It likes to sleep in rock caves and will even steal other Octillery's nests."
+  },
+  "weight": "63 lbs",
+  "height": "2'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ink Blast"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "This attack does 20 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Tentacle Wrap"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays Colorless more to retreat the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

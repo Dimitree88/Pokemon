@@ -1,0 +1,68 @@
+{
+  "id": "gym1-26",
+  "set": "gym1",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Erika's Victreebel",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 71,
+  "level": "37",
+  "evolvesFromName": "Erika's Weepinbell",
+  "evolvesFromDex": 70,
+  "species": {
+    "en": "Flycatcher Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "34 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Razor Leaf"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Fragrance Trap"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

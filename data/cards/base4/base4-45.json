@@ -1,0 +1,73 @@
+{
+  "id": "base4-45",
+  "set": "base4",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Jynx",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 124,
+  "level": "23",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Human Shape Pokémon"
+  },
+  "flavor": {
+    "en": "Merely by meditating, the Pokémon launches a powerful psychic energy attack."
+  },
+  "weight": "90 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Doubleslap"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Meditate"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

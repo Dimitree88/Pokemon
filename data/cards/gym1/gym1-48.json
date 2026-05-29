@@ -1,0 +1,72 @@
+{
+  "id": "gym1-48",
+  "set": "gym1",
+  "number": "48",
+  "rarity": "Uncommon",
+  "name": "Erika's Weepinbell",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 70,
+  "level": "26",
+  "evolvesFromName": "Erika's Bellsprout",
+  "evolvesFromDex": 69,
+  "species": {
+    "en": "Flycatcher Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "14 lbs",
+  "height": "3'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Drool"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Flytrap"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

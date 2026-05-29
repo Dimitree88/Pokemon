@@ -11,6 +11,9 @@ desktop.ini
 # Logs
 *.log
 
+# Cache dump (rigenerabile)
+data/.cache/
+
 # Env
 .env
 .env.local

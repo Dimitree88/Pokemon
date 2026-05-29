@@ -1,0 +1,77 @@
+{
+  "id": "base5-42",
+  "set": "base5",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Dark Persian",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 53,
+  "level": "28",
+  "evolvesFromName": "Meowth",
+  "evolvesFromDex": 52,
+  "species": {
+    "en": "Classy Cat Pokémon"
+  },
+  "flavor": {
+    "en": "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet."
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fascinate"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Claws"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

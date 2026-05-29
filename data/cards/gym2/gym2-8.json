@@ -1,0 +1,73 @@
+{
+  "id": "gym2-8",
+  "set": "gym2",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Giovanni's Persian",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 53,
+  "level": "23",
+  "evolvesFromName": "Giovanni's Meowth",
+  "evolvesFromDex": 52,
+  "species": {
+    "en": "Classy Cat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ambush"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Call the Boss"
+      },
+      "text": {
+        "en": "When you play Giovanni's Persian from your hand, you may search your deck for the Trainer card named Giovanni, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

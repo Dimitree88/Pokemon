@@ -1,0 +1,76 @@
+{
+  "id": "neo4-51",
+  "set": "neo4",
+  "number": "51",
+  "rarity": "Uncommon",
+  "name": "Light Slowbro",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 80,
+  "level": "33",
+  "evolvesFromName": "Slowpoke",
+  "evolvesFromDex": 79,
+  "species": {
+    "en": "Hermit Crab Pokémon"
+  },
+  "flavor": {
+    "en": "If the Shellder attached to its tail becomes separated, this Pokémon reverts to a normal Slowpoke."
+  },
+  "weight": "173 lbs",
+  "height": "5'03\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fish Out"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent may choose up to 3 Baby Pokémon, Basic Pokémon, and/or Evolution cards from his or her discard pile and shuffle them into his or her deck. Either way, you may do the same."
+      }
+    },
+    {
+      "name": {
+        "en": "Splash About"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "If there are more Energy attached to the Defending Pokémon than to Light Slowbro, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

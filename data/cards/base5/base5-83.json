@@ -1,0 +1,59 @@
+{
+  "id": "base5-83",
+  "set": "base5",
+  "number": "83",
+  "rarity": "Rare Secret",
+  "name": "Dark Raichu",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 26,
+  "level": "31",
+  "evolvesFromName": "Pikachu",
+  "evolvesFromDex": 25,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone."
+  },
+  "weight": "66 lbs",
+  "height": "2'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Surprise Thunder"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

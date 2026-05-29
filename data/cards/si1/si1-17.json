@@ -1,0 +1,77 @@
+{
+  "id": "si1-17",
+  "set": "si1",
+  "number": "17",
+  "rarity": null,
+  "name": "Vileplume",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 45,
+  "level": null,
+  "evolvesFromName": "Gloom",
+  "evolvesFromDex": 44,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder."
+  },
+  "weight": "41 lbs",
+  "height": "3'11\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Paradise Pollen"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1)."
+      }
+    },
+    {
+      "name": {
+        "en": "Horrid Pollen"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

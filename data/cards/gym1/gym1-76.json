@@ -1,0 +1,57 @@
+{
+  "id": "gym1-76",
+  "set": "gym1",
+  "number": "76",
+  "rarity": "Common",
+  "name": "Erika's Bellsprout",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 69,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "9 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Careless Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Erika's Bellsprout does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

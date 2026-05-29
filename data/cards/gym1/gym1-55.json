@@ -1,0 +1,72 @@
+{
+  "id": "gym1-55",
+  "set": "gym1",
+  "number": "55",
+  "rarity": "Uncommon",
+  "name": "Misty's Seaking",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 119,
+  "level": "24",
+  "evolvesFromName": "Misty's Goldeen",
+  "evolvesFromDex": 118,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "86 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Horn Attack"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Mud Splash"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

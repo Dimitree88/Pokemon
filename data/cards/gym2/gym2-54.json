@@ -1,0 +1,75 @@
+{
+  "id": "gym2-54",
+  "set": "gym2",
+  "number": "54",
+  "rarity": "Uncommon",
+  "name": "Misty's Dewgong",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 87,
+  "level": "40",
+  "evolvesFromName": "Misty's Seel",
+  "evolvesFromDex": 86,
+  "species": {
+    "en": "Sea Lion Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "265 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ice Throw"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon is Fighting, this attack's base damage is doubled."
+      }
+    },
+    {
+      "name": {
+        "en": "Take Down"
+      },
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": "Misty's Dewgong does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

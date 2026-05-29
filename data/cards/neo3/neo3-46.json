@@ -1,0 +1,76 @@
+{
+  "id": "neo3-46",
+  "set": "neo3",
+  "number": "46",
+  "rarity": "Common",
+  "name": "Murkrow",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 198,
+  "level": "21",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Darkness Pokémon"
+  },
+  "flavor": {
+    "en": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
+  },
+  "weight": "5 lbs",
+  "height": "1'08\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Call for Family"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Search your deck for a Basic Pokémon card named Murkrow and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Flock Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Murkrows on your Bench. This attack does 10 damage plus 10 more damage for each heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

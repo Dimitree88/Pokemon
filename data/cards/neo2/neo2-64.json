@@ -1,0 +1,60 @@
+{
+  "id": "neo2-64",
+  "set": "neo2",
+  "number": "64",
+  "rarity": "Common",
+  "name": "Spinarak",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 167,
+  "level": "19",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "String Spit Pokémon"
+  },
+  "flavor": {
+    "en": "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped."
+  },
+  "weight": "19 lbs",
+  "height": "1'08\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poison Sting"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

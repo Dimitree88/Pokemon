@@ -1,0 +1,76 @@
+{
+  "id": "neo3-37",
+  "set": "neo3",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Seaking",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 119,
+  "level": "29",
+  "evolvesFromName": "Goldeen",
+  "evolvesFromDex": 118,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
+  },
+  "weight": "86 lbs",
+  "height": "4'03\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rising Lunge"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Horn Swipe"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

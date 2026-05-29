@@ -1,0 +1,76 @@
+{
+  "id": "basep-39",
+  "set": "basep",
+  "number": "39",
+  "rarity": "Promo",
+  "name": "Misdreavus",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 200,
+  "level": "23",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Screech Pokémon"
+  },
+  "flavor": {
+    "en": "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions."
+  },
+  "weight": "2 lbs",
+  "height": "2'04\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Pain Split"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Put 1 damage counter on the Defending Pokémon for each damage counter on Misdreavus."
+      }
+    },
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

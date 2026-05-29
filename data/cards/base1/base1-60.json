@@ -1,0 +1,77 @@
+{
+  "id": "base1-60",
+  "set": "base1",
+  "number": "60",
+  "rarity": "Common",
+  "name": "Ponyta",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 77,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments."
+  },
+  "weight": "66 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smash Kick"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Flame Tail"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

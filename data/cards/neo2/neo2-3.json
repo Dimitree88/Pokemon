@@ -1,0 +1,77 @@
+{
+  "id": "neo2-3",
+  "set": "neo2",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Hitmontop",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 237,
+  "level": "31",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Handstand Pokémon"
+  },
+  "flavor": {
+    "en": "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard."
+  },
+  "weight": "106 lbs",
+  "height": "4'07\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Detect"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+      }
+    },
+    {
+      "name": {
+        "en": "Triple Kick"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

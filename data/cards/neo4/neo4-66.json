@@ -1,0 +1,72 @@
+{
+  "id": "neo4-66",
+  "set": "neo4",
+  "number": "66",
+  "rarity": "Common",
+  "name": "Girafarig",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 203,
+  "level": "29",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Long Neck Pokémon"
+  },
+  "flavor": {
+    "en": "Its tail has a brain of its own, which can respond to stimuli such as scents. Many unsuspecting people have been bitten by it."
+  },
+  "weight": "91 lbs",
+  "height": "4'11\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tail Bite"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Psychic"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

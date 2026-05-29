@@ -1,0 +1,78 @@
+{
+  "id": "neo2-20",
+  "set": "neo2",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Espeon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 196,
+  "level": "38",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Sun Pokémon"
+  },
+  "flavor": {
+    "en": "By reading air currents, it can predict things such as the weather or its foe's next move."
+  },
+  "weight": "58 lbs",
+  "height": "2'11\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Psybeam"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

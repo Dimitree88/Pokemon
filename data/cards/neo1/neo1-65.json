@@ -1,0 +1,72 @@
+{
+  "id": "neo1-65",
+  "set": "neo1",
+  "number": "65",
+  "rarity": "Common",
+  "name": "Mareep",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 179,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Wool Pokémon"
+  },
+  "flavor": {
+    "en": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you."
+  },
+  "weight": "17 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Static Electricity"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "For each Mareep in play, you may search your deck for a Lightning Energy card and attach it to Mareep. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Thundershock"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

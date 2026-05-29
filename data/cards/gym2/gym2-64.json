@@ -1,0 +1,58 @@
+{
+  "id": "gym2-64",
+  "set": "gym2",
+  "number": "64",
+  "rarity": "Common",
+  "name": "Blaine's Ponyta",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 77,
+  "level": "13",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hind Kick"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If you have any Benched Pokémon, flip a coin. If heads, switch Blaine's Ponyta with 1 of your Benched Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

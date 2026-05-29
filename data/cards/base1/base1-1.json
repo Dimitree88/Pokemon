@@ -1,0 +1,70 @@
+{
+  "id": "base1-1",
+  "set": "base1",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Alakazam",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 65,
+  "level": "42",
+  "evolvesFromName": "Kadabra",
+  "evolvesFromDex": 64,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000."
+  },
+  "weight": "106 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Damage Swap"
+      },
+      "text": {
+        "en": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

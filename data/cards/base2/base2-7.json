@@ -1,0 +1,79 @@
+{
+  "id": "base2-7",
+  "set": "base2",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Nidoqueen",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 31,
+  "level": "43",
+  "evolvesFromName": "Nidorina",
+  "evolvesFromDex": 30,
+  "species": {
+    "en": "Drill Pokémon"
+  },
+  "flavor": {
+    "en": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
+  },
+  "weight": "132 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Boyfriends"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+      }
+    },
+    {
+      "name": {
+        "en": "Mega Punch"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

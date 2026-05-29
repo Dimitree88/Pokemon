@@ -1,0 +1,67 @@
+{
+  "id": "neo3-18",
+  "set": "neo3",
+  "number": "18",
+  "rarity": "Rare",
+  "name": "Ho-oh",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 250,
+  "level": "44",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rainbow Pokémon"
+  },
+  "flavor": {
+    "en": "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies."
+  },
+  "weight": "439 lbs",
+  "height": "12'06\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rainbow Burn"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "This attack does 30 damage plus 10 more damage for each type of Basic Energy card, if any, attached to Ho-Oh."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

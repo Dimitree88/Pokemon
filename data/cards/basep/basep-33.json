@@ -1,0 +1,82 @@
+{
+  "id": "basep-33",
+  "set": "basep",
+  "number": "33",
+  "rarity": "Promo",
+  "name": "Scizor",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 212,
+  "level": "36",
+  "evolvesFromName": "Scyther",
+  "evolvesFromDex": 123,
+  "species": {
+    "en": "Pincer Pokémon"
+  },
+  "flavor": {
+    "en": "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+  },
+  "weight": "260 lbs",
+  "height": "5'11\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Leer"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Metal Pincer"
+      },
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

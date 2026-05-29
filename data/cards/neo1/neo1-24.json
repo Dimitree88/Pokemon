@@ -1,0 +1,72 @@
+{
+  "id": "neo1-24",
+  "set": "neo1",
+  "number": "24",
+  "rarity": "Rare",
+  "name": "Murkrow",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 198,
+  "level": "25",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Darkness Pokémon"
+  },
+  "flavor": {
+    "en": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+  },
+  "weight": "5 lbs",
+  "height": "1'08\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mean Look"
+      },
+      "cost": [
+        "Darkness"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon can't retreat as long as Murkrow remains your Active Pokémon. (Benching or evolving either Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Feint Attack"
+      },
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

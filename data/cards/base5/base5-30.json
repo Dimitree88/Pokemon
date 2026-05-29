@@ -1,0 +1,68 @@
+{
+  "id": "base5-30",
+  "set": "base5",
+  "number": "30",
+  "rarity": "Rare",
+  "name": "Dark Vileplume",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 45,
+  "level": "29",
+  "evolvesFromName": "Dark Gloom",
+  "evolvesFromDex": 44,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live."
+  },
+  "weight": "41 lbs",
+  "height": "3'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Petal Whirlwind"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip a coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Hay Fever"
+      },
+      "text": {
+        "en": "No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

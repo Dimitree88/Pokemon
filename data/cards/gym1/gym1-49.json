@@ -1,0 +1,74 @@
+{
+  "id": "gym1-49",
+  "set": "gym1",
+  "number": "49",
+  "rarity": "Uncommon",
+  "name": "Erika's Weepinbell",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 70,
+  "level": "30",
+  "evolvesFromName": "Erika's Bellsprout",
+  "evolvesFromDex": 69,
+  "species": {
+    "en": "Flycatcher Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "14 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sleep Poison"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep and Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Vine Whip"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

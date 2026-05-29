@@ -1,0 +1,76 @@
+{
+  "id": "neo3-47",
+  "set": "neo3",
+  "number": "47",
+  "rarity": "Common",
+  "name": "Paras",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 46,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mushroom Pokémon"
+  },
+  "flavor": {
+    "en": "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back."
+  },
+  "weight": "12 lbs",
+  "height": "1'00\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sleep Spore"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "basep-5",
+  "set": "basep",
+  "number": "5",
+  "rarity": "Promo",
+  "name": "Dragonite",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 149,
+  "level": "43",
+  "evolvesFromName": "Dragonair",
+  "evolvesFromDex": 148,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon can fly is spite of its large bulk. It is said to be able to circumnavigate the earth in just 16 hours."
+  },
+  "weight": "463 lbs",
+  "height": "7'03\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Supersonic Flight"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Special Delivery"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can't be used if Dragonite is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

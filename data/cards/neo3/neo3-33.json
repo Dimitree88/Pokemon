@@ -1,0 +1,70 @@
+{
+  "id": "neo3-33",
+  "set": "neo3",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Magcargo",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 219,
+  "level": "48",
+  "evolvesFromName": "Slugma",
+  "evolvesFromDex": 218,
+  "species": {
+    "en": "Lava Pokémon"
+  },
+  "flavor": {
+    "en": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch."
+  },
+  "weight": "121 lbs",
+  "height": "2'07\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lava Flow"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "40+",
+        "value": 40,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "You may discard any number of Fire Energy cards attached to Magcargo when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each Fire Energy card you discarded in this way."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Magma Pool"
+      },
+      "text": {
+        "en": "If Magcargo is your Active Pokémon and moves to the Bench, remove 1 Fire Energy card attached to Magcargo, if any, and attach it to the new Active Pokémon. (You can't choose an Energy card that you used to pay the Retreat Cost.)"
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "base1-18",
+  "set": "base1",
+  "number": "18",
+  "rarity": "Rare",
+  "name": "Dragonair",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 148,
+  "level": "33",
+  "evolvesFromName": "Dratini",
+  "evolvesFromDex": 147,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions."
+  },
+  "weight": "36 lbs",
+  "height": "13'01\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Hyper Beam"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

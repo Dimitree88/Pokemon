@@ -1,0 +1,77 @@
+{
+  "id": "base3-32",
+  "set": "base3",
+  "number": "32",
+  "rarity": "Uncommon",
+  "name": "Cloyster",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 91,
+  "level": "25",
+  "evolvesFromName": "Shellder",
+  "evolvesFromDex": 90,
+  "species": {
+    "en": "Bivalve Pokémon"
+  },
+  "flavor": {
+    "en": "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
+  },
+  "weight": "292 lbs",
+  "height": "4'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Clamp"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+      }
+    },
+    {
+      "name": {
+        "en": "Spike Cannon"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

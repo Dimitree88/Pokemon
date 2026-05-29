@@ -1,0 +1,70 @@
+{
+  "id": "base2-15",
+  "set": "base2",
+  "number": "15",
+  "rarity": "Rare Holo",
+  "name": "Vileplume",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 45,
+  "level": "35",
+  "evolvesFromName": "Gloom",
+  "evolvesFromDex": 44,
+  "species": {
+    "en": "Flower Pokémon"
+  },
+  "flavor": {
+    "en": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+  },
+  "weight": "41 lbs",
+  "height": "3'11\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Petal Dance"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Heal"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

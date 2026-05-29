@@ -1,0 +1,69 @@
+{
+  "id": "gym2-16",
+  "set": "gym2",
+  "number": "16",
+  "rarity": "Rare Holo",
+  "name": "Sabrina's Alakazam",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 65,
+  "level": "44",
+  "evolvesFromName": "Sabrina's Kadabra",
+  "evolvesFromDex": 64,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "106 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Burn"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": "You can't use this attack during your next turn."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Psylink"
+      },
+      "text": {
+        "en": "Sabrina's Alakazam always has a copy of every attack your Psychic Pokémon in play have (including their Energy costs and anything else required in order to use those attacks, such as discarding Energy cards). This power can't be used if Sabrina's Alakazam is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

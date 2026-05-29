@@ -1,0 +1,78 @@
+{
+  "id": "neo3-30",
+  "set": "neo3",
+  "number": "30",
+  "rarity": "Uncommon",
+  "name": "Graveler",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 75,
+  "level": "32",
+  "evolvesFromName": "Geodude",
+  "evolvesFromDex": 74,
+  "species": {
+    "en": "Rock Pokémon"
+  },
+  "flavor": {
+    "en": "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains."
+  },
+  "weight": "231 lbs",
+  "height": "3'03\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Earthquake"
+      },
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Rock Tumble"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Don't apply Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

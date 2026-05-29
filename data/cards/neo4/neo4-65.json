@@ -1,0 +1,59 @@
+{
+  "id": "neo4-65",
+  "set": "neo4",
+  "number": "65",
+  "rarity": "Common",
+  "name": "Gastly",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 92,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": "Its gas-like body allows it to enter almost anywhere, but it is vulnerable to high winds."
+  },
+  "weight": "0 lbs",
+  "height": "4'03\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nightmare"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

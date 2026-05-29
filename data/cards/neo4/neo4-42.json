@@ -1,0 +1,78 @@
+{
+  "id": "neo4-42",
+  "set": "neo4",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Hitmonlee",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 106,
+  "level": "31",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Kicking Pokémon"
+  },
+  "flavor": {
+    "en": "It has a perfect sense of balance and can lash out with powerful kicks from any position."
+  },
+  "weight": "110 lbs",
+  "height": "4'11\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "One-Two Kick"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Heel Drop"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

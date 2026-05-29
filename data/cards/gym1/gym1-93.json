@@ -1,0 +1,58 @@
+{
+  "id": "gym1-93",
+  "set": "gym1",
+  "number": "93",
+  "rarity": "Common",
+  "name": "Sabrina's Gastly",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 92,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "0 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spook"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

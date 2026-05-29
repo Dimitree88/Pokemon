@@ -1,0 +1,78 @@
+{
+  "id": "base2-44",
+  "set": "base2",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Rapidash",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 78,
+  "level": "33",
+  "evolvesFromName": "Ponyta",
+  "evolvesFromDex": 77,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it."
+  },
+  "weight": "209 lbs",
+  "height": "5'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Stomp"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

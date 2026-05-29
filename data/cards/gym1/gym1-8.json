@@ -1,0 +1,69 @@
+{
+  "id": "gym1-8",
+  "set": "gym1",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Lt. Surge's Magneton",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 82,
+  "level": "30",
+  "evolvesFromName": "Lt. Surge's Magnemite",
+  "evolvesFromDex": 81,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "132 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Shock"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, Lt. Surge's Magneton does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Energy Charge"
+      },
+      "text": {
+        "en": "As often as you like during your turn (before your attack), if Lt. Surge's Magneton is your Active Pokémon, you may take 1 Lightning Energy card attached to 1 of your Pokémon and attach it to Lt. Surge's Magneton. This power can't be used if Lt. Surge's Magneton is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

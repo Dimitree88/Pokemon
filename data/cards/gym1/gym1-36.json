@@ -1,0 +1,78 @@
+{
+  "id": "gym1-36",
+  "set": "gym1",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Blaine's Kangaskhan",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 115,
+  "level": "36",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Parent Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "176 lbs",
+  "height": "7'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Child's Punch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "One-Two Punch"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

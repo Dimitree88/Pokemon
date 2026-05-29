@@ -1,0 +1,67 @@
+{
+  "id": "neo4-112",
+  "set": "neo4",
+  "number": "112",
+  "rarity": "Rare Shining",
+  "name": "Shining Steelix",
+  "owner": null,
+  "variant": "shining",
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 208,
+  "level": "51",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Iron Snake Pokémon"
+  },
+  "flavor": {
+    "en": "If an Onix lives 100 years or more, its skin hardens, eventually becoming even harder than a diamond."
+  },
+  "weight": "882 lbs",
+  "height": "30'02\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crushing Earth"
+      },
+      "cost": [
+        "Metal",
+        "Metal",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does nothing. Either way, Shining Steelix can't attack during your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "neo2-41",
+  "set": "neo2",
+  "number": "41",
+  "rarity": "Uncommon",
+  "name": "Kakuna",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 14,
+  "level": "22",
+  "evolvesFromName": "Weedle",
+  "evolvesFromDex": 13,
+  "species": {
+    "en": "Cocoon Pokémon"
+  },
+  "flavor": {
+    "en": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Secrete Poison"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, whenever your opponent's attack damages Kakuna (even if Kakuna is Knocked Out), your opponent's Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

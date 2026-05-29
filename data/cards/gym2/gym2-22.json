@@ -1,0 +1,78 @@
+{
+  "id": "gym2-22",
+  "set": "gym2",
+  "number": "22",
+  "rarity": "Rare",
+  "name": "Brock's Dugtrio",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 51,
+  "level": "27",
+  "evolvesFromName": "Brock's Diglett",
+  "evolvesFromDex": 50,
+  "species": {
+    "en": "Mole Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "73 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lie Low"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+      }
+    },
+    {
+      "name": {
+        "en": "Earthdrill"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": "This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

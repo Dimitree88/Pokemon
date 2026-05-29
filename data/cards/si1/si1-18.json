@@ -1,0 +1,76 @@
+{
+  "id": "si1-18",
+  "set": "si1",
+  "number": "18",
+  "rarity": null,
+  "name": "Primeape",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 57,
+  "level": null,
+  "evolvesFromName": "Mankey",
+  "evolvesFromDex": 56,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry."
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Low Kick"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Rampage"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

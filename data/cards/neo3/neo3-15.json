@@ -1,0 +1,75 @@
+{
+  "id": "neo3-15",
+  "set": "neo3",
+  "number": "15",
+  "rarity": "Rare",
+  "name": "Aerodactyl",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 142,
+  "level": "27",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fossil Pokémon"
+  },
+  "flavor": {
+    "en": "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding."
+  },
+  "weight": "130 lbs",
+  "height": "5'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fly"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Prehistoric Memory"
+      },
+      "text": {
+        "en": "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic Pokémon card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

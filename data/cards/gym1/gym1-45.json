@@ -1,0 +1,73 @@
+{
+  "id": "gym1-45",
+  "set": "gym1",
+  "number": "45",
+  "rarity": "Uncommon",
+  "name": "Erika's Gloom",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 44,
+  "level": "26",
+  "evolvesFromName": "Erika's Oddish",
+  "evolvesFromDex": 43,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "19 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Healing Pollen"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, remove 4 damage counters from Erika's Gloom. If Erika's Gloom has fewer damage counters than that, remove all of them."
+      }
+    },
+    {
+      "name": {
+        "en": "Magic Pollen"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep, Confused, Paralyzed, or Poisoned (your choice)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

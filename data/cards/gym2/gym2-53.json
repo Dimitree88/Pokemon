@@ -1,0 +1,77 @@
+{
+  "id": "gym2-53",
+  "set": "gym2",
+  "number": "53",
+  "rarity": "Uncommon",
+  "name": "Lt. Surge's Raticate",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 20,
+  "level": "33",
+  "evolvesFromName": "Lt. Surge's Rattata",
+  "evolvesFromDex": 19,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "41 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Focus Energy"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled."
+      }
+    },
+    {
+      "name": {
+        "en": "Double-edge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Lt. Surge's Raticate does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

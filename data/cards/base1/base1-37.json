@@ -1,0 +1,80 @@
+{
+  "id": "base1-37",
+  "set": "base1",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Nidorino",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 33,
+  "level": "25",
+  "evolvesFromName": "Nidoran ♂",
+  "evolvesFromDex": 32,
+  "species": {
+    "en": "Poison Pin Pokémon"
+  },
+  "flavor": {
+    "en": "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom."
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Double Kick"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Horn Drill"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

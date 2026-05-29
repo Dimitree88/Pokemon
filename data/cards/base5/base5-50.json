@@ -1,0 +1,66 @@
+{
+  "id": "base5-50",
+  "set": "base5",
+  "number": "50",
+  "rarity": "Common",
+  "name": "Charmander",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 4,
+  "level": "9",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Lizard Pokémon"
+  },
+  "flavor": {
+    "en": "Many people find it cute and try to hold it, only to be burned by its tail."
+  },
+  "weight": "19 lbs",
+  "height": "2'00\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fire Tail"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Gather Fire"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may take 1 Fire Energy card attached to 1 of your other Pokémon and attach it to Charmander. This power can't be used if Charmander is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

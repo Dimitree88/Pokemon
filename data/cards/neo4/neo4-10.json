@@ -1,0 +1,75 @@
+{
+  "id": "neo4-10",
+  "set": "neo4",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Dark Typhlosion",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 157,
+  "level": "43",
+  "evolvesFromName": "Dark Quilava",
+  "evolvesFromDex": 156,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "When it's in combat, the air around it shimmers and warps from the intense heat it produces."
+  },
+  "weight": "175 lbs",
+  "height": "5'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Claw Swipe"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Rushing Flames"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "You may discard any number of Fire Energy cards attached to your Pokémon. Flip a coin for each Fire Energy card discarded in this way. This attack does 40 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

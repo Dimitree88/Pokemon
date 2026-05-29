@@ -1,0 +1,83 @@
+{
+  "id": "neo4-3",
+  "set": "neo4",
+  "number": "3",
+  "rarity": "Rare Holo",
+  "name": "Dark Donphan",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 232,
+  "level": "29",
+  "evolvesFromName": "Phanpy",
+  "evolvesFromDex": 231,
+  "species": {
+    "en": "Armor Pokémon"
+  },
+  "flavor": {
+    "en": "The larger its tusks, the higher its status in the herd."
+  },
+  "weight": "265 lbs",
+  "height": "3'07\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tusk Toss"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, flip a coin. If heads, return the Defending Pokémon and all cards attached to it to your opponent's hand. If tails, your opponent chooses 1 of his or her Benched Pokémon and switches it with the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Giant Tusk"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

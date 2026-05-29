@@ -1,0 +1,80 @@
+{
+  "id": "si1-8",
+  "set": "si1",
+  "number": "8",
+  "rarity": null,
+  "name": "Jigglypuff",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 39,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody."
+  },
+  "weight": "12 lbs",
+  "height": "1'08\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tempting Eyes"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Sing"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

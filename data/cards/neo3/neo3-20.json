@@ -1,0 +1,67 @@
+{
+  "id": "neo3-20",
+  "set": "neo3",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Lugia",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 249,
+  "level": "43",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Diving Pokémon"
+  },
+  "flavor": {
+    "en": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+  },
+  "weight": "476 lbs",
+  "height": "17'01\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Aerowing"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "base3-33",
+  "set": "base3",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Gastly",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 92,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": "A mysterious Pokémon. Some say it is a lifeform from another dimension, while other believe it is formed from smog."
+  },
+  "weight": "0 lbs",
+  "height": "4'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Lick"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Energy Conversion"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

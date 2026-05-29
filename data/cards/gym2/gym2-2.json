@@ -1,0 +1,77 @@
+{
+  "id": "gym2-2",
+  "set": "gym2",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Blaine's Charizard",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 6,
+  "level": "50",
+  "evolvesFromName": "Blaine's Charmeleon",
+  "evolvesFromDex": 5,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "200 lbs",
+  "height": "5'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Roaring Flames"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Discard all Fire Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Fire Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Fire Energy discarded in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Flame Jet"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

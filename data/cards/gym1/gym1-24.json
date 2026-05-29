@@ -1,0 +1,77 @@
+{
+  "id": "gym1-24",
+  "set": "gym1",
+  "number": "24",
+  "rarity": "Rare",
+  "name": "Brock's Zubat",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 30,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 41,
+  "level": "5",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "17 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Alert"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Draw a card. Then, switch Brock's Zubat with 1 of your Benched Pokémon. You can't use this attack if your Bench is empty."
+      }
+    },
+    {
+      "name": {
+        "en": "Wing Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

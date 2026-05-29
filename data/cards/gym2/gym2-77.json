@@ -1,0 +1,57 @@
+{
+  "id": "gym2-77",
+  "set": "gym2",
+  "number": "77",
+  "rarity": "Common",
+  "name": "Koga's Ekans",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 23,
+  "level": "17",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Snake Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "15 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fast-Acting Poison"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

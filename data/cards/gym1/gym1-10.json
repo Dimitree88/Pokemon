@@ -1,0 +1,69 @@
+{
+  "id": "gym1-10",
+  "set": "gym1",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Misty's Tentacruel",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 73,
+  "level": "30",
+  "evolvesFromName": "Misty's Tentacool",
+  "evolvesFromDex": 72,
+  "species": {
+    "en": "Jellyfish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Jellyfish Poison"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Flee"
+      },
+      "text": {
+        "en": "If an attack does damage to Misty's Tentacruel while it's your Active Pokémon, you may switch it with 1 of your Benched Pokémon, which prevents all other effects of that attack on Misty's Tentacruel. This power can't be used if Misty's Tentacruel is already Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "neo3-1",
+  "set": "neo3",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Ampharos",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 181,
+  "level": "46",
+  "evolvesFromName": "Flaaffy",
+  "evolvesFromDex": 180,
+  "species": {
+    "en": "Light Pokémon"
+  },
+  "flavor": {
+    "en": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon."
+  },
+  "weight": "136 lbs",
+  "height": "4'07\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Attract Current"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip 3 coins. For each heads, you may search your deck for a Lightning Energy card and attach it to 1 of your Lightning Pokémon. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Gigavolt"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40+",
+        "value": 40,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, this attack does 40 damage and the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

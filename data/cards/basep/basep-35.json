@@ -1,0 +1,56 @@
+{
+  "id": "basep-35",
+  "set": "basep",
+  "number": "35",
+  "rarity": "Promo",
+  "name": "Pichu",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 172,
+  "level": "4",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tiny Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+  },
+  "weight": "4 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Let's Play!"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Search your deck for a Baby Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

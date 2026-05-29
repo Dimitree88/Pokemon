@@ -1,0 +1,64 @@
+{
+  "id": "neo4-76",
+  "set": "neo4",
+  "number": "76",
+  "rarity": "Common",
+  "name": "Phanpy",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 231,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Long Nose Pokémon"
+  },
+  "flavor": {
+    "en": "It hits people with its nose as a sign of affection but doesn't know its own strength and so sometimes knocks people off their feet."
+  },
+  "weight": "74 lbs",
+  "height": "1'08\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crushing Step"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "neo4-2",
+  "set": "neo4",
+  "number": "2",
+  "rarity": "Rare Holo",
+  "name": "Dark Crobat",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 169,
+  "level": "39",
+  "evolvesFromName": "Dark Golbat",
+  "evolvesFromDex": 42,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": "Although the wings it has evolved on its feet allow it to fly at high speeds, they unfortunately make it difficult to perch."
+  },
+  "weight": "165 lbs",
+  "height": "5'11\"",
+  "illustrator": "Shin-ichi Yoshikawa, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dark Drain"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin for each of your opponent's Pokémon. For each heads, this attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance. Remove a number of damage counters from Dark Crobat equal to the damage dealt. If Dark Crobat has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Surprise Bite"
+      },
+      "text": {
+        "en": "When you play Dark Crobat from your hand, you may choose 1 of your opponent's Pokémon. This power does 20 damage to that Pokémon. (Don't apply Weakness and Resistance.)"
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

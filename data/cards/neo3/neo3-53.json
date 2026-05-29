@@ -1,0 +1,76 @@
+{
+  "id": "neo3-53",
+  "set": "neo3",
+  "number": "53",
+  "rarity": "Common",
+  "name": "Slugma",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 218,
+  "level": "27",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Lava Pokémon"
+  },
+  "flavor": {
+    "en": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden."
+  },
+  "weight": "77 lbs",
+  "height": "2'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flare"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Magma Ring"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

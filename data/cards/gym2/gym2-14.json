@@ -1,0 +1,89 @@
+{
+  "id": "gym2-14",
+  "set": "gym2",
+  "number": "14",
+  "rarity": "Rare Holo",
+  "name": "Rocket's Mewtwo",
+  "owner": "Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 150,
+  "level": "35",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Genetic Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "269 lbs",
+  "height": "6'07\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Juxtapose"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Hypnoblast"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Psyburn"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

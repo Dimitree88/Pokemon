@@ -1,0 +1,78 @@
+{
+  "id": "base3-12",
+  "set": "base3",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Moltres",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 146,
+  "level": "35",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
+  },
+  "weight": "132 lbs",
+  "height": "6'07\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Wildfire"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Dive Bomb"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

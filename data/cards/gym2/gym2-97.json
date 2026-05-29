@@ -1,0 +1,67 @@
+{
+  "id": "gym2-97",
+  "set": "gym2",
+  "number": "97",
+  "rarity": "Common",
+  "name": "Sabrina's Gastly",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 92,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "0 lbs",
+  "height": "4'03\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Suffocating Gas"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Gaseous Form"
+      },
+      "text": {
+        "en": "Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

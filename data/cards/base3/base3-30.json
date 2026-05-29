@@ -1,0 +1,62 @@
+{
+  "id": "base3-30",
+  "set": "base3",
+  "number": "30",
+  "rarity": "Rare",
+  "name": "Zapdos",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 145,
+  "level": "40",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": "A legendary thunderbird Pokémon whose anger is said to cause storms. Some say it has lived above the clouds for thousands of years."
+  },
+  "weight": "116 lbs",
+  "height": "5'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Thunderstorm"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

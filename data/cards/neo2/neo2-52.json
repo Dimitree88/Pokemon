@@ -1,0 +1,82 @@
+{
+  "id": "neo2-52",
+  "set": "neo2",
+  "number": "52",
+  "rarity": "Uncommon",
+  "name": "Xatu",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 178,
+  "level": "38",
+  "evolvesFromName": "Natu",
+  "evolvesFromDex": 177,
+  "species": {
+    "en": "Mystic Pokémon"
+  },
+  "flavor": {
+    "en": "In South America, it is said that its right eye sees the future and its left eye views the past."
+  },
+  "weight": "33 lbs",
+  "height": "4'11\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Energy Cycle"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Super Psy"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

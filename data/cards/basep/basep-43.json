@@ -1,0 +1,79 @@
+{
+  "id": "basep-43",
+  "set": "basep",
+  "number": "43",
+  "rarity": "Promo",
+  "name": "Machamp",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 68,
+  "level": "54",
+  "evolvesFromName": "Machoke",
+  "evolvesFromDex": 67,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon."
+  },
+  "weight": "287 lbs",
+  "height": "5'03\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Seething Anger"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Fling"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

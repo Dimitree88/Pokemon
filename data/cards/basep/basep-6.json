@@ -1,0 +1,77 @@
+{
+  "id": "basep-6",
+  "set": "basep",
+  "number": "6",
+  "rarity": "Promo",
+  "name": "Arcanine",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 59,
+  "level": "34",
+  "evolvesFromName": "Growlithe",
+  "evolvesFromDex": 58,
+  "species": {
+    "en": "Legendary Pokémon"
+  },
+  "flavor": {
+    "en": "A legendary Pokémon famous for its beauty. It looks almost as if it flies when it runs."
+  },
+  "weight": "342 lbs",
+  "height": "6'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Flames of Rage"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "40+",
+        "value": 40,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Discard 2 Fire Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

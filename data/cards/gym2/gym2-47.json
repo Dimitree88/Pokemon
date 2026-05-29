@@ -1,0 +1,66 @@
+{
+  "id": "gym2-47",
+  "set": "gym2",
+  "number": "47",
+  "rarity": "Uncommon",
+  "name": "Koga's Kakuna",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 14,
+  "level": "21",
+  "evolvesFromName": "Koga's Weedle",
+  "evolvesFromDex": 13,
+  "species": {
+    "en": "Cocoon Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Toxic Secretion"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Emerge"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for an Evolution card named Koga's Beedrill and put it on Koga's Kakuna. (This counts as evolving Koga's Kakuna.) Shuffle your deck afterward. This power can't be used if Koga's Kakuna is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

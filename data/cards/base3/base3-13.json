@@ -1,0 +1,70 @@
+{
+  "id": "base3-13",
+  "set": "base3",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Muk",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 89,
+  "level": "34",
+  "evolvesFromName": "Grimer",
+  "evolvesFromDex": 88,
+  "species": {
+    "en": "Sludge Pokémon"
+  },
+  "flavor": {
+    "en": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+  },
+  "weight": "66 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sludge"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Toxic Gas"
+      },
+      "text": {
+        "en": "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

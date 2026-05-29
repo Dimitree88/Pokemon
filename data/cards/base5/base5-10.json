@@ -1,0 +1,75 @@
+{
+  "id": "base5-10",
+  "set": "base5",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Dark Machamp",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 68,
+  "level": "30",
+  "evolvesFromName": "Dark Machoke",
+  "evolvesFromDex": 67,
+  "species": {
+    "en": "Superpower Pokémon"
+  },
+  "flavor": {
+    "en": "It is almost impossible to defend against a Machamp's four powerful arms."
+  },
+  "weight": "287 lbs",
+  "height": "5'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Punch"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Fling"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

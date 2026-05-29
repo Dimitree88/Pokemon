@@ -1,0 +1,77 @@
+{
+  "id": "base1-33",
+  "set": "base1",
+  "number": "33",
+  "rarity": "Uncommon",
+  "name": "Kakuna",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 14,
+  "level": "23",
+  "evolvesFromName": "Weedle",
+  "evolvesFromDex": 13,
+  "species": {
+    "en": "Cocoon Pokémon"
+  },
+  "flavor": {
+    "en": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators."
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Stiffen"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

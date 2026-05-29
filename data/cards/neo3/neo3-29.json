@@ -1,0 +1,81 @@
+{
+  "id": "neo3-29",
+  "set": "neo3",
+  "number": "29",
+  "rarity": "Uncommon",
+  "name": "Golbat",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 42,
+  "level": "27",
+  "evolvesFromName": "Zubat",
+  "evolvesFromDex": 41,
+  "species": {
+    "en": "Bat Pokémon"
+  },
+  "flavor": {
+    "en": "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
+  },
+  "weight": "121 lbs",
+  "height": "5'03\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Screech"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Bite"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "If this attack damages the Defending Pokémon, the Defending Pokémon is now Poisoned and you remove a number of damage counters from Golbat equal to half that damage (rounded up to the nearest 10). If Golbat has fewer damage counters than that, remove all of them. Either way, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "gym2-7",
+  "set": "gym2",
+  "number": "7",
+  "rarity": "Rare Holo",
+  "name": "Giovanni's Nidoking",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 120,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 34,
+  "level": "58",
+  "evolvesFromName": "Giovanni's Nidorino",
+  "evolvesFromDex": 33,
+  "species": {
+    "en": "Drill Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "137 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Intimidate"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Tumbling Attack"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "40+",
+      "value": 40,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

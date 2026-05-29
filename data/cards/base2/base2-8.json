@@ -1,0 +1,83 @@
+{
+  "id": "base2-8",
+  "set": "base2",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Pidgeot",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 18,
+  "level": "40",
+  "evolvesFromName": "Pidgeotto",
+  "evolvesFromDex": 17,
+  "species": {
+    "en": "Bird Pokémon"
+  },
+  "flavor": {
+    "en": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
+  },
+  "weight": "87 lbs",
+  "height": "4'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Wing Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Hurricane"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "neo2-10",
+  "set": "neo2",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Scizor",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 212,
+  "level": "43",
+  "evolvesFromName": "Scyther",
+  "evolvesFromDex": 123,
+  "species": {
+    "en": "Pincer Pokémon"
+  },
+  "flavor": {
+    "en": "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads."
+  },
+  "weight": "260 lbs",
+  "height": "5'11\"",
+  "illustrator": "Kimiya Masago",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "False Swipe"
+      },
+      "cost": [
+        "Metal"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+      }
+    },
+    {
+      "name": {
+        "en": "Double Claw"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

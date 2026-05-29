@@ -1,0 +1,58 @@
+{
+  "id": "gym1-63",
+  "set": "gym1",
+  "number": "63",
+  "rarity": "Common",
+  "name": "Blaine's Ponyta",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 77,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fire Horse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Blaine's Ponyta."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

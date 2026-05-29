@@ -1,0 +1,81 @@
+{
+  "id": "si1-7",
+  "set": "si1",
+  "number": "7",
+  "rarity": null,
+  "name": "Ledyba",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 165,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Five Star Pokémon"
+  },
+  "flavor": {
+    "en": "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees."
+  },
+  "weight": "24 lbs",
+  "height": "3'03\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gnaw"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Agility"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Ledyba."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

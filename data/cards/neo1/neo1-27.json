@@ -1,0 +1,73 @@
+{
+  "id": "neo1-27",
+  "set": "neo1",
+  "number": "27",
+  "rarity": "Uncommon",
+  "name": "Ariados",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 168,
+  "level": "29",
+  "evolvesFromName": "Spinarak",
+  "evolvesFromDex": 167,
+  "species": {
+    "en": "Long Leg Pokémon"
+  },
+  "flavor": {
+    "en": "It spins string not only from its rear but also from its mouth. It's hard to tell which end is which."
+  },
+  "weight": "74 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spider Web"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon can't retreat. (Benching or evolving that Pokémon ends this effect.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Bite"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If this attack damages the Defending Pokémon, the Defending Pokémon is now Poisoned and you remove a number of damage counters from Ariados equal to half that damage (rounded up to the nearest 10). If Ariados has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

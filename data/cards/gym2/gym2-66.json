@@ -1,0 +1,71 @@
+{
+  "id": "gym2-66",
+  "set": "gym2",
+  "number": "66",
+  "rarity": "Common",
+  "name": "Blaine's Vulpix",
+  "owner": "Blaine",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 37,
+  "level": "18",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Call Will-o'-the-wisp"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

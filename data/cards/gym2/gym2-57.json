@@ -1,0 +1,72 @@
+{
+  "id": "gym2-57",
+  "set": "gym2",
+  "number": "57",
+  "rarity": "Uncommon",
+  "name": "Sabrina's Jynx",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 124,
+  "level": "21",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Human Shape Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "90 lbs",
+  "height": "4'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Helping Hand"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards."
+      }
+    },
+    {
+      "name": {
+        "en": "Hug"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "base5-49",
+  "set": "base5",
+  "number": "49",
+  "rarity": "Common",
+  "name": "Abra",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 63,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "It teleports itself away from danger, making it difficult to capture."
+  },
+  "weight": "43 lbs",
+  "height": "2'11\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Vanish"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Psyshock"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "neo1-25",
+  "set": "neo1",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Sneasel",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 215,
+  "level": "34",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sharp Claw Pokémon"
+  },
+  "flavor": {
+    "en": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy."
+  },
+  "weight": "62 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Swipes"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Beat Up"
+      },
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "raw": "20×",
+      "value": 20,
+      "modifier": "×",
+      "text": {
+        "en": "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

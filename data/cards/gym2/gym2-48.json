@@ -1,0 +1,72 @@
+{
+  "id": "gym2-48",
+  "set": "gym2",
+  "number": "48",
+  "rarity": "Uncommon",
+  "name": "Koga's Koffing",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 109,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Poison Gas Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "2 lbs",
+  "height": "2'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smokescreen"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Obscuring Gas"
+      },
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, shuffle Koga's Koffing and all cards attached to it into your deck (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

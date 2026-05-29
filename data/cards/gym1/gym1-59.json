@@ -1,0 +1,72 @@
+{
+  "id": "gym1-59",
+  "set": "gym1",
+  "number": "59",
+  "rarity": "Uncommon",
+  "name": "Sabrina's Jynx",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 124,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Human Shape Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "90 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Good Night"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Good Morning"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If the Defending Pokémon was Asleep, it is no longer Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

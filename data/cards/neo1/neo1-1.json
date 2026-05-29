@@ -1,0 +1,59 @@
+{
+  "id": "neo1-1",
+  "set": "neo1",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Ampharos",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 181,
+  "level": "40",
+  "evolvesFromName": "Flaaffy",
+  "evolvesFromDex": 180,
+  "species": {
+    "en": "Light Pokémon"
+  },
+  "flavor": {
+    "en": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people."
+  },
+  "weight": "136 lbs",
+  "height": "4'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gigaspark"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

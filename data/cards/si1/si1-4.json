@@ -1,0 +1,59 @@
+{
+  "id": "si1-4",
+  "set": "si1",
+  "number": "4",
+  "rarity": null,
+  "name": "Togepi",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 175,
+  "level": null,
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spike Ball Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away."
+  },
+  "weight": "3 lbs",
+  "height": "1'00\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bawl"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

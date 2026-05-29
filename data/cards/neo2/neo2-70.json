@@ -1,0 +1,59 @@
+{
+  "id": "neo2-70",
+  "set": "neo2",
+  "number": "70",
+  "rarity": "Common",
+  "name": "Weedle",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 13,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Hairy Bug Pokémon"
+  },
+  "flavor": {
+    "en": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+  },
+  "weight": "7 lbs",
+  "height": "1'00\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Spike Stab"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

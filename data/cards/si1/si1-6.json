@@ -1,0 +1,65 @@
+{
+  "id": "si1-6",
+  "set": "si1",
+  "number": "6",
+  "rarity": null,
+  "name": "Raticate",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 20,
+  "level": null,
+  "evolvesFromName": "Rattata",
+  "evolvesFromDex": 19,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs."
+  },
+  "weight": "41 lbs",
+  "height": "2'04\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sharp Teeth"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "neo2-5",
+  "set": "neo2",
+  "number": "5",
+  "rarity": "Rare Holo",
+  "name": "Houndour",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 228,
+  "level": "22",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Dark Pokémon"
+  },
+  "flavor": {
+    "en": "To corner prey, they check each other's location using barks that only they can understand."
+  },
+  "weight": "24 lbs",
+  "height": "2'00\"",
+  "illustrator": "Aya Kusube",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Smog"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Collect Fire"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "If there are any Fire Energy cards in your discard pile, choose 1 of them and attach it to Houndour."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

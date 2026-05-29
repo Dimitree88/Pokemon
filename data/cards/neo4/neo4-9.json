@@ -1,0 +1,83 @@
+{
+  "id": "neo4-9",
+  "set": "neo4",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Dark Scizor",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Metal",
+  "types": [
+    "Metal"
+  ],
+  "pokedex": 212,
+  "level": "35",
+  "evolvesFromName": "Scyther",
+  "evolvesFromDex": 123,
+  "species": {
+    "en": "Pincer Pokémon"
+  },
+  "flavor": {
+    "en": "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws."
+  },
+  "weight": "260 lbs",
+  "height": "5'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Threaten"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

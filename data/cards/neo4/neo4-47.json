@@ -1,0 +1,77 @@
+{
+  "id": "neo4-47",
+  "set": "neo4",
+  "number": "47",
+  "rarity": "Uncommon",
+  "name": "Light Golduck",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 55,
+  "level": "36",
+  "evolvesFromName": "Psyduck",
+  "evolvesFromDex": 54,
+  "species": {
+    "en": "Duck Pokémon"
+  },
+  "flavor": {
+    "en": "The faster it swims, the brighter the glow on its forehead becomes."
+  },
+  "weight": "169 lbs",
+  "height": "5'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flipper Stroke"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent looks at the top 3 cards of his or her deck. If any of them are basic Energy cards, he or she may show any number of them to you and put them into his or her hand. You do the same. Either way, each player shuffles his or her deck."
+      }
+    },
+    {
+      "name": {
+        "en": "Core Blast"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "This attack does 30 damage plus 20 more damage for each Special Energy card attached to the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "neo3-36",
+  "set": "neo3",
+  "number": "36",
+  "rarity": "Uncommon",
+  "name": "Piloswine",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 221,
+  "level": "41",
+  "evolvesFromName": "Swinub",
+  "evolvesFromDex": 220,
+  "species": {
+    "en": "Swine Pokémon"
+  },
+  "flavor": {
+    "en": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound."
+  },
+  "weight": "123 lbs",
+  "height": "3'07\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nap"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them."
+      }
+    },
+    {
+      "name": {
+        "en": "High-Speed Charge"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "80",
+        "value": 80,
+        "modifier": null
+      },
+      "text": {
+        "en": "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

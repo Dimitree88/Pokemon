@@ -1,0 +1,72 @@
+{
+  "id": "gym2-75",
+  "set": "gym2",
+  "number": "75",
+  "rarity": "Common",
+  "name": "Giovanni's Nidoran ♀",
+  "owner": "Giovanni",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 29,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Poison Pin Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "15 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Horn Thrust"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    },
+    {
+      "name": {
+        "en": "Double-edge"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Giovanni's Nidoran ♀ does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

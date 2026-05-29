@@ -1,0 +1,78 @@
+{
+  "id": "base2-43",
+  "set": "base2",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Primeape",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 57,
+  "level": "45",
+  "evolvesFromName": "Mankey",
+  "evolvesFromDex": 56,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Swipes"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 20 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Tantrum"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

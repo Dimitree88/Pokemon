@@ -1,0 +1,77 @@
+{
+  "id": "neo4-48",
+  "set": "neo4",
+  "number": "48",
+  "rarity": "Uncommon",
+  "name": "Light Jolteon",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 135,
+  "level": "31",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Lightning Pokémon"
+  },
+  "flavor": {
+    "en": "It can collect the ambient electrical energy in its cells and expel it in massive bursts."
+  },
+  "weight": "54 lbs",
+  "height": "2'07\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Pulse Guard"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, whenever 30 or more damage is done to Light Jolteon (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Thunder Needle"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

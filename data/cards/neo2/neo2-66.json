@@ -1,0 +1,56 @@
+{
+  "id": "neo2-66",
+  "set": "neo2",
+  "number": "66",
+  "rarity": "Common",
+  "name": "Tyrogue",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 236,
+  "level": "7",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Scuffle Pokémon"
+  },
+  "flavor": {
+    "en": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses."
+  },
+  "weight": "46 lbs",
+  "height": "2'04\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Smash Punch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

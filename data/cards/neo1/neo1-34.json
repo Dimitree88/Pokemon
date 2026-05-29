@@ -1,0 +1,72 @@
+{
+  "id": "neo1-34",
+  "set": "neo1",
+  "number": "34",
+  "rarity": "Uncommon",
+  "name": "Flaaffy",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 180,
+  "level": "26",
+  "evolvesFromName": "Mareep",
+  "evolvesFromDex": 179,
+  "species": {
+    "en": "Wool Pokémon"
+  },
+  "flavor": {
+    "en": "As a result of storing too much electricity, it developed patches where even downy wool won't grow."
+  },
+  "weight": "29 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Discharge"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Discard all Lightning Energy cards attached to Flaaffy in order to use this attack. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage times then number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Electric Current"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Take 1 Lightning Energy cards attached to Flaaffy and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

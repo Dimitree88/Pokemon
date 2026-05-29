@@ -1,0 +1,68 @@
+{
+  "id": "gym2-35",
+  "set": "gym2",
+  "number": "35",
+  "rarity": "Uncommon",
+  "name": "Brock's Primeape",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 57,
+  "level": "32",
+  "evolvesFromName": "Brock's Mankey",
+  "evolvesFromDex": 56,
+  "species": {
+    "en": "Pig Monkey Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mega Thrash"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "60",
+      "value": 60,
+      "modifier": null,
+      "text": {
+        "en": "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Scram"
+      },
+      "text": {
+        "en": "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

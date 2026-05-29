@@ -1,0 +1,77 @@
+{
+  "id": "base3-31",
+  "set": "base3",
+  "number": "31",
+  "rarity": "Uncommon",
+  "name": "Arbok",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 24,
+  "level": "27",
+  "evolvesFromName": "Ekans",
+  "evolvesFromDex": 23,
+  "species": {
+    "en": "Cobra Pokémon"
+  },
+  "flavor": {
+    "en": "It is rumored that the ferocious warning markings on its belly differ from area to area."
+  },
+  "weight": "143 lbs",
+  "height": "11'06\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Terror Strike"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Poison Fang"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

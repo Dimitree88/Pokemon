@@ -1,0 +1,68 @@
+{
+  "id": "gym1-12",
+  "set": "gym1",
+  "number": "12",
+  "rarity": "Rare Holo",
+  "name": "Rocket's Moltres",
+  "owner": "Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 146,
+  "level": "26",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Flame Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "132 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fire Wall"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "If an attack does damage to Rocket's Moltres during your opponent's next turn (even if Rocket's Moltres is Knocked Out), Rocket's Moltres attacks your opponent's Active Pokémon for 10 damage. (Apply Weakness and Resistance.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Rebirth"
+      },
+      "text": {
+        "en": "When Rocket's Moltres is Knocked Out, you may return it to your hand after discarding it. This power can't be used if Rocket's Moltres is Asleep, Confused, or Paralyzed when it is Knocked Out."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

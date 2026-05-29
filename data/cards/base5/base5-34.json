@@ -1,0 +1,72 @@
+{
+  "id": "base5-34",
+  "set": "base5",
+  "number": "34",
+  "rarity": "Uncommon",
+  "name": "Dark Electrode",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 101,
+  "level": "24",
+  "evolvesFromName": "Voltorb",
+  "evolvesFromDex": 100,
+  "species": {
+    "en": "Ball Pokémon"
+  },
+  "flavor": {
+    "en": "Some researchers hypothesize that Electrode may actually be a form of energy instead of having an actual body."
+  },
+  "weight": "147 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rolling Tackle"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Energy Bomb"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

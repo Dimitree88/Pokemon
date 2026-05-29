@@ -1,0 +1,78 @@
+{
+  "id": "base1-32",
+  "set": "base1",
+  "number": "32",
+  "rarity": "Uncommon",
+  "name": "Kadabra",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 64,
+  "level": "38",
+  "evolvesFromName": "Abra",
+  "evolvesFromDex": 63,
+  "species": {
+    "en": "Psi Pokémon"
+  },
+  "flavor": {
+    "en": "It emits special alpha waves from its body that induce headaches even to those just nearby."
+  },
+  "weight": "125 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Recover"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Psychic Energy card attached to Kadabra in order to use this attack. Remove all damage counters from Kadabra."
+      }
+    },
+    {
+      "name": {
+        "en": "Super Psy"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "neo3-11",
+  "set": "neo3",
+  "number": "11",
+  "rarity": "Rare Holo",
+  "name": "Misdreavus",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 200,
+  "level": "25",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Screech Pokémon"
+  },
+  "flavor": {
+    "en": "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
+  },
+  "weight": "2 lbs",
+  "height": "2'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Night Eyes"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Perish Song"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

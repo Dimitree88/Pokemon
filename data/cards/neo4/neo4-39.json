@@ -1,0 +1,76 @@
+{
+  "id": "neo4-39",
+  "set": "neo4",
+  "number": "39",
+  "rarity": "Uncommon",
+  "name": "Dark Quilava",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 156,
+  "level": "27",
+  "evolvesFromName": "Cyndaquil",
+  "evolvesFromDex": 155,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "If it turns its back to an opponent, it is a sign that it is getting ready to attack."
+  },
+  "weight": "42 lbs",
+  "height": "2'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Incinerate"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Show the top card of your opponent's deck to all players. If it's a Trainer card, discard it."
+      }
+    },
+    {
+      "name": {
+        "en": "Rushing Magma"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Fire Energy card you discarded in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

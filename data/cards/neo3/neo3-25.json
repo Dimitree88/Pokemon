@@ -1,0 +1,77 @@
+{
+  "id": "neo3-25",
+  "set": "neo3",
+  "number": "25",
+  "rarity": "Rare",
+  "name": "Starmie",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 121,
+  "level": "31",
+  "evolvesFromName": "Staryu",
+  "evolvesFromDex": 120,
+  "species": {
+    "en": "Mysterious Pokémon"
+  },
+  "flavor": {
+    "en": "The center section of its body is called the core. It glows in a different color each time it is seen."
+  },
+  "weight": "176 lbs",
+  "height": "3'07\"",
+  "illustrator": "Keita Komatsuya, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Confuse Ray"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    },
+    {
+      "name": {
+        "en": "Core Stream"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose an Energy type other than Colorless. This attack does 20 damage to each of your opponent's Pokémon with any Energy cards of that type attached to it. Don't apply Weakness and Resistance."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

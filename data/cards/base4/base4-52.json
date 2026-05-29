@@ -1,0 +1,79 @@
+{
+  "id": "base4-52",
+  "set": "base4",
+  "number": "52",
+  "rarity": "Uncommon",
+  "name": "Marowak",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 105,
+  "level": "26",
+  "evolvesFromName": "Cubone",
+  "evolvesFromDex": 104,
+  "species": {
+    "en": "Bone Keeper Pokémon"
+  },
+  "flavor": {
+    "en": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets."
+  },
+  "weight": "99 lbs",
+  "height": "3'03\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bonemerang"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "30×",
+      "value": 30,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    },
+    {
+      "name": {
+        "en": "Call for Friend"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

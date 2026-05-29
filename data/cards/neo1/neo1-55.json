@@ -1,0 +1,71 @@
+{
+  "id": "neo1-55",
+  "set": "neo1",
+  "number": "55",
+  "rarity": "Common",
+  "name": "Chinchou",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 170,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Angler Pokémon"
+  },
+  "flavor": {
+    "en": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+  },
+  "weight": "26 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Supersonic"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    },
+    {
+      "name": {
+        "en": "Flail"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Does 10 damage times the number of damage counters on Chinchou."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "neo4-50",
+  "set": "neo4",
+  "number": "50",
+  "rarity": "Uncommon",
+  "name": "Light Ninetales",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 90,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 38,
+  "level": "39",
+  "evolvesFromName": "Vulpix",
+  "evolvesFromDex": 37,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": "It is said that each of its nine tails contains a different magical power."
+  },
+  "weight": "44 lbs",
+  "height": "3'07\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Guiding Flame"
+      },
+      "cost": [
+        "Fire"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Put a Baby Pokémon or a Basic Pokémon card from your discard pile onto your Bench. (You can't use this attack if your Bench is full.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Fire Blast"
+      },
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard a Fire Energy card attached to Light Ninetales in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

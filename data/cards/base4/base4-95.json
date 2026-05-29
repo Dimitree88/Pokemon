@@ -1,0 +1,57 @@
+{
+  "id": "base4-95",
+  "set": "base4",
+  "number": "95",
+  "rarity": "Common",
+  "name": "Staryu",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 120,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Star Shape Pokémon"
+  },
+  "flavor": {
+    "en": "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle."
+  },
+  "weight": "76 lbs",
+  "height": "2'07\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slap"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

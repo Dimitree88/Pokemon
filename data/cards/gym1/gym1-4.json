@@ -1,0 +1,76 @@
+{
+  "id": "gym1-4",
+  "set": "gym1",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Erika's Dragonair",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 148,
+  "level": "32",
+  "evolvesFromName": "Erika's Dratini",
+  "evolvesFromDex": 147,
+  "species": {
+    "en": "Dragon Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "36 lbs",
+  "height": "13'01\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Blizzard"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Take Away"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle Erika's Dragonair and all cards attached to it into your deck. Then, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

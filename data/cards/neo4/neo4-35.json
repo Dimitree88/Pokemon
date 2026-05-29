@@ -1,0 +1,76 @@
+{
+  "id": "neo4-35",
+  "set": "neo4",
+  "number": "35",
+  "rarity": "Uncommon",
+  "name": "Dark Forretress",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 205,
+  "level": "30",
+  "evolvesFromName": "Pineco",
+  "evolvesFromDex": 204,
+  "species": {
+    "en": "Bagworm Pokémon"
+  },
+  "flavor": {
+    "en": "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close."
+  },
+  "weight": "277 lbs",
+  "height": "3'11\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Armor Up"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead."
+      }
+    },
+    {
+      "name": {
+        "en": "Explosion"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "60",
+        "value": 60,
+        "modifier": null
+      },
+      "text": {
+        "en": "Dark Forretress does 60 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

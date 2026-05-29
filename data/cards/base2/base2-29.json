@@ -1,0 +1,74 @@
+{
+  "id": "base2-29",
+  "set": "base2",
+  "number": "29",
+  "rarity": "Rare",
+  "name": "Venomoth",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 49,
+  "level": "28",
+  "evolvesFromName": "Venonat",
+  "evolvesFromDex": 48,
+  "species": {
+    "en": "Poison Moth Pokémon"
+  },
+  "flavor": {
+    "en": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
+  },
+  "weight": "28 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Venom Powder"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Shift"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "gym1-57",
+  "set": "gym1",
+  "number": "57",
+  "rarity": "Uncommon",
+  "name": "Misty's Tentacool",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 72,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Jellyfish Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "100 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Crystal Beam"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, your opponent can't attach Energy cards to the Defending Pokémon during his or her next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

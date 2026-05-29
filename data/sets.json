@@ -1,0 +1,74 @@
+[
+  {
+    "id": "base1",
+    "name": "Base",
+    "sigla": "BS",
+    "releaseDate": "1999/01/09",
+    "printedTotal": 102,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "base2",
+    "name": "Jungle",
+    "sigla": "JU",
+    "releaseDate": "1999/06/16",
+    "printedTotal": 64,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "base3",
+    "name": "Fossil",
+    "sigla": "FO",
+    "releaseDate": "1999/10/10",
+    "printedTotal": 62,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "sigla": "N2",
+    "releaseDate": "2001/06/01",
+    "printedTotal": 75,
+    "layoutFamily": "Neo",
+    "copyright": null
+  },
+  {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "sigla": "N3",
+    "releaseDate": "2001/09/21",
+    "printedTotal": 64,
+    "layoutFamily": "Neo",
+    "copyright": null
+  },
+  {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "sigla": "N4",
+    "releaseDate": "2002/02/28",
+    "printedTotal": 105,
+    "layoutFamily": "Neo",
+    "copyright": null
+  },
+  {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "sigla": "PR",
+    "releaseDate": "1999/07/01",
+    "printedTotal": 53,
+    "layoutFamily": "Base",
+    "copyright": null
+  },
+  {
+    "id": "si1",
+    "name": "Southern Islands",
+    "sigla": null,
+    "releaseDate": "2001/07/31",
+    "printedTotal": 18,
+    "layoutFamily": "Base",
+    "copyright": null
+  }
+]

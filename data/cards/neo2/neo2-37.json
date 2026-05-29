@@ -1,0 +1,76 @@
+{
+  "id": "neo2-37",
+  "set": "neo2",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Corsola",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 222,
+  "level": "27",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Coral Pokémon"
+  },
+  "flavor": {
+    "en": "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+  },
+  "weight": "11 lbs",
+  "height": "2'00\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Recover"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Water Energy card attached to Corsola or this attack does nothing. Remove all damage counters from Corsola."
+      }
+    },
+    {
+      "name": {
+        "en": "Spike Cannon"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

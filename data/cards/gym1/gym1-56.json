@@ -1,0 +1,73 @@
+{
+  "id": "gym1-56",
+  "set": "gym1",
+  "number": "56",
+  "rarity": "Uncommon",
+  "name": "Misty's Starmie",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 121,
+  "level": "35",
+  "evolvesFromName": "Misty's Staryu",
+  "evolvesFromDex": 120,
+  "species": {
+    "en": "Mysterious Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "176 lbs",
+  "height": "3'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Water Energy attached to Misty's Starmie but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Bubblebeam"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "gym2-29",
+  "set": "gym2",
+  "number": "29",
+  "rarity": "Rare",
+  "name": "Sabrina's Gengar",
+  "owner": "Sabrina",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 94,
+  "level": "42",
+  "evolvesFromName": "Sabrina's Haunter",
+  "evolvesFromDex": 93,
+  "species": {
+    "en": "Shadow Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "89 lbs",
+  "height": "4'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dark Wave"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "All Pokémon Powers stop working until the end of your opponent's next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Shadow Bind"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "base1-29",
+  "set": "base1",
+  "number": "29",
+  "rarity": "Uncommon",
+  "name": "Haunter",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 93,
+  "level": "22",
+  "evolvesFromName": "Gastly",
+  "evolvesFromDex": 92,
+  "species": {
+    "en": "Gas Pokémon"
+  },
+  "flavor": {
+    "en": "Because of its ability to slip through block walls, it is said to be from another dimension."
+  },
+  "weight": "0 lbs",
+  "height": "5'03\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Hypnosis"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    },
+    {
+      "name": {
+        "en": "Dream Eater"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "50",
+        "value": 50,
+        "modifier": null
+      },
+      "text": {
+        "en": "You can't use this attack unless the Defending Pokémon is Asleep."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

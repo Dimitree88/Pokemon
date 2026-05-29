@@ -1,0 +1,77 @@
+{
+  "id": "neo2-43",
+  "set": "neo2",
+  "number": "43",
+  "rarity": "Uncommon",
+  "name": "Omastar",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 139,
+  "level": "39",
+  "evolvesFromName": "Omanyte",
+  "evolvesFromDex": 138,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "Apparently, it cracked Shellder's shell with its sharp fangs and sucked out the insides."
+  },
+  "weight": "77 lbs",
+  "height": "3'03\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Squeeze"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Spike Barrage"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Water Energy attached to Omastar. This attack does 20 damage plus 20 more damage for each heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "gym2-26",
+  "set": "gym2",
+  "number": "26",
+  "rarity": "Rare",
+  "name": "Koga's Muk",
+  "owner": "Koga",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 89,
+  "level": "38",
+  "evolvesFromName": "Koga's Grimer",
+  "evolvesFromDex": 88,
+  "species": {
+    "en": "Sludge Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "3'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sludge Whirlpool"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Energy Drain"
+      },
+      "text": {
+        "en": "If an opponent's attack does damage to Koga's Muk (even if Koga's Muk is Knocked Out), flip a coin. If heads and if it has any, choose 1 Energy card attached to the attacking Pokémon and discard it. This power can't be used if Koga's Muk is already Asleep, Confused, or Paralyzed when your opponent attacks."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

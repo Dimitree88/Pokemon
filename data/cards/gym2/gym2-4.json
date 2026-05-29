@@ -1,0 +1,74 @@
+{
+  "id": "gym2-4",
+  "set": "gym2",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Erika's Venusaur",
+  "owner": "Erika",
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 3,
+  "level": "45",
+  "evolvesFromName": "Erika's Ivysaur",
+  "evolvesFromDex": 2,
+  "species": {
+    "en": "Seed Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "220 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Growth"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, you may attach up to 2 Grass Energy cards from your hand to Erika's Venusaur."
+      }
+    },
+    {
+      "name": {
+        "en": "Wide Solarbeam"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

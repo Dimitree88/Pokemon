@@ -1,0 +1,60 @@
+{
+  "id": "neo4-91",
+  "set": "neo4",
+  "number": "91",
+  "rarity": "Common",
+  "name": "Vulpix",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 37,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fox Pokémon"
+  },
+  "flavor": {
+    "en": "As it grows older, its white tail changes colors and splits into six different tails. Its body radiates a faint warmth."
+  },
+  "weight": "22 lbs",
+  "height": "2'00\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ember"
+      },
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Vulpix in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

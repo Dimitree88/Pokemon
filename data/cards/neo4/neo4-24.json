@@ -1,0 +1,82 @@
+{
+  "id": "neo4-24",
+  "set": "neo4",
+  "number": "24",
+  "rarity": "Rare",
+  "name": "Light Ledian",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 166,
+  "level": "37",
+  "evolvesFromName": "Ledyba",
+  "evolvesFromDex": 165,
+  "species": {
+    "en": "Five Star Pokémon"
+  },
+  "flavor": {
+    "en": "The number of spots on its back increase or decrease depending on the number of stars visible in the night sky."
+  },
+  "weight": "78 lbs",
+  "height": "4'07\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flash Touch"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "If you have any Benched Pokémon, switch 1 of them with Light Ledian. As long as that Pokémon is your Active Pokémon, it can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Comet Punch"
+      },
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20×",
+        "value": 20,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 4 coins. This attack does 20 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

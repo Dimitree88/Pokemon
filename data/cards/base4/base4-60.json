@@ -1,0 +1,72 @@
+{
+  "id": "base4-60",
+  "set": "base4",
+  "number": "60",
+  "rarity": "Uncommon",
+  "name": "Seaking",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 119,
+  "level": "28",
+  "evolvesFromName": "Goldeen",
+  "evolvesFromDex": 118,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
+  },
+  "weight": "86 lbs",
+  "height": "4'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Horn Attack"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Waterfall"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

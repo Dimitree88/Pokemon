@@ -1,0 +1,65 @@
+{
+  "id": "neo4-44",
+  "set": "neo4",
+  "number": "44",
+  "rarity": "Uncommon",
+  "name": "Jigglypuff",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 39,
+  "level": "11",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Balloon Pokémon"
+  },
+  "flavor": {
+    "en": "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep."
+  },
+  "weight": "12 lbs",
+  "height": "1'08\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Expand"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "All damage done to Jigglypuff during your opponent's next turn is reduced by 10 (after applying Weakness and Resistance)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

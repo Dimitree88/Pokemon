@@ -1,0 +1,81 @@
+{
+  "id": "neo4-53",
+  "set": "neo4",
+  "number": "53",
+  "rarity": "Uncommon",
+  "name": "Light Venomoth",
+  "owner": null,
+  "variant": "light",
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 49,
+  "level": "36",
+  "evolvesFromName": "Venonat",
+  "evolvesFromDex": 48,
+  "species": {
+    "en": "Poison Moth Pokémon"
+  },
+  "flavor": {
+    "en": "It defends itself by flapping its wings at high speed, spreading poisonous powder throughout the air."
+  },
+  "weight": "28 lbs",
+  "height": "4'11\"",
+  "illustrator": "Masako Yamashita",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Mysterious Wing"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same."
+      }
+    },
+    {
+      "name": {
+        "en": "Synchronize"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

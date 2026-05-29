@@ -1,0 +1,76 @@
+{
+  "id": "neo4-79",
+  "set": "neo4",
+  "number": "79",
+  "rarity": "Common",
+  "name": "Psyduck",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 54,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Duck Pokémon"
+  },
+  "flavor": {
+    "en": "Although possessed of great mental powers, it doesn't know how to use them."
+  },
+  "weight": "43 lbs",
+  "height": "2'07\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Flipper Splash"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Migraine"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

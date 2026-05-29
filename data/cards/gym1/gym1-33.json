@@ -1,0 +1,73 @@
+{
+  "id": "gym1-33",
+  "set": "gym1",
+  "number": "33",
+  "rarity": "Rare",
+  "name": "Rocket's Snorlax",
+  "owner": "Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 143,
+  "level": "40",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sleeping Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "1014 lbs",
+  "height": "6'11\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 4,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Collapse"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Rocket's Snorlax is now Asleep (after doing damage)."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Restless Sleep"
+      },
+      "text": {
+        "en": "If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

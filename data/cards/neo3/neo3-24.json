@@ -1,0 +1,76 @@
+{
+  "id": "neo3-24",
+  "set": "neo3",
+  "number": "24",
+  "rarity": "Rare",
+  "name": "Sneasel",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 215,
+  "level": "32",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Sharp Claw Pokémon"
+  },
+  "flavor": {
+    "en": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy."
+  },
+  "weight": "62 lbs",
+  "height": "2'11\"",
+  "illustrator": "Sumiyoshi Kizuki",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Swipe"
+      },
+      "cost": [
+        "Darkness"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon."
+      }
+    },
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

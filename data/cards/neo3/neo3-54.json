@@ -1,0 +1,56 @@
+{
+  "id": "neo3-54",
+  "set": "neo3",
+  "number": "54",
+  "rarity": "Common",
+  "name": "Smoochum",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 238,
+  "level": "6",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Kiss Pokémon"
+  },
+  "flavor": {
+    "en": "It always rocks its head slowly backwards and forwards as if it is trying to kiss someone."
+  },
+  "weight": "13 lbs",
+  "height": "1'04\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Psykiss"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, choose a Special Energy card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

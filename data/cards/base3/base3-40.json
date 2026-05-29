@@ -1,0 +1,77 @@
+{
+  "id": "base3-40",
+  "set": "base3",
+  "number": "40",
+  "rarity": "Uncommon",
+  "name": "Omastar",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 70,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 139,
+  "level": "32",
+  "evolvesFromName": "Omanyte",
+  "evolvesFromDex": 138,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey."
+  },
+  "weight": "77 lbs",
+  "height": "3'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Gun"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20+",
+        "value": 20,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    },
+    {
+      "name": {
+        "en": "Spike Cannon"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "30×",
+        "value": 30,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 30 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

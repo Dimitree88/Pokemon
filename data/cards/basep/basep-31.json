@@ -1,0 +1,56 @@
+{
+  "id": "basep-31",
+  "set": "basep",
+  "number": "31",
+  "rarity": "Promo",
+  "name": "Cleffa",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 173,
+  "level": "5",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Star Shape Pokémon"
+  },
+  "flavor": {
+    "en": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+  },
+  "weight": "7 lbs",
+  "height": "1'00\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Eek"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Draw 2 cards."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

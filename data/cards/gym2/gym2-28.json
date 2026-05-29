@@ -1,0 +1,74 @@
+{
+  "id": "gym2-28",
+  "set": "gym2",
+  "number": "28",
+  "rarity": "Rare",
+  "name": "Lt. Surge's Jolteon",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 135,
+  "level": "32",
+  "evolvesFromName": "Lt. Surge's Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Lightning Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "54 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "High Voltage"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
+      }
+    },
+    {
+      "name": {
+        "en": "Thunder Flare"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "30+",
+      "value": 30,
+      "modifier": "+",
+      "text": {
+        "en": "Does 30 damage plus 10 damage times the number of damage counters on Lt. Surge's Jolteon, then flip a coin. If tails, Lt. Surge's Jolteon does 30 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

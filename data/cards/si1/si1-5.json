@@ -1,0 +1,76 @@
+{
+  "id": "si1-5",
+  "set": "si1",
+  "number": "5",
+  "rarity": null,
+  "name": "Ivysaur",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 2,
+  "level": null,
+  "evolvesFromName": "Bulbasaur",
+  "evolvesFromDex": 1,
+  "species": {
+    "en": "Seed Pokémon"
+  },
+  "flavor": {
+    "en": "A sure sign spring is on its way is when the seed on this Pokémon's back flowers."
+  },
+  "weight": "29 lbs",
+  "height": "3'03\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Strange Scent"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pokémon and removes them. (If the player's Pokémon have fewer total damage counters than that, he or she removes all of them.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Razor Leaf"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

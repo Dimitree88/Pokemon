@@ -1,0 +1,74 @@
+{
+  "id": "gym2-13",
+  "set": "gym2",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Misty's Gyarados",
+  "owner": "Misty",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 100,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 130,
+  "level": "42",
+  "evolvesFromName": "Misty's Magikarp",
+  "evolvesFromDex": 129,
+  "species": {
+    "en": "Atrocious Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "518 lbs",
+  "height": "21'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tidal Wave"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "70",
+      "value": 70,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Rebellion"
+      },
+      "text": {
+        "en": "Whenever Misty's Gyarados attacks, flip 2 coins. If both of them are tails, that attack does nothing. Instead, shuffle Misty's Gyarados and all cards attached to it into your deck. (This power works even if Misty's Gyarados is Confused.)"
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

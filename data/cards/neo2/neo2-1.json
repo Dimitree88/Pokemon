@@ -1,0 +1,78 @@
+{
+  "id": "neo2-1",
+  "set": "neo2",
+  "number": "1",
+  "rarity": "Rare Holo",
+  "name": "Espeon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 196,
+  "level": "41",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Sun Pokémon"
+  },
+  "flavor": {
+    "en": "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions."
+  },
+  "weight": "58 lbs",
+  "height": "2'11\"",
+  "illustrator": "Atsuko Nishida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Psychic"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30+",
+        "value": 30,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

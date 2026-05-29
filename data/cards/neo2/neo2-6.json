@@ -1,0 +1,75 @@
+{
+  "id": "neo2-6",
+  "set": "neo2",
+  "number": "6",
+  "rarity": "Rare Holo",
+  "name": "Kabutops",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 90,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 141,
+  "level": "42",
+  "evolvesFromName": "Kabuto",
+  "evolvesFromDex": 140,
+  "species": {
+    "en": "Shellfish Pokémon"
+  },
+  "flavor": {
+    "en": "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast."
+  },
+  "weight": "89 lbs",
+  "height": "4'03\"",
+  "illustrator": "Kimiya Masago",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slash"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Hydrocutter"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

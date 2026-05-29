@@ -1,0 +1,69 @@
+{
+  "id": "neo1-10",
+  "set": "neo1",
+  "number": "10",
+  "rarity": "Rare Holo",
+  "name": "Meganium",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 154,
+  "level": "54",
+  "evolvesFromName": "Bayleef",
+  "evolvesFromDex": 153,
+  "species": {
+    "en": "Herb Pokémon"
+  },
+  "flavor": {
+    "en": "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again."
+  },
+  "weight": "222 lbs",
+  "height": "5'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Body Slam"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Herbal Scent"
+      },
+      "text": {
+        "en": "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

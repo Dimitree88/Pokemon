@@ -1,0 +1,79 @@
+{
+  "id": "base5-51",
+  "set": "base5",
+  "number": "51",
+  "rarity": "Common",
+  "name": "Dark Raticate",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 20,
+  "level": "25",
+  "evolvesFromName": "Rattata",
+  "evolvesFromDex": 19,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": "A Raticate's front teeth are incredibly powerful; it can destroy a two-story house with them in 5 minutes."
+  },
+  "weight": "41 lbs",
+  "height": "2'04\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Gnaw"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Hyper Fang"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "50",
+      "value": 50,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

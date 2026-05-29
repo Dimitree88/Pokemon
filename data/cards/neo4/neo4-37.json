@@ -1,0 +1,59 @@
+{
+  "id": "neo4-37",
+  "set": "neo4",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Dark Omanyte",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 138,
+  "level": "18",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "This ancient Pokémon possessed 10 tentacles, which it used to swim through the ocean."
+  },
+  "weight": "17 lbs",
+  "height": "1'04\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Water Cannon"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Water Energy card attached to Dark Omanyte. Don't apply Weakness and Resistance. You can't do more than 30 damage in this way."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

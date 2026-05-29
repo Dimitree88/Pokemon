@@ -1,0 +1,76 @@
+{
+  "id": "si1-14",
+  "set": "si1",
+  "number": "14",
+  "rarity": null,
+  "name": "Slowking",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 199,
+  "level": null,
+  "evolvesFromName": "Slowpoke",
+  "evolvesFromDex": 79,
+  "species": {
+    "en": "Royal Pokémon"
+  },
+  "flavor": {
+    "en": "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence."
+  },
+  "weight": "175 lbs",
+  "height": "6'07\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Revelation"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      }
+    },
+    {
+      "name": {
+        "en": "Psychic"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

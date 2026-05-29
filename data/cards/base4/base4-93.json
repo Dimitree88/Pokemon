@@ -1,0 +1,72 @@
+{
+  "id": "base4-93",
+  "set": "base4",
+  "number": "93",
+  "rarity": "Common",
+  "name": "Squirtle",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 7,
+  "level": "8",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Tiny Turtle Pokémon"
+  },
+  "flavor": {
+    "en": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
+  },
+  "weight": "20 lbs",
+  "height": "1'08\"",
+  "illustrator": "Mitsuhiro Arita",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bubble"
+      },
+      "cost": [
+        "Water"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Withdraw"
+      },
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of opponent's attacks still happen.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

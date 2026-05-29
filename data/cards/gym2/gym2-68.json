@@ -1,0 +1,57 @@
+{
+  "id": "gym2-68",
+  "set": "gym2",
+  "number": "68",
+  "rarity": "Common",
+  "name": "Brock's Geodude",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 74,
+  "level": "15",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "44 lbs",
+  "height": "1'04\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Rock Toss"
+      },
+      "cost": [
+        "Fighting"
+      ],
+      "raw": "10×",
+      "value": 10,
+      "modifier": "×",
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

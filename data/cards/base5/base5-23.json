@@ -1,0 +1,72 @@
+{
+  "id": "base5-23",
+  "set": "base5",
+  "number": "23",
+  "rarity": "Rare",
+  "name": "Dark Dugtrio",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 51,
+  "level": "18",
+  "evolvesFromName": "Diglett",
+  "evolvesFromDex": 50,
+  "species": {
+    "en": "Mole Pokémon"
+  },
+  "flavor": {
+    "en": "Digs large sinkholes in the ground and tries to trap its enemies in them."
+  },
+  "weight": "73 lbs",
+  "height": "2'04\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Knock Down"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Sinkhole"
+      },
+      "text": {
+        "en": "Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

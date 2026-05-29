@@ -1,0 +1,67 @@
+{
+  "id": "base5-54",
+  "set": "base5",
+  "number": "54",
+  "rarity": "Common",
+  "name": "Drowzee",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 50,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 96,
+  "level": "10",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Hypnosis Pokémon"
+  },
+  "flavor": {
+    "en": "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice."
+  },
+  "weight": "71 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Nightmare"
+      },
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "raw": "10",
+      "value": 10,
+      "modifier": null,
+      "text": {
+        "en": "The Defending Pokémon is now Asleep."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Long-Distance Hypnosis"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. This power can't be used if Drowzee is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

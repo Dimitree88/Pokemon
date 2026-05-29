@@ -1,0 +1,84 @@
+{
+  "id": "si1-9",
+  "set": "si1",
+  "number": "9",
+  "rarity": null,
+  "name": "Butterfree",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 12,
+  "level": null,
+  "evolvesFromName": "Metapod",
+  "evolvesFromDex": 11,
+  "species": {
+    "en": "Butterfly Pokémon"
+  },
+  "flavor": {
+    "en": "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days."
+  },
+  "weight": "71 lbs",
+  "height": "3'07\"",
+  "illustrator": "Keiko Fukuyama",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fly"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage)."
+      }
+    },
+    {
+      "name": {
+        "en": "Rainbow Powder"
+      },
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

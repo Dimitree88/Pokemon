@@ -1,0 +1,69 @@
+{
+  "id": "neo1-4",
+  "set": "neo1",
+  "number": "4",
+  "rarity": "Rare Holo",
+  "name": "Feraligatr",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 160,
+  "level": "56",
+  "evolvesFromName": "Croconaw",
+  "evolvesFromDex": 159,
+  "species": {
+    "en": "Big Jaw Pokémon"
+  },
+  "flavor": {
+    "en": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+  },
+  "weight": "196 lbs",
+  "height": "7'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Chomp"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "raw": "50+",
+      "value": 50,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Berserk"
+      },
+      "text": {
+        "en": "When you play Feraligatr from your hand, flip a coin. If heads, discard the top 5 cards from your opponent's deck. If tails, discard the top 5 cards from your deck."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

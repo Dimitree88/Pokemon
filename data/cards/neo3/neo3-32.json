@@ -1,0 +1,70 @@
+{
+  "id": "neo3-32",
+  "set": "neo3",
+  "number": "32",
+  "rarity": "Uncommon",
+  "name": "Lanturn",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 171,
+  "level": "31",
+  "evolvesFromName": "Chinchou",
+  "evolvesFromDex": 170,
+  "species": {
+    "en": "Light Pokémon"
+  },
+  "flavor": {
+    "en": "It blinds prey with an intense burst of light, then swallows the immobilized prey in a single gulp."
+  },
+  "weight": "50 lbs",
+  "height": "3'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Blinding Light"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Submerge"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may change Lanturn's type to Water until the end of your turn. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes Asleep, Confused, or Paralyzed after you have used this power, its type changes back to Lightning."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

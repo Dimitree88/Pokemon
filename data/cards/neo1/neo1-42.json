@@ -1,0 +1,73 @@
+{
+  "id": "neo1-42",
+  "set": "neo1",
+  "number": "42",
+  "rarity": "Uncommon",
+  "name": "Noctowl",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 164,
+  "level": "23",
+  "evolvesFromName": "Hoothoot",
+  "evolvesFromDex": 163,
+  "species": {
+    "en": "Owl Pokémon"
+  },
+  "flavor": {
+    "en": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+  },
+  "weight": "90 lbs",
+  "height": "5'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Wing Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Glaring Gaze"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

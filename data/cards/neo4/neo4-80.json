@@ -1,0 +1,59 @@
+{
+  "id": "neo4-80",
+  "set": "neo4",
+  "number": "80",
+  "rarity": "Common",
+  "name": "Remoraid",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 223,
+  "level": "16",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Jet Pokémon"
+  },
+  "flavor": {
+    "en": "It can shoot a burst of water from its mouth to propel itself backward at high speeds, allowing it to flee from surprised enemies."
+  },
+  "weight": "26 lbs",
+  "height": "2'00\"",
+  "illustrator": "Jungo Suzuki, CR CG gangs",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fury Strikes"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

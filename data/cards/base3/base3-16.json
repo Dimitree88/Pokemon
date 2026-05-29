@@ -1,0 +1,75 @@
+{
+  "id": "base3-16",
+  "set": "base3",
+  "number": "16",
+  "rarity": "Rare",
+  "name": "Aerodactyl",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 142,
+  "level": "28",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Fossil Pokémon"
+  },
+  "flavor": {
+    "en": "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs."
+  },
+  "weight": "130 lbs",
+  "height": "5'11\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Wing Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Prehistoric Power"
+      },
+      "text": {
+        "en": "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

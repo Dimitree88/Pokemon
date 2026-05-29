@@ -1,0 +1,73 @@
+{
+  "id": "gym1-69",
+  "set": "gym1",
+  "number": "69",
+  "rarity": "Common",
+  "name": "Brock's Onix",
+  "owner": "Brock",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 100,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 95,
+  "level": "41",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Rock Snake Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "463 lbs",
+  "height": "28'10\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bellow"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    },
+    {
+      "name": {
+        "en": "Rock Throw"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

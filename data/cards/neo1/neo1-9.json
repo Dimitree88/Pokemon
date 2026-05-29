@@ -1,0 +1,64 @@
+{
+  "id": "neo1-9",
+  "set": "neo1",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Lugia",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 90,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 249,
+  "level": "45",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Diving Pokémon"
+  },
+  "flavor": {
+    "en": "It is said that it quietly spends its time deep at the bottom of the sea, because its powers are too strong."
+  },
+  "weight": "476 lbs",
+  "height": "17'01\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Elemental Blast"
+      },
+      "cost": [
+        "Fire",
+        "Water",
+        "Lightning"
+      ],
+      "raw": "90",
+      "value": 90,
+      "modifier": null,
+      "text": {
+        "en": "Discard a Fire Energy card, a Water Energy card, and a Lightning Energy card attached to Lugia in order to use this attack."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

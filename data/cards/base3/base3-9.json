@@ -1,0 +1,79 @@
+{
+  "id": "base3-9",
+  "set": "base3",
+  "number": "9",
+  "rarity": "Rare Holo",
+  "name": "Kabutops",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 141,
+  "level": "30",
+  "evolvesFromName": "Kabuto",
+  "evolvesFromDex": 140,
+  "species": {
+    "en": "Shellfish Pokémon"
+  },
+  "flavor": {
+    "en": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
+  },
+  "weight": "89 lbs",
+  "height": "4'03\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Sharp Sickle"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Absorb"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

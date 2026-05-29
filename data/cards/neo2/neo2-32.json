@@ -1,0 +1,78 @@
+{
+  "id": "neo2-32",
+  "set": "neo2",
+  "number": "32",
+  "rarity": "Rare",
+  "name": "Umbreon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 197,
+  "level": "33",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Moonlight Pokémon"
+  },
+  "flavor": {
+    "en": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores."
+  },
+  "weight": "60 lbs",
+  "height": "3'03\"",
+  "illustrator": "Naoyo Kimura",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Quick Attack"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10+",
+        "value": 10,
+        "modifier": "+"
+      },
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Pursuit"
+      },
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

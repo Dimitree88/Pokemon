@@ -1,0 +1,68 @@
+{
+  "id": "base3-50",
+  "set": "base3",
+  "number": "50",
+  "rarity": "Common",
+  "name": "Kabuto",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 30,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 140,
+  "level": "9",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Shellfish Pokémon"
+  },
+  "flavor": {
+    "en": "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago."
+  },
+  "weight": "25 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Scratch"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Kabuto Armor"
+      },
+      "text": {
+        "en": "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

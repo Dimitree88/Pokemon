@@ -1,0 +1,65 @@
+{
+  "id": "neo4-74",
+  "set": "neo4",
+  "number": "74",
+  "rarity": "Common",
+  "name": "Mantine",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 226,
+  "level": "33",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Kite Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale."
+  },
+  "weight": "485 lbs",
+  "height": "6'11\"",
+  "illustrator": "Yukiko Baba",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Giant Wave"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Mantine can't attack during your next turn."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "neo2-13",
+  "set": "neo2",
+  "number": "13",
+  "rarity": "Rare Holo",
+  "name": "Umbreon",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Darkness",
+  "types": [
+    "Darkness"
+  ],
+  "pokedex": 197,
+  "level": "40",
+  "evolvesFromName": "Eevee",
+  "evolvesFromDex": 133,
+  "species": {
+    "en": "Moonlight Pokémon"
+  },
+  "flavor": {
+    "en": "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby."
+  },
+  "weight": "60 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kimiya Masago",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bite"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Feint Attack"
+      },
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

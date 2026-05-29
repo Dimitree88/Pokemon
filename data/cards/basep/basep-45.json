@@ -1,0 +1,65 @@
+{
+  "id": "basep-45",
+  "set": "basep",
+  "number": "45",
+  "rarity": "Promo",
+  "name": "Scyther",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 123,
+  "level": "23",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Mantis Pokémon"
+  },
+  "flavor": {
+    "en": "With ninja-like agility and speed, it can create the illusion that there is more than one."
+  },
+  "weight": "123 lbs",
+  "height": "4'11\"",
+  "illustrator": "Hironobu Yoshida",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Slashing Strike"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": "Scyther can't use this attack during your next turn. (Benching or evolving Scyther ends this effect.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

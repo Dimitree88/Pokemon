@@ -1,0 +1,75 @@
+{
+  "id": "gym2-11",
+  "set": "gym2",
+  "number": "11",
+  "rarity": "Rare Holo",
+  "name": "Lt. Surge's Raichu",
+  "owner": "Lt. Surge",
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 80,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 26,
+  "level": "38",
+  "evolvesFromName": "Lt. Surge's Pikachu",
+  "evolvesFromDex": 25,
+  "species": {
+    "en": "Mouse Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "66 lbs",
+  "height": "2'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Kerzap"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "raw": "20+",
+      "value": 20,
+      "modifier": "+",
+      "text": {
+        "en": "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Lightning Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
+      }
+    },
+    {
+      "name": {
+        "en": "Thundertackle"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "40",
+      "value": 40,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge's Raichu does 20 damage to itself."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

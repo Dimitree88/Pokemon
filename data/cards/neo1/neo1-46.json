@@ -1,0 +1,73 @@
+{
+  "id": "neo1-46",
+  "set": "neo1",
+  "number": "46",
+  "rarity": "Uncommon",
+  "name": "Quilava",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 156,
+  "level": "28",
+  "evolvesFromName": "Cyndaquil",
+  "evolvesFromDex": 155,
+  "species": {
+    "en": "Volcano Pokémon"
+  },
+  "flavor": {
+    "en": "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+  },
+  "weight": "42 lbs",
+  "height": "2'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ember"
+      },
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Discard 1 Fire Energy card attached to Quilava in order to use this attack."
+      }
+    },
+    {
+      "name": {
+        "en": "Fire Wind"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.)"
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

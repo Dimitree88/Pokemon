@@ -1,0 +1,78 @@
+{
+  "id": "base3-37",
+  "set": "base3",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Graveler",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 75,
+  "level": "29",
+  "evolvesFromName": "Geodude",
+  "evolvesFromDex": 74,
+  "species": {
+    "en": "Rock Pokémon"
+  },
+  "flavor": {
+    "en": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
+  },
+  "weight": "231 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Harden"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+      }
+    },
+    {
+      "name": {
+        "en": "Rock Throw"
+      },
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

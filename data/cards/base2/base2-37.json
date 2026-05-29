@@ -1,0 +1,76 @@
+{
+  "id": "base2-37",
+  "set": "base2",
+  "number": "37",
+  "rarity": "Uncommon",
+  "name": "Gloom",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 44,
+  "level": "35",
+  "evolvesFromName": "Oddish",
+  "evolvesFromDex": 43,
+  "species": {
+    "en": "Weed Pokémon"
+  },
+  "flavor": {
+    "en": "The fluid that oozes from its mouth isn't drool; it is a nectar that is used to attract prey."
+  },
+  "weight": "19 lbs",
+  "height": "2'07\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "The Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Foul Odor"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "Both the Defending Pokémon and Gloom are now Confused (after doing damage)."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

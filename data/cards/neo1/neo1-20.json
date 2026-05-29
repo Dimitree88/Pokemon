@@ -1,0 +1,54 @@
+{
+  "id": "neo1-20",
+  "set": "neo1",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Cleffa",
+  "owner": null,
+  "variant": null,
+  "stage": "Baby",
+  "hp": 30,
+  "type": "Colorless",
+  "types": [
+    "Colorless"
+  ],
+  "pokedex": 173,
+  "level": "6",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Star Shape Pokémon"
+  },
+  "flavor": {
+    "en": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+  },
+  "weight": "7 lbs",
+  "height": "1'00\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": {
+    "en": "If this Baby Pokémon is your Active Pokémon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack."
+  },
+  "attacks": [
+    {
+      "name": {
+        "en": "Eeeeeeek"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "raw": "",
+      "value": null,
+      "modifier": null,
+      "text": {
+        "en": "Shuffle your hand into your deck, then draw 7 cards."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

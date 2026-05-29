@@ -1,0 +1,73 @@
+{
+  "id": "base5-60",
+  "set": "base5",
+  "number": "60",
+  "rarity": "Common",
+  "name": "Magnemite",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 81,
+  "level": "12",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Magnet Pokémon"
+  },
+  "flavor": {
+    "en": "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier."
+  },
+  "weight": "13 lbs",
+  "height": "1'00\"",
+  "illustrator": "Miki Tanaka",
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Tackle"
+      },
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": null
+      }
+    },
+    {
+      "name": {
+        "en": "Magnetism"
+      },
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "10+",
+      "value": 10,
+      "modifier": "+",
+      "text": {
+        "en": "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "basep-3",
+  "set": "basep",
+  "number": "3",
+  "rarity": "Promo",
+  "name": "Mewtwo",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 150,
+  "level": "60",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Genetic Pokémon"
+  },
+  "flavor": {
+    "en": "Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon."
+  },
+  "weight": "269 lbs",
+  "height": "6'07\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Energy Absorption"
+      },
+      "cost": [
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "",
+        "value": null,
+        "modifier": null
+      },
+      "text": {
+        "en": "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo."
+      }
+    },
+    {
+      "name": {
+        "en": "Psyburn"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40",
+        "value": 40,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

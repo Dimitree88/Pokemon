@@ -1,0 +1,70 @@
+{
+  "id": "base3-20",
+  "set": "base3",
+  "number": "20",
+  "rarity": "Rare",
+  "name": "Gengar",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 80,
+  "type": "Psychic",
+  "types": [
+    "Psychic"
+  ],
+  "pokedex": 94,
+  "level": "38",
+  "evolvesFromName": "Haunter",
+  "evolvesFromDex": 93,
+  "species": {
+    "en": "Shadow Pokémon"
+  },
+  "flavor": {
+    "en": "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright."
+  },
+  "weight": "89 lbs",
+  "height": "4'11\"",
+  "illustrator": "Keiji Kinebuchi",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Dark Mind"
+      },
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Curse"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

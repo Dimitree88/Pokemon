@@ -1,0 +1,76 @@
+{
+  "id": "base2-48",
+  "set": "base2",
+  "number": "48",
+  "rarity": "Uncommon",
+  "name": "Weepinbell",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 70,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 70,
+  "level": "28",
+  "evolvesFromName": "Bellsprout",
+  "evolvesFromDex": 69,
+  "species": {
+    "en": "Flycatcher Pokémon"
+  },
+  "flavor": {
+    "en": "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid."
+  },
+  "weight": "14 lbs",
+  "height": "3'03\"",
+  "illustrator": "Kagemaru Himeno",
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Poisonpowder"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      }
+    },
+    {
+      "name": {
+        "en": "Razor Leaf"
+      },
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": {
+        "raw": "30",
+        "value": 30,
+        "modifier": null
+      },
+      "text": {
+        "en": null
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "base4-83",
+  "set": "base4",
+  "number": "83",
+  "rarity": "Common",
+  "name": "Nidoran ♂",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Grass",
+  "types": [
+    "Grass"
+  ],
+  "pokedex": 32,
+  "level": "20",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Poison Pin Pokémon"
+  },
+  "flavor": {
+    "en": "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom."
+  },
+  "weight": "20 lbs",
+  "height": "1'08\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Horn Hazard"
+      },
+      "cost": [
+        "Grass"
+      ],
+      "raw": "30",
+      "value": 30,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If tails, this attack does nothing."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

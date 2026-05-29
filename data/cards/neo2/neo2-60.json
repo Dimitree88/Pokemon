@@ -1,0 +1,68 @@
+{
+  "id": "neo2-60",
+  "set": "neo2",
+  "number": "60",
+  "rarity": "Common",
+  "name": "Omanyte",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 1",
+  "hp": 50,
+  "type": "Fighting",
+  "types": [
+    "Fighting"
+  ],
+  "pokedex": 138,
+  "level": "21",
+  "evolvesFromName": "Mysterious Fossil",
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Spiral Pokémon"
+  },
+  "flavor": {
+    "en": "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water."
+  },
+  "weight": "17 lbs",
+  "height": "1'04\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Bind"
+      },
+      "cost": [
+        "Water"
+      ],
+      "damage": {
+        "raw": "10",
+        "value": 10,
+        "modifier": null
+      },
+      "text": {
+        "en": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Revive Fossil"
+      },
+      "text": {
+        "en": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

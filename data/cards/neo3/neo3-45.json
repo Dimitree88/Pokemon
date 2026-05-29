@@ -1,0 +1,59 @@
+{
+  "id": "neo3-45",
+  "set": "neo3",
+  "number": "45",
+  "rarity": "Common",
+  "name": "Goldeen",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 40,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 118,
+  "level": "14",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Goldfish Pokémon"
+  },
+  "flavor": {
+    "en": "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer."
+  },
+  "weight": "33 lbs",
+  "height": "2'00\"",
+  "illustrator": "Yuka Morii",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 0,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Fin Smack"
+      },
+      "cost": [
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "10×",
+        "value": 10,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

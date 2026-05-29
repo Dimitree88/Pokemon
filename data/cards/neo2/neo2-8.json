@@ -1,0 +1,71 @@
+{
+  "id": "neo2-8",
+  "set": "neo2",
+  "number": "8",
+  "rarity": "Rare Holo",
+  "name": "Politoed",
+  "owner": null,
+  "variant": null,
+  "stage": "Stage 2",
+  "hp": 100,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 186,
+  "level": "53",
+  "evolvesFromName": "Poliwhirl",
+  "evolvesFromDex": 61,
+  "species": {
+    "en": "Frog Pokémon"
+  },
+  "flavor": {
+    "en": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing."
+  },
+  "weight": "75 lbs",
+  "height": "3'07\"",
+  "illustrator": "Tomokazu Komiya",
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Doubleslap"
+      },
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": {
+        "raw": "40×",
+        "value": 40,
+        "modifier": "×"
+      },
+      "text": {
+        "en": "Flip 2 coins. This attack does 40 damage times the number of heads."
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Frog Song"
+      },
+      "text": {
+        "en": "Whenever Politoed's attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent's), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}

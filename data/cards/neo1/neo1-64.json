@@ -1,0 +1,63 @@
+{
+  "id": "neo1-64",
+  "set": "neo1",
+  "number": "64",
+  "rarity": "Common",
+  "name": "Mantine",
+  "owner": null,
+  "variant": null,
+  "stage": "Basic",
+  "hp": 60,
+  "type": "Water",
+  "types": [
+    "Water"
+  ],
+  "pokedex": 226,
+  "level": "31",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Kite Pokémon"
+  },
+  "flavor": {
+    "en": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed."
+  },
+  "weight": "485 lbs",
+  "height": "6'11\"",
+  "illustrator": "Ken Sugimori",
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 1,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Undulate"
+      },
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

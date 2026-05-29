@@ -1,0 +1,74 @@
+{
+  "id": "gym2-15",
+  "set": "gym2",
+  "number": "15",
+  "rarity": "Rare Holo",
+  "name": "Rocket's Zapdos",
+  "owner": "Rocket",
+  "variant": null,
+  "stage": "Basic",
+  "hp": 70,
+  "type": "Lightning",
+  "types": [
+    "Lightning"
+  ],
+  "pokedex": 145,
+  "level": "34",
+  "evolvesFromName": null,
+  "evolvesFromDex": null,
+  "species": {
+    "en": "Electric Pokémon"
+  },
+  "flavor": {
+    "en": null
+  },
+  "weight": "116 lbs",
+  "height": "5'03\"",
+  "illustrator": "Shin-ichi Yoshida",
+  "weaknesses": [],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": 2,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Plasma"
+      },
+      "cost": [
+        "Lightning"
+      ],
+      "raw": "20",
+      "value": 20,
+      "modifier": null,
+      "text": {
+        "en": "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
+      }
+    },
+    {
+      "name": {
+        "en": "Electroburn"
+      },
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "raw": "70",
+      "value": 70,
+      "modifier": null,
+      "text": {
+        "en": "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
+      }
+    }
+  ],
+  "powers": [],
+  "_lang": [
+    "en"
+  ]
+}

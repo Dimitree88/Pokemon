@@ -1,0 +1,69 @@
+{
+  "id": "neo4-18",
+  "set": "neo4",
+  "number": "18",
+  "rarity": "Rare",
+  "name": "Dark Magcargo",
+  "owner": null,
+  "variant": "dark",
+  "stage": "Stage 1",
+  "hp": 60,
+  "type": "Fire",
+  "types": [
+    "Fire"
+  ],
+  "pokedex": 219,
+  "level": "36",
+  "evolvesFromName": "Slugma",
+  "evolvesFromDex": 218,
+  "species": {
+    "en": "Lava Pokémon"
+  },
+  "flavor": {
+    "en": "The shell on its back comes off easily, exposing the flames running through its body."
+  },
+  "weight": "121 lbs",
+  "height": "2'07\"",
+  "illustrator": "Toshinao Aoki",
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [],
+  "retreatCost": 3,
+  "babyInfo": null,
+  "attacks": [
+    {
+      "name": {
+        "en": "Ball of Flame"
+      },
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": {
+        "raw": "20",
+        "value": 20,
+        "modifier": null
+      },
+      "text": {
+        "en": "You may discard a Fire Energy card attached to Dark Magcargo when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    }
+  ],
+  "powers": [
+    {
+      "name": {
+        "en": "Hot Plate"
+      },
+      "text": {
+        "en": "As long as Dark Magcargo is your Active Pokémon, whenever a player puts a Baby Pokémon or Basic Pokémon onto his or her Bench from his or her hand, this power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working if Dark Magcargo is Asleep, Confused, or Paralyzed."
+      }
+    }
+  ],
+  "_lang": [
+    "en"
+  ]
+}
