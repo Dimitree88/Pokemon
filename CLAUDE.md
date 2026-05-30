@@ -116,7 +116,11 @@ Nell'era WOTC il potere è **sempre** "Pokémon Power" (la distinzione
 Poké-Power / Poké-Body è posteriore, fuori scope). Campi:
 - **nome**
 - **testo effetto**
-- **colore** — *opzionale*, default **rosso**; si salva solo se diverso dal rosso.
+- **colore** — *opzionale*, default **rosso**; si salva solo se diverso dal rosso. Nel
+  rendering diventa la classe `power--<color>` sul `.power` e imposta `--power-color`
+  (tag, nome e glifo Unown lo ereditano). Il valore esatto del colore è definito **una
+  sola volta** in `app/card.css` (es. `.power--purple { --power-color: … }`), non nei JSON.
+  Gli **Unown** hanno il potere **viola** (`color: "purple"`).
 
 ### Simboli energia inline (placeholder)
 Il testo di attacchi e poteri può contenere riferimenti a energie. Vanno salvati
@@ -214,9 +218,13 @@ I dati sono dumpati in locale (decisione DB rimandata).
   convertito nel simbolo `{X}` (es. *"into {R} Energy"*, *"your {W} Pokémon"*,
   *"type is still {C}."*). La parola generica *"Energy"* senza tipo resta invariata.
   Unica eccezione esclusa: il nome proprio *"Lightning Rod"* (marcatore, non simbolo).
-- **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri
-  diverso dal rosso; finitura **reverse holo** (suffisso `" Reverse Holo"` nella
-  rarità, vedi entità Carta).
+- **Da completare a mano**: `copyright` dei set (null); `colore` dei poteri diverso dal
+  rosso (gli Unown sono già a `"purple"`); finitura **reverse holo** (suffisso
+  `" Reverse Holo"` nella rarità, vedi entità Carta).
+- **Unown** (`Unown [X]`, tutti Basic/Neo): casi speciali nel rendering —
+  (1) regola del mazzo in cima, a destra, font regolare; (2) accanto al nome, prima di
+  `[X]`, il **glifo della lettera** in font `UnownTCG`; (3) nel potere, prima di `[Parola]`,
+  la **parola tra parentesi** (es. *Anger*) resa in `UnownTCG`, col colore del potere (viola).
 
 ## Rendering (implementazione)
 
