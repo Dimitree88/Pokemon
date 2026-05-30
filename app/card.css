@@ -43,6 +43,8 @@
 .stage--baby { margin-left: auto; text-align: right; }
 .evo-from { font-family: 'GillSansBI'; font-size: 9px; color: #3a2f10; white-space: nowrap; }
 .evo-put { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #3a2f10; text-align: right; }
+/* Unown: regola del mazzo in cima alla carta, allineata a destra, font regolare (non bold/italic). */
+.unown-rule { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #1c1206; white-space: nowrap; }
 .header { position: absolute; left: 28px; right: 28px; top: 38px; display: flex; align-items: baseline; gap: 8px; }
 .name { font-family: 'GillSansCB'; font-size: 28px; color: #1c1206; letter-spacing: .2px; }
 /* HP: numero poi "HP", stesso font e stessa dimensione (GillSans, non bold, non italic). */
@@ -105,10 +107,13 @@
 .wrr-val { display: flex; align-items: center; justify-content: center; gap: 3px; min-height: 24px; }
 .wrr-x { font-family: 'GillSans'; font-size: 14px; color: #1c1206; }
 
+/* Riga in basso. Due parti esplicite: .flavor-text (descrizione estesa) e .flavor-meta
+   (LV. e #). Le carte Gym non hanno flavor → resta solo .flavor-meta. */
 .flavor {
   position: absolute; left: 30px; right: 30px; bottom: 30px; font-family: 'GillSansBI'; font-size: 10.5px;
   color: #2a2418; line-height: 1.3;
 }
+.flavor-meta { white-space: nowrap; }  /* "LV. 76  #6" non va mai a capo */
 /* Footer: niente corsivo; illustratore e numero in bold, copyright regolare al centro. */
 .footer {
   position: absolute; left: 30px; right: 30px; bottom: 20px; display: flex; align-items: center;

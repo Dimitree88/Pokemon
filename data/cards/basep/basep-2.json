@@ -1,6 +1,7 @@
 {
   "id": "basep-2",
   "set": "basep",
+  "layoutFamily": "Base",
   "number": "2",
   "rarity": "Promo",
   "name": "Electabuzz",

@@ -1,6 +1,7 @@
 {
   "id": "basep-1",
   "set": "basep",
+  "layoutFamily": "Base",
   "number": "1",
   "rarity": "Promo",
   "name": "Pikachu",

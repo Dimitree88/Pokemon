@@ -37,6 +37,9 @@ export interface WeakRes {
 export interface Card {
   id: string;
   set: string;
+  // Override della famiglia di layout per la singola carta (vince sul set). Serve ai
+  // promo, che afferiscono a ere diverse in base all'anno di uscita. Assente → eredita il set.
+  layoutFamily?: "Base" | "Gym" | "Neo" | null;
   number: string;
   rarity: string | null;
   name: string;

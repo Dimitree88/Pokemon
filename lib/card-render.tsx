@@ -111,15 +111,20 @@ export function Card({
   const stageLabel = isBaby ? "Baby Pokémon counts as a Basic Pokémon" : isBasic ? "Basic Pokémon" : card.stage;
   const stageCls = `stage${isBasic ? " stage--basic" : ""}${isBaby ? " stage--baby" : ""}`;
 
-  // Famiglia grafica → classe sul .card (layout-base | layout-gym | layout-neo): aggancio
-  // per gli override CSS per-famiglia. Le differenze strutturali restano branch espliciti.
-  const layoutClass = `layout-${(set?.layoutFamily ?? "Base").toLowerCase()}`;
+  // Famiglia grafica della carta: override per-carta (promo) → famiglia del set → Base.
+  // La classe layout-{family} sul .card è l'aggancio per gli override CSS per-famiglia;
+  // le differenze strutturali restano branch espliciti.
+  const family = card.layoutFamily ?? set?.layoutFamily ?? "Base";
+  const layoutClass = `layout-${family.toLowerCase()}`;
 
-  // Famiglia grafica Neo (4 Neo + Southern Islands): etichetta stage sul riquadro foto.
-  // Per i Basic non si ripete in alto a sinistra (dove sta già): solo sul riquadro.
-  const neoEra = set?.layoutFamily === "Neo";
+  // Famiglia Neo (4 Neo + Southern Islands + promo dell'era Neo): etichetta stage sul
+  // riquadro foto. Per i Basic non si ripete in alto a sinistra: solo sul riquadro.
+  const neoEra = family === "Neo";
   const frameStageLabel = `${card.stage} Pokémon`;
   const showTopLeftStage = !(neoEra && card.stage === "Basic");
+
+  // Unown: regola del mazzo in cima alla carta, allineata a destra (font regolare).
+  const isUnown = /^Unown\b/.test(card.name);
 
   // Barra specie: "Specie. Length h, Weight w."
   const speciesParts: string[] = [];
@@ -128,15 +133,24 @@ export function Card({
   if (card.weight) speciesParts.push(`Weight ${card.weight}.`);
   const speciesLine = speciesParts.join(" ");
 
-  // Flavor + livello (LV. x) + numero Pokédex (#y).
-  let flavor: React.ReactNode = null;
+    // Riga in basso: flavor (descrizione estesa) + livello (LV. x) e numero Pokédex (#y),
+  // resi in span espliciti. LV/# sono indipendenti dal flavor: si mostrano anche quando
+  // il flavor manca (es. carte Gym, che hanno level/pokedex ma niente descrizione).
+  let flavorText = "";
   if (card.flavor?.en) {
-    let t = card.flavor.en.trim();
-    if (!/[.!?"]$/.test(t)) t += ".";
-    const lv = card.level ? `  LV. ${card.level}` : "";
-    const dex = card.pokedex ? `  #${card.pokedex}` : "";
-    flavor = <div className="flavor">{t}{lv}{dex}</div>;
+    flavorText = card.flavor.en.trim();
+    if (!/[.!?"]$/.test(flavorText)) flavorText += ".";
   }
+  const lv = card.level ? `LV. ${card.level}` : "";
+  const dex = card.pokedex ? `#${card.pokedex}` : "";
+  const meta = [lv, dex].filter(Boolean).join("\u00A0\u00A0");
+  const flavor =
+    flavorText || meta ? (
+      <div className="flavor">
+        {flavorText ? <span className="flavor-text">{flavorText}</span> : null}
+        {meta ? <span className="flavor-meta">{flavorText ? "\u00A0\u00A0" : ""}{meta}</span> : null}
+      </div>
+    ) : null;
 
   const numStr = set?.printedTotal ? `${card.number}/${set.printedTotal}` : card.number;
   const copyright = set?.copyright || (set?.releaseDate ? `© ${String(set.releaseDate).slice(0, 4)}` : "");
@@ -154,6 +168,9 @@ export function Card({
               <span className="evo-from">Evolves from {card.evolvesFromName}</span>
               {prevStage ? <span className="evo-put">Put {card.name} on the {prevStage}</span> : null}
             </>
+          ) : null}
+          {isUnown ? (
+            <span className="unown-rule">You may have up to 4 Base Pokémon cards in your deck with Unown in their names.</span>
           ) : null}
         </div>
         <div className="header">

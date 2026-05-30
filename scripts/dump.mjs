@@ -116,6 +116,15 @@ function layoutFamily(series) {
 // Southern Islands (2001) usa il design dell'era Neo (stage sulla cornice, ecc.).
 const LAYOUT_OVERRIDE = { si1: "Neo" };
 
+// Promo (basep): famiglia per era di uscita, in base al NUMERO della carta.
+// #19 = Gym; dal #29 in poi = Neo; tutti gli altri (1–18, 20–28) = Base.
+function promoFamily(number) {
+  const n = parseInt(number, 10);
+  if (n === 19) return "Gym";
+  if (n >= 29) return "Neo";
+  return "Base";
+}
+
 function parseDamage(raw) {
   if (!raw) return { raw: "", value: null, modifier: null };
   const m = raw.match(/^(\d+)?\s*([+×x\-−])?$/);
@@ -244,6 +253,8 @@ async function main() {
       const card = {
         id: c.id,
         set: setId,
+        // Override famiglia layout (solo promo: variano per era di uscita). Vedi promoFamily().
+        layoutFamily: setId === "basep" ? promoFamily(c.number) : null,
         number: c.number,
         rarity: c.rarity ?? null,
         name: fullName,

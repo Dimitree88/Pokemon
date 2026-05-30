@@ -1,6 +1,7 @@
 {
   "id": "basep-10",
   "set": "basep",
+  "layoutFamily": "Base",
   "number": "10",
   "rarity": "Promo",
   "name": "Meowth",

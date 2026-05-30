@@ -243,7 +243,10 @@ Struttura app:
 
 ### Famiglie di layout (Base / Gym / Neo)
 Tre ere grafiche, dal campo `layoutFamily` del set: **Base** (Base, Jungle, Fossil, Team
-Rocket, Promos), **Gym** (Gym Heroes/Challenge), **Neo** (i 4 Neo + **Southern Islands**).
+Rocket), **Gym** (Gym Heroes/Challenge), **Neo** (i 4 Neo + **Southern Islands**).
+Risoluzione per carta: **`card.layoutFamily ?? set.layoutFamily`**. I **promo** (`basep`)
+appartengono a ere diverse → usano l'**override per-carta** `card.layoutFamily`, assegnato
+per numero in `dump.mjs` (`promoFamily`): **#19 = Gym**, **dal #29 in poi = Neo**, gli altri **Base**.
 Condividono ~80% (stessa anatomia e stessi dati). Architettura: **un solo template
 generico** (`<Card>`) con variazioni localizzate, scelte in base al *tipo* di differenza:
 - **Solo estetica** (cornice, proporzioni, font, colori, posizioni) → classe
@@ -254,6 +257,12 @@ generico** (`<Card>`) con variazioni localizzate, scelte in base al *tipo* di di
   etichetta stage sul riquadro foto, miniatura pre-evoluzione; Gym: proprietario, sfondo.
 
 Regola: *aspetto → CSS per famiglia; elemento/dato diverso → branch esplicito.*
+
+Differenze già **nei dati** (non in CSS): le carte **Gym non hanno flavor/descrizione
+estesa** (0 su 187; Base e Neo 100%). Il componente mostra `.flavor` solo se presente,
+quindi per le Gym non compare da sé — **non serve nasconderlo via CSS** (sarebbe ridondante
+e maschererebbe eventuali errori di dato). È una proprietà del *contenuto*, non dello *stile*.
+
 Stato: implementato **Base**; per **Neo** finora solo l'etichetta stage sul riquadro
 (+ baby, che però è trasversale allo *stage*, non alla famiglia). **Gym** non ancora
 differenziato. Da arricchire quando si introdurranno nuovi elementi grafici.
