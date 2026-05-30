@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), if you have Unown [W], Unown [A], Unown [N], and Unown [T] on your Bench, you may flip a coin. If heads, put a Trainer card from your discard pile into your hand."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "When you play Unown [I] from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can't use this power if your Bench is full."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

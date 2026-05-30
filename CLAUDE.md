@@ -13,8 +13,6 @@ c'è ancora da fare".**
 - **Tyrogue (neo2-66) — evoluzione baby**: ha 3 evoluzioni possibili
   (Hitmonlee/Hitmonchan/Hitmontop), quindi `evolvesIntoName` è `null` e le righe
   "Evolves into … / Put …" non sono mostrate. Decidere come gestire le multi-evoluzioni.
-- **Unown (Neo Discovery)**: gestione dedicata nel rendering — sia il testo in alto,
-  sia i simboli speciali (font/ricreazione "Unown TCG", vedi sezione Tipografia).
 - **Evoluzioni da Fossile Misterioso**: i Pokémon fossile evolvono da una carta
   *Trainer* (Mysterious Fossil) → `evolvesFromDex` è `null` (caso atteso). Gestire la
   resa/relazione di questa evoluzione speciale.
@@ -333,11 +331,12 @@ Note:
   | HP | `Futura` | `FuturaHeavy.ttf` |
   | Illustratore, numero carta | `FuturaI` | `FuturaHeavyItalic.ttf` |
   | Simboli energia/rarità | `EssentiarumTCG` | `EssentiarumTCG.ttf` |
+  | Glifo lettera Unown (accanto al nome) | `UnownTCG` | `UnownTCG.ttf` |
 
 - **`assets/fonts-all/`** — l'intera *"Complete Pokémon TCG Font Collection"* di
   pokemonaaah (sottocartelle per famiglia, nomi originali con spazi/parentesi).
-  **Esclusa dal deploy** via `.vercelignore` (solo archivio/riferimento). Contiene
-  anche `UnownTCG.ttf` (per il TODO Unown) e le famiglie non usate dal vintage:
+  **Esclusa dal deploy** via `.vercelignore` (solo archivio/riferimento). Contiene le
+  famiglie non usate dal vintage:
   Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
   Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue (JP), Pokémon TCG Pocket.
 

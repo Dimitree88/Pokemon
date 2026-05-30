@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), if you have Unown [G], Unown [I], Unown [V], and Unown [E] on your Bench, you may flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

@@ -60,7 +60,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), if you have Unown [J], Unown [O], Unown [I], and Unown Dragon on your Bench, you may search your deck for a Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

@@ -299,7 +299,8 @@ async function main() {
           .map((ab) => ({
             name: { en: ab.name },
             text: { en: tokenizeEnergy(ab.text) || null },
-            // colore: omesso = rosso (default)
+            // colore: omesso = rosso (default). Gli Unown hanno il potere viola.
+            ...(/^Unown\b/.test(fullName) ? { color: "purple" } : {}),
           })),
         _lang: ["en"],
       };

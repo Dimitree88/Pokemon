@@ -60,7 +60,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand and show your hand to your opponent. This power can be used even if Unown [T] is Asleep, Confused, or Paralyzed."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

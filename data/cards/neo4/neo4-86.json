@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), you may flip a coin. If heads, each player shuffles his or her deck. This power can be used even if Unown [L] is Asleep, Confused, or Paralyzed."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

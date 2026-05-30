@@ -69,10 +69,15 @@ function AttackRow({ sym, a }: { sym: Symbols; a: Attack }) {
   );
 }
 
-function PowerRow({ sym, p }: { sym: Symbols; p: Power }) {
+function PowerRow({ sym, p, isUnown }: { sym: Symbols; p: Power; isUnown?: boolean }) {
+  // Unown: la parola tra [ ] del nome potere (es. "Anger") va resa col font Unown,
+  // subito prima di "[Anger]". Colore del potere via classe power--<color> (default rosso).
+  const unownWord = isUnown ? p.name.en.match(/\[([^\]]+)\]/)?.[1] : null;
+  const colorCls = p.color ? ` power--${p.color}` : "";
   return (
-    <div className="power">
+    <div className={`power${colorCls}`}>
       <span className="power-tag">Pokémon Power:</span>{" "}
+      {unownWord ? <><span className="unown-glyph">{unownWord}</span>{" "}</> : null}
       <span className="power-name">{p.name.en}</span>{" "}
       <span className="power-text">{renderText(sym, p.text.en)}</span>
     </div>
@@ -124,7 +129,9 @@ export function Card({
   const showTopLeftStage = !(neoEra && card.stage === "Basic");
 
   // Unown: regola del mazzo in cima alla carta, allineata a destra (font regolare).
+  // Inoltre il glifo della lettera (font UnownTCG) va accanto al nome, prima di "[X]".
   const isUnown = /^Unown\b/.test(card.name);
+  const unownLetter = isUnown ? (card.name.match(/\[([A-Za-z])\]/)?.[1] ?? "").toUpperCase() : "";
 
   // Barra specie: "Specie. Length h, Weight w."
   const speciesParts: string[] = [];
@@ -174,7 +181,11 @@ export function Card({
           ) : null}
         </div>
         <div className="header">
-          <span className="name">{card.name}</span>
+          <span className="name">
+            {unownLetter
+              ? <>Unown <span className="unown-glyph">{unownLetter}</span> [{unownLetter}]</>
+              : card.name}
+          </span>
           <span className="hp">{card.hp} HP</span>
           <span className="type-ico"><EnergyIcon sym={sym} code={card.type} size={26} /></span>
         </div>
@@ -196,7 +207,7 @@ export function Card({
               ) : null}
             </div>
           ) : null}
-          {(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} sym={sym} p={p} />)}
+          {(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} sym={sym} p={p} isUnown={isUnown} />)}
           {(card.attacks || []).map((a, i) => <AttackRow key={`a${i}`} sym={sym} a={a} />)}
         </div>
         <WrrBar sym={sym} card={card} />

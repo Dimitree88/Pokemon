@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), you may look at 5 cards from the top of your opponent's deck and put them back in the same order."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

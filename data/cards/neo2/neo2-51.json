@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pokémon and all cards attached to it to your hand."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

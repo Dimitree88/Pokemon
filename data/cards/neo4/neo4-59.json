@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), you may flip a coin. If heads, prevent all effects of attacks, including damage, done to any of your Pokémon with Unown in its name during your opponent's next turn. If you have more than 1 Unown [Q] in play, use only 1 [Quicken] each turn. This power can be used even if Unown [Q] is Asleep, Confused, or Paralyzed."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

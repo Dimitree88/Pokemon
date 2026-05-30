@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "If an attack damaged Unown [P] during your opponent's last turn and Unown [P] was your Active Pokémon, Unown [P]'s Hidden Power attack does that much more damage to the Defending Pokémon. This power can be used even if Unown [P] is Confused."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Your opponent's attacks, Pokémon Powers, and Trainer cards can't discard Energy cards from your Pokémon with Unown in their names. (Any other effects still happen.)"
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "As long as Unown [C] is your Active Pokémon, whenever your opponent's Active Pokémon tries to retreat, flip a coin. If heads, put 1 damage counter on that Pokémon. Apply Weakness and Resistance."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [

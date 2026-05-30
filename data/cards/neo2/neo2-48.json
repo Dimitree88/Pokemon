@@ -59,7 +59,8 @@
       },
       "text": {
         "en": "Once during your turn (before your attack), if you have Unown [F], Unown [I], Unown [N], and Unown [D] on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
-      }
+      },
+      "color": "purple"
     }
   ],
   "_lang": [
