@@ -3,7 +3,7 @@
 // (layout Base/WOTC + regola del --card-scale).
 
 import React from "react";
-import type { Card as CardData, CardSet, Symbols, Attack, Power } from "./types";
+import type { Card as CardData, CardSet, Attack, Power } from "./types";
 
 // Colori per tipo: accent (bande) + tint (faccia) + frame (bordo arte).
 const TYPE_COLOR: Record<string, { accent: string; tint: string; frame: string }> = {
@@ -25,10 +25,6 @@ const RARITY_TIER: Record<string, string> = {
   Uncommon: "uncommon",
   Rare: "rare", "Rare Holo": "rare", "Rare Shining": "rare", "Rare Secret": "rare",
 };
-
-function Inline({ html, className, title }: { html: string; className?: string; title?: string }) {
-  return <span className={className} title={title} dangerouslySetInnerHTML={{ __html: html }} />;
-}
 
 // Simbolo energia/tipo: PNG statico indirizzato per convenzione dal codice
 // (/energy/<code>.png). Fallback a Colorless se il codice manca.
@@ -101,9 +97,9 @@ function WrrBar({ card }: { card: CardData }) {
 }
 
 export function Card({
-  card, set, sym, artUrl, setSymbolUrl,
+  card, set, artUrl, setSymbolUrl,
 }: {
-  card: CardData; set?: CardSet; sym: Symbols; artUrl: string; setSymbolUrl: string;
+  card: CardData; set?: CardSet; artUrl: string; setSymbolUrl: string;
 }) {
   const col = TYPE_COLOR[card.type ?? "C"] || TYPE_COLOR.C;
   // Sfondo per-tipo (PNG statico, livello più dietro): indirizzato per convenzione dal
@@ -169,7 +165,6 @@ export function Card({
   const copyright = set?.copyright || (set?.releaseDate ? `© ${String(set.releaseDate).slice(0, 4)}` : "");
 
   const tier = card.rarity ? RARITY_TIER[card.rarity] : null;
-  const raritySvg = tier ? sym.rarity[tier] : null;
 
   return (
     <div className={`card ${layoutClass}`} style={vars}>
@@ -232,7 +227,7 @@ export function Card({
           <span className="copy">{copyright}</span>
           <span className="right">
             <span className="cnum">{numStr}</span>
-            {raritySvg ? <Inline className="rarity-ico" title={card.rarity ?? ""} html={raritySvg} /> : null}
+            {tier ? <span className="rarity-ico" title={card.rarity ?? ""} style={{ ["--r" as string]: `url('/rarity/${tier}.png')` } as React.CSSProperties} /> : null}
           </span>
         </div>
       </div></div>

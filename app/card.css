@@ -194,5 +194,9 @@
 .footer .copy { flex: 1; text-align: center; }
 .footer .cnum { font-family: 'GillSansCB'; }
 .footer .right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
-.rarity-ico { display: inline-flex; width: 15px; height: 15px; }
-.rarity-ico svg { width: 100%; height: 100%; display: block; }
+/* Simbolo rarità: PNG (public/rarity/<tier>.png) usato come MASK → il colore lo dà
+   background-color (scuro sulla carta). L'URL arriva da --r (inline, per tier). */
+.rarity-ico {
+  display: inline-block; width: 15px; height: 15px; background-color: #1c1206;
+  -webkit-mask: var(--r) center / contain no-repeat; mask: var(--r) center / contain no-repeat;
+}

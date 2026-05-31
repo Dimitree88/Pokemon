@@ -254,9 +254,9 @@ Struttura app:
   entra intera in verticale con un margine (per vedere lo sfondo scuro); poi il valore
   scelto persiste in `sessionStorage`.
 - **`lib/card-render.tsx`** — il componente **`<Card>`** (server). Classi CSS definite in
-  `app/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache), **`lib/symbols.ts`**
-  (SVG **rarità** via fs; gli energy sono PNG statici), **`lib/card-utils.ts`** (puro: `TYPE_KEYWORDS`, `rarityTier`
-  — usabile anche client), **`lib/types.ts`** (tipi del modello).
+  `app/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache; tutti i simboli sono
+  PNG serviti per URL, nessun SVG/font lato runtime), **`lib/card-utils.ts`** (puro:
+  `TYPE_KEYWORDS`, `rarityTier` — usabile anche client), **`lib/types.ts`** (tipi del modello).
 - **`app/card.css`** — **unica fonte** di stile della carta. Colori per-tipo via variabili
   CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
 
@@ -360,8 +360,10 @@ Note:
   | Testo attacchi/poteri, danni, resto | `GillSans` | `GillSans.ttf` |
   | HP | `Futura` | `FuturaHeavy.ttf` |
   | Illustratore, numero carta | `FuturaI` | `FuturaHeavyItalic.ttf` |
-  | Simboli energia/rarità | `EssentiarumTCG` | `EssentiarumTCG.ttf` |
   | Glifo lettera Unown (accanto al nome) | `UnownTCG` | `UnownTCG.ttf` |
+
+  (`EssentiarumTCG.ttf` **non** è più un font runtime: serviva solo per energia/rarità, ora
+  PNG. È stato spostato in `assets/fonts-all/`, usato solo da `scripts/make-rarity.mjs`.)
 
 - **`assets/fonts-all/`** — l'intera *"Complete Pokémon TCG Font Collection"* di
   pokemonaaah (sottocartelle per famiglia, nomi originali con spazi/parentesi).
@@ -370,19 +372,20 @@ Note:
   Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
   Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue (JP), Pokémon TCG Pocket.
 
-#### Simboli energia (PNG) e rarità (SVG via EssentiarumTCG)
+#### Simboli: tutti PNG (niente SVG/font a runtime)
 - **Energia/tipo** — i 9 simboli (`{X}`) sono **PNG pre-generati a parte** e serviti
   staticamente da **`public/energy/<code>.png`** (`C D F G L M P R W`; indirizzati per
   convenzione dal codice, come i simboli set e l'arte). Resi con `<img>` nella carta
   (`lib/card-render.tsx`, `EnergyIcon`) e nel menu (`components/Sidebar.tsx`); **non**
   letti via fs e **non** inline. Fairy/Dragon (`FA`/`DR`) sono **fuori scope** (tipi
   post-WOTC): i relativi PNG restano in `assets/energy/` solo come archivio.
-- **Rarità** — restano SVG inline generati da **`make-assets.mjs`** col font-simboli
-  **EssentiarumTCG** (da pokemonaaah; licenza Creative Commons **non commerciale**,
-  ~31kb, v0.96): cifre `1`=● comune, `2`=◆ non comune, `3`=★ rara (stile "Old").
-  Letti via fs da `assets/rarity/` (`lib/symbols.ts`) e iniettati inline, col
-  `@font-face` EssentiarumTCG dichiarato in `app/globals.css`.
-- **Set** — PNG scaricati da pokemontcg.io (`make-assets.mjs`).
+- **Rarità** — **PNG ad alta risoluzione** in `public/rarity/<tier>.png`
+  (`common`=●, `uncommon`=◆, `rare`=★), generati da **`scripts/make-rarity.mjs`**
+  (Playwright + sharp) rasterizzando le cifre `1`/`2`/`3` del font **EssentiarumTCG**
+  (da pokemonaaah; CC non commerciale). Resi come **mask CSS** (`-webkit-mask`/`mask`) su
+  uno `<span>`: il colore lo dà `background-color` (scuro `#1c1206` sulla carta tramite
+  `.rarity-ico`, grigio nel menu) — un solo PNG monocromo serve entrambi i contesti.
+- **Set** — PNG scaricati da pokemontcg.io (`make-assets.mjs` → `public/sets/`).
 - Ispezione del font: `scripts/inspect-font.mjs`.
 
 (Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,

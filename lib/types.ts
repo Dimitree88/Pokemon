@@ -78,8 +78,3 @@ export interface CardIndexEntry {
   setName: string;
 }
 
-// Simboli rarità (tier → markup SVG inline). I simboli energia/tipo sono PNG
-// statici serviti da /energy/<code>.png, non passano da qui.
-export interface Symbols {
-  rarity: Record<string, string>;
-}

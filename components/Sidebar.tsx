@@ -2,21 +2,21 @@
 
 // Menu laterale: set collassabili, ricerca (nome/numero/tipo), zoom, espandi/collassa
 // tutti. Vive nel layout → resta montato durante la navigazione tra carte (niente
-// flash). I simboli rarità arrivano come stringhe SVG dal server; quelli tipo/energia
-// sono PNG statici (/energy/<code>.png).
+// flash). I simboli tipo/energia sono PNG statici (/energy/<code>.png); le rarità sono
+// PNG usati come mask CSS (/rarity/<tier>.png), colorati grigi per il menu.
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { CardIndexEntry, Symbols } from "@/lib/types";
+import type { CardIndexEntry } from "@/lib/types";
 import { TYPE_KEYWORDS, rarityTier } from "@/lib/card-utils";
 
 type Group = { setId: string; setName: string; cards: CardIndexEntry[] };
 
 export default function Sidebar({
-  index, sym, setSymbolIds,
+  index, setSymbolIds,
 }: {
-  index: CardIndexEntry[]; sym: Symbols; setSymbolIds: string[];
+  index: CardIndexEntry[]; setSymbolIds: string[];
 }) {
   const pathname = usePathname();
   const currentId = pathname?.startsWith("/card/") ? decodeURIComponent(pathname.slice("/card/".length)) : null;
@@ -71,10 +71,6 @@ export default function Sidebar({
   const curRef = useRef<HTMLAnchorElement | null>(null);
   useEffect(() => { curRef.current?.scrollIntoView({ block: "center" }); }, [currentId]);
 
-  const raritySym = (r: string | null) => {
-    const tier = rarityTier(r);
-    return tier ? sym.rarity[tier].replace(/fill="[^"]*"/g, 'fill="#bbb"') : null;
-  };
 
   return (
     <aside className="fixed left-0 top-0 w-72 h-screen overflow-y-auto bg-neutral-900 text-neutral-200 text-[13px] leading-tight border-r border-black font-sans">
@@ -117,7 +113,7 @@ export default function Sidebar({
               <div>
                 {matches.map((c) => {
                   const active = currentId === c.id;
-                  const rsvg = raritySym(c.rarity);
+                  const rtier = rarityTier(c.rarity);
                   return (
                     <Link
                       key={c.id} href={`/card/${c.id}`} ref={active ? curRef : undefined}
@@ -128,7 +124,7 @@ export default function Sidebar({
                         ? <img src={`/energy/${c.type}.png`} alt="" className="w-[15px] h-[15px] shrink-0 object-contain" />
                         : null}
                       <span className="flex-1 truncate">{c.name}</span>
-                      {rsvg ? <span className="w-[13px] h-[13px] shrink-0 [&_svg]:w-full [&_svg]:h-full" dangerouslySetInnerHTML={{ __html: rsvg }} /> : null}
+                      {rtier ? <span className="w-[13px] h-[13px] shrink-0 bg-neutral-400" style={{ WebkitMaskImage: `url('/rarity/${rtier}.png')`, maskImage: `url('/rarity/${rtier}.png')`, WebkitMaskSize: "contain", maskSize: "contain", WebkitMaskRepeat: "no-repeat", maskRepeat: "no-repeat", WebkitMaskPosition: "center", maskPosition: "center" }} /> : null}
                     </Link>
                   );
                 })}
