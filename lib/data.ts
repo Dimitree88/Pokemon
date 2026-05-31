@@ -49,11 +49,11 @@ export function getSet(setId: string): CardSet | undefined {
   return sets.find((s) => s.id === setId);
 }
 
-// Set con simbolo disponibile (Base non ce l'ha). L'esistenza si verifica su
-// assets/sets/ (incluso nel bundle serverless via outputFileTracingIncludes); l'URL
-// servito è invece /sets/<id>.png (statico da public/). I due elenchi coincidono.
+// Set con simbolo disponibile (Base non ce l'ha). I simboli stanno SOLO in public/sets/
+// (unica copia, serviti come /sets/<id>.png); l'esistenza si verifica lì via fs (la cartella
+// è inclusa nel bundle serverless via outputFileTracingIncludes in next.config.mjs).
 export const setSymbolIds: string[] = sets
-  .filter((s) => existsSync(path.join(ROOT, "assets", "sets", `${s.id}.png`)))
+  .filter((s) => existsSync(path.join(ROOT, "public", "sets", `${s.id}.png`)))
   .map((s) => s.id);
 const setSymbolSet = new Set(setSymbolIds);
 export function setHasSymbol(setId: string): boolean {

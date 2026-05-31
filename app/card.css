@@ -6,131 +6,193 @@
      GillSansBI = Gill Sans Bold Italic (info bar, "evolves from", flavor)
      Futura     = Futura Heavy (HP)
      FuturaI    = Futura Heavy Italic (illustratore, numero)
-   Coordinate per una carta 500x700.
 
-   SCALING — REGOLA ASSOLUTA: la carta si disegna SEMPRE a 500x700px con misure
-   fisse. Per ridimensionarla NON si toccano i valori interni: si imposta un solo
-   fattore `--card-scale` e l'intera carta viene scalata geometricamente
-   (transform: scale), così TUTTO — posizioni, font, bordi, SVG, artwork —
-   scala in modo perfettamente proporzionale. Nessuna misura interna deve mai
-   dipendere dalla dimensione di output. Il contenitore `.card-box` riserva lo
+   GEOMETRIA — coordinate NATIVE: il sistema interno è alla risoluzione NATIVA dello
+   sfondo (674×949). Lo SFONDO (livello più dietro) è la source of truth del rapporto e
+   riempie l'area 674×949; il bordo giallo (--border) è AGGIUNTO ATTORNO (esterno, non lo
+   ritaglia) → carta intera 722×997. Gli elementi PNG (assets/elements) sono già a scala
+   nativa → si usano in px NATIVI 1:1 (nessun fattore di resize). I contenuti sono
+   posizionati in px rispetto all'angolo della carta.
+
+   SCALING — REGOLA ASSOLUTA: la carta si disegna SEMPRE a misura fissa nativa in px. Per
+   ridimensionarla NON si toccano i valori interni: si imposta un solo fattore
+   `--card-scale` e l'intera carta viene scalata geometricamente (transform: scale), così
+   TUTTO scala in modo proporzionale. A zoom 100% (`--card-scale` 1) sfondo ed elementi
+   sono resi a grandezza NATIVA (nessun resize). Il contenitore `.card-box` riserva lo
    spazio della carta scalata (la transform non altera il box di layout). */
 
 :root {
-  --card-w: 500px; --card-h: 700px; --gold: #C9A227;
-  --art-w: 420px;                       /* larghezza cornice foto (centrata) */
+  /* --card-w/--card-h = AREA SFONDO (livello più dietro) a risoluzione NATIVA, source of
+     truth del rapporto: sfondi per-tipo 674×949 → 0.7102.
+     --border = bordo giallo, AGGIUNTO ATTORNO allo sfondo → carta intera 722×997. */
+  --card-w: 674px; --card-h: 949px; --border: 24px; --gold: #C9A227;
+  --art-w: 566px;                       /* larghezza riferimento foto (centrata) */
   --bar-w: calc(var(--art-w) * 0.85);   /* barra specie ~15% più stretta */
 }
 
 /* Sfondo e font dell'app sono gestiti dal layout (Tailwind); qui solo la carta.
    Il box-model è già normalizzato dal preflight di Tailwind. */
 
-.card-box { width: calc(var(--card-w) * var(--card-scale, 1)); height: calc(var(--card-h) * var(--card-scale, 1)); }
+/* La carta intera = area sfondo + bordo su ogni lato (--border). */
+.card-box {
+  width: calc((var(--card-w) + 2 * var(--border)) * var(--card-scale, 1));
+  height: calc((var(--card-h) + 2 * var(--border)) * var(--card-scale, 1));
+}
 .card {
-  position: relative; width: var(--card-w); height: var(--card-h); border-radius: 18px; overflow: hidden;
-  background: #F6D63B;
+  position: relative; border-radius: 24px; overflow: hidden;
+  width: calc(var(--card-w) + 2 * var(--border));
+  height: calc(var(--card-h) + 2 * var(--border));
+  background: #F6D63B;  /* bordo giallo, esterno allo sfondo */
   transform: scale(var(--card-scale, 1)); transform-origin: top left;
 }
-/* Area interna: nessun border-radius (solo lo sfondo giallo esterno è arrotondato).
-   overflow:hidden ritaglia il contenuto, così nulla esce sul bordo giallo. */
-.face { position: absolute; inset: 18px; overflow: hidden; background: var(--tint); }
-.canvas { position: absolute; inset: -18px; }  /* ripristina coordinate 500x700 */
+/* .face = AREA SFONDO (674×949), inset del bordo: lo sfondo per-tipo (PNG, --bg) è il
+   livello PIÙ DIETRO e ha lo stesso rapporto della .face → cover riempie SENZA ritaglio.
+   Il bordo giallo del .card resta esterno. --tint = colore di fallback. */
+.face {
+  position: absolute; inset: var(--border); overflow: hidden;
+  background-color: var(--tint);
+  background-image: var(--bg); background-size: cover; background-position: center;
+}
+/* I contenuti vivono in coordinate-carta (origine all'angolo, copre tutta la carta),
+   così mantengono le stesse distanze dai bordi visibili. */
+.canvas { position: absolute; inset: calc(-1 * var(--border)); }
 
-.toprow { position: absolute; left: 30px; right: 30px; top: 22px; display: flex; align-items: center; gap: 8px; }
-.stage { font-family: 'GillSansCB'; font-size: 9px; color: #000; text-transform: uppercase; white-space: nowrap; }
+.toprow { position: absolute; left: 40px; right: 40px; top: 30px; display: flex; align-items: center; gap: 11px; }
+.stage { font-family: 'GillSansCB'; font-size: 12px; color: #000; text-transform: uppercase; white-space: nowrap; }
 .stage--basic { text-transform: none; }
 /* Baby: la riga occupa tutta la toprow e il testo va a destra. */
 .stage--baby { margin-left: auto; text-align: right; }
-.evo-from { font-family: 'GillSansBI'; font-size: 9px; color: #000; white-space: nowrap; }
-.evo-put { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #000; text-align: right; }
+.evo-from { font-family: 'GillSansBI'; font-size: 12px; color: #000; white-space: nowrap; }
+.evo-put { margin-left: auto; font-family: 'GillSans'; font-size: 12px; color: #000; text-align: right; }
 /* Unown: regola del mazzo in cima alla carta, allineata a destra, font regolare (non bold/italic). */
-.unown-rule { margin-left: auto; font-family: 'GillSans'; font-size: 9px; color: #000; white-space: nowrap; }
-.header { position: absolute; left: 28px; right: 28px; top: 38px; display: flex; align-items: baseline; gap: 8px; }
-.name { font-family: 'GillSansCB'; font-size: 28px; color: #000; letter-spacing: .2px; }
+.unown-rule { margin-left: auto; font-family: 'GillSans'; font-size: 12px; color: #000; white-space: nowrap; }
+
+/* Barra evoluzione (elemento base_evolbar): in alto a sinistra, SOLO Stage 1/2. Badge oro a
+   sinistra con la miniatura della pre-evoluzione (/art/<id>-evo.png) + linea con i testi
+   "Evolves from …" / "Put …". Dimensione e coordinate dei figli in px NATIVI 1:1 (652×151). */
+.evolbar {
+  position: absolute; z-index: 2; top: 24px; left: 30px;
+  width: 652px; height: 151px;
+  background-image: url('/elements/base_evolbar.png');
+  background-size: auto; background-repeat: no-repeat; background-position: center;
+}
+.evolbar-thumb {
+  position: absolute; left: 34px; top: 40px; width: 82px; height: 78px;
+  background-size: cover; background-position: center;
+}
+.evolbar-text {
+  position: absolute; left: 150px; top: 18px;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.evolbar .evo-from, .evolbar .evo-put { margin: 0; text-align: left; white-space: nowrap; }
+
+.header { position: absolute; left: 38px; right: 38px; top: 51px; display: flex; align-items: baseline; gap: 11px; }
+.name { font-family: 'GillSansCB'; font-size: 38px; color: #000; letter-spacing: .3px; }
 /* Unown: glifo della lettera accanto al nome (font dedicato UnownTCG). */
 .unown-glyph { font-family: 'UnownTCG'; }
 /* HP: numero poi "HP", stesso font e stessa dimensione (GillSans, non bold, non italic). */
-.hp { margin-left: auto; font-family: 'GillSans'; font-size: 20px; color: #c0271a; white-space: nowrap; }
+.hp { margin-left: auto; font-family: 'GillSans'; font-size: 27px; color: #c0271a; white-space: nowrap; }
 /* Era Neo: gli HP sono neri (non rossi come Base/Gym). */
 .layout-neo .hp { color: #000; }
 .type-ico { display: inline-flex; align-self: center; }
 
-/* Cornice foto: oro, spessa, senza ombra né border-radius (outline = non sposta il layout). */
-/* Cornice foto: oro, larghezza fissa (--art-w), centrata sulla card (left 50%). */
+/* ELEMENTI PNG = MASTER, a dimensione NATIVA 1:1: ogni box è grande ESATTAMENTE quanto il
+   PNG e usa `background-size: auto` (intrinseco) → MAI resize/stretch/crop. Il testo è
+   SLAVE: posizionato/centrato sopra l'elemento, si adatta a esso. */
+
+/* Foto + cornice (elemento base_frame): box = PNG nativo (591×423), centrato.
+   L'artwork riempie il box (cover); la cornice PNG è sovrapposta via ::after (i bordi oro
+   coprono i margini della foto, il centro cavo la mostra). */
 .art {
-  position: absolute; top: 96px; left: 50%; transform: translateX(-50%);
-  width: var(--art-w); height: 236px;
-  background-size: 500px 700px; background-position: -40px -96px;
-  outline: 5px solid var(--gold);
+  position: absolute; top: 100px; left: 50%; transform: translateX(-50%);
+  width: 591px; height: 423px;
+  background-size: cover; background-position: center;
 }
-/* Etichetta stage sul riquadro foto (solo era Neo+): in alto a destra, bold italic. */
-.art-stage { position: absolute; top: 4px; right: 6px; font-family: 'GillSansBI'; font-size: 9px; color: #000; }
-/* Barra specie: larghezza fissa (--bar-w, ~15% < cornice foto), centrata sulla card.
-   Indipendente dal logo set, che le galleggia accanto in posizione assoluta. */
+.art::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image: url('/elements/base_frame.png');
+  background-size: auto; background-repeat: no-repeat; background-position: center;
+}
+/* Etichetta stage sul riquadro foto (solo era Neo+): in alto a destra, bold italic.
+   z-index > cornice ::after così resta visibile sopra il bordo. */
+.art-stage { position: absolute; z-index: 1; top: 8px; right: 11px; font-family: 'GillSansBI'; font-size: 12px; color: #000; }
+
+/* Barra specie: sfondo = elemento base_middle (barra gold, altezza NATIVA 47px), testo
+   centrato. Larghezza fittata (--bar-w) — il PNG è una barra gradiente stirabile. */
+/* Barra specie: box = PNG nativo base_middle (534×30), centrato → reso 1:1, nessuna
+   deformazione. Il testo specie è slave: centrato sulla barra. */
 .species {
-  position: absolute; top: 340px; left: 50%; transform: translateX(-50%); width: var(--bar-w);
-  background: var(--gold); color: #000; font-family: 'GillSansBI'; font-size: 10px;
-  text-align: center; padding: 3px 4px;
+  position: absolute; top: 534px; left: 50%; transform: translateX(-50%);
+  width: 534px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
+  background-image: url('/elements/base_middle.png');
+  background-size: auto; background-repeat: no-repeat; background-position: center;
+  color: #000; font-family: 'GillSansBI'; font-size: 13px; text-align: center; padding: 0 8px;
 }
-.setico { position: absolute; top: 338px; right: 34px; width: 24px; height: 24px; object-fit: contain; }
-.body { position: absolute; left: 30px; right: 30px; top: 366px; bottom: 96px; overflow: hidden; }
+.setico { position: absolute; top: 531px; right: 46px; width: 32px; height: 32px; object-fit: contain; }
+.body { position: absolute; left: 40px; right: 40px; top: 590px; bottom: 178px; overflow: hidden; }
 /* Separatore solo TRA mosse consecutive (mai sopra la prima). La barra che divide
    le mosse dalla sezione weakness è il border-top di .wrr. */
-.body > * + * { border-top: 3px solid #000; }
+.body > * + * { border-top: 4px solid #000; }
 
 /* Sezione baby: attributo speciale (rosso corsivo) + riga "Evolves into … (bold italic)
    Put … on the Baby Pokémon (regolare)" sulla stessa riga, separati da 2 spazi. */
-.baby { padding: 6px 2px; line-height: 1.34; }
-.baby-rule { font-family: 'GillSans'; font-style: italic; font-size: 11.5px; color: #c0271a; }
-.baby-evo { margin-top: 4px; font-size: 11.5px; color: #000; }
+.baby { padding: 8px 3px; line-height: 1.34; }
+.baby-rule { font-family: 'GillSans'; font-style: italic; font-size: 15.5px; color: #c0271a; }
+.baby-evo { margin-top: 5px; font-size: 15.5px; color: #000; }
 .baby-evo-into { font-family: 'GillSansBI'; }
 .baby-evo-put { font-family: 'GillSans'; }
 
 /* Colore del potere: default rosso, override per-potere via classe power--<color>
    (dal campo `color` nel JSON). Il viola (Unown) è definito QUI, in un unico punto. */
-.power { padding: 6px 2px; line-height: 1.34; --power-color: #c0271a; }
+.power { padding: 8px 3px; line-height: 1.34; --power-color: #c0271a; }
 .power--purple { --power-color: #7b2fbe; }
-.power-tag, .power-name { font-family: 'GillSansCB'; color: var(--power-color); font-size: 15px; }
-.power-text { font-family: 'GillSans'; font-size: 11.5px; color: #000; }
+.power-tag, .power-name { font-family: 'GillSansCB'; color: var(--power-color); font-size: 20px; }
+.power-text { font-family: 'GillSans'; font-size: 15.5px; color: #000; }
 /* Il glifo Unown nel potere segue il colore del potere. */
 .power .unown-glyph { color: var(--power-color); }
 
-.atk { padding: 6px 0; display: flex; align-items: baseline; gap: 8px; }
+.atk { padding: 8px 0; display: flex; align-items: baseline; gap: 11px; }
 /* Costo energia: max 2 simboli per riga, centrati (3°→a capo centrato, 4→2x2). */
 .atk-cost { display: flex; flex-wrap: wrap; justify-content: center; align-content: center;
-  gap: 2px; width: 54px; flex: none; }
+  gap: 3px; width: 73px; flex: none; }
 .atk-body { flex: 1; line-height: 1.34; }
-.atk-name { font-family: 'GillSansCB'; font-size: 17px; color: #000; }
-.atk-text { font-family: 'GillSans'; font-size: 11.5px; color: #000; }
-.atk-dmg { flex: none; font-family: 'GillSans'; font-size: 21px; color: #000; }
+.atk-name { font-family: 'GillSansCB'; font-size: 23px; color: #000; }
+.atk-text { font-family: 'GillSans'; font-size: 15.5px; color: #000; }
+.atk-dmg { flex: none; font-family: 'GillSans'; font-size: 28px; color: #000; }
 
-.en { display: inline-flex; vertical-align: middle; }
-.en svg { width: 100%; height: 100%; display: block; }
+.en { display: inline-block; vertical-align: middle; object-fit: contain; }
 
 .wrr {
-  position: absolute; left: 30px; right: 30px; bottom: 56px; display: flex;
-  border-top: 3px solid #000; padding: 5px 0;
+  position: absolute; left: 40px; right: 40px; bottom: 135px; display: flex;
+  border-top: 4px solid #000; padding: 7px 0;
 }
 .wrr-cell { flex: 1; text-align: center; }
-.wrr-label { font-family: 'GillSansCB'; font-size: 9px; color: #000; text-transform: lowercase; }
-.wrr-val { display: flex; align-items: center; justify-content: center; gap: 3px; min-height: 24px; }
-.wrr-x { font-family: 'GillSans'; font-size: 14px; color: #000; }
+.wrr-label { font-family: 'GillSansCB'; font-size: 12px; color: #000; text-transform: lowercase; }
+.wrr-val { display: flex; align-items: center; justify-content: center; gap: 4px; min-height: 32px; }
+.wrr-x { font-family: 'GillSans'; font-size: 19px; color: #000; }
 
-/* Riga in basso. Due parti esplicite: .flavor-text (descrizione estesa) e .flavor-meta
-   (LV. e #). Le carte Gym non hanno flavor → resta solo .flavor-meta. */
+/* Box in basso (elemento base_bottombar): contiene la descrizione estesa (.flavor-text) e
+   LV./# (.flavor-meta). Dimensione NATIVA 1:1 (619×71), centrato. Le carte Gym non hanno
+   flavor → resta solo .flavor-meta. */
 .flavor {
-  position: absolute; left: 30px; right: 30px; bottom: 30px; font-family: 'GillSansBI'; font-size: 10.5px;
-  color: #000; line-height: 1.3;
+  position: absolute; left: 50%; transform: translateX(-50%); bottom: 57px;
+  width: 619px; height: 71px;
+  background-image: url('/elements/base_bottombar.png');
+  background-size: auto; background-repeat: no-repeat; background-position: center;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 5px 19px; overflow: hidden;
+  font-family: 'GillSansBI'; font-size: 14px; color: #000; line-height: 1.3;
 }
 .flavor-meta { white-space: nowrap; }  /* "LV. 76  #6" non va mai a capo */
 /* Footer: niente corsivo; illustratore e numero in bold, copyright regolare al centro. */
 .footer {
-  position: absolute; left: 30px; right: 30px; bottom: 20px; display: flex; align-items: center;
-  font-family: 'GillSans'; font-size: 9px; color: #000;
+  position: absolute; left: 40px; right: 40px; bottom: 28px; display: flex; align-items: center;
+  font-family: 'GillSans'; font-size: 12px; color: #000;
 }
 .footer .illus { font-family: 'GillSansCB'; }
 .footer .copy { flex: 1; text-align: center; }
 .footer .cnum { font-family: 'GillSansCB'; }
-.footer .right { margin-left: auto; display: flex; align-items: center; gap: 6px; }
-.rarity-ico { display: inline-flex; width: 11px; height: 11px; }
+.footer .right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.rarity-ico { display: inline-flex; width: 15px; height: 15px; }
 .rarity-ico svg { width: 100%; height: 100%; display: block; }

@@ -30,46 +30,47 @@ function Inline({ html, className, title }: { html: string; className?: string; 
   return <span className={className} title={title} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
-function EnergyIcon({ sym, code, size }: { sym: Symbols; code: string | null; size: number }) {
-  const svg = sym.energy[code ?? "C"] || sym.energy.C;
-  return <span className="en" style={{ width: size, height: size }} dangerouslySetInnerHTML={{ __html: svg }} />;
+// Simbolo energia/tipo: PNG statico indirizzato per convenzione dal codice
+// (/energy/<code>.png). Fallback a Colorless se il codice manca.
+function EnergyIcon({ code, size }: { code: string | null; size: number }) {
+  return <img className="en" src={`/energy/${code ?? "C"}.png`} alt="" style={{ width: size, height: size }} />;
 }
 
 // Token energia {X} → simbolo; resto testo. Ritorna nodi React.
-function tokenize(sym: Symbols, text: string): React.ReactNode[] {
+function tokenize(text: string): React.ReactNode[] {
   return text.split(/(\{[GRWLPFCDM]\})/).map((p, i) => {
     const m = p.match(/^\{([GRWLPFCDM])\}$/);
-    return m ? <EnergyIcon key={i} sym={sym} code={m[1]} size={16} /> : <React.Fragment key={i}>{p}</React.Fragment>;
+    return m ? <EnergyIcon key={i} code={m[1]} size={16} /> : <React.Fragment key={i}>{p}</React.Fragment>;
   });
 }
 
 // Testo attacchi/poteri: le frasi tra parentesi (incluse) vanno in corsivo.
-function renderText(sym: Symbols, text: string | null | undefined): React.ReactNode {
+function renderText(text: string | null | undefined): React.ReactNode {
   if (!text) return null;
   return text.split(/(\([^)]*\))/).map((seg, i) =>
-    /^\(.*\)$/.test(seg) ? <i key={i}>{tokenize(sym, seg)}</i> : <React.Fragment key={i}>{tokenize(sym, seg)}</React.Fragment>
+    /^\(.*\)$/.test(seg) ? <i key={i}>{tokenize(seg)}</i> : <React.Fragment key={i}>{tokenize(seg)}</React.Fragment>
   );
 }
 
-function CostIcons({ sym, cost }: { sym: Symbols; cost: string[] }) {
-  if (!cost || cost.length === 0) return <EnergyIcon sym={sym} code="C" size={26} />;
-  return <>{cost.map((c, i) => <EnergyIcon key={i} sym={sym} code={c} size={26} />)}</>;
+function CostIcons({ cost }: { cost: string[] }) {
+  if (!cost || cost.length === 0) return <EnergyIcon code="C" size={26} />;
+  return <>{cost.map((c, i) => <EnergyIcon key={i} code={c} size={26} />)}</>;
 }
 
-function AttackRow({ sym, a }: { sym: Symbols; a: Attack }) {
+function AttackRow({ a }: { a: Attack }) {
   return (
     <div className="atk">
-      <div className="atk-cost"><CostIcons sym={sym} cost={a.cost} /></div>
+      <div className="atk-cost"><CostIcons cost={a.cost} /></div>
       <div className="atk-body">
         <span className="atk-name">{a.name.en}</span>
-        {a.text?.en ? <>{" "}<span className="atk-text">{renderText(sym, a.text.en)}</span></> : null}
+        {a.text?.en ? <>{" "}<span className="atk-text">{renderText(a.text.en)}</span></> : null}
       </div>
       {a.damage?.raw ? <div className="atk-dmg">{a.damage.raw}</div> : null}
     </div>
   );
 }
 
-function PowerRow({ sym, p, isUnown }: { sym: Symbols; p: Power; isUnown?: boolean }) {
+function PowerRow({ p, isUnown }: { p: Power; isUnown?: boolean }) {
   // Unown: la parola tra [ ] del nome potere (es. "Anger") va resa col font Unown,
   // subito prima di "[Anger]". Colore del potere via classe power--<color> (default rosso).
   const unownWord = isUnown ? p.name.en.match(/\[([^\]]+)\]/)?.[1] : null;
@@ -79,22 +80,22 @@ function PowerRow({ sym, p, isUnown }: { sym: Symbols; p: Power; isUnown?: boole
       <span className="power-tag">Pokémon Power:</span>{" "}
       {unownWord ? <><span className="unown-glyph">{unownWord}</span>{" "}</> : null}
       <span className="power-name">{p.name.en}</span>{" "}
-      <span className="power-text">{renderText(sym, p.text.en)}</span>
+      <span className="power-text">{renderText(p.text.en)}</span>
     </div>
   );
 }
 
-function WrrBar({ sym, card }: { sym: Symbols; card: CardData }) {
+function WrrBar({ card }: { card: CardData }) {
   const cell = (label: string, content: React.ReactNode) => (
     <div className="wrr-cell"><div className="wrr-label">{label}</div><div className="wrr-val">{content}</div></div>
   );
   // Debolezza: nell'era vintage il moltiplicatore (×2) NON era stampato — solo il simbolo.
-  const wk = card.weaknesses.map((w, i) => <EnergyIcon key={i} sym={sym} code={w.type} size={22} />);
+  const wk = card.weaknesses.map((w, i) => <EnergyIcon key={i} code={w.type} size={22} />);
   const rs = card.resistances.map((r, i) => (
-    <React.Fragment key={i}><EnergyIcon sym={sym} code={r.type} size={22} /><span className="wrr-x">{r.value}</span></React.Fragment>
+    <React.Fragment key={i}><EnergyIcon code={r.type} size={22} /><span className="wrr-x">{r.value}</span></React.Fragment>
   ));
   const rt = card.retreatCost > 0
-    ? Array.from({ length: card.retreatCost }, (_, i) => <EnergyIcon key={i} sym={sym} code="C" size={22} />)
+    ? Array.from({ length: card.retreatCost }, (_, i) => <EnergyIcon key={i} code="C" size={22} />)
     : null;
   return <div className="wrr">{cell("weakness", wk)}{cell("resistance", rs)}{cell("retreat cost", rt)}</div>;
 }
@@ -105,7 +106,12 @@ export function Card({
   card: CardData; set?: CardSet; sym: Symbols; artUrl: string; setSymbolUrl: string;
 }) {
   const col = TYPE_COLOR[card.type ?? "C"] || TYPE_COLOR.C;
-  const vars = { "--accent": col.accent, "--tint": col.tint, "--frame": col.frame } as React.CSSProperties;
+  // Sfondo per-tipo (PNG statico, livello più dietro): indirizzato per convenzione dal
+  // codice tipo, come energy/set. --tint resta come colore di fallback.
+  const vars = {
+    "--accent": col.accent, "--tint": col.tint, "--frame": col.frame,
+    "--bg": `url('/backgrounds/${card.type ?? "C"}.png')`,
+  } as React.CSSProperties;
 
   // Riga evoluzione: "Evolves from X" + "Put NAME on the <stage prec.> card".
   const prevStage = card.stage === "Stage 2" ? "Stage 1 card" : card.stage === "Stage 1" ? "Basic Pokémon" : null;
@@ -170,16 +176,25 @@ export function Card({
       <div className="face"><div className="canvas">
         <div className="toprow">
           {showTopLeftStage ? <span className={stageCls}>{stageLabel}</span> : null}
-          {card.evolvesFromName ? (
-            <>
-              <span className="evo-from">Evolves from {card.evolvesFromName}</span>
-              {prevStage ? <span className="evo-put">Put {card.name} on the {prevStage}</span> : null}
-            </>
+          {/* "Evolves from" senza badge: solo per i casi non Stage 1/2 (es. fossili che
+              evolvono da una carta Trainer → prevStage null). Lo Stage 1/2 usa la .evolbar. */}
+          {card.evolvesFromName && !prevStage ? (
+            <span className="evo-from">Evolves from {card.evolvesFromName}</span>
           ) : null}
           {isUnown ? (
             <span className="unown-rule">You may have up to 4 Base Pokémon cards in your deck with Unown in their names.</span>
           ) : null}
         </div>
+        {/* Barra evoluzione (Stage 1/2): badge con miniatura pre-evo + testi. */}
+        {prevStage ? (
+          <div className="evolbar">
+            <div className="evolbar-thumb" style={{ backgroundImage: `url('/art/${card.id}-evo.png')` }} />
+            <div className="evolbar-text">
+              <span className="evo-from">Evolves from {card.evolvesFromName}</span>
+              <span className="evo-put">Put {card.name} on the {prevStage}</span>
+            </div>
+          </div>
+        ) : null}
         <div className="header">
           <span className="name">
             {unownLetter
@@ -187,7 +202,7 @@ export function Card({
               : card.name}
           </span>
           <span className="hp">{card.hp} HP</span>
-          <span className="type-ico"><EnergyIcon sym={sym} code={card.type} size={26} /></span>
+          <span className="type-ico"><EnergyIcon code={card.type} size={26} /></span>
         </div>
         <div className="art" style={{ backgroundImage: `url('${artUrl}')` }}>
           {neoEra ? <span className="art-stage">{frameStageLabel}</span> : null}
@@ -197,7 +212,7 @@ export function Card({
         <div className="body">
           {isBaby ? (
             <div className="baby">
-              <div className="baby-rule">{renderText(sym, card.babyInfo?.en || "")}</div>
+              <div className="baby-rule">{renderText(card.babyInfo?.en || "")}</div>
               {card.evolvesIntoName ? (
                 <div className="baby-evo">
                   <span className="baby-evo-into">Evolves into {card.evolvesIntoName}</span>
@@ -207,10 +222,10 @@ export function Card({
               ) : null}
             </div>
           ) : null}
-          {(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} sym={sym} p={p} isUnown={isUnown} />)}
-          {(card.attacks || []).map((a, i) => <AttackRow key={`a${i}`} sym={sym} a={a} />)}
+          {(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} p={p} isUnown={isUnown} />)}
+          {(card.attacks || []).map((a, i) => <AttackRow key={`a${i}`} a={a} />)}
         </div>
-        <WrrBar sym={sym} card={card} />
+        <WrrBar card={card} />
         {flavor}
         <div className="footer">
           <span className="illus">Illus. {card.illustrator}</span>

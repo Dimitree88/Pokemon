@@ -2,7 +2,8 @@
 
 // Menu laterale: set collassabili, ricerca (nome/numero/tipo), zoom, espandi/collassa
 // tutti. Vive nel layout → resta montato durante la navigazione tra carte (niente
-// flash). Simboli energia/rarità arrivano come stringhe SVG dal server.
+// flash). I simboli rarità arrivano come stringhe SVG dal server; quelli tipo/energia
+// sono PNG statici (/energy/<code>.png).
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -55,8 +56,14 @@ export default function Sidebar({
   const setZoom = (pct: number) => document.documentElement.style.setProperty("--card-scale", String(pct / 100));
   const [zoom, setZoomState] = useState(100);
   useEffect(() => {
-    const saved = Math.min(200, Math.max(50, parseInt(sessionStorage.getItem("zoom") || "100", 10) || 100));
-    setZoomState(saved); setZoom(saved);
+    const stored = sessionStorage.getItem("zoom");
+    // Avvio senza zoom salvato: adatta lo zoom così la carta entra INTERA in altezza, con
+    // un margine per far vedere lo sfondo scuro dietro. CARD_FULL_H = altezza carta a
+    // scale 1 (deve combaciare con card.css: --card-h 949 + 2×--border 24 = 997).
+    const CARD_FULL_H = 997;
+    const fit = Math.round(((window.innerHeight * 0.99) / CARD_FULL_H * 100) / 5) * 5;
+    const z = Math.min(200, Math.max(50, stored ? (parseInt(stored, 10) || fit) : fit));
+    setZoomState(z); setZoom(z);
   }, []);
   const onZoom = (v: number) => { setZoomState(v); setZoom(v); sessionStorage.setItem("zoom", String(v)); };
 
@@ -80,7 +87,7 @@ export default function Sidebar({
       </div>
       <div className="flex items-center gap-2 px-3 pb-2 text-[11px] text-neutral-400">
         zoom:
-        <input type="range" min={50} max={200} step={25} value={zoom}
+        <input type="range" min={50} max={200} step={5} value={zoom}
           onChange={(e) => onZoom(Number(e.target.value))} className="flex-1 accent-green-700" />
         <span className="min-w-[38px] text-right text-neutral-300">{zoom}%</span>
       </div>
@@ -117,8 +124,8 @@ export default function Sidebar({
                       className={`flex items-center gap-1.5 px-3 py-1 no-underline ${active ? "bg-green-700 text-white" : "text-neutral-300 hover:bg-neutral-700"}`}
                     >
                       <span className="min-w-[26px] text-neutral-500">{c.number}</span>
-                      {c.type && sym.energy[c.type]
-                        ? <span className="w-[15px] h-[15px] shrink-0 [&_svg]:w-full [&_svg]:h-full" dangerouslySetInnerHTML={{ __html: sym.energy[c.type] }} />
+                      {c.type
+                        ? <img src={`/energy/${c.type}.png`} alt="" className="w-[15px] h-[15px] shrink-0 object-contain" />
                         : null}
                       <span className="flex-1 truncate">{c.name}</span>
                       {rsvg ? <span className="w-[13px] h-[13px] shrink-0 [&_svg]:w-full [&_svg]:h-full" dangerouslySetInnerHTML={{ __html: rsvg }} /> : null}

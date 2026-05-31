@@ -142,6 +142,16 @@ modellati. Principi:
 - **Miniatura pre-evoluzione** — immagine **dedicata** per il riquadro evoluzione
   (mostrato quando la carta evolve da un'altra), per convenzione es. `BS-4-evo.<ext>`.
 - **Simbolo del set** — indirizzato dalla **sigla del set**.
+- **Sfondo per-tipo** — texture di fondo della carta, indirizzata dal **codice tipo**
+  (`public/backgrounds/<code>.png`, 674×949). È il **livello più dietro** ed è la
+  **source of truth del rapporto d'aspetto** (0.7102): l'area sfondo è 674×949 (coordinate
+  native) e il bordo giallo (`--border` 24px) è **aggiunto attorno** (esterno, non la
+  ritaglia) → carta intera 722×997. Solo i 9 tipi in scope (no Fairy/Dragon).
+- **Elementi di layout (cornice/barre)** — PNG già a scala nativa, serviti da
+  `public/elements/` e usati in **px nativi 1:1**. Famiglia Base: `base_frame` (cornice
+  foto, su `.art`), `base_middle` (barra gold specie, su `.species`), `base_bottombar`
+  (box descrizione/LV/# in basso, su `.flavor`), `base_evolbar` (badge pre-evoluzione in
+  alto a sx, **solo Stage 1/2**, con miniatura `/art/<id>-evo.png`).
 
 ### Asset globali del renderer (non dati di carta/set)
 - simboli energia (`{G} {R} {W} {L} {P} {F} {C} {D} {M}`) per costo, debolezza,
@@ -238,11 +248,14 @@ Struttura app:
 - **`app/page.tsx`** — redirect alla primissima carta. **`app/card/[id]/page.tsx`** —
   pagina carta (server component) che rende `<Card>`; 404 se l'id non esiste.
 - **`components/Sidebar.tsx`** (`"use client"`) — menu: set collassabili, ricerca
-  (nome/numero/tipo), slider zoom (50–200%, step 25), espandi/collassa tutti. Naviga
-  con `<Link href="/card/<id>">` (client-side, layout persistente).
+  (nome/numero/tipo), slider zoom (50–200%, step 5), espandi/collassa tutti. Naviga
+  con `<Link href="/card/<id>">` (client-side, layout persistente). **Zoom iniziale**:
+  senza valore salvato in sessione, si adatta all'altezza della finestra così la carta
+  entra intera in verticale con un margine (per vedere lo sfondo scuro); poi il valore
+  scelto persiste in `sessionStorage`.
 - **`lib/card-render.tsx`** — il componente **`<Card>`** (server). Classi CSS definite in
   `app/card.css`. **`lib/data.ts`** (set/indice/carta via fs, cache), **`lib/symbols.ts`**
-  (SVG energia/rarità via fs), **`lib/card-utils.ts`** (puro: `TYPE_KEYWORDS`, `rarityTier`
+  (SVG **rarità** via fs; gli energy sono PNG statici), **`lib/card-utils.ts`** (puro: `TYPE_KEYWORDS`, `rarityTier`
   — usabile anche client), **`lib/types.ts`** (tipi del modello).
 - **`app/card.css`** — **unica fonte** di stile della carta. Colori per-tipo via variabili
   CSS (`--accent`, `--tint`, `--frame`) inline su `.card`.
@@ -272,22 +285,31 @@ e maschererebbe eventuali errori di dato). È una proprietà del *contenuto*, no
 Stato: implementato **Base**; per **Neo** finora solo l'etichetta stage sul riquadro
 (+ baby, che però è trasversale allo *stage*, non alla famiglia). **Gym** non ancora
 differenziato. Da arricchire quando si introdurranno nuovi elementi grafici.
-- **`next.config.mjs`** — `outputFileTracingIncludes` per includere `data/`, `assets/energy/`,
-  `assets/rarity/` nel bundle serverless (letti via fs a runtime).
+- **`next.config.mjs`** — `outputFileTracingIncludes` per includere `data/`, `assets/rarity/`
+  (SVG rarità via fs) e `public/sets/` (dove si verifica l'esistenza dei simboli set) nel
+  bundle serverless (letti via fs a runtime).
 
 Asset statici (serviti da Vercel da `public/`): font in **`public/fonts/`** (le 6 copie
 web-safe, vedi Tipografia), simboli set in **`public/sets/`**. L'arte (`/art/<id>.png`)
 non è presente → cornice vuota (atteso).
 
 ### Scaling — regola assoluta
-La carta si disegna **sempre** a 500×700px con misure fisse in px. Per ridimensionarla
-si imposta **un solo fattore** `--card-scale` (default 1): lo slider zoom lo imposta su
-`<html>` e `.card-box` lo eredita, scalando geometricamente (`transform: scale`) **tutto**
-in modo proporzionale. **Nessuna misura interna deve mai dipendere dalla dimensione di
-output** (così anche un px aggiunto in futuro resta proporzionale).
+Il sistema di coordinate interno è alla **risoluzione NATIVA** dello sfondo: l'area sfondo
+è **674×949** (source of truth del rapporto, 0.7102); il **bordo giallo** (`--border` 24px)
+è esterno allo sfondo → carta intera **722×997**. Gli **elementi PNG** (`public/elements/`)
+sono già a scala nativa → si usano in **px nativi 1:1** (nessun fattore di resize). Per
+ridimensionarla si imposta **un solo fattore** `--card-scale` (default 1): lo slider zoom lo
+imposta su `<html>` e `.card-box` lo eredita, scalando geometricamente (`transform: scale`)
+**tutto**. A **zoom 100%** (`--card-scale` 1) sfondo ed elementi sono resi a **grandezza
+nativa** (nessun resize). **Nessuna misura interna deve mai dipendere dalla dimensione di
+output.**
 
 Stato: solo famiglia layout **Base**; cornice ricreata in CSS (non blank reali);
-simboli energia resi col font **EssentiarumTCG**. Mancano **Gym** e **Neo**.
+sfondo per-tipo da **PNG** (`public/backgrounds/<code>.png`, livello più dietro, source of
+truth del rapporto, coordinate native 674×949, bordo esterno → carta 722×997) + elementi di
+layout Base (`public/elements/`, px nativi 1:1); simboli tipo/energia resi da **PNG statici**
+(`public/energy/<code>.png`).
+Mancano **Gym** e **Neo**.
 
 ### Tipografia (font WOTC) — riferimento
 
@@ -319,8 +341,8 @@ Note:
 - **Simboli energia (font dedicato!)**: i tipi erano resi con i font
   **`PokemonEnergies-Regular`** (era Base→Gym) e **`Poke2Energies-Regular`**
   (era Neo, aggiunge Darkness e Metal). Mai rilasciati ufficialmente, ma esiste la
-  ricreazione **"Essentiarum TCG"** (scaricabile da pokemonaaah). → alternativa
-  ai nostri SVG fatti a mano per i simboli `{X}`.
+  ricreazione **"Essentiarum TCG"** (scaricabile da pokemonaaah). → oggi i simboli
+  `{X}` sono PNG pre-generati (`public/energy/`), non più SVG inline.
 - **Unown** (Neo Discovery): nomi e poteri in un font dedicato; ricreazione
   **"Unown TCG"** (pokemonaaah).
 - Gill Sans / Futura sono **commerciali**. pokemonaaah offre una *"Complete
@@ -348,22 +370,19 @@ Note:
   Gill Sans Nova (post-2007), Tekton, Bauhaus, Optima/Sanvito/Frutiger,
   Shin Go/Midashi Go/Gothic MB101/ITC Serif Gothic/Revue (JP), Pokémon TCG Pocket.
 
-#### Simboli via font: EssentiarumTCG
-I 9 simboli energia (`{X}`) sono generati da **`make-assets.mjs`** usando il
-font-simboli **EssentiarumTCG** (da pokemonaaah; licenza Creative Commons **non
-commerciale**, ~31kb, v0.96). Ogni `assets/energy/<CODE>.svg` è un SVG con due `<text>`
-sovrapposti (la `o` = cerchio colorato + la lettera tipo = icona); gli SVG sono iniettati
-inline nella carta e nel menu (`lib/card-render.tsx`, `components/Sidebar.tsx`) e usano il
-`@font-face` EssentiarumTCG dichiarato in `app/globals.css`. Il font contiene anche
-**rarità** e tipi-carta (GX/EX/V…); i simboli **set** li scarichiamo da pokemontcg.io.
-**Convenzione d'uso (vintage):**
-- Icone tipo/energia: stile **"Old" = lettere MAIUSCOLE** (`G R W L P F C D M`,
-  tutti e 9 in un solo font, D/M inclusi); minuscole = stile "New", non usato.
-- Energia in cerchio: la `o` minuscola (BG Circle, advance 0) + la lettera tipo
-  allo stesso punto-penna; la `o` colorata, la lettera in bianco/contrasto.
-- Geometria misurata (fs100): `o` ink ~117×116, lettere ~115.7×159 (più alte del
-  cerchio) → viewBox quadrato `-30 -125 175 175` per inquadrare tutto senza tagli.
-- Rarità: cifre `1`=● comune, `2`=◆ non comune, `3`=★ rara (stile "Old").
+#### Simboli energia (PNG) e rarità (SVG via EssentiarumTCG)
+- **Energia/tipo** — i 9 simboli (`{X}`) sono **PNG pre-generati a parte** e serviti
+  staticamente da **`public/energy/<code>.png`** (`C D F G L M P R W`; indirizzati per
+  convenzione dal codice, come i simboli set e l'arte). Resi con `<img>` nella carta
+  (`lib/card-render.tsx`, `EnergyIcon`) e nel menu (`components/Sidebar.tsx`); **non**
+  letti via fs e **non** inline. Fairy/Dragon (`FA`/`DR`) sono **fuori scope** (tipi
+  post-WOTC): i relativi PNG restano in `assets/energy/` solo come archivio.
+- **Rarità** — restano SVG inline generati da **`make-assets.mjs`** col font-simboli
+  **EssentiarumTCG** (da pokemonaaah; licenza Creative Commons **non commerciale**,
+  ~31kb, v0.96): cifre `1`=● comune, `2`=◆ non comune, `3`=★ rara (stile "Old").
+  Letti via fs da `assets/rarity/` (`lib/symbols.ts`) e iniettati inline, col
+  `@font-face` EssentiarumTCG dichiarato in `app/globals.css`.
+- **Set** — PNG scaricati da pokemontcg.io (`make-assets.mjs`).
 - Ispezione del font: `scripts/inspect-font.mjs`.
 
 (Nella collezione locale c'è solo `Pokémon TCG Pocket Fonts/Pokesymbol2-regular.otf`,

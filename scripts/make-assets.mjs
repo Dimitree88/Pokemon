@@ -1,6 +1,9 @@
 // Genera/scarica gli asset di rendering:
-//  - assets/energy/<CODE>.svg  : 9 simboli energia (disco colorato + glifo)
-//  - assets/sets/<setId>.png   : simboli set scaricati da pokemontcg.io
+//  - assets/rarity/<tier>.svg  : 3 simboli rarità (cifre EssentiarumTCG)
+//  - public/sets/<setId>.png   : simboli set scaricati da pokemontcg.io (serviti per URL)
+//
+// NB: i simboli tipo/energia NON sono generati qui. Sono PNG pre-generati a parte e
+// serviti staticamente da public/energy/<code>.png (vedi CLAUDE.md "Rendering").
 //
 // Uso: node scripts/make-assets.mjs
 
@@ -11,45 +14,10 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const ENERGY_DIR = path.join(ROOT, "assets", "energy");
 const RARITY_DIR = path.join(ROOT, "assets", "rarity");
-const SETS_DIR = path.join(ROOT, "assets", "sets");
+const SETS_DIR = path.join(ROOT, "public", "sets"); // serviti per URL /sets/<id>.png
 
-// Colori energia (palette in stile TCG)
-const ENERGY = {
-  G: { color: "#6CB33F", glyphFill: "#ffffff" }, // Grass
-  R: { color: "#E8513A", glyphFill: "#ffffff" }, // Fire
-  W: { color: "#3F8FD6", glyphFill: "#ffffff" }, // Water
-  L: { color: "#F5C518", glyphFill: "#7a5a00" }, // Lightning
-  P: { color: "#9B59B6", glyphFill: "#ffffff" }, // Psychic
-  F: { color: "#C8763C", glyphFill: "#ffffff" }, // Fighting
-  C: { color: "#E9E3D3", glyphFill: "#8a8276" }, // Colorless
-  D: { color: "#3C4651", glyphFill: "#cfd6dd" }, // Darkness
-  M: { color: "#9AA3AB", glyphFill: "#ffffff" }, // Metal
-};
-
-// Simboli energia resi col font EssentiarumTCG (stile "Old", lettere MAIUSCOLE):
-// la `o` minuscola è il cerchio di sfondo, la lettera del tipo (G/R/W/L/P/F/C/D/M)
-// è l'icona; si sovrappongono allo stesso centro. Vedi memoria essentiarum-tcg-glyph-map.
-// Il @font-face EssentiarumTCG è iniettato dal documento (src/fonts.mjs), così
-// l'SVG inline usa il font del documento sia nel render PNG che nel dev server.
-// Geometria misurata dei glifi EssentiarumTCG a font-size 100, penna in (0,0)
-// (vedi scripts/inspect-font.mjs / getBBox): `o` (cerchio, advance 0) e le lettere
-// tipo condividono lo stesso centro-inchiostro ~(57.5, -37.5). Le lettere sono più
-// alte del cerchio (h159 vs 116): inquadriamo l'intero inchiostro in un viewBox
-// quadrato centrato, così nulla viene tagliato.
 const TEXT_ATTRS = 'x="0" y="0" font-family="EssentiarumTCG" font-size="100"';
-const VIEWBOX = "-30 -125 175 175"; // quadrato centrato su (57.5,-37.5), lato 175
-
-// Il simbolo del tipo è SEMPRE nero (come sulle carte originali); colorato è solo
-// il cerchio di sfondo.
-function energySvg(code) {
-  const { color } = ENERGY[code];
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEWBOX}">
-  <text ${TEXT_ATTRS} fill="${color}">o</text>
-  <text ${TEXT_ATTRS} fill="#000">${code}</text>
-</svg>`;
-}
 
 // Simboli rarità come sulle carte originali: ● comune, ◆ non comune, ★ rara.
 // Stesso font EssentiarumTCG: cifre `1`/`2`/`3` (stile "Old"). Monocromatici.
@@ -65,14 +33,8 @@ function raritySvg(char) {
 }
 
 async function main() {
-  await mkdir(ENERGY_DIR, { recursive: true });
   await mkdir(RARITY_DIR, { recursive: true });
   await mkdir(SETS_DIR, { recursive: true });
-
-  for (const code of Object.keys(ENERGY)) {
-    await writeFile(path.join(ENERGY_DIR, `${code}.svg`), energySvg(code));
-  }
-  console.log(`• Simboli energia: ${Object.keys(ENERGY).length} SVG scritti`);
 
   for (const [tier, char] of Object.entries(RARITY)) {
     await writeFile(path.join(RARITY_DIR, `${tier}.svg`), raritySvg(char));
