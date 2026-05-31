@@ -49,8 +49,8 @@ function renderText(text: string | null | undefined): React.ReactNode {
 }
 
 function CostIcons({ cost }: { cost: string[] }) {
-  if (!cost || cost.length === 0) return <EnergyIcon code="C" size={26} />;
-  return <>{cost.map((c, i) => <EnergyIcon key={i} code={c} size={26} />)}</>;
+  if (!cost || cost.length === 0) return <EnergyIcon code="C" size={41} />;
+  return <>{cost.map((c, i) => <EnergyIcon key={i} code={c} size={41} />)}</>;
 }
 
 function AttackRow({ a }: { a: Attack }) {
@@ -82,18 +82,20 @@ function PowerRow({ p, isUnown }: { p: Power; isUnown?: boolean }) {
 }
 
 function WrrBar({ card }: { card: CardData }) {
-  const cell = (label: string, content: React.ReactNode) => (
-    <div className="wrr-cell"><div className="wrr-label">{label}</div><div className="wrr-val">{content}</div></div>
+  // Ogni sezione ha la sua classe (.wrr-weak/.wrr-res/.wrr-ret) per offsettarla in modo
+  // indipendente; label e simboli sono sotto-elementi (.wrr-label / .wrr-val).
+  const cell = (cls: string, label: string, content: React.ReactNode) => (
+    <div className={`wrr-cell ${cls}`}><div className="wrr-label">{label}</div><div className="wrr-val">{content}</div></div>
   );
   // Debolezza: nell'era vintage il moltiplicatore (×2) NON era stampato — solo il simbolo.
-  const wk = card.weaknesses.map((w, i) => <EnergyIcon key={i} code={w.type} size={22} />);
+  const wk = card.weaknesses.map((w, i) => <EnergyIcon key={i} code={w.type} size={38} />);
   const rs = card.resistances.map((r, i) => (
-    <React.Fragment key={i}><EnergyIcon code={r.type} size={22} /><span className="wrr-x">{r.value}</span></React.Fragment>
+    <React.Fragment key={i}><EnergyIcon code={r.type} size={38} /><span className="wrr-x">{r.value}</span></React.Fragment>
   ));
   const rt = card.retreatCost > 0
-    ? Array.from({ length: card.retreatCost }, (_, i) => <EnergyIcon key={i} code="C" size={22} />)
+    ? Array.from({ length: card.retreatCost }, (_, i) => <EnergyIcon key={i} code="C" size={38} />)
     : null;
-  return <div className="wrr">{cell("weakness", wk)}{cell("resistance", rs)}{cell("retreat cost", rt)}</div>;
+  return <div className="wrr">{cell("wrr-weak", "weakness", wk)}{cell("wrr-res", "resistance", rs)}{cell("wrr-ret", "retreat cost", rt)}</div>;
 }
 
 export function Card({
@@ -104,9 +106,13 @@ export function Card({
   const col = TYPE_COLOR[card.type ?? "C"] || TYPE_COLOR.C;
   // Sfondo per-tipo (PNG statico, livello più dietro): indirizzato per convenzione dal
   // codice tipo, come energy/set. --tint resta come colore di fallback.
+  // TEMP (riferimenti di posizionamento): per due carte usiamo come sfondo le foto
+  // reference (invertite) invece dello sfondo per-tipo. DA RIMUOVERE a allineamento finito.
+  const REF_BG: Record<string, string> = { "base1-3": "base.jpg", "base1-1": "stage.jpg" };
+  const bgUrl = REF_BG[card.id] ? `/references/${REF_BG[card.id]}` : `/backgrounds/${card.type ?? "C"}.png`;
   const vars = {
     "--accent": col.accent, "--tint": col.tint, "--frame": col.frame,
-    "--bg": `url('/backgrounds/${card.type ?? "C"}.png')`,
+    "--bg": `url('${bgUrl}')`,
   } as React.CSSProperties;
 
   // Riga evoluzione: "Evolves from X" + "Put NAME on the <stage prec.> card".
@@ -191,18 +197,18 @@ export function Card({
           </div>
         ) : null}
         <div className="header">
-          <span className="name">
+          <span className={`name${prevStage ? " name--evo" : ""}`}>
             {unownLetter
               ? <>Unown <span className="unown-glyph">{unownLetter}</span> [{unownLetter}]</>
               : card.name}
           </span>
           <span className="hp">{card.hp} HP</span>
-          <span className="type-ico"><EnergyIcon code={card.type} size={26} /></span>
+          <span className="type-ico"><EnergyIcon code={card.type} size={50} /></span>
         </div>
         <div className="art" style={{ backgroundImage: `url('${artUrl}')` }}>
           {neoEra ? <span className="art-stage">{frameStageLabel}</span> : null}
         </div>
-        <div className="species">{speciesLine}</div>
+        <div className="species"><span className="species-text">{speciesLine}</span></div>
         {setSymbolUrl ? <img className="setico" src={setSymbolUrl} alt="" /> : null}
         <div className="body">
           {isBaby ? (
@@ -217,9 +223,18 @@ export function Card({
               ) : null}
             </div>
           ) : null}
-          {(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} p={p} isUnown={isUnown} />)}
-          {(card.attacks || []).map((a, i) => <AttackRow key={`a${i}`} a={a} />)}
+          {[
+            ...(card.powers || []).map((p, i) => <PowerRow key={`p${i}`} p={p} isUnown={isUnown} />),
+            ...(card.attacks || []).map((a, i) => <AttackRow key={`a${i}`} a={a} />),
+          ].map((node, i) => (
+            <React.Fragment key={i}>
+              {/* barra nera separatrice tra mosse (anche dopo la sezione baby) */}
+              {i > 0 || isBaby ? <div className="atk-sep" /> : null}
+              {node}
+            </React.Fragment>
+          ))}
         </div>
+        <div className="wrr-sep" />
         <WrrBar card={card} />
         {flavor}
         <div className="footer">

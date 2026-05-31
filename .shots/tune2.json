@@ -1,0 +1,13 @@
+{
+  "speciesBar": { "x": 0, "y": 28, "s": 1 },
+  "speciesText": { "x": 0, "y": 0, "s": 1.83 },
+  "wrrsep": { "x": 3, "y": 27, "s": 1 },
+  "wrren": { "x": 17, "y": 27, "s": 1.73 },
+  "wrrlabel": { "x": 0, "y": 24, "s": 1.94 },
+  "wrrx": { "x": 33, "y": 29, "s": 1.29 },
+  "flavortext": { "x": 116, "y": 13, "s": 1.38 },
+  "footerIllus": { "x": 7, "y": 0, "s": 1.37 },
+  "footerCopy": { "x": 0, "y": 1, "s": 1.44 },
+  "footerNum": { "x": 4, "y": 1, "s": 1.56 },
+  "rarity": { "x": 11, "y": 1, "s": 1.12 }
+}
