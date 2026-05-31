@@ -58,7 +58,7 @@
 .canvas { position: absolute; inset: calc(-1 * var(--border)); }
 
 .toprow { position: absolute; left: 65px; right: 50px; top: 38px; display: flex; align-items: center; gap: 11px; }
-.stage { font-family: 'GillSansCB'; font-size: 21px; color: #000; text-transform: uppercase; white-space: nowrap; }
+.stage { font-family: 'GillSansCB'; font-size: 21px; color: #000; text-transform: uppercase; white-space: nowrap; z-index: 4}
 .stage--basic { text-transform: none; }
 /* Baby: la riga occupa tutta la toprow e il testo va a destra. */
 .stage--baby { margin-left: auto; text-align: right; }
